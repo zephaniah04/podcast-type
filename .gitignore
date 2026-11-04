@@ -16,3 +16,6 @@ exports/**
 /studies/
 .DS_Store
 !assets/sfx/*
+# B-roll media is downloaded per episode; keep only the credits ledger
+projects/**/broll/*
+!projects/**/broll/credits.json

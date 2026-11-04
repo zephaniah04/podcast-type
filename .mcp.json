@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "pexels": {
+      "command": "node",
+      "args": ["tools/mcp-pexels/dist/index.js"],
+      "env": { "PEXELS_API_KEY": "${PEXELS_API_KEY:-}" }
+    }
+  }
+}

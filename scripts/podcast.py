@@ -159,7 +159,25 @@ def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
     lk = ("," + LOOKS[look]) if look else ""
     inputs = ["-ss", f"{seg['start']:.3f}", "-t", f"{d:.3f}", "-i", path]
 
-    if layout == "full" or W > H:  # long-form is always full frame
+    br = seg.get("broll")
+    if br:  # B-roll over the speaker's voice: picture from the B-roll file, audio (and captions) from the clip
+        bpath = br["file"] if os.path.isfile(br["file"]) else os.path.join(ROOT, br["file"])
+        bw, bhh = probe(bpath)
+        still = bpath.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
+        if still:
+            inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{d:.3f}", "-i", bpath]
+        else:
+            inputs += ["-stream_loop", "-1", "-ss", f"{float(br.get('at', 0)):.3f}", "-t", f"{d:.3f}", "-i", bpath]
+        tw, th = (W, int(W * 9 / 16) // 2 * 2) if (layout == "letterbox" and H > W) else (W, H)
+        push = float(br.get("push", 0.06 if still else 0.03))  # slow push-in (Ken Burns); 0 = static
+        n = max(int(d * FPS), 1)
+        fc = (f"[1:v]{crop_expr(bw, bhh, tw / th, 1.0, float(br.get('cx', 0.5)), float(br.get('cy', 0.5)))},"
+              f"scale={tw * 2}:{th * 2}:flags=lanczos,fps={FPS},"
+              f"zoompan=z='1+{push}*on/{n}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={tw}x{th}:fps={FPS}{lk}")
+        if (tw, th) != (W, H):
+            fc += f",pad={W}:{H}:0:(oh-ih)/2:black"
+        fc += "[v]"
+    elif layout == "full" or W > H:  # long-form is always full frame
         cx = resolve_cx(seg, path) if (z > 1 or sw / sh_ > W / H + 0.05) else 0.5
         fc = f"[0:v]{crop_expr(sw, sh_, W / H, z, cx, cy)},scale={W}:{H}:flags=lanczos{lk}[v]"
     elif layout in ("letterbox", "band"):

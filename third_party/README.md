@@ -13,3 +13,5 @@ internally to one family per weight so libass picks them reliably.
 
 `podcast-edit` skill, `scripts/podcast.py`, `scripts/transcribe.py`: written for this repo
 (podcast.py grew out of the Bijen-vids `reel.py` pipeline).
+
+`tools/mcp-pexels/`: developer-ishan/mcp-pexels (MIT, license alongside), v1.0.2 @ 218c9a8, bundled with esbuild.

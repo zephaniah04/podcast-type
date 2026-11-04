@@ -35,6 +35,7 @@ inside `--src` (`camA` -> `raw/camA.mp4`/`.mov`/...), and must match the transcr
 | `look` | per-segment grade (`bw` for "before..." beats) |
 | `text` | clean caption text for this segment (re-timed onto the speech); `""` = no captions |
 | `nocaps` | true = no captions on this segment |
+| `broll` | `{"file": "projects/ep01/broll/runner.mp4", "at": 2.0, "push": 0.03, "cx": 0.5}` picture from the B-roll file (video from `at` s, or a photo), speaker's audio and captions continue. `push` = slow push-in (default 0.03 video / 0.06 photo, 0 = static). In `letterbox` it fills the band. Split a sentence into two segments to drop B-roll in mid-line |
 | `tighten` | per-segment override (0 = keep pauses) |
 | `chapter` | long-form: chapter title starting here |
 | `card` | `{"card": true, "dur": 1.5, "logo": "path.png", "bg": ["0x08161b", "0x1f5f6e"]}` a sting / title card |

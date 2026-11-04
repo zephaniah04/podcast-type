@@ -92,6 +92,22 @@ python3 scripts/podcast.py projects/<ep>/clips/C01.json --src projects/<ep>/raw 
 python3 scripts/podcast.py ... (same, without --draft)                 # final
 ```
 
+## 5b. B-roll
+
+When (see `references/edit-decisions.md`): a named place / person / event / object, the start of a story,
+"imagine..." or anything the speaker describes visually. Not on emotional peaks or punchlines (stay on the face).
+2-4 s each, max ~1 per 10 s in clips, slow push-in, voice continues underneath.
+
+Sources, in order:
+1. **Nizam's Drive `B-roll library`** (Google Drive connector): own footage beats stock.
+2. **Pexels MCP** (`pexels_search_videos` / `pexels_search_photos`; needs `PEXELS_API_KEY` in the environment).
+   Search with concrete nouns + mood ("runner sunrise track slow motion"), `orientation: portrait` for clips,
+   `landscape` for long-form; pick a rendition >= output size (1080 wide / 1920 wide), avoid watermarks/logos/faces
+   that look like real public figures.
+3. Openverse (keyless photos, check CC license).
+Download with `scripts/fetch_broll.py <url> --ep projects/<ep> --name <slug> --source pexels --id <id> --author <name> --page <url>`
+(writes `broll/credits.json`), then add `"broll": {"file": ...}` to the segment.
+
 ## 6. QA — LOOK before you hand anything over
 
 1. Read the `_sheet.jpg`. Then pull full-size frames at every keyword lockup, overlay and cut

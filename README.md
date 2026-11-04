@@ -42,7 +42,9 @@ All masters: 1080x1920 or 1920x1080, 30 fps, -14 LUFS (what every reference meas
 | Tool | For |
 |---|---|
 | `scripts/transcribe.py` | faster-whisper transcripts + word timings (`.json` for the engine, `.txt` to read) |
-| `scripts/podcast.py` | the edit engine: cuts, layouts, captions, overlays, audio chain, chapters |
+| `scripts/podcast.py` | the edit engine: cuts, layouts, captions, overlays, B-roll, audio chain, chapters |
+| `scripts/fetch_broll.py` | download a B-roll file into the episode + log its source/license |
+| `tools/mcp-pexels` (+ `.mcp.json`) | Pexels MCP server: Claude searches free stock videos/photos from chat (needs `PEXELS_API_KEY`) |
 | `.claude/skills/podcast-edit/` | the podcast editing skill: looks, moment-picking rules, long-form recipe, spec format, QA |
 | ffmpeg, yt-dlp, Whisper | under the hood |
 | HyperFrames, Remotion (+ skills) | heavier motion graphics: text behind head, 3D mockups, charts |

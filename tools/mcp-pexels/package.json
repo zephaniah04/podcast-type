@@ -1,0 +1,75 @@
+{
+  "name": "mcp-pexels",
+  "version": "1.0.2",
+  "mcpName": "io.github.developer-ishan/pexels",
+  "description": "Pexels MCP server — search and fetch free stock photos, videos, and curated collections from Pexels inside Claude Desktop, Claude Code, Cursor, Cline, and other Model Context Protocol clients.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-pexels": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "docs/tools"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "node -e \"require('fs').chmodSync('dist/index.js', 0o755)\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run build",
+    "pack:mcpb": "node scripts/pack-mcpb.mjs",
+    "dev": "tsx src/index.ts",
+    "start": "node --env-file=.env dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "pexels",
+    "pexels-api",
+    "stock-photos",
+    "stock-videos",
+    "photos",
+    "videos",
+    "claude",
+    "claude-desktop",
+    "claude-code",
+    "cursor",
+    "cline",
+    "anthropic",
+    "ai",
+    "ai-tools",
+    "agent-tools",
+    "typescript",
+    "llm"
+  ],
+  "author": "developer-ishan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developer-ishan/mcp-pexels.git"
+  },
+  "bugs": {
+    "url": "https://github.com/developer-ishan/mcp-pexels/issues"
+  },
+  "homepage": "https://github.com/developer-ishan/mcp-pexels#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0",
+    "zod-to-json-schema": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
