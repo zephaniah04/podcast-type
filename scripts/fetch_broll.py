@@ -50,9 +50,9 @@ def main():
            "url": a.url, "license": LICENSES[a.source], "width": st.get("width"), "height": st.get("height"),
            "duration": float(meta.get("format", {}).get("duration", 0) or 0), "fetched": time.strftime("%Y-%m-%d")}
     cpath = os.path.join(out_dir, "credits.json")
-    credits = json.load(open(cpath)) if os.path.exists(cpath) else []
+    credits = json.load(open(cpath, encoding="utf-8")) if os.path.exists(cpath) else []
     credits = [c for c in credits if c.get("file") != rec["file"]] + [rec]
-    json.dump(credits, open(cpath, "w"), indent=1)
+    json.dump(credits, open(cpath, "w", encoding="utf-8"), indent=1)
     print(f"{path}  {rec['width']}x{rec['height']}  {rec['duration']:.1f}s")
 
 

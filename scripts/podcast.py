@@ -17,9 +17,10 @@ Minimal spec:
 
 usage:
   python3 scripts/podcast.py <spec.json> --src <raw dir> --tx <transcript dir> --out exports/<show>
-        [--work /tmp/podcast-work] [--draft] [--sheet]
+        [--work <temp dir>/podcast-work] [--draft] [--sheet]
+Works on Linux, macOS and Windows (paths with drive letters and spaces are escaped for ffmpeg).
 """
-import argparse, glob, json, os, re, subprocess, sys
+import argparse, glob, json, os, re, subprocess, sys, tempfile
 import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -39,8 +40,8 @@ FONT_FILES = {
 
 
 # ----------------------------------------------------------------------------- helpers
-def sh(cmd):
-    r = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True)
+def sh(cmd, cwd=None):
+    r = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True, cwd=cwd)
     if r.returncode:
         sys.exit("ffmpeg failed:\n" + " ".join(cmd) + "\n" + r.stderr[-3000:])
 
@@ -157,7 +158,11 @@ def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
     cy = float(seg.get("cy", 0.42 if z > 1 else 0.5))
     look = seg.get("look", spec.get("look"))
     lk = ("," + LOOKS[look]) if look else ""
-    inputs = ["-ss", f"{seg['start']:.3f}", "-t", f"{d:.3f}", "-i", path]
+    # multicam: segment times are on the MASTER timeline; each camera is shifted by its sync delay
+    sync = spec.get("sync", {})
+    vs = seg["start"] - float(sync.get(seg["clip"], 0.0))
+    vseg = {**seg, "start": vs, "end": vs + d}
+    inputs = ["-ss", f"{vs:.3f}", "-t", f"{d:.3f}", "-i", path]
 
     br = seg.get("broll")
     if br:  # B-roll over the speaker's voice: picture from the B-roll file, audio (and captions) from the clip
@@ -178,11 +183,11 @@ def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
             fc += f",pad={W}:{H}:0:(oh-ih)/2:black"
         fc += "[v]"
     elif layout == "full" or W > H:  # long-form is always full frame
-        cx = resolve_cx(seg, path) if (z > 1 or sw / sh_ > W / H + 0.05) else 0.5
+        cx = resolve_cx(vseg, path) if (z > 1 or sw / sh_ > W / H + 0.05) else 0.5
         fc = f"[0:v]{crop_expr(sw, sh_, W / H, z, cx, cy)},scale={W}:{H}:flags=lanczos{lk}[v]"
     elif layout in ("letterbox", "band"):
         bh = int(W * 9 / 16) // 2 * 2
-        cx = resolve_cx(seg, path) if z > 1 else 0.5
+        cx = resolve_cx(vseg, path) if z > 1 else 0.5
         band = f"{crop_expr(sw, sh_, 16 / 9, z, cx, cy)},scale={W}:{bh}:flags=lanczos{lk}"
         if layout == "letterbox":
             fc = f"[0:v]{band},pad={W}:{H}:0:(oh-ih)/2:black"
@@ -196,10 +201,11 @@ def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
                   f"gblur=sigma=12,eq=brightness=-0.10:saturation=0.9{lk},scale={W}:{H}[bg];"
                   f"[b]{band}[fg];[bg][fg]overlay=0:(H-h)/2[v]")
     elif layout == "split":  # two speakers stacked; top = clip2 (or same clip, other face)
-        p2 = find_clip(src, seg.get("clip2", seg["clip"]))
-        s2 = seg.get("start2", seg["start"])
+        c2 = seg.get("clip2", seg["clip"])
+        p2 = find_clip(src, c2)
+        s2 = seg.get("start2", seg["start"] - float(sync.get(c2, 0.0)))
         same = p2 == path
-        cx1 = resolve_cx(seg, path, "cx") if not same else resolve_cx({**seg, "cx": seg.get("cx", "right")}, path)
+        cx1 = resolve_cx(vseg, path, "cx") if not same else resolve_cx({**vseg, "cx": seg.get("cx", "right")}, path)
         seg2 = {**seg, "start": s2, "end": s2 + d, "cx": seg.get("cx2", "left" if same else "auto")}
         cx2 = resolve_cx(seg2, p2, "cx")
         w2, h2 = probe(p2)
@@ -210,11 +216,18 @@ def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
               f"[t][b]vstack,drawbox=x=0:y={hh - 2}:w=iw:h=4:color=black@0.9:t=fill[v]")
     else:
         sys.exit(f"unknown layout {layout}")
-    fc += f";[v]fps={FPS},setsar=1,format=yuv420p[vo]"
-    af = f"aresample=48000,afade=t=in:d=0.03,afade=t=out:st={max(d - 0.04, 0):.3f}:d=0.04"
-    sh(["ffmpeg", "-y", "-v", "error", *inputs, "-filter_complex", fc, "-map", "[vo]", "-map", "0:a:0",
-        "-af", af, "-ac", "2", *enc, "-c:a", "pcm_s16le", out])
-    return d
+    # exact length: every part is N whole frames and its audio exactly N/FPS s, so hundreds of cuts never drift
+    nfr = max(1, round(d * FPS)); dq = nfr / FPS
+    fc += f";[v]fps={FPS},tpad=stop_mode=clone:stop_duration=0.5,trim=end_frame={nfr},setpts=N/({FPS}*TB),setsar=1,format=yuv420p[vo]"
+    amap = "0:a:0"
+    master = spec.get("master")
+    if master and master != seg["clip"]:  # sound always from the master camera / best mic
+        amap = f"{inputs.count('-i')}:a:0"
+        inputs += ["-ss", f"{seg['start']:.3f}", "-t", f"{d:.3f}", "-i", find_clip(src, master)]
+    af = f"aresample=48000,apad,atrim=0:{dq:.6f},afade=t=in:d=0.03,afade=t=out:st={max(dq - 0.04, 0):.3f}:d=0.04"
+    sh(["ffmpeg", "-y", "-v", "error", *inputs, "-filter_complex", fc, "-map", "[vo]", "-map", amap,
+        "-af", af, "-ac", "2", *enc, "-fps_mode", "passthrough", "-c:a", "pcm_s16le", out])
+    return dq
 
 
 def cut_card(seg, out, W, H, enc):
@@ -237,7 +250,7 @@ def clip_words(tx, clip, s, e):
     p = os.path.join(tx, clip + ".json")
     if not os.path.exists(p):
         return []
-    d = json.load(open(p))
+    d = json.load(open(p, encoding="utf-8"))
     return [[w[0] - s, w[1] - s, w[2].strip()] for sg in d for w in sg["w"] if s - 0.05 <= w[0] < e - 0.05 and w[2].strip()]
 
 
@@ -274,9 +287,9 @@ def apply_fixes(words, fixes):
     return [[t0 + (t1 - t0) * i / n, t0 + (t1 - t0) * (i + 1) / n, t] for i, t in enumerate(toks)]
 
 
-def tighten(seg, tx, gap, drop_fillers):
+def tighten(seg, tx, gap, drop_fillers, tx_clip=None):
     """Split one segment into pieces at pauses > gap (and around filler words): jump-cut tightening."""
-    words = clip_words(tx, seg["clip"], seg["start"], seg["end"])
+    words = clip_words(tx, tx_clip or seg["clip"], seg["start"], seg["end"])
     if drop_fillers:
         words = [w for w in words if re.sub(r"[^\w]", "", w[2]).lower() not in FILLERS]
     if not words:
@@ -366,7 +379,7 @@ class ASS:
             self.ev.append(f"Dialogue: {layer},{ts(st)},{ts(en)},{style},,0,0,0,,{text}")
 
     def write(self, path):
-        open(path, "w").write("\n".join(self.head + self.ev) + "\n")
+        open(path, "w", encoding="utf-8").write("\n".join(self.head + self.ev) + "\n")
 
 
 def tag(font, size, x, y, an=5, color="FFFFFF", sp=0, extra=""):
@@ -534,12 +547,12 @@ def build_overlays(ass, spec, total, cfg, sfx):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("spec"); ap.add_argument("--src", required=True); ap.add_argument("--tx", required=True)
-    ap.add_argument("--out", required=True); ap.add_argument("--work", default="/tmp/podcast-work")
+    ap.add_argument("--out", required=True); ap.add_argument("--work", default=os.path.join(tempfile.gettempdir(), "podcast-work"))
     ap.add_argument("--draft", action="store_true", help="fast low-quality encode for review")
     ap.add_argument("--sheet", action="store_true", help="also write a 1 fps contact sheet next to the render")
     a = ap.parse_args()
 
-    spec = json.load(open(a.spec)); rid = spec["id"]
+    spec = json.load(open(a.spec, encoding="utf-8")); rid = spec["id"]
     fmt_ = spec.get("format", "short")
     W, H = (1080, 1920) if fmt_ == "short" else (1920, 1080)
     style = spec.get("captions", "lockup" if fmt_ == "short" else "none")
@@ -547,7 +560,7 @@ def main():
     cfg = {"cap_y": spec.get("cap_y", default_y if fmt_ == "short" else 0.83), "cap_x": spec.get("cap_x", 0.09)}
     enc = ["-c:v", "libx264", "-preset", "ultrafast" if a.draft else "veryfast", "-crf", "26" if a.draft else "16",
            "-pix_fmt", "yuv420p"]
-    work = os.path.join(a.work, rid); os.makedirs(work, exist_ok=True)
+    work = os.path.abspath(os.path.join(a.work, rid)); os.makedirs(work, exist_ok=True)
 
     # expand segments: tightening (jump cuts) + alternating punch-ins
     segs = []
@@ -555,7 +568,7 @@ def main():
     jz = spec.get("jump_zoom")
     for seg in spec["segments"]:
         g = seg.get("tighten", gap)
-        pieces = tighten(seg, a.tx, float(g), spec.get("drop_fillers", True)) if (g and not seg.get("card") and seg.get("text") is None) else [seg]
+        pieces = tighten(seg, a.tx, float(g), spec.get("drop_fillers", True), spec.get("master")) if (g and not seg.get("card") and seg.get("text") is None) else [seg]
         for k, p in enumerate(pieces):
             if jz and len(pieces) > 1 and "zoom" not in seg:
                 p = {**p, "zoom": jz[k % len(jz)]}
@@ -577,7 +590,7 @@ def main():
         d = cut_segment(seg, spec, a.src, a.tx, p, W, H, enc)
         parts.append(p)
         if not seg.get("card") and style != "none" and not seg.get("nocaps"):
-            words = clip_words(a.tx, seg["clip"], seg["start"], seg["end"])
+            words = clip_words(a.tx, spec.get("master") or seg["clip"], seg["start"], seg["end"])
             if seg.get("text") is not None:
                 words = align(words, seg["text"], d) if seg["text"] else []
             if words:
@@ -597,19 +610,22 @@ def main():
     if spec.get("no_sfx"):
         sfx = []
     assp = os.path.join(work, "caps.ass"); ass.write(assp)
-    open(os.path.join(work, "captions.txt"), "w").write("\n".join(" ".join(w[2] for w in c) for c in caps))
+    open(os.path.join(work, "captions.txt"), "w", encoding="utf-8").write("\n".join(" ".join(w[2] for w in c) for c in caps))
 
     lst = os.path.join(work, "parts.txt")
-    open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
+    open(lst, "w", encoding="utf-8").write("".join("file '" + os.path.abspath(p).replace("\\", "/").replace("'", "'\\''") + "'\n" for p in parts))
     inputs = ["-f", "concat", "-safe", "0", "-i", lst]
     for f, _, _ in sfx:
         inputs += ["-i", os.path.join(SFX, f)]
     mus = spec.get("music")
     if mus:
-        inputs += ["-stream_loop", "-1", "-i", mus["file"]]
+        inputs += ["-stream_loop", "-1", "-i", os.path.abspath(mus["file"])]
     n = 1
     dn = spec.get("denoise", True)
-    fc = f"[0:v]ass={assp}:fontsdir={FONTS}[v];"
+    # filtergraph paths are relative to the work dir (ffmpeg runs there): no drive-letter / space escaping issues
+    import shutil
+    shutil.copytree(FONTS, os.path.join(work, "fonts"), dirs_exist_ok=True)
+    fc = "[0:v]ass=caps.ass:fontsdir=fonts[v];"
     fc += ("[0:a]highpass=f=70," + ("afftdn=nf=-28," if dn else "") +
            "acompressor=threshold=0.1:ratio=2.5:attack=15:release=200:makeup=1.5,"
            "loudnorm=I=-14:TP=-1.5:LRA=9[voice];")
@@ -630,10 +646,11 @@ def main():
     fc += "loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.89:level=0[a]"
     os.makedirs(a.out, exist_ok=True)
     out = os.path.join(a.out, f"{rid}_{spec.get('slug', 'edit')}.mp4")
+    out = os.path.abspath(out)
     sh(["ffmpeg", "-y", "-v", "error", *inputs, "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
         "-c:v", "libx264", "-preset", "ultrafast" if a.draft else "medium", "-crf", "26" if a.draft else "18",
         "-pix_fmt", "yuv420p", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart",
-        "-t", f"{total:.3f}", out])
+        "-t", f"{total:.3f}", out], cwd=work)
     # measured loudness trim: single-pass loudnorm drifts ~1 LU on short clips; land on -14 LUFS exactly
     r = subprocess.run(["ffmpeg", "-nostats", "-i", out, "-vn", "-af", "ebur128=framelog=quiet", "-f", "null", "-"],
                        capture_output=True, text=True).stderr
@@ -651,7 +668,7 @@ def main():
             lines.append((f"{h}:{m:02d}:{s:02d}" if h else f"{m:02d}:{s:02d}") + f" {title}")
         if not lines[0].startswith("00:00"):
             lines.insert(0, "00:00 Intro")
-        open(cp, "w").write("\n".join(lines) + "\n")
+        open(cp, "w", encoding="utf-8").write("\n".join(lines) + "\n")
         print("chapters ->", cp)
     if a.sheet:
         step = max(total / 30, 1)

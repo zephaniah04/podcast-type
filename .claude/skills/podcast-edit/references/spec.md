@@ -7,6 +7,9 @@ inside `--src` (`camA` -> `raw/camA.mp4`/`.mov`/...), and must match the transcr
 | key | default | meaning |
 |---|---|---|
 | `id`, `slug` | required / `edit` | output name `<id>_<slug>.mp4` |
+| `title`, `topic` | | shown in the client tracker (`scripts/report.py`) |
+| `master` | none | multicam: camera whose audio + transcript are used for every segment (best mic) |
+| `sync` | `{}` | multicam: `{"camB": 2.507}` delay of each camera vs master, from `scripts/sync.py`. Segment times = master times |
 | `format` | `short` | `short` 1080x1920 · `long` 1920x1080 |
 | `layout` | `full` | default layout for segments (short only): `full`, `letterbox`, `band`, `split` |
 | `captions` | `lockup` (short) / `none` (long) | `minimal`, `lockup`, `creator`, `none` |

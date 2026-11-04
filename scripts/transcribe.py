@@ -58,8 +58,8 @@ def main():
                 continue
             out.append({"s": round(s.start, 3), "e": round(s.end, 3), "text": s.text.strip(), "w": words})
             lines.append(f"[{fmt(s.start)} - {fmt(s.end)}] {s.text.strip()}")
-        json.dump(out, open(jpath, "w"), ensure_ascii=False)
-        open(os.path.join(a.out, clip + ".txt"), "w").write("\n".join(lines) + "\n")
+        json.dump(out, open(jpath, "w", encoding="utf-8"), ensure_ascii=False)
+        open(os.path.join(a.out, clip + ".txt"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
         print(f"{clip}: {len(out)} segments, lang={info.language}, {info.duration:.0f}s audio in {time.time()-t0:.0f}s")
 
 

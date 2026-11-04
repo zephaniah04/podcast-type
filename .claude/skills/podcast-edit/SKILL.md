@@ -17,6 +17,27 @@ Heavier motion graphics (text behind the head, 3D phone mockups, glossy buttons 
 go through **HyperFrames** (`/hyperframes`, `hyperframes-registry`, `media-use` for cutouts) layered on top of an
 engine render — only when the beat earns it.
 
+## Episode package (Nizam's standard order)
+
+From ONE recorded episode (usually 2 cameras + their audio) deliver:
+| # | Deliverable | Length | Spec folder |
+|---|---|---|---|
+| 1 | **Full long-form**: whole conversation, all pauses/silences/dead gaps/false starts cut, cold open, B-roll, cards, chapters | whatever it tightens to | `long/L01_full.json` |
+| 2-3 | **Two topic long-forms**: the conversation split into its 2 biggest themes (each self-contained: own cold open, intro line, chapters) | 15-40 min each | `long/L02_<topic>.json`, `long/L03_<topic>.json` |
+| 4-28 | **25 shorts** for Reels + YouTube Shorts, mixed lengths **~40 s, ~50 s, ~60 s** (never > 60 s for Shorts) | 40-60 s | `clips/C01.json` ... `C25.json` |
+Plus `deliverables.md` / `.csv` (client tracker: `python scripts/report.py projects/<ep> --exports exports/<show>/<ep>`),
+refreshed after every render batch; every spec carries `"title"` and `"topic"`.
+
+Order of work:
+1. Probe + sync the cameras (`scripts/sync.py camA camB` -> `"master"` + `"sync"` in every spec).
+2. Transcribe the MASTER audio only (best mic). Read it all. Write `projects/<ep>/moments.md`:
+   topic map (timecodes per topic), the 2 long-form themes, 30+ candidate shorts with hook line + length + look.
+3. Send Nizam the plan + a **B-roll shot list** (what, where in the episode, search words, vertical/landscape).
+   He downloads the clips by hand (no API key needed) into `projects/<ep>/broll/` and names them by shot number.
+4. Render shorts first (fast feedback, `--draft --sheet`), fix the style, then finals.
+5. Long-forms last (biggest renders): full episode in 20-30 min parts, then concat.
+Distribute topics: no two shorts on the same point; spread across the whole episode; strongest 5 first.
+
 ## 0. Before the first edit of a new show (once)
 
 Ask for anything missing from this list, in one message, then save answers to `brand-kit/<show>/BRAND.md`:
@@ -30,6 +51,13 @@ Ask for anything missing from this list, in one message, then save answers to `b
 6. Targets: clips per episode, clip length (default 30-60 s), long-form yes/no.
 
 ## 1. Ingest
+
+On Windows use `python` instead of `python3`; paths like `"I:\claude to edit\IMG_4342.MOV"` work (quote them).
+Big iPhone 4K HEVC files (10-20 GB/hour) seek slowly: for the long-forms make a 1080p edit copy once
+(`ffmpeg -i IMG.MOV -vf scale=-2:1080 -c:v libx264 -crf 17 -preset fast -g 30 -c:a aac -b:a 256k camA_1080.mp4`);
+cut shorts from the original 4K (room for punch-ins on the vertical crop).
+Multicam: `python scripts/sync.py <master> <other cams>` prints `"master"` / `"sync"` for the spec; all segment times
+are then master times, sound and captions always come from the master.
 
 ```bash
 mkdir -p projects/<ep>/raw projects/<ep>/tx          # raw/ is git-ignored

@@ -7,7 +7,8 @@ word boundaries, captions and renders.
 ## Setup
 
 ```bash
-bash scripts/setup.sh
+bash scripts/setup.sh                                          # Mac / Linux
+powershell -ExecutionPolicy Bypass -File scripts\setup.ps1     # Windows
 ```
 
 ## Edit an episode
@@ -43,6 +44,8 @@ All masters: 1080x1920 or 1920x1080, 30 fps, -14 LUFS (what every reference meas
 |---|---|
 | `scripts/transcribe.py` | faster-whisper transcripts + word timings (`.json` for the engine, `.txt` to read) |
 | `scripts/podcast.py` | the edit engine: cuts, layouts, captions, overlays, B-roll, audio chain, chapters |
+| `scripts/sync.py` | multicam: find each camera's offset from the audio |
+| `scripts/report.py` | client tracker table (topics, lengths, status) as .md + .csv |
 | `scripts/fetch_broll.py` | download a B-roll file into the episode + log its source/license |
 | `tools/mcp-pexels` (+ `.mcp.json`) | Pexels MCP server: Claude searches free stock videos/photos from chat (needs `PEXELS_API_KEY`) |
 | `.claude/skills/podcast-edit/` | the podcast editing skill: looks, moment-picking rules, long-form recipe, spec format, QA |
