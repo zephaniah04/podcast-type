@@ -18,6 +18,8 @@ inside `--src` (`camA` -> `raw/camA.mp4`/`.mov`/...), and must match the transcr
 | `accent` | `#FFFFFF` | colour of the lockup keyword and last headline line |
 | `cap_y`, `cap_x` | per layout | caption centre height (0-1) / left margin for `creator` |
 | `look` | none | default grade: `bw`, `dim`, `warm`, `teal` |
+| `auto_frame` | none | one wide two-person camera: `{"zoom": 1.9, "punch": 1.12, "wide_every": 4}` cut at speaker changes and frame the talker (needs `scripts/speakers.py` labels) |
+| `captions_until` | none | output-timeline seconds after which captions stop (long-form: end of the intro) |
 | `tighten` | none | jump-cut every pause longer than this (s). 0.35 clips, 0.6 long-form |
 | `drop_fillers` | `true` | with `tighten`: also cut um/uh |
 | `jump_zoom` | none | e.g. `[1.0, 1.12]` alternate framing on each tightened piece |

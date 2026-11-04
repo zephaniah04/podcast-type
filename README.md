@@ -44,6 +44,8 @@ All masters: 1080x1920 or 1920x1080, 30 fps, -14 LUFS (what every reference meas
 |---|---|
 | `scripts/transcribe.py` | faster-whisper transcripts + word timings (`.json` for the engine, `.txt` to read) |
 | `scripts/podcast.py` | the edit engine: cuts, layouts, captions, overlays, B-roll, audio chain, chapters |
+| `scripts/speakers.py` | who talks when (left/right person) from mic channels or mouth motion |
+| `scripts/find_broll.py` | keyless B-roll search (Openverse, Wikimedia Commons, Internet Archive), commercial-safe licenses |
 | `scripts/sync.py` | multicam: find each camera's offset from the audio |
 | `scripts/report.py` | client tracker table (topics, lengths, status) as .md + .csv |
 | `scripts/fetch_broll.py` | download a B-roll file into the episode + log its source/license |

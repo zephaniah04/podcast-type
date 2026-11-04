@@ -38,6 +38,17 @@ Order of work:
 5. Long-forms last (biggest renders): full episode in 20-30 min parts, then concat.
 Distribute topics: no two shorts on the same point; spread across the whole episode; strongest 5 first.
 
+### One wide camera, two people (Nizam's setup)
+1. `python scripts/speakers.py raw/IMG_4342.MOV --tx tx --left Nizam --right Carrie` labels every word L/R
+   (mic channels if separate, else mouth motion) and writes `tx/<clip>_speakers.txt` (read THIS to find Q -> A).
+2. Specs use `"auto_frame": {}`: the engine cuts at every speaker change, frames the talker tight
+   (long-form zoom ~1.9-2.0 on a 4K two-shot = native 1080p single; shorts = 9:16 crop on the talker, alternating
+   1.0 / 1.12 punch-in when the same person keeps going) and returns to the wide two-shot every ~4th turn
+   in long-forms. Explicit `cx`/`zoom`/`layout: split`/`broll` on a segment always win.
+3. Long-forms: `"captions": "minimal", "captions_until": <seconds of cold open + intro>` (captions then switch off).
+4. Halves (L02/L03): split L01 at the topic boundary nearest its midpoint; each half = its own 45-90 s cold open
+   from that half, a "Part 1 / Part 2" title card, chapters restarting at 00:00.
+
 ## 0. Before the first edit of a new show (once)
 
 Ask for anything missing from this list, in one message, then save answers to `brand-kit/<show>/BRAND.md`:
@@ -126,15 +137,18 @@ When (see `references/edit-decisions.md`): a named place / person / event / obje
 "imagine..." or anything the speaker describes visually. Not on emotional peaks or punchlines (stay on the face).
 2-4 s each, max ~1 per 10 s in clips, slow push-in, voice continues underneath.
 
-Sources, in order:
-1. **Nizam's Drive `B-roll library`** (Google Drive connector): own footage beats stock.
-2. **Pexels MCP** (`pexels_search_videos` / `pexels_search_photos`; needs `PEXELS_API_KEY` in the environment).
-   Search with concrete nouns + mood ("runner sunrise track slow motion"), `orientation: portrait` for clips,
-   `landscape` for long-form; pick a rendition >= output size (1080 wide / 1920 wide), avoid watermarks/logos/faces
-   that look like real public figures.
-3. Openverse (keyless photos, check CC license).
-Download with `scripts/fetch_broll.py <url> --ep projects/<ep> --name <slug> --source pexels --id <id> --author <name> --page <url>`
-(writes `broll/credits.json`), then add `"broll": {"file": ...}` to the segment.
+Sources, in order (no API key needed for 1-4):
+1. **Motion-graphic cards built by Claude** (engine overlays or HyperFrames): macros bars, g/kg counters, fuelling
+   timelines, do / don't splits, checklists, big numbers. For a talk podcast these carry most "B-roll" beats.
+2. **Own footage** (Nizam's Drive / local `broll/` folder).
+3. **Keyless stock photos**: `python scripts/find_broll.py "<concrete nouns>" --kind photo --orient portrait`
+   (Openverse + Wikimedia Commons; CC0 / PD / CC BY / BY-SA only, NC/ND filtered out). Use with the slow push-in.
+   Keyless *video* is thin (Wikimedia / Internet Archive): try `--kind video`, expect few hits.
+4. AI-generated stills/clips via HyperFrames `media-use` (free HeyGen sign-in on Nizam's PC: `npx hyperframes auth login`).
+5. Pexels MCP / Pixabay if a key is ever added.
+Download with `scripts/fetch_broll.py <url> --ep projects/<ep> --name <slug> --source openverse|pexels|drive --author <name> --page <url>`
+(writes `broll/credits.json`; CC BY / BY-SA credits go in the video description), then `"broll": {"file": ...}`.
+Never: logos/brands as hero, recognisable public figures out of context, watermarks, NC/ND licenses.
 
 ## 6. QA — LOOK before you hand anything over
 

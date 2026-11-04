@@ -110,10 +110,30 @@ def faces_x(path, t, n=1):
     return sorted(picked)
 
 
+_sides = {}
+
+
+def face_sides(path):
+    """Left / right person x-centres for a static two-person camera, measured once per file (median of 7 looks)."""
+    if path not in _sides:
+        dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path],
+                                   capture_output=True, text=True).stdout.strip() or 10)
+        ls, rs = [], []
+        for t in np.linspace(dur * 0.1, dur * 0.9, 7):
+            xs = faces_x(path, t, 2)
+            if len(xs) == 2:
+                ls.append(xs[0]); rs.append(xs[1])
+        _sides[path] = (float(np.median(ls)), float(np.median(rs))) if ls else (0.3, 0.7)
+    return _sides[path]
+
+
 def resolve_cx(seg, path, which="cx"):
     v = seg.get(which, "auto")
     if isinstance(v, (int, float)):
         return float(v)
+    if v in ("left", "right") and seg.get("_static", True):
+        l, r = face_sides(path)
+        return l if v == "left" else r
     mid = (seg["start"] + seg["end"]) / 2
     if v == "auto":
         xs = [x for t in (seg["start"] + 0.3, mid, seg["end"] - 0.3) for x in faces_x(path, t, 1)]
@@ -252,6 +272,16 @@ def clip_words(tx, clip, s, e):
         return []
     d = json.load(open(p, encoding="utf-8"))
     return [[w[0] - s, w[1] - s, w[2].strip()] for sg in d for w in sg["w"] if s - 0.05 <= w[0] < e - 0.05 and w[2].strip()]
+
+
+def speaker_of(tx, clip, s, e):
+    """Majority speaker label ("L"/"R"/"?") of the words in [s, e] (labels written by scripts/speakers.py)."""
+    p = os.path.join(tx, clip + ".json")
+    if not os.path.exists(p):
+        return "?"
+    labs = [w[4] for sg in json.load(open(p, encoding="utf-8")) for w in sg["w"]
+            if s - 0.05 <= w[0] < e - 0.05 and len(w) > 4 and w[4] in "LR"]
+    return max(set(labs), key=labs.count) if labs else "?"
 
 
 def align(words, text, dur):
@@ -575,6 +605,43 @@ def main():
             if k > 0:
                 p.pop("chapter", None)
             segs.append(p)
+    af_ = spec.get("auto_frame")
+    if af_:  # one wide two-shot camera -> "multicam": tight on whoever talks, back to wide now and then
+        tight = float(af_.get("zoom", 1.9 if fmt_ == "long" else 1.0))  # 4K two-shot: 2.0 = one person at native 1080p
+        punch = float(af_.get("punch", 1.12))
+        every = int(af_.get("wide_every", 4))
+        split = []  # first cut every piece at speaker changes (midpoint of the gap between the two words)
+        for p in segs:
+            jp = os.path.join(a.tx, (spec.get("master") or p.get("clip", "")) + ".json")
+            if p.get("card") or p.get("broll") or "cx" in p or p.get("layout") == "split" or not os.path.exists(jp):
+                split.append(p); continue
+            ws = [w for sg in json.load(open(jp, encoding="utf-8")) for w in sg["w"]
+                  if p["start"] - 0.05 <= w[0] < p["end"] - 0.05 and len(w) > 4 and w[4] in "LR"]
+            cur = p["start"]
+            for w0, w1 in zip(ws, ws[1:]):
+                if w0[4] != w1[4]:
+                    cut = round((w0[1] + w1[0]) / 2, 3)
+                    if cut - cur > 0.4 and p["end"] - cut > 0.4:
+                        split.append({**p, "start": cur, "end": cut}); cur = cut
+                        p = {k: v for k, v in p.items() if k != "chapter"}
+            split.append({**p, "start": cur})
+        segs = split
+        last, turns = None, 0
+        for k, p in enumerate(segs):
+            if p.get("card") or p.get("broll") or "cx" in p or p.get("layout") == "split":
+                continue
+            who = speaker_of(a.tx, spec.get("master") or p["clip"], p["start"], p["end"])
+            if who == "?" and fmt_ != "long":
+                who = last or "R"  # vertical crop can't show both: stay on the last speaker
+            if who != last:
+                turns += 1
+            if who == "?" or (fmt_ == "long" and every and who != last and turns % every == 0):
+                p.update(cx=0.5, zoom=1.0)  # wide: both people (long-form) / centre (shorts)
+            else:
+                side = "left" if who == "L" else "right"
+                z = tight * (punch if (who == last and k % 2) else 1.0)  # same speaker continues: alternate punch-in
+                p.update(cx=side, zoom=round(z, 3))
+            last = who
     if spec.get("endcard"):
         segs.append({"card": True, **spec["endcard"]})
 
@@ -595,8 +662,10 @@ def main():
                 words = align(words, seg["text"], d) if seg["text"] else []
             if words:
                 words = apply_fixes(words, spec.get("fixes", {}))
+                cu = spec.get("captions_until")  # long-form: captions over the cold open + intro only
                 for c in chunk([[max(w[0], 0) + t, min(w[1], d) + t, w[2]] for w in words], maxw):
-                    caps.append(c); limits.append(t + d)
+                    if cu is None or c[0][0] < float(cu):
+                        caps.append(c); limits.append(min(t + d, float(cu)) if cu is not None else t + d)
         t += d
         print(f"  cut {i + 1}/{len(segs)}", end="\r", flush=True)
     total = t
