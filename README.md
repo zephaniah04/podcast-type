@@ -60,3 +60,14 @@ projects/<ep>/         raw/ (ignored), tx/ transcripts, clips/ specs, moments.md
 exports/               renders (ignored)
 assets/fonts, sfx      caption fonts (OFL) and sound effects
 ```
+
+## Pushing your own skills and studies (from another computer)
+
+- **Your trained skills** -> `.claude/skills/<skill-name>/` (one folder each, `SKILL.md` with `name:` and
+  `description:` frontmatter, plus any `references/`, `scripts/`, `assets/`). Use a name that doesn't clash with
+  an existing folder here (e.g. `nizam-podcast-broll`, not `hyperframes`).
+- **Reference studies** (YouTube editing analysed on your computer) -> `references/studies/<slug>/`,
+  see `references/studies/README.md`.
+- **Raw footage and reference videos** -> Google Drive (never git; GitHub rejects files > 100 MB).
+- Push to `main` (merge Claude's branch first) or tell Claude the branch name; Claude pulls and merges the
+  knowledge into `.claude/skills/podcast-edit/`.

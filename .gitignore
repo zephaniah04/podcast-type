@@ -13,6 +13,6 @@ __pycache__/
 projects/**/raw/
 exports/**
 !exports/.gitkeep
-studies/
+/studies/
 .DS_Store
 !assets/sfx/*
