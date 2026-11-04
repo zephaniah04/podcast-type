@@ -10,6 +10,7 @@ see `references/reference-study.md`. Learn their grammar; never reuse their foot
 
 **Engine:** `scripts/podcast.py` (ffmpeg + libass, deterministic, no browser). **Transcripts:** `scripts/transcribe.py`
 (faster-whisper word timings). **Spec format:** `references/spec.md`. **Long-form structure:** `references/longform.md`.
+**Which device when (zoom, split, B&W, stamps... decided by what is said):** `references/edit-decisions.md` — read it before writing any spec.
 **Starter specs:** `examples/`.
 
 Heavier motion graphics (text behind the head, 3D phone mockups, glossy buttons with real depth, animated charts)
@@ -25,13 +26,16 @@ Ask for anything missing from this list, in one message, then save answers to `b
 3. Language (English / Hinglish / Hindi) and words Whisper will get wrong (names, brands, jargon).
 4. Look: pick a default clip look (A / B / C below) + accent colour + logo PNG (transparent) + CTA text
    ("Comment LINK", "Full episode on YouTube", "Follow for part 2").
-5. Music: licensed bed(s) they own, or none. Never pull music from references.
+5. Music: **Nizam adds music himself in his editing app.** Render voice + SFX only (no `music` key) unless he asks.
 6. Targets: clips per episode, clip length (default 30-60 s), long-form yes/no.
 
 ## 1. Ingest
 
 ```bash
 mkdir -p projects/<ep>/raw projects/<ep>/tx          # raw/ is git-ignored
+# raw clips usually come as a Google Drive link: pull them with the Google Drive connector
+# (search/download the files) into projects/<ep>/raw/. If a file is too big for the connector,
+# ask Nizam to share it as "anyone with the link" and download it directly.
 python3 scripts/transcribe.py projects/<ep>/raw/* --out projects/<ep>/tx --model small --prompt "<names, jargon>"
 ```
 - Use `--model medium` for Hinglish or noisy rooms (slower, much better). `--lang hi` only for mostly-Hindi speech.
@@ -56,7 +60,7 @@ in `projects/<ep>/moments.md` and show it to Nizam before rendering if more than
 - You may re-order lines inside a clip if the meaning holds (question after the answer is a classic hook).
 - Never cut a word in half; never change what someone meant.
 
-## 3. Pick shots (multicam logic)
+## 3. Pick shots (multicam logic) — full rules in references/edit-decisions.md
 
 - Speaker on camera: show whoever is talking. Cut to the listener for reactions (laugh, nod, shock) <= 1.5 s.
 - With separate mic tracks: the louder track is the speaker; switch only after >= 1.2 s of the new speaker.
@@ -97,7 +101,8 @@ python3 scripts/podcast.py ... (same, without --draft)                 # final
 3. Loudness: the engine trims to -14 LUFS integrated; confirm with
    `ffmpeg -nostats -i out.mp4 -af ebur128=peak=true -f null - 2>&1 | tail -12` (I ~ -14, true peak < -1).
 4. First frame: would it stop a scroll with the sound off? If not, fix the hook (re-order, headline, punch-in).
-5. Send Nizam the render + 1-line "why this moment" for each clip.
+5. Send Nizam the render + 1-line "why this moment" for each clip. Delivered without music: leave voice at
+   -14 LUFS and tell him to sit music around -20 to -24 dB under the voice in his app.
 
 ## Long-form episodes (16:9, 1920x1080)
 
