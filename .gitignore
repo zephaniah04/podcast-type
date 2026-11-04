@@ -1,0 +1,18 @@
+node_modules/
+__pycache__/
+.venv/
+.env
+# Raw footage and renders are big — keep them out of git
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.m4a
+*.mp3
+projects/**/raw/
+exports/**
+!exports/.gitkeep
+studies/
+.DS_Store
+!assets/sfx/*

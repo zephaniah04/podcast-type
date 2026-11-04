@@ -1,0 +1,28 @@
+{
+ "id": "C01",
+ "slug": "minimal",
+ "format": "short",
+ "layout": "full",
+ "captions": "minimal",
+ "keywords": [
+  "truth",
+  "friend",
+  "advice"
+ ],
+ "fixes": {
+  "fine friends": "find friends"
+ },
+ "segments": [
+  {
+   "clip": "camHost",
+   "start": 0.0,
+   "end": 2.9
+  },
+  {
+   "clip": "camGuest",
+   "start": 3.05,
+   "end": 13.8
+  }
+ ],
+ "_note": "Look C (ref ig1): clean minimal, host question -> guest answer."
+}

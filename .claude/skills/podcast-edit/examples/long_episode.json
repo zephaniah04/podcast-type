@@ -1,0 +1,40 @@
+{
+ "_note": "Long-form: cold open, sting, chapters, jump-cut tightening, music bed.",
+ "id": "E01",
+ "slug": "episode",
+ "format": "long",
+ "captions": "minimal",
+ "tighten": 0.35,
+ "jump_zoom": [
+  1.0,
+  1.15
+ ],
+ "music": {
+  "file": "assets/music/YOUR_LICENSED_BED.mp3",
+  "db": -26
+ },
+ "segments": [
+  {
+   "clip": "camA",
+   "start": 7.35,
+   "end": 13.8,
+   "chapter": "Cold open"
+  },
+  {
+   "card": true,
+   "dur": 1.2
+  },
+  {
+   "clip": "camA",
+   "start": 0.0,
+   "end": 2.9,
+   "chapter": "The best advice"
+  },
+  {
+   "clip": "camA",
+   "start": 3.05,
+   "end": 13.8,
+   "chapter": "What a friend is"
+  }
+ ]
+}

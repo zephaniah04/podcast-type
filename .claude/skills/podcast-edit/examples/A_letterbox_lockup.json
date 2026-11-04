@@ -1,0 +1,45 @@
+{
+ "_note": "Look A (ref ig3): quote clip. Replace clip names/times with real ones.",
+ "id": "A01",
+ "slug": "letterbox-lockup",
+ "format": "short",
+ "layout": "letterbox",
+ "captions": "lockup",
+ "keywords": [
+  "truth",
+  "friend",
+  "advice"
+ ],
+ "fixes": {
+  "fine friends": "find friends"
+ },
+ "hook": {
+  "text": [
+   "The best advice",
+   "he ever gave"
+  ],
+  "until": 14
+ },
+ "segments": [
+  {
+   "clip": "camA",
+   "start": 0.0,
+   "end": 2.9,
+   "open": true
+  },
+  {
+   "clip": "camA",
+   "start": 3.05,
+   "end": 13.8,
+   "zoom": 1.12,
+   "cx": "auto"
+  }
+ ],
+ "endcard": {
+  "text": [
+   "FOLLOW FOR PART 2",
+   "new episode every week"
+  ],
+  "dur": 1.8
+ }
+}

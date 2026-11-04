@@ -1,0 +1,100 @@
+{
+ "_note": "Look B (ref ig2): hyper-edit clip with split intro, names, counter, stamp, stack.",
+ "id": "B01",
+ "slug": "creator",
+ "format": "short",
+ "layout": "full",
+ "captions": "creator",
+ "accent": "#FFFFFF",
+ "keywords": [
+  "advice",
+  "truth",
+  "friend"
+ ],
+ "fixes": {
+  "fine friends": "find friends"
+ },
+ "names": [
+  {
+   "at": 0.3,
+   "dur": 2.6,
+   "name": "Host Name",
+   "role": "Host  -  @handle",
+   "y": 0.44
+  },
+  {
+   "at": 0.5,
+   "dur": 2.4,
+   "name": "Guest Name",
+   "role": "Author | Founder",
+   "y": 0.56
+  }
+ ],
+ "counters": [
+  {
+   "at": 3.2,
+   "dur": 2.2,
+   "from": 0,
+   "to": 10000,
+   "y": 0.3,
+   "label": "followers in 90 days"
+  }
+ ],
+ "stamps": [
+  {
+   "at": 7.3,
+   "text": "TRUTH",
+   "y": 0.3
+  }
+ ],
+ "stacks": [
+  {
+   "at": 10.5,
+   "items": [
+    "Topic",
+    "Hook",
+    "Format",
+    "CTA"
+   ],
+   "every": 0.4,
+   "y": 0.18
+  }
+ ],
+ "segments": [
+  {
+   "clip": "camA",
+   "start": 0.0,
+   "end": 2.9,
+   "layout": "split",
+   "clip2": "camA",
+   "start2": 3.1,
+   "nocaps": true
+  },
+  {
+   "clip": "camA",
+   "start": 3.05,
+   "end": 7.2,
+   "layout": "band"
+  },
+  {
+   "clip": "camA",
+   "start": 7.35,
+   "end": 10.8,
+   "look": "bw",
+   "zoom": 1.25
+  },
+  {
+   "clip": "camA",
+   "start": 10.95,
+   "end": 13.8,
+   "zoom": 1.0
+  }
+ ],
+ "endcard": {
+  "text": [
+   "COMMENT \"LINK\"",
+   "to get the full episode"
+  ],
+  "dur": 1.8
+ }
+}
