@@ -1,5 +1,7 @@
 # podcast-type — notes for Claude
 
+**New local session? Read `START-HERE.md` first** (the full brief for the Carrie Mullin Innes episode).
+
 Podcast editing studio for Nizam. Claude is the editor: Nizam drops raw podcast footage, Claude picks the
 moments, cuts, captions and renders. Two outputs: vertical clips (Reels/Shorts) and 16:9 YouTube episodes.
 
