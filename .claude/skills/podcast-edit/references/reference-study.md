@@ -59,6 +59,44 @@ shallow-depth rooms (bookshelves, practical lamps, brick), cardioid broadcast mi
   "Why He Quit After Running 623 Kilometers", "His Darkest Moment During the 93-Hour Race".
 - Ends with BTS + outro. Description: sponsor link, free PDF "playbook" lead magnet, guest suggestion form.
 
+## Coach / triathlon references (added 2026-11-05)
+Local files from Nizam, measured with `reverse-engineer/scripts/study.py` and checked frame by frame.
+This is the kind of video he wants for the coach show: a coach teaching an athlete (bike fit, race strategy).
+
+| id | file | format | length | cuts | loudness |
+|---|---|---|---|---|---|
+| coach1 | `D:\work\nizam\coach\coach cal (what).mp4` | 1920x1440 (4:3) @60 | 55.2 s | 7 shots, median 6.5 s (p10 1.3 / p90 14 s) | -11.4 LUFS |
+| cyc25 | `D:\work\nizam\coach\cycle training sesh\25\reel-01.mp4` (one of 25 reels, `with-outro/` variants) | 1080x1920 @30 | 34.1 s | 1 take, layers do the work (a new element every ~4.5 s) | -15.6 LUFS |
+
+### coach1 — handheld coaching with bold word captions
+- Real-life footage in a bike shop: coach (left) explaining while the athlete rides the trainer (right).
+  Full frame, no reframing gimmicks. Cutaways to detail shots (pedal/legs, hands on the aero bars) every 6-14 s
+  while the coach's voice runs on. Face on screen only ~41%: the action carries it.
+- Captions: heavy rounded geometric caps (Montserrat Black / "The Bold Font" feel), white, thin dark outline
+  + soft shadow, 2-3 words at a time, lower-middle of the frame. **One keyword per chunk in yellow**
+  ("ISSUES", "RACE", "OK", "IF"). Small and tight, not giant.
+- Named brands become a logo-styled word inside the caption ("IRONMAN" with its M-dot treatment).
+- No title card, no music audible over speech, no end card. Hook = the coach mid-action.
+
+### cyc25 — Nizam's own house look for the coach show (match this)
+- **Layout:** 9:16, the 16:9/4:3 source as a **sharp rounded-corner card** (~93% width, roughly y 33-72%),
+  over the same footage **scaled up and heavily blurred** as the background.
+- **Top:** a thin orange **progress bar** at the very top edge, growing over the clip.
+- **Hook headline (first beat):** small orange monospace kicker with a square bullet ("■ IRONMAN · SWIM EXIT"),
+  then a 3-line heavy white caps headline, left-aligned, with the key word knocked out in an **orange box**
+  ("STOP **SPRINTING** OUT OF THE SWIM").
+- **Data cards replace the headline above the video**, one per teaching beat: dark translucent rounded panel
+  with an orange top rule, orange mono label ("■ WHAT A SPRINT DOES", "■ THE RULE", "■ YOUR HEART RATE TRACE"),
+  then either a big caps statement with orange keyword ("AVOID SPIKES **ALL DAY**") or a line chart that draws
+  on (single HR spike; flat orange line vs white zig-zag) with tiny mono annotations
+  ("▲ HEART RATE SPIKE", "✓ FLAT = THE GOAL", "✕ SPIKES = RECIPE FOR DISASTER").
+- **Captions below the card:** heavy caps, wide letter-spacing, white with **one orange keyword** per chunk,
+  2-3 words, soft drop shadow. Final word keeps its full stop ("FOR DISASTER.").
+- Palette: near-black `#110f0f` panels, orange `~#ff5a1f`, white. No yellow in this look.
+- Mix sat at -15.6 LUFS; our masters still go to -14.
+- -> Engine: card + blur-fill + captions + progress bar in `podcast.py`; headline/data cards and line charts
+  in HyperFrames layered on top.
+
 ## Mapping to our tools
 | Device | Where |
 |---|---|
@@ -67,3 +105,18 @@ shallow-depth rooms (bookshelves, practical lamps, brick), cardioid broadcast mi
 | captions minimal / lockup / creator, names, counters, stamps, stacks, headline, end card | `scripts/podcast.py` (ASS) |
 | text behind head, 3D phone mockup, line graphs, glossy 3D buttons | HyperFrames (`/hyperframes`, `hyperframes-registry`, `media-use`) |
 | watching a new reference | `/watch`, then `/reverse-engineer` to measure it |
+
+## yt1 + yt2 measured on Nizam's PC (2026-11-05, 720p downloads, scene threshold 0.3)
+- **Cold open is the busiest part of the episode**: yt1 54 cuts / first 240 s, yt2 79 cuts / first 240 s (one cut every 3-4.5 s).
+  Body (min 15-19): almost no hard scene changes, just speaker <-> two-shot switches every ~4-15 s and a wide every ~1 min.
+- yt1 cold open devices: B&W beats with HUGE condensed words beside the head ("DON'T UNDERSTAND", "IT'S NOT EASY",
+  "CHANGED"), the guest's name as a giant title over a hero photo, one mini "framework" motion segment (purple board,
+  word "PASSION" + cut-out figure + rules typed on), archive photos/video of the guest's real career.
+- Then: host-only intro to camera, a disclaimer card, chapter list ("TODAY WE FIGURE OUT") card, two-shot with both name
+  lower thirds (white name, small grey role) -> body.
+- Body inserts are SMALL and on the wide/two-shot: a logo or a book cover pops in floating over the wide shot when
+  it's named (XBOX logo, two book covers, a portrait photo), 2-4 s, then gone. Subscribe/"clips channel" pills pop in
+  bottom-left a few times per hour.
+- yt1 chapters: 27 in 150 min, titles = "How/Why + specific noun/number" ("How a New Driver Helped Bryson Shoot 58").
+Applied to our long-forms: busy cold open (cards + B&W + big words), calm body with auto-frame, card inserts only
+when a number/list/protocol is spoken, wide on topic changes, names once at the first two-shot.

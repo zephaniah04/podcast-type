@@ -1,0 +1,29 @@
+ID,Type,Title,Topic,Look,Length,Seconds,Source (raw timecodes),B-roll,Status,File
+L01,Long-form (YouTube),Fuelling Like an Endurance Athlete (full episode),"Whole consult: hydration, cramps, race fuel, daily eating, recovery",Long-form: cold open + chapters + cards,1:20:27,4827.4,87 segments,38,Rendered,L01_full-episode.mp4
+L02,Long-form (YouTube),"Part 1: Hydration, Cramps and Race Fuelling","Food record, water, supplements, salt/cramps, sweat test, race fuelling, gym timing, creatine",Long-form: cold open + chapters + cards,38:21,2301.4,59 segments,25,Rendered,L02_part-1-hydration-cramps-race-fuel.mp4
+L03,Long-form (YouTube),"Part 2: Daily Eating, Protein and Recovery","Protein, meal timing, pre-workout carbs, no-cook dinners, muscle gain, meal prep, micronutrients",Long-form: cold open + chapters + cards,42:44,2564.1,35 segments,14,Rendered,L03_part-2-daily-eating-protein-recovery.mp4
+C01,Reel / Short,How to know you're a salty sweater,Sodium / sweat,B creator hyper-edit,0:46,45.5,"12:30-12:33, 12:40-12:50, 12:51-13:07, 13:08-13:15 ...",1,Rendered,C01_salty-sweater.mp4
+C02,Reel / Short,The 1 kg = 1 litre sweat test,Hydration,B creator hyper-edit,0:53,53.0,"19:50-19:58, 20:48-21:04, 21:05-21:10, 21:19-21:36 ...",2,Rendered,C02_sweat-test.mp4
+C03,Reel / Short,"Cramping in HYROX: 'If I fall, take me out'",Cramping,C clean minimal,0:54,54.0,"14:33-14:40, 13:51-14:07, 14:19-14:33, 14:52-14:58 ...",0,Rendered,C03_cramp-story.mp4
+C04,Reel / Short,2 gels in 1:42 of racing isn't enough,Race fuelling,B creator hyper-edit,0:54,54.0,"16:41-16:54, 16:58-17:02, 27:23-27:47, 27:48-27:56 ...",2,Rendered,C04_two-gels.mp4
+C05,Reel / Short,Caffeine gel vs carb gel: what's the difference?,Caffeine,B creator hyper-edit,0:51,50.7,"26:09-26:22, 26:32-26:49, 26:50-27:12",1,Rendered,C05_caffeine-gel.mp4
+C06,Reel / Short,"1,000 mg of sodium in one packet",Electrolytes,B creator hyper-edit,0:37,36.6,"25:35-25:40, 25:03-25:16, 25:40-25:48, 25:52-26:03",1,Rendered,C06_1000mg-sodium.mp4
+C07,Reel / Short,"Vitamin D: October to April, every day",Supplements,B creator hyper-edit,0:39,39.4,"10:27-10:33, 10:59-11:06, 11:06-11:18, 11:54-12:02 ...",2,Rendered,C07_vitamin-d.mp4
+C08,Reel / Short,ChatGPT was my dietitian. Omega-3 doesn't burn fat,Supplements myths,B creator hyper-edit,0:45,45.5,"9:16-9:30, 0:29-0:34, 0:39-0:56, 1:12-1:24",0,Rendered,C08_chatgpt-dietitian.mp4
+C09,Reel / Short,You probably need only 2.2 L of water,Hydration,B creator hyper-edit,0:40,40.5,"6:05-6:08, 6:10-6:13, 6:15-6:18, 6:37-6:52 ...",1,Rendered,C09_water-2-2-litres.mp4
+C10,Reel / Short,Why you wake up dehydrated (morning gym),Hydration,B creator hyper-edit,0:53,52.8,"33:06-33:15, 33:15-33:18, 33:40-34:02, 34:05-34:25",1,Rendered,C10_drink-every-set.mp4
+C11,Reel / Short,Training fasted? Eat this first,Pre-workout,B creator hyper-edit,0:51,51.4,"34:29-34:42, 34:44-34:57, 35:03-35:04, 35:31-35:39 ...",1,Rendered,C11_fasted-gym.mp4
+C12,Reel / Short,"The 30-minute protein window, explained",Recovery timing,B creator hyper-edit,0:38,38.3,"38:18-38:30, 38:30-38:32, 38:34-38:48, 38:49-39:03",1,Rendered,C12_30-minute-window.mp4
+C13,Reel / Short,A protein shake alone won't recover you,Recovery,A letterbox lockup,0:41,41.1,"2:26-2:36, 2:36-2:51, 34:05-34:15, 34:24-34:28 ...",0,Rendered,C13_shake-not-enough.mp4
+C14,Reel / Short,Gain muscle without getting slower,Body composition,C clean minimal,0:48,48.1,"29:35-29:49, 29:54-30:05, 30:05-30:24, 31:20-31:29",0,Rendered,C14_fine-balance.mp4
+C15,Reel / Short,What creatine actually does,Supplements,B creator hyper-edit,0:48,47.6,"1:31-1:35, 1:38-1:47, 2:31-2:42, 2:43-2:59 ...",1,Rendered,C15_creatine.mp4
+C16,Reel / Short,50 g of protein is plenty,Protein,A letterbox lockup,0:28,27.5,"4:20-4:33, 4:34-4:50",0,Rendered,C16_protein-enough.mp4
+C17,Reel / Short,The 5-hour gap that kills your evening session,Meal timing,B creator hyper-edit,0:53,53.4,"12:36-12:56, 12:58-13:04, 13:05-13:16, 14:08-14:17 ...",1,Rendered,C17_5-hour-gap.mp4
+C18,Reel / Short,No one gets overweight from eating fruit,Snacks,A letterbox lockup,0:38,38.5,"5:28-5:43, 14:40-14:51, 14:53-14:56, 14:56-15:11",0,Rendered,C18_fruit.mp4
+C19,Reel / Short,I loaded up on protein and forgot carbs,Pre-workout,B creator hyper-edit,0:53,52.8,"19:04-19:12, 18:16-18:28, 18:28-18:54, 19:13-19:21",1,Rendered,C19_forgot-carbs.mp4
+C20,Reel / Short,Can I gain muscle in 4 months?,Goals,A letterbox lockup,0:33,32.6,"41:41-41:56, 42:06-42:17, 42:34-42:43",0,Rendered,C20_anyone-can-gain.mp4
+C21,Reel / Short,Cardio then gym? Eat in between,Double sessions,B creator hyper-edit,0:49,49.3,"28:10-28:21, 28:21-28:24, 28:24-28:46, 29:15-29:29",1,Rendered,C21_eat-between-sessions.mp4
+C22,Reel / Short,Too tired to cook after training? Eat this,Quick meals,B creator hyper-edit,0:40,40.2,"25:13-25:29, 26:46-26:49, 30:42-30:46, 31:04-31:21 ...",1,Rendered,C22_no-cook-dinners.mp4
+C23,Reel / Short,2 hours on Sunday = fed all week,Meal prep,B creator hyper-edit,0:52,51.6,"43:40-43:45, 43:45-43:54, 44:15-44:29, 44:29-44:37 ...",1,Rendered,C23_meal-prep.mp4
+C24,Reel / Short,Skip dinner after a night session and this happens,Recovery,B creator hyper-edit,0:51,51.2,"46:06-46:17, 46:16-46:36, 46:37-46:48, 46:50-47:00",1,Rendered,C24_skip-dinner.mp4
+C25,Reel / Short,What a multivitamin can't give you,Micronutrients,A letterbox lockup,0:37,37.0,"48:23-48:35, 48:49-49:02, 49:02-49:20",0,Rendered,C25_real-food.mp4

@@ -1,0 +1,107 @@
+{
+ "id": "C03",
+ "slug": "cramp-story",
+ "title": "Cramping in HYROX: 'If I fall, take me out'",
+ "topic": "Cramping",
+ "format": "short",
+ "look_name": "C clean minimal",
+ "accent": "#FFB238",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "keywords": [],
+ "tighten": 0.35,
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 872.87,
+   "end": 880.13,
+   "cx": "left",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 831.07,
+   "end": 847.39,
+   "cx": "left",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 858.87,
+   "end": 872.73,
+   "cx": "left",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 891.53,
+   "end": 898.39,
+   "cx": "left",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 959.23,
+   "end": 972.49,
+   "cx": "right",
+   "cy": 0.36
+  }
+ ],
+ "names": [],
+ "sfx": [],
+ "layout": "full",
+ "captions": "minimal",
+ "cap_y": 0.7,
+ "jump_zoom": [
+  1.42,
+  1.58
+ ],
+ "hook": {
+  "text": [
+   "\"If I fall,",
+   "just take me out\""
+  ],
+  "until": 3.2,
+  "y": 0.11
+ },
+ "_est": 54.0
+}

@@ -1,0 +1,103 @@
+{
+ "id": "C20",
+ "slug": "anyone-can-gain",
+ "title": "Can I gain muscle in 4 months?",
+ "topic": "Goals",
+ "format": "short",
+ "look_name": "A letterbox lockup",
+ "accent": "#FFB238",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "keywords": [
+  "anyone",
+  "huge response",
+  "fueling"
+ ],
+ "tighten": 0.35,
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 2500.68,
+   "end": 2515.58,
+   "cx": "left",
+   "zoom": 1.35,
+   "cy": 0.4,
+   "open": true
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2526.5,
+   "end": 2537.0,
+   "cx": "right",
+   "zoom": 1.35,
+   "cy": 0.4
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2554.48,
+   "end": 2563.28,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.4
+  }
+ ],
+ "names": [],
+ "sfx": [
+  {
+   "at": 0.0,
+   "file": "whoosh_soft2.mp3",
+   "vol": 0.3
+  }
+ ],
+ "layout": "letterbox",
+ "captions": "lockup",
+ "cap_y": 0.76,
+ "hook": {
+  "text": [
+   "Can I gain muscle",
+   "before race day?"
+  ],
+  "until": 999,
+  "y": 0.19
+ },
+ "_est": 32.6
+}

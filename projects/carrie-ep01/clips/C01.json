@@ -1,0 +1,148 @@
+{
+ "id": "C01",
+ "slug": "salty-sweater",
+ "title": "How to know you're a salty sweater",
+ "topic": "Sodium / sweat",
+ "format": "short",
+ "look_name": "B creator hyper-edit",
+ "accent": "#FFB238",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "keywords": [
+  "salt",
+  "electrolyte",
+  "sodium"
+ ],
+ "tighten": 0.35,
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 750.35,
+   "end": 752.57,
+   "cx": "right",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 759.85,
+   "end": 769.81,
+   "cx": "left",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 771.37,
+   "end": 786.93,
+   "cx": "left",
+   "cy": 0.36,
+   "zoom": 1.6
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 787.77,
+   "end": 794.57,
+   "cx": "right",
+   "cy": 0.26,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/C01_1.mp4",
+    "panel": "top",
+    "push": 0
+   },
+   "zoom": 2.0,
+   "tighten": 0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 801.63,
+   "end": 810.77,
+   "cx": "left",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1317.44,
+   "end": 1321.06,
+   "cx": "right",
+   "cy": 0.36,
+   "zoom": 1.6
+  }
+ ],
+ "names": [
+  {
+   "at": 0.25,
+   "dur": 1.78,
+   "name": "Carrie Mullin Innes",
+   "role": "High-Performance Sports Dietitian · IOC Dip. Sports Nutrition",
+   "y": 0.47
+  },
+  {
+   "at": 2.48,
+   "dur": 2.6,
+   "name": "Nizam",
+   "role": "Training to become an endurance athlete",
+   "y": 0.47
+  }
+ ],
+ "sfx": [
+  {
+   "at": 26.23,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.35
+  }
+ ],
+ "layout": "full",
+ "captions": "creator",
+ "cap_y": 0.62,
+ "jump_zoom": [
+  1.42,
+  1.6
+ ],
+ "hook": {
+  "text": [
+   "Salt on your face",
+   "after a run?"
+  ],
+  "until": 3.0,
+  "y": 0.11
+ },
+ "_est": 45.5
+}

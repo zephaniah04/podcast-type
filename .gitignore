@@ -19,3 +19,6 @@ exports/**
 # B-roll media is downloaded per episode; keep only the credits ledger
 projects/**/broll/*
 !projects/**/broll/credits.json
+
+# reference downloads metadata
+references/studies/*/src.info.json

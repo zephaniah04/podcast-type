@@ -1,0 +1,153 @@
+{
+ "id": "C07",
+ "slug": "vitamin-d",
+ "title": "Vitamin D: October to April, every day",
+ "topic": "Supplements",
+ "format": "short",
+ "look_name": "B creator hyper-edit",
+ "accent": "#FFB238",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "keywords": [
+  "vitamin D",
+  "4,000",
+  "bone"
+ ],
+ "tighten": 0.35,
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 627.38,
+   "end": 632.72,
+   "cx": "right",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 658.82,
+   "end": 666.12,
+   "cx": "right",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 666.44,
+   "end": 678.04,
+   "cx": "right",
+   "cy": 0.26,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/C07_1.mp4",
+    "panel": "top",
+    "push": 0
+   },
+   "zoom": 2.0,
+   "tighten": 0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 714.44,
+   "end": 721.98,
+   "cx": "right",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 727.57,
+   "end": 736.35,
+   "cx": "right",
+   "cy": 0.26,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/C07_2.mp4",
+    "panel": "top",
+    "push": 0
+   },
+   "zoom": 2.0,
+   "tighten": 0
+  }
+ ],
+ "names": [
+  {
+   "at": 0.25,
+   "dur": 2.6,
+   "name": "Carrie Mullin Innes",
+   "role": "High-Performance Sports Dietitian · IOC Dip. Sports Nutrition",
+   "y": 0.47
+  }
+ ],
+ "sfx": [
+  {
+   "at": 11.97,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.35
+  },
+  {
+   "at": 30.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.35
+  }
+ ],
+ "layout": "full",
+ "captions": "creator",
+ "cap_y": 0.62,
+ "jump_zoom": [
+  1.42,
+  1.6
+ ],
+ "stamps": [
+  {
+   "at": 25.17,
+   "text": "MAX 4,000 IU",
+   "color": "#FFB238",
+   "dur": 1.3,
+   "y": 0.2
+  }
+ ],
+ "hook": {
+  "text": [
+   "Take this every day",
+   "October to April"
+  ],
+  "until": 3.0,
+  "y": 0.11
+ },
+ "_est": 39.4
+}

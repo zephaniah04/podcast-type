@@ -1,0 +1,100 @@
+{
+ "id": "C14",
+ "slug": "fine-balance",
+ "title": "Gain muscle without getting slower",
+ "topic": "Body composition",
+ "format": "short",
+ "look_name": "C clean minimal",
+ "accent": "#FFB238",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "keywords": [],
+ "tighten": 0.35,
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 1774.54,
+   "end": 1789.1,
+   "cx": "left",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1793.52,
+   "end": 1805.08,
+   "cx": "right",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1805.02,
+   "end": 1824.1,
+   "cx": "right",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1879.9,
+   "end": 1888.72,
+   "cx": "right",
+   "cy": 0.36
+  }
+ ],
+ "names": [],
+ "sfx": [],
+ "layout": "full",
+ "captions": "minimal",
+ "cap_y": 0.7,
+ "jump_zoom": [
+  1.42,
+  1.58
+ ],
+ "hook": {
+  "text": [
+   "Stronger AND faster",
+   "in 4 months?"
+  ],
+  "until": 3.0,
+  "y": 0.11
+ },
+ "_est": 48.1
+}

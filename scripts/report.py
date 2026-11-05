@@ -33,13 +33,15 @@ def main():
     rows = []
     for p in specs:
         sp = json.load(open(p, encoding="utf-8"))
+        if sp.get("_piece"):  # internal render chunk of a long-form, not a deliverable
+            continue
         segs = [s for s in sp.get("segments", []) if not s.get("card")]
         est = sum(s["end"] - s["start"] for s in segs) + sum(float(s.get("dur", 0)) for s in sp.get("segments", []) if s.get("card"))
         est += float(sp.get("endcard", {}).get("dur", 0)) if sp.get("endcard") else 0
         out = os.path.join(a.exports, f"{sp['id']}_{sp.get('slug', 'edit')}.mp4") if a.exports else None
         real = rendered_dur(out)
         long_ = sp.get("format") == "long"
-        src = ", ".join(f"{mmss(s['start'])}-{mmss(s['end'])}" for s in segs[:4]) + (" ..." if len(segs) > 4 else "")
+        src = sp.get("source") or ", ".join(f"{mmss(s['start'])}-{mmss(s['end'])}" for s in segs[:4]) + (" ..." if len(segs) > 4 else "")
         rows.append({
             "ID": sp["id"],
             "Type": "Long-form (YouTube)" if long_ else "Reel / Short",
@@ -49,7 +51,7 @@ def main():
             "Length": mmss(real if real else est),
             "Seconds": round(real if real else est, 1),
             "Source (raw timecodes)": src if not long_ else f"{len(segs)} segments",
-            "B-roll": sum(1 for s in segs if s.get("broll")),
+            "B-roll": sp.get("broll_count", sum(1 for s in segs if s.get("broll"))),
             "Status": "Rendered" if real else "Planned",
             "File": os.path.basename(out) if real else "",
         })

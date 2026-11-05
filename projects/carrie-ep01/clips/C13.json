@@ -1,0 +1,120 @@
+{
+ "id": "C13",
+ "slug": "shake-not-enough",
+ "title": "A protein shake alone won't recover you",
+ "topic": "Recovery",
+ "format": "short",
+ "look_name": "A letterbox lockup",
+ "accent": "#FFB238",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "keywords": [
+  "never",
+  "not enough",
+  "real food",
+  "something"
+ ],
+ "tighten": 0.35,
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 146.32,
+   "end": 155.5,
+   "cx": "right",
+   "zoom": 1.35,
+   "cy": 0.4,
+   "open": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 155.6,
+   "end": 170.88,
+   "cx": "right",
+   "zoom": 1.35,
+   "cy": 0.4
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2045.23,
+   "end": 2054.61,
+   "cx": "right",
+   "zoom": 1.35,
+   "cy": 0.4
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2063.63,
+   "end": 2067.63,
+   "cx": "right",
+   "zoom": 1.35,
+   "cy": 0.4
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2079.76,
+   "end": 2083.96,
+   "cx": 0.5,
+   "zoom": 1.0,
+   "cy": 0.5
+  }
+ ],
+ "names": [],
+ "sfx": [
+  {
+   "at": 0.0,
+   "file": "whoosh_soft2.mp3",
+   "vol": 0.3
+  }
+ ],
+ "layout": "letterbox",
+ "captions": "lockup",
+ "cap_y": 0.76,
+ "hook": {
+  "text": [
+   "A protein shake",
+   "is NOT a meal"
+  ],
+  "until": 999,
+  "y": 0.19
+ },
+ "_est": 41.1
+}

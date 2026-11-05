@@ -1,0 +1,152 @@
+{
+ "id": "C04",
+ "slug": "two-gels",
+ "title": "2 gels in 1:42 of racing isn't enough",
+ "topic": "Race fuelling",
+ "format": "short",
+ "look_name": "B creator hyper-edit",
+ "accent": "#FFB238",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "keywords": [
+  "carbs",
+  "consistency",
+  "gels"
+ ],
+ "tighten": 0.35,
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 1000.91,
+   "end": 1013.91,
+   "cx": "left",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1017.85,
+   "end": 1021.53,
+   "cx": "left",
+   "cy": 0.26,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/C04_1.mp4",
+    "panel": "top",
+    "push": 0
+   },
+   "zoom": 2.0,
+   "tighten": 0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1643.12,
+   "end": 1667.04,
+   "cx": "right",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1667.82,
+   "end": 1676.14,
+   "cx": "left",
+   "cy": 0.26,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/C04_2.mp4",
+    "panel": "top",
+    "push": 0
+   },
+   "zoom": 2.0,
+   "tighten": 0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1681.52,
+   "end": 1688.4,
+   "cx": "right",
+   "cy": 0.36,
+   "zoom": 1.6
+  }
+ ],
+ "names": [
+  {
+   "at": 0.25,
+   "dur": 2.6,
+   "name": "Nizam",
+   "role": "Training to become an endurance athlete",
+   "y": 0.47
+  },
+  {
+   "at": 16.08,
+   "dur": 2.6,
+   "name": "Carrie Mullin Innes",
+   "role": "High-Performance Sports Dietitian · IOC Dip. Sports Nutrition",
+   "y": 0.47
+  }
+ ],
+ "sfx": [
+  {
+   "at": 12.17,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.35
+  },
+  {
+   "at": 38.8,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.35
+  }
+ ],
+ "layout": "full",
+ "captions": "creator",
+ "cap_y": 0.62,
+ "jump_zoom": [
+  1.42,
+  1.6
+ ],
+ "hook": {
+  "text": [
+   "Your last 1K",
+   "took twice as long?"
+  ],
+  "until": 3.0,
+  "y": 0.11
+ },
+ "_est": 54.0
+}

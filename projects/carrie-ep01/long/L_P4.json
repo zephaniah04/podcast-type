@@ -1,0 +1,143 @@
+{
+ "_piece": true,
+ "id": "L_P4",
+ "slug": "body",
+ "format": "long",
+ "title": "Body P4",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.9,
+  "zoom_right": 1.55,
+  "punch": 1.1,
+  "wide_every": 4,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "none",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 2299.93,
+   "end": 2302.79,
+   "chapter": "Can I Gain Muscle Before Race Day?",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T15.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2302.79,
+   "end": 2604.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2604.98,
+   "end": 2607.1,
+   "chapter": "Meal Prep and Why Dinner Matters After Night Workouts",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T16.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2607.1,
+   "end": 2624.8
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2624.8,
+   "end": 2632.0,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P4_i34.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2632.0,
+   "end": 2776.46
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2776.46,
+   "end": 2783.56,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P4_i35.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2783.56,
+   "end": 2825.2
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2825.1,
+   "end": 2828.32,
+   "chapter": "Real Food vs Multivitamins",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T17.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2828.32,
+   "end": 3070.5
+  }
+ ]
+}

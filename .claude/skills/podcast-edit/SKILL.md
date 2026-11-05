@@ -178,3 +178,18 @@ chapter (writes `_chapters.txt` for the YouTube description). Render 20-30 min s
 - 2026-11-04: v1. Engine verified on reference stand-in footage: letterbox band-open, lockups, creator stack,
   split, band blur-fill, B&W look, counters, stamps, stacks, end card, jump-cut tightening, chapters, -14 LUFS.
   `alimiter` auto-levels by default in ffmpeg 6 — always `level=0`. OpenCV 5 has no Haar cascades — pin 4.12.
+- 2026-11-05 (Carrie ep01, 25 shorts + 3 long-forms, built overnight):
+  - **Speakers by voice pitch** (`scripts/pitch_speakers.py --split <Hz> --win 1.5`) when someone faces away from the
+    camera (mouth motion labels were ~50% wrong). Measure each voice on a known stretch first (male ~130 Hz, female
+    ~165 Hz here -> split 148). Still set `cx` per part by hand from the content for shorts.
+  - **Cut on phrases, not transcript lines**: Whisper lines start mid-sentence. Anchor every part with a from/to
+    phrase (see `projects/carrie-ep01/build_shorts.py` EDGES + `anchor()`), start after the previous word's end,
+    end before the next word's start. Otherwise clips open on "home." / end on "What".
+  - **Cards in a top panel** (`broll.panel: "top"`, card 1080x960 from `scripts/cards.py`) keep the talker visible;
+    start the card when its first item is spoken (no 5+ s of empty card); bottom crop `zoom 2.0, cy 0.26`;
+    captions drop to `cap_y 0.88` on those segments automatically.
+  - Look A: captions under the band (`cap_y 0.76`), headline held the whole clip. Names never overlap: dur <= shot.
+  - Long-forms: `auto_frame` with `min_turn 1.6` (no choppy cuts from label flips) and `zoom_right` wider for a
+    person at a desk; chapter title card over the first 3 s of each chapter with `nocaps`; render the body in chunks
+    once and build the halves (L02/L03) from the same chunks + their own cold open.
+  - Windows: NVENC failed on this driver (needs 610+); `PODCAST_HWDEC=cuda` GPU *decode* still speeds 4K HEVC cuts.

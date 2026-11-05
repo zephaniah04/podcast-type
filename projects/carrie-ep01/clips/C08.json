@@ -1,0 +1,120 @@
+{
+ "id": "C08",
+ "slug": "chatgpt-dietitian",
+ "title": "ChatGPT was my dietitian. Omega-3 doesn't burn fat",
+ "topic": "Supplements myths",
+ "format": "short",
+ "look_name": "B creator hyper-edit",
+ "accent": "#FFB238",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "keywords": [
+  "ChatGPT",
+  "burn",
+  "carbs and protein"
+ ],
+ "tighten": 0.35,
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 555.96,
+   "end": 570.12,
+   "cx": "left",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 29.28,
+   "end": 34.06,
+   "cx": "left",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 38.9,
+   "end": 55.86,
+   "cx": "right",
+   "cy": 0.36,
+   "zoom": 1.6
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 71.6,
+   "end": 83.96,
+   "cx": "right",
+   "cy": 0.36
+  }
+ ],
+ "names": [
+  {
+   "at": 0.25,
+   "dur": 2.6,
+   "name": "Nizam",
+   "role": "Training to become an endurance athlete",
+   "y": 0.47
+  },
+  {
+   "at": 18.62,
+   "dur": 2.6,
+   "name": "Carrie Mullin Innes",
+   "role": "High-Performance Sports Dietitian · IOC Dip. Sports Nutrition",
+   "y": 0.47
+  }
+ ],
+ "sfx": [],
+ "layout": "full",
+ "captions": "creator",
+ "cap_y": 0.62,
+ "jump_zoom": [
+  1.42,
+  1.6
+ ],
+ "hook": {
+  "text": [
+   "ChatGPT was",
+   "my dietitian"
+  ],
+  "until": 3.0,
+  "y": 0.11
+ },
+ "_est": 45.5
+}

@@ -1,0 +1,139 @@
+{
+ "id": "C22",
+ "slug": "no-cook-dinners",
+ "title": "Too tired to cook after training? Eat this",
+ "topic": "Quick meals",
+ "format": "short",
+ "look_name": "B creator hyper-edit",
+ "accent": "#FFB238",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "keywords": [
+  "overnight oats",
+  "sandwich",
+  "eggs"
+ ],
+ "tighten": 0.35,
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 1513.26,
+   "end": 1528.88,
+   "cx": "right",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1605.75,
+   "end": 1609.37,
+   "cx": "right",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1842.0,
+   "end": 1846.44,
+   "cx": "right",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1863.7,
+   "end": 1881.04,
+   "cx": "right",
+   "cy": 0.26,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/C22_1.mp4",
+    "panel": "top",
+    "push": 0
+   },
+   "zoom": 2.0,
+   "tighten": 0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1881.8,
+   "end": 1884.1,
+   "cx": "left",
+   "cy": 0.36
+  }
+ ],
+ "names": [
+  {
+   "at": 0.25,
+   "dur": 2.6,
+   "name": "Carrie Mullin Innes",
+   "role": "High-Performance Sports Dietitian · IOC Dip. Sports Nutrition",
+   "y": 0.47
+  },
+  {
+   "at": 38.12,
+   "dur": 1.85,
+   "name": "Nizam",
+   "role": "Training to become an endurance athlete",
+   "y": 0.47
+  }
+ ],
+ "sfx": [
+  {
+   "at": 20.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.35
+  }
+ ],
+ "layout": "full",
+ "captions": "creator",
+ "cap_y": 0.62,
+ "jump_zoom": [
+  1.42,
+  1.6
+ ],
+ "hook": {
+  "text": [
+   "Too tired",
+   "to cook tonight?"
+  ],
+  "until": 3.0,
+  "y": 0.11
+ },
+ "_est": 40.2
+}

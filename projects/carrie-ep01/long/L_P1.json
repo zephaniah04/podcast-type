@@ -1,0 +1,271 @@
+{
+ "_piece": true,
+ "id": "L_P1",
+ "slug": "body",
+ "format": "long",
+ "title": "Body P1",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.9,
+  "zoom_right": 1.55,
+  "punch": 1.1,
+  "wide_every": 4,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "minimal",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 68.5,
+   "end": 70.82,
+   "chapter": "What I Eat in a Day as a HYROX Athlete",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T01.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 70.82,
+   "end": 364.7
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 364.6,
+   "end": 367.38,
+   "chapter": "How Much Water You Actually Need",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T02.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 367.38,
+   "end": 396.56
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 396.56,
+   "end": 403.74,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P1_i2.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 403.74,
+   "end": 538.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 537.92,
+   "end": 541.26,
+   "chapter": "ChatGPT Was My Dietitian: Supplements and Vitamin D",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T03.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 541.26,
+   "end": 665.92
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 665.92,
+   "end": 673.06,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P1_i4.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 673.06,
+   "end": 727.57
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 727.57,
+   "end": 734.73,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P1_i5.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 734.73,
+   "end": 742.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 741.95,
+   "end": 745.37,
+   "chapter": "Salt on My Face and Cramps in Every HYROX",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T04.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 745.37,
+   "end": 787.77
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 787.77,
+   "end": 795.01,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P1_i7.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 795.01,
+   "end": 1015.79
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1015.79,
+   "end": 1022.83,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P1_i8.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1022.83,
+   "end": 1086.1
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1086.0,
+   "end": 1089.02,
+   "chapter": "The 1 kg = 1 Litre Sweat Test",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T05.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1089.02,
+   "end": 1265.58
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1265.58,
+   "end": 1272.86,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P1_i10.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1272.86,
+   "end": 1279.14
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1279.14,
+   "end": 1286.3,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P1_i11.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1286.3,
+   "end": 1418.8
+  }
+ ],
+ "captions_until": 25,
+ "names": [
+  {
+   "at": 3.5,
+   "dur": 4.0,
+   "name": "Carrie Mullin Innes",
+   "role": "High-Performance Sports Dietitian · IOC Dip. Sports Nutrition",
+   "x": 0.55,
+   "y": 0.7
+  },
+  {
+   "at": 8.0,
+   "dur": 4.0,
+   "name": "Nizam",
+   "role": "Training to become an endurance athlete",
+   "x": 0.06,
+   "y": 0.7
+  }
+ ]
+}

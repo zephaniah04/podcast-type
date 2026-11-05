@@ -86,7 +86,8 @@ def faces_x(path, t, n=1):
     import cv2
     w, h = probe(path)
     sw, shh = 640, int(640 * h / w) // 2 * 2
-    p = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{t:.2f}", "-i", path, "-frames:v", "1",
+    hw = ["-hwaccel", os.environ["PODCAST_HWDEC"]] if os.environ.get("PODCAST_HWDEC") else []
+    p = subprocess.run(["ffmpeg", "-v", "error", *hw, "-ss", f"{t:.2f}", "-i", path, "-frames:v", "1",
                         "-vf", f"scale={sw}:{shh}", "-f", "rawvideo", "-pix_fmt", "gray", "-"],
                        capture_output=True)
     if len(p.stdout) != sw * shh:
@@ -127,13 +128,52 @@ def face_sides(path):
     return _sides[path]
 
 
+TXDIR = None
+_tracks = {}
+
+
+def face_track(path, step=8.0):
+    """Static wide camera, people who lean and turn: left/right face x-centres sampled every `step` s over the whole
+    file (cached in <tx>/<clip>_faces.json). Returns sorted [(t, left_x|None, right_x|None)]."""
+    if path in _tracks:
+        return _tracks[path]
+    name = os.path.splitext(os.path.basename(path))[0]
+    cache = os.path.join(TXDIR or tempfile.gettempdir(), name + "_faces.json")
+    if os.path.exists(cache):
+        _tracks[path] = json.load(open(cache))
+        return _tracks[path]
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path],
+                               capture_output=True, text=True).stdout.strip() or 10)
+    tr = []
+    for t in np.arange(1.0, dur - 1, step):
+        xs = faces_x(path, float(t), 3)
+        l = [x for x in xs if x < 0.56]; r = [x for x in xs if x >= 0.56]
+        tr.append((float(t), l[-1] if l else None, r[0] if r else None))
+        print(f"  faces {t:.0f}/{dur:.0f}s", end="\r", flush=True)
+    json.dump(tr, open(cache, "w"))
+    _tracks[path] = tr
+    return tr
+
+
+def tracked_x(path, t0, t1, side):
+    """Median face x of `side` near [t0, t1] from the track; falls back to the file-wide median."""
+    tr = face_track(path)
+    k = 1 if side == "left" else 2
+    allv = [p[k] for p in tr if p[k] is not None]
+    if not allv:
+        return 0.3 if side == "left" else 0.75
+    near = [p[k] for p in tr if p[k] is not None and t0 - 12 <= p[0] <= t1 + 12]
+    return float(np.median(near if near else allv))
+
+
 def resolve_cx(seg, path, which="cx"):
     v = seg.get(which, "auto")
     if isinstance(v, (int, float)):
         return float(v)
     if v in ("left", "right") and seg.get("_static", True):
-        l, r = face_sides(path)
-        return l if v == "left" else r
+        x = tracked_x(path, seg["start"], seg["end"], v)
+        # lead room: people face each other, so shift the crop toward where they look (Nizam looks right, Carrie left)
+        return x + (0.035 if v == "left" else -0.03)
     mid = (seg["start"] + seg["end"]) / 2
     if v == "auto":
         xs = [x for t in (seg["start"] + 0.3, mid, seg["end"] - 0.3) for x in faces_x(path, t, 1)]
@@ -182,7 +222,8 @@ def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
     sync = spec.get("sync", {})
     vs = seg["start"] - float(sync.get(seg["clip"], 0.0))
     vseg = {**seg, "start": vs, "end": vs + d}
-    inputs = ["-ss", f"{vs:.3f}", "-t", f"{d:.3f}", "-i", path]
+    hw = ["-hwaccel", os.environ["PODCAST_HWDEC"]] if os.environ.get("PODCAST_HWDEC") else []  # e.g. cuda: GPU-decode 4K HEVC
+    inputs = [*hw, "-ss", f"{vs:.3f}", "-t", f"{d:.3f}", "-i", path]
 
     br = seg.get("broll")
     if br:  # B-roll over the speaker's voice: picture from the B-roll file, audio (and captions) from the clip
@@ -193,13 +234,20 @@ def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
             inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{d:.3f}", "-i", bpath]
         else:
             inputs += ["-stream_loop", "-1", "-ss", f"{float(br.get('at', 0)):.3f}", "-t", f"{d:.3f}", "-i", bpath]
-        tw, th = (W, int(W * 9 / 16) // 2 * 2) if (layout == "letterbox" and H > W) else (W, H)
+        panel = br.get("panel")  # "top": card/B-roll in the top half, the talker cropped in the bottom half
+        tw, th = (W, int(W * 9 / 16) // 2 * 2) if (layout == "letterbox" and H > W) else (W, H // 2) if panel else (W, H)
         push = float(br.get("push", 0.06 if still else 0.03))  # slow push-in (Ken Burns); 0 = static
         n = max(int(d * FPS), 1)
+        zp = (f"zoompan=z='1+{push}*on/{n}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={tw}x{th}:fps={FPS}"
+              if push > 0 else f"scale={tw}:{th}")
         fc = (f"[1:v]{crop_expr(bw, bhh, tw / th, 1.0, float(br.get('cx', 0.5)), float(br.get('cy', 0.5)))},"
-              f"scale={tw * 2}:{th * 2}:flags=lanczos,fps={FPS},"
-              f"zoompan=z='1+{push}*on/{n}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={tw}x{th}:fps={FPS}{lk}")
-        if (tw, th) != (W, H):
+              f"scale={tw * 2 if push > 0 else tw}:{th * 2 if push > 0 else th}:flags=lanczos,fps={FPS},{zp}{lk if not panel else ''}")
+        if panel:
+            hh = H - th
+            cx = resolve_cx(vseg, path) if "cx" not in seg or not isinstance(seg.get("cx"), (int, float)) else float(seg["cx"])
+            fc += (f"[t];[0:v]{crop_expr(sw, sh_, W / hh, max(z, 1.0), cx, float(seg.get('cy', 0.40)))},scale={W}:{hh}:flags=lanczos{lk}[b];"
+                   f"[t][b]vstack,drawbox=x=0:y={th - 3}:w=iw:h=6:color={spec.get('accent', '#FFB238').replace('#', '0x')}@1:t=fill")
+        elif (tw, th) != (W, H):
             fc += f",pad={W}:{H}:0:(oh-ih)/2:black"
         fc += "[v]"
     elif layout == "full" or W > H:  # long-form is always full frame
@@ -244,7 +292,7 @@ def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
     if master and master != seg["clip"]:  # sound always from the master camera / best mic
         amap = f"{inputs.count('-i')}:a:0"
         inputs += ["-ss", f"{seg['start']:.3f}", "-t", f"{d:.3f}", "-i", find_clip(src, master)]
-    af = f"aresample=48000,apad,atrim=0:{dq:.6f},afade=t=in:d=0.03,afade=t=out:st={max(dq - 0.04, 0):.3f}:d=0.04"
+    af = ("volume=0," if seg.get("mute") else "") + f"aresample=48000,apad,atrim=0:{dq:.6f},afade=t=in:d=0.03,afade=t=out:st={max(dq - 0.04, 0):.3f}:d=0.04"
     sh(["ffmpeg", "-y", "-v", "error", *inputs, "-filter_complex", fc, "-map", "[vo]", "-map", amap,
         "-af", af, "-ac", "2", *enc, "-fps_mode", "passthrough", "-c:a", "pcm_s16le", out])
     return dq
@@ -417,13 +465,14 @@ def tag(font, size, x, y, an=5, color="FFFFFF", sp=0, extra=""):
             f"\\shad{2 if size < 90 else 3}\\4a&H90&\\blur0.6{extra}}}")
 
 
-def caption_events(ass, caps, limits, keywords, style, cfg, accent):
+def caption_events(ass, caps, limits, keywords, style, cfg, accent, ys=None):
     """caps: chunks [[st, en, word], ...] on the output timeline; limits: end of each chunk's segment
     (a caption never runs past its own cut, so nothing spills onto the next shot or a card)."""
     W, H = ass.W, ass.H
     sc = W / 1080 if H > W else H / 1080 * 0.9  # size scale: short = 1, long ~0.9
-    x0, y0 = W / 2, cfg["cap_y"] * H
+    x0 = W / 2
     for i, c in enumerate(caps):
+        y0 = (ys[i] if ys and ys[i] is not None else cfg["cap_y"]) * H
         st = c[0][0]
         en = caps[i + 1][0][0] if i + 1 < len(caps) else c[-1][1] + 0.35
         en = min(en, c[-1][1] + 0.5, limits[i])
@@ -583,6 +632,8 @@ def main():
     a = ap.parse_args()
 
     spec = json.load(open(a.spec, encoding="utf-8")); rid = spec["id"]
+    global TXDIR
+    TXDIR = a.tx
     fmt_ = spec.get("format", "short")
     W, H = (1080, 1920) if fmt_ == "short" else (1920, 1080)
     style = spec.get("captions", "lockup" if fmt_ == "short" else "none")
@@ -610,6 +661,7 @@ def main():
         tight = float(af_.get("zoom", 1.9 if fmt_ == "long" else 1.0))  # 4K two-shot: 2.0 = one person at native 1080p
         punch = float(af_.get("punch", 1.12))
         every = int(af_.get("wide_every", 4))
+        mt = float(af_.get("min_turn", 0.4))  # shortest shot a speaker change may create
         split = []  # first cut every piece at speaker changes (midpoint of the gap between the two words)
         for p in segs:
             jp = os.path.join(a.tx, (spec.get("master") or p.get("clip", "")) + ".json")
@@ -621,7 +673,7 @@ def main():
             for w0, w1 in zip(ws, ws[1:]):
                 if w0[4] != w1[4]:
                     cut = round((w0[1] + w1[0]) / 2, 3)
-                    if cut - cur > 0.4 and p["end"] - cut > 0.4:
+                    if cut - cur > mt and p["end"] - cut > mt:
                         split.append({**p, "start": cur, "end": cut}); cur = cut
                         p = {k: v for k, v in p.items() if k != "chapter"}
             split.append({**p, "start": cur})
@@ -639,13 +691,16 @@ def main():
                 p.update(cx=0.5, zoom=1.0)  # wide: both people (long-form) / centre (shorts)
             else:
                 side = "left" if who == "L" else "right"
-                z = tight * (punch if (who == last and k % 2) else 1.0)  # same speaker continues: alternate punch-in
+                tz = float(af_.get("zoom_" + side, tight))  # per-person framing (e.g. wider on someone facing a desk)
+                z = tz * (punch if (who == last and k % 2) else 1.0)  # same speaker continues: alternate punch-in
                 p.update(cx=side, zoom=round(z, 3))
+                p.setdefault("cy", float(af_.get("cy", 0.36)))
             last = who
     if spec.get("endcard"):
         segs.append({"card": True, **spec["endcard"]})
 
     parts, caps, limits, t, chapters = [], [], [], 0.0, []
+    cys = []
     keywords = [k.lower() for k in spec.get("keywords", [])]
     maxw = {"minimal": 4, "lockup": 5, "creator": 4}.get(style, 4)
     for i, seg in enumerate(segs):
@@ -666,13 +721,14 @@ def main():
                 for c in chunk([[max(w[0], 0) + t, min(w[1], d) + t, w[2]] for w in words], maxw):
                     if cu is None or c[0][0] < float(cu):
                         caps.append(c); limits.append(min(t + d, float(cu)) if cu is not None else t + d)
+                        cys.append(seg.get("cap_y", 0.88 if (seg.get("broll") or {}).get("panel") else None))
         t += d
         print(f"  cut {i + 1}/{len(segs)}", end="\r", flush=True)
     total = t
     print()
 
     ass = ASS(W, H); sfx = []
-    caption_events(ass, caps, limits, keywords, style, cfg, spec.get("accent", "#FFFFFF"))
+    caption_events(ass, caps, limits, keywords, style, cfg, spec.get("accent", "#FFFFFF"), cys)
     build_overlays(ass, spec, total, cfg, sfx)
     for s in spec.get("sfx", []):  # manual hits: {"at": 3.2, "file": "whoosh_fast.mp3", "vol": 0.4}
         sfx.append((s["file"], float(s["at"]), float(s.get("vol", 0.4))))

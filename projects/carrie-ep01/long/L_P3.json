@@ -1,0 +1,190 @@
+{
+ "_piece": true,
+ "id": "L_P3",
+ "slug": "body",
+ "format": "long",
+ "title": "Body P3",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.9,
+  "zoom_right": 1.55,
+  "punch": 1.1,
+  "wide_every": 4,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "none",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 247.98,
+   "end": 251.04,
+   "chapter": "Why 50 g of Protein Is Plenty",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T11.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 251.04,
+   "end": 741.3
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 741.19,
+   "end": 744.47,
+   "chapter": "The 5-Hour Gap Before Evening Training",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T12.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 744.47,
+   "end": 857.05
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 857.05,
+   "end": 864.17,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P3_i26.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 864.17,
+   "end": 1095.5
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1095.41,
+   "end": 1098.85,
+   "chapter": "I Loaded Up on Protein and Forgot Carbs",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T13.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1098.85,
+   "end": 1108.39
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1108.39,
+   "end": 1115.57,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P3_i28.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1115.57,
+   "end": 1451.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1450.94,
+   "end": 1454.1,
+   "chapter": "Too Tired to Cook: No-Cook Recovery Dinners",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T14.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1454.1,
+   "end": 1703.93
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1703.93,
+   "end": 1711.17,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P3_i30.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1711.17,
+   "end": 1863.7
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1863.7,
+   "end": 1870.0,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/P3_i31.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1870.0,
+   "end": 2300.0
+  }
+ ]
+}

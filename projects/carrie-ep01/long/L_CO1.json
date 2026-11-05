@@ -1,0 +1,190 @@
+{
+ "_piece": true,
+ "id": "L_CO1",
+ "slug": "open",
+ "format": "long",
+ "title": "Cold open CO1",
+ "topic": "cold open",
+ "tighten": 0.35,
+ "captions": "lockup",
+ "cap_y": 0.8,
+ "accent": "#FFB238",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "keywords": [
+  "fall",
+  "salt",
+  "kilo",
+  "harder",
+  "two gels",
+  "ChatGPT",
+  "not enough",
+  "carbs",
+  "fruit",
+  "mass",
+  "muscle",
+  "twice",
+  "4,000",
+  "plenty",
+  "consistency",
+  "energy"
+ ],
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 872.87,
+   "end": 880.13,
+   "cx": "left",
+   "zoom": 1.9,
+   "cy": 0.38,
+   "look": "bw"
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 777.11,
+   "end": 783.81,
+   "cx": "left",
+   "zoom": 1.9,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1257.86,
+   "end": 1270.18,
+   "cx": "right",
+   "zoom": 1.55,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1602.76,
+   "end": 1609.38,
+   "cx": "right",
+   "zoom": 1.55,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1017.85,
+   "end": 1021.53,
+   "cx": "left",
+   "zoom": 1.9,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 555.96,
+   "end": 560.46,
+   "cx": "left",
+   "zoom": 1.9,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2063.63,
+   "end": 2067.61,
+   "cx": "right",
+   "zoom": 1.55,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1143.51,
+   "end": 1152.43,
+   "cx": "left",
+   "zoom": 1.9,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 896.09,
+   "end": 899.89,
+   "cx": "right",
+   "zoom": 1.55,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2799.0,
+   "end": 2808.46,
+   "cx": "right",
+   "zoom": 1.55,
+   "cy": 0.38,
+   "look": "bw"
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2508.66,
+   "end": 2515.58,
+   "cx": "left",
+   "zoom": 1.9,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2525.1,
+   "end": 2528.18,
+   "cx": "right",
+   "zoom": 1.55,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 0.0,
+   "end": 3.5,
+   "nocaps": true,
+   "tighten": 0,
+   "mute": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/CO1_title.mp4",
+    "push": 0
+   }
+  }
+ ],
+ "sfx": [
+  {
+   "at": 0.0,
+   "file": "whoosh_slow.mp3",
+   "vol": 0.3
+  }
+ ]
+}

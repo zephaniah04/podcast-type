@@ -1,0 +1,118 @@
+{
+ "id": "C06",
+ "slug": "1000mg-sodium",
+ "title": "1,000 mg of sodium in one packet",
+ "topic": "Electrolytes",
+ "format": "short",
+ "look_name": "B creator hyper-edit",
+ "accent": "#FFB238",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "keywords": [
+  "sodium",
+  "salty sweater",
+  "train"
+ ],
+ "tighten": 0.35,
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 1535.16,
+   "end": 1539.54,
+   "cx": "right",
+   "cy": 0.26,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/C06_1.mp4",
+    "panel": "top",
+    "push": 0
+   },
+   "zoom": 2.0,
+   "tighten": 0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1503.26,
+   "end": 1516.12,
+   "cx": "right",
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1539.52,
+   "end": 1547.92,
+   "cx": "right",
+   "cy": 0.36,
+   "zoom": 1.6
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1551.56,
+   "end": 1563.02,
+   "cx": "right",
+   "cy": 0.36
+  }
+ ],
+ "names": [],
+ "sfx": [
+  {
+   "at": 0.0,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.35
+  }
+ ],
+ "layout": "full",
+ "captions": "creator",
+ "cap_y": 0.62,
+ "jump_zoom": [
+  1.42,
+  1.6
+ ],
+ "hook": {
+  "text": [
+   "1,000 mg of sodium",
+   "in ONE packet"
+  ],
+  "until": 3.0,
+  "y": 0.11
+ },
+ "_est": 36.6
+}
