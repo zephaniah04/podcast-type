@@ -1,0 +1,79 @@
+{
+ "id": "T12_V3",
+ "slug": "cardiac-drift",
+ "layout": "full",
+ "captions": "creator",
+ "accent": "#FF5A1F",
+ "cap_y": 0.68,
+ "jump_zoom": [
+  1.0,
+  1.18
+ ],
+ "names": [
+  {
+   "at": 3.666666666666667,
+   "dur": 2.8,
+   "name": "Coach Cal",
+   "role": "Calvin Zaryski · XTERRA world champion",
+   "y": 0.16,
+   "x": 0.07
+  }
+ ],
+ "stamps": [
+  {
+   "at": 11.91,
+   "text": "CARDIAC DRIFT",
+   "color": "#FF5A1F",
+   "dur": 1.3,
+   "y": 0.2
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 646.0,
+   "end": 649.48,
+   "cx": 0.71,
+   "zoom": 1.28,
+   "cy": 0.42,
+   "tighten": 0
+  },
+  {
+   "card": true,
+   "dur": 0.12,
+   "bg": [
+    "0x000000",
+    "0x000000"
+   ]
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 622.92,
+   "end": 667.57,
+   "cx": 0.71
+  }
+ ],
+ "title": "Why your heart rate creeps up on the bike",
+ "topic": "Why your heart rate creeps up on the bike",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "drift",
+  "dehydrated",
+  "160",
+  "162",
+  "zone",
+  "alarmed"
+ ],
+ "tighten": 0.35
+}

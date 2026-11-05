@@ -1,0 +1,122 @@
+{
+ "id": "T08_V1",
+ "slug": "lactate-threshold",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · LACTATE TEST",
+  "text": "FIND THE POINT WHERE LACTATE JUMPS",
+  "box": "JUMPS",
+  "until": 8.9
+ },
+ "panels": [
+  {
+   "label": "160 → 220 WATTS",
+   "text": "LINEAR. AEROBIC SYSTEM HANDLES IT.",
+   "accent": "LINEAR.",
+   "at": 9.0,
+   "dur": 29.060000000000002
+  },
+  {
+   "label": "YOUR LACTATE CURVE",
+   "lines": [
+    {
+     "pts": [
+      [
+       0,
+       0.85
+      ],
+      [
+       0.2,
+       0.83
+      ],
+      [
+       0.4,
+       0.79
+      ],
+      [
+       0.6,
+       0.72
+      ],
+      [
+       0.7,
+       0.6
+      ],
+      [
+       0.8,
+       0.42
+      ],
+      [
+       0.9,
+       0.22
+      ],
+      [
+       1,
+       0.05
+      ]
+     ],
+     "color": "A"
+    }
+   ],
+   "notes": [
+    "▲ ~225-230 W",
+    "= LACTATE THRESHOLD / FTP"
+   ],
+   "at": 38.06,
+   "dur": 16.956666666666663
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 461.72,
+   "end": 500.61
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 500.61,
+   "end": 503.21000000000004,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031901_C023.mov",
+    "at": 44.0,
+    "cx": 0.42,
+    "cy": 0.5
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 503.21000000000004,
+   "end": 517.77
+  }
+ ],
+ "title": "Find the point where your lactate jumps",
+ "topic": "Find the point where your lactate jumps",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "lactate",
+  "linear",
+  "threshold",
+  "FTP",
+  "jumps",
+  "curvilinear",
+  "aerobic"
+ ],
+ "tighten": 0.35
+}

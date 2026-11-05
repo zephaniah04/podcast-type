@@ -1,0 +1,82 @@
+{
+ "id": "T19_V1",
+ "slug": "aid-station-crashes",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · BIKE SAFETY",
+  "text": "MOST BIKE CRASHES HAPPEN HERE",
+  "box": "CRASHES",
+  "until": 2.77
+ },
+ "panels": [
+  {
+   "label": "DANGER ZONE",
+   "text": "AID STATIONS",
+   "accent": "AID",
+   "at": 2.87,
+   "dur": 4.460000000000001
+  },
+  {
+   "label": "HOW TO GET THROUGH",
+   "notes": [
+    "→ SLOW DOWN",
+    "→ SAY IT + POINT",
+    "→ DROP BACK FROM GROUPS"
+   ],
+   "at": 7.33,
+   "dur": 25.08666666666667
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 1038.7,
+   "end": 1046.13
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 1046.13,
+   "end": 1048.73,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031919_C035.mov",
+    "at": 10.0,
+    "cx": 0.66,
+    "cy": 0.45
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 1048.73,
+   "end": 1071.27
+  }
+ ],
+ "title": "Most bike crashes happen at aid stations",
+ "topic": "Most bike crashes happen at aid stations",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "crashes",
+  "accidents",
+  "verbal",
+  "slow",
+  "clear"
+ ],
+ "tighten": 0.35
+}

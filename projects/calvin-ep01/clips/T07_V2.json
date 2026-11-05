@@ -1,0 +1,85 @@
+{
+ "id": "T07_V2",
+ "slug": "why-lactate-test",
+ "layout": "full",
+ "captions": "bold",
+ "accent": "#FFD60A",
+ "cap_y": 0.7,
+ "cap_size": 70,
+ "cap_spacing": 3,
+ "cap_outline": 5,
+ "jump_zoom": [
+  1.0,
+  1.15
+ ],
+ "segments": [
+  {
+   "clip": "A001_09031846_C006",
+   "start": 20.57,
+   "end": 54.75,
+   "cx": 0.3
+  },
+  {
+   "clip": "A001_09031846_C006",
+   "start": 54.75,
+   "end": 56.55,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031846_C006.mov",
+    "cx": 0.68,
+    "cy": 0.5,
+    "at": 54.75,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09031846_C006",
+   "start": 56.55,
+   "end": 74.89,
+   "cx": 0.3
+  },
+  {
+   "clip": "A001_09031846_C006",
+   "start": 74.89,
+   "end": 77.29,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031901_C023.mov",
+    "at": 44.0,
+    "cx": 0.42,
+    "cy": 0.5,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09031846_C006",
+   "start": 77.29,
+   "end": 80.56,
+   "cx": 0.3
+  }
+ ],
+ "title": "12 days out: why we tested his blood",
+ "topic": "12 days out: why we tested his blood",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "override",
+  "overriding",
+  "precise",
+  "run",
+  "marathon",
+  "struggle",
+  "science"
+ ],
+ "tighten": 0.35
+}

@@ -1,0 +1,66 @@
+{
+ "id": "T14_V1",
+ "slug": "good-run-good-day",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · RACE DAY",
+  "text": "NOBODY BRAGS ABOUT A GREAT BIKE",
+  "box": "BIKE",
+  "until": 18.12
+ },
+ "panels": [
+  {
+   "label": "THE TRAP",
+   "text": "KILL THE BIKE. WALK FOR 7 HOURS.",
+   "accent": "WALK",
+   "at": 18.220000000000002,
+   "dur": 19.849999999999998
+  },
+  {
+   "label": "THE BEST DAY",
+   "notes": [
+    "✓ GREAT SWIM",
+    "✓ GREAT BIKE",
+    "✓ AWESOME RUN"
+   ],
+   "at": 38.07,
+   "dur": 4.346666666666664
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09031920_C036",
+   "start": 74.76,
+   "end": 119.87
+  }
+ ],
+ "title": "Nobody brags about a great bike",
+ "topic": "Nobody brags about a great bike",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "run",
+  "walked",
+  "marathon",
+  "killed",
+  "awesome",
+  "best"
+ ],
+ "tighten": 0.35
+}

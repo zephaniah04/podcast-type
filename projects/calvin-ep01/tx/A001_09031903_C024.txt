@@ -1,0 +1,3 @@
+[00:00.0 - 00:02.6] minute. All we're trying to do is get a maximum heart rate out
+[00:02.6 - 00:05.2] of you. Right. We don't really need to even collect blood
+[00:05.2 - 00:05.5] data.

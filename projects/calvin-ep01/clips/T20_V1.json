@@ -1,0 +1,62 @@
+{
+ "id": "T20_V1",
+ "slug": "aid-station-rule",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · RUN",
+  "text": "THE AID STATION RULE",
+  "box": "RULE",
+  "until": 13.6
+ },
+ "panels": [
+  {
+   "label": "YOUR PERSONAL RULE",
+   "text": "LAST TABLE = START RUNNING",
+   "accent": "RUNNING",
+   "at": 13.7,
+   "dur": 32.99
+  },
+  {
+   "label": "COST OF GETTING WHAT YOU NEED",
+   "text": "15-30 SECONDS",
+   "accent": "15-30",
+   "at": 46.690000000000005,
+   "dur": 5.093333333333334
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 1193.76,
+   "end": 1248.93
+  }
+ ],
+ "title": "The aid station rule on the run",
+ "topic": "The aid station rule on the run",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "running",
+  "rule",
+  "table",
+  "walk",
+  "seconds"
+ ],
+ "tighten": 0.35
+}

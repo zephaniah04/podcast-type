@@ -1,0 +1,85 @@
+{
+ "id": "T03_V2",
+ "slug": "shoes-on-pedals",
+ "layout": "full",
+ "captions": "bold",
+ "accent": "#FFD60A",
+ "cap_y": 0.7,
+ "cap_size": 70,
+ "cap_spacing": 3,
+ "cap_outline": 5,
+ "jump_zoom": [
+  1.0,
+  1.15
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 145.28,
+   "end": 169.04,
+   "cx": 0.71
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 169.04,
+   "end": 170.84,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09091926_C055.mov",
+    "cx": 0.29,
+    "cy": 0.5,
+    "at": 169.04,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 170.84,
+   "end": 174.88,
+   "cx": 0.71
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 174.88,
+   "end": 176.68,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09091926_C055.mov",
+    "cx": 0.29,
+    "cy": 0.5,
+    "at": 174.88,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 176.68,
+   "end": 194.91,
+   "cx": 0.71
+  }
+ ],
+ "title": "Shoes on the pedals? Keep it simple",
+ "topic": "Shoes on the pedals? Keep it simple",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "simple",
+  "disaster",
+  "concrete",
+  "grass",
+  "caveat",
+  "clips",
+  "40"
+ ],
+ "tighten": 0.35
+}

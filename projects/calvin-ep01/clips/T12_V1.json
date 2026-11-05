@@ -1,0 +1,122 @@
+{
+ "id": "T12_V1",
+ "slug": "cardiac-drift",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · BIKE PACING",
+  "text": "WHY YOUR HEART RATE CREEPS UP",
+  "box": "CREEPS",
+  "until": 8.2
+ },
+ "panels": [
+  {
+   "label": "CARDIAC DRIFT",
+   "lines": [
+    {
+     "pts": [
+      [
+       0,
+       0.75
+      ],
+      [
+       0.25,
+       0.7
+      ],
+      [
+       0.5,
+       0.62
+      ],
+      [
+       0.75,
+       0.52
+      ],
+      [
+       1,
+       0.4
+      ]
+     ],
+     "color": "A"
+    },
+    {
+     "pts": [
+      [
+       0,
+       0.75
+      ],
+      [
+       1,
+       0.75
+      ]
+     ],
+     "color": "#777777",
+     "w": 2
+    }
+   ],
+   "notes": [
+    "SAME POWER → HEART RATE CLIMBS"
+   ],
+   "at": 8.299999999999999,
+   "dur": 27.38
+  },
+  {
+   "label": "THE CEILING",
+   "text": "THRESHOLD 162. STAY UNDER 160.",
+   "accent": "160.",
+   "at": 35.68,
+   "dur": 7.57
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 622.92,
+   "end": 659.69
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 659.69,
+   "end": 662.2900000000001,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031919_C035.mov",
+    "at": 10.0,
+    "cx": 0.66,
+    "cy": 0.45
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 662.2900000000001,
+   "end": 667.57
+  }
+ ],
+ "title": "Why your heart rate creeps up on the bike",
+ "topic": "Why your heart rate creeps up on the bike",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "drift",
+  "dehydrated",
+  "160",
+  "162",
+  "zone",
+  "alarmed"
+ ],
+ "tighten": 0.35
+}

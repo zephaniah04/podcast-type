@@ -1,0 +1,84 @@
+{
+ "id": "T13_V2",
+ "slug": "the-120k-check",
+ "layout": "full",
+ "captions": "bold",
+ "accent": "#FFD60A",
+ "cap_y": 0.7,
+ "cap_size": 70,
+ "cap_spacing": 3,
+ "cap_outline": 5,
+ "jump_zoom": [
+  1.0,
+  1.15
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 668.1,
+   "end": 674.8,
+   "cx": 0.71
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 674.8,
+   "end": 676.6,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09091926_C055.mov",
+    "cx": 0.29,
+    "cy": 0.5,
+    "at": 674.8,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 676.6,
+   "end": 692.08,
+   "cx": 0.71
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 692.08,
+   "end": 694.48,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031857_C018.mov",
+    "at": 1.0,
+    "cx": 0.5,
+    "cy": 0.55,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 694.48,
+   "end": 704.41,
+   "cx": 0.71
+  }
+ ],
+ "title": "How you should feel at 120 km",
+ "topic": "How you should feel at 120 km",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "120k",
+  "fatigue",
+  "good",
+  "marathon",
+  "feeding",
+  "proper"
+ ],
+ "tighten": 0.35
+}

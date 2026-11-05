@@ -1,0 +1,66 @@
+{
+ "id": "T17_V1",
+ "slug": "dark-moments",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · MINDSET",
+  "text": "EXPECT 2-3 DARK MOMENTS",
+  "box": "DARK",
+  "until": 5.54
+ },
+ "panels": [
+  {
+   "label": "EVEN THE PROS",
+   "text": "2-3 DARK MOMENTS. EXPECT THEM.",
+   "accent": "DARK",
+   "at": 5.64,
+   "dur": 15.900000000000002
+  },
+  {
+   "label": "WHEN IT HITS",
+   "notes": [
+    "✕ SIT IN A CHAIR FOR 20 MIN",
+    "✓ DRINK. FUEL. FAST-WALK.",
+    "✓ KEEP MOVING"
+   ],
+   "at": 21.540000000000003,
+   "dur": 12.476666666666663
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 878.86,
+   "end": 914.09
+  }
+ ],
+ "title": "Expect 2-3 dark moments",
+ "topic": "Expect 2-3 dark moments",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "dark",
+  "expect",
+  "moving",
+  "fueling",
+  "walking",
+  "self-talk"
+ ],
+ "tighten": 0.35
+}

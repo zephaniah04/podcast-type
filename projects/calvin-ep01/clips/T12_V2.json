@@ -1,0 +1,84 @@
+{
+ "id": "T12_V2",
+ "slug": "cardiac-drift",
+ "layout": "full",
+ "captions": "bold",
+ "accent": "#FFD60A",
+ "cap_y": 0.7,
+ "cap_size": 70,
+ "cap_spacing": 3,
+ "cap_outline": 5,
+ "jump_zoom": [
+  1.0,
+  1.15
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 622.92,
+   "end": 632.5,
+   "cx": 0.71
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 632.5,
+   "end": 634.3,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09091926_C055.mov",
+    "cx": 0.29,
+    "cy": 0.5,
+    "at": 632.5,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 634.3,
+   "end": 660.04,
+   "cx": 0.71
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 660.04,
+   "end": 662.44,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031919_C035.mov",
+    "at": 10.0,
+    "cx": 0.66,
+    "cy": 0.45,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 662.44,
+   "end": 667.57,
+   "cx": 0.71
+  }
+ ],
+ "title": "Why your heart rate creeps up on the bike",
+ "topic": "Why your heart rate creeps up on the bike",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "drift",
+  "dehydrated",
+  "160",
+  "162",
+  "zone",
+  "alarmed"
+ ],
+ "tighten": 0.35
+}

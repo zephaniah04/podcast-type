@@ -1,0 +1,64 @@
+{
+ "id": "T15_V1",
+ "slug": "first-10k-slowest",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · RUN",
+  "text": "YOUR FIRST 10K SHOULD BE YOUR SLOWEST",
+  "box": "SLOWEST",
+  "until": 6.17
+ },
+ "panels": [
+  {
+   "label": "WHAT THE BEST RUNS SHOW",
+   "text": "FIRST 10K = SLOWEST 10K",
+   "accent": "SLOWEST",
+   "at": 6.27,
+   "dur": 14.9
+  },
+  {
+   "label": "WHY (~10 MIN)",
+   "notes": [
+    "BLOOD LEAVES BIKE LEGS + GUT",
+    "→ MOVES TO RUNNING MUSCLES"
+   ],
+   "at": 21.17,
+   "dur": 12.213333333333338
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 742.5,
+   "end": 777.33
+  }
+ ],
+ "title": "Your first 10K should be your slowest",
+ "topic": "Your first 10K should be your slowest",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "slowest",
+  "10K",
+  "easy",
+  "relax",
+  "blood"
+ ],
+ "tighten": 0.35
+}

@@ -1,0 +1,85 @@
+{
+ "id": "T05_V2",
+ "slug": "rules-of-two",
+ "layout": "full",
+ "captions": "bold",
+ "accent": "#FFD60A",
+ "cap_y": 0.7,
+ "cap_size": 70,
+ "cap_spacing": 3,
+ "cap_outline": 5,
+ "jump_zoom": [
+  1.0,
+  1.15
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 301.74,
+   "end": 315.2,
+   "cx": 0.71
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 315.2,
+   "end": 317.0,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09091926_C055.mov",
+    "cx": 0.29,
+    "cy": 0.5,
+    "at": 315.2,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 317.0,
+   "end": 329.36,
+   "cx": 0.71
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 329.36,
+   "end": 331.76,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031857_C018.mov",
+    "at": 1.0,
+    "cx": 0.5,
+    "cy": 0.55,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 331.76,
+   "end": 346.51,
+   "cx": 0.71
+  }
+ ],
+ "title": "Fuel like an IV drip: the rules of two",
+ "topic": "Fuel like an IV drip: the rules of two",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "drip",
+  "fast",
+  "much",
+  "concentrated",
+  "water",
+  "guzzle",
+  "two"
+ ],
+ "tighten": 0.35
+}

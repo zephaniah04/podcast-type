@@ -1,0 +1,83 @@
+{
+ "id": "T11_V1",
+ "slug": "ironman-hr-zone",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · BIKE PACING",
+  "text": "HIS IRONMAN ZONE: 145 TO 152",
+  "box": "145",
+  "until": 4.44
+ },
+ "panels": [
+  {
+   "label": "IRONMAN BIKE ZONE",
+   "text": "145-152 BPM",
+   "accent": "145-152",
+   "at": 4.54,
+   "dur": 12.619999999999997
+  },
+  {
+   "label": "FIRST MINUTES ON THE BIKE",
+   "notes": [
+    "→ NASAL BREATHING",
+    "→ CALM THOUGHTS",
+    "→ LET HR SETTLE TO 145"
+   ],
+   "at": 17.16,
+   "dur": 10.923333333333336
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 593.64,
+   "end": 611.25
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 611.25,
+   "end": 613.85,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031919_C035.mov",
+    "at": 10.0,
+    "cx": 0.66,
+    "cy": 0.45
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 613.85,
+   "end": 622.83
+  }
+ ],
+ "title": "Settling into your Ironman heart rate zone",
+ "topic": "Settling into your Ironman heart rate zone",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "145",
+  "152",
+  "zone",
+  "nasal",
+  "calm",
+  "tight"
+ ],
+ "tighten": 0.35
+}

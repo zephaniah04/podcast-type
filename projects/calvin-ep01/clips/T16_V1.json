@@ -1,0 +1,65 @@
+{
+ "id": "T16_V1",
+ "slug": "marathon-pace-330",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · RUN PACE",
+  "text": "5:00 PER KM = A 3:30 MARATHON",
+  "box": "3:30",
+  "until": 8.12
+ },
+ "panels": [
+  {
+   "label": "MID-MARATHON TARGET",
+   "text": "5:00 / KM",
+   "accent": "5:00",
+   "at": 8.219999999999999,
+   "dur": 15.1
+  },
+  {
+   "label": "AGE-GROUP IRONMAN MARATHON",
+   "notes": [
+    "3:30  SUPERSTAR",
+    "3:45  AWESOME",
+    "< 4:00  PRETTY GOOD"
+   ],
+   "at": 23.32,
+   "dur": 10.530000000000001
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 778.88,
+   "end": 815.71
+  }
+ ],
+ "title": "5:00 per km = a 3:30 marathon",
+ "topic": "5:00 per km = a 3:30 marathon",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "superstar",
+  "330",
+  "five",
+  "awesome",
+  "elite"
+ ],
+ "tighten": 0.35
+}

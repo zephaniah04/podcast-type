@@ -1,0 +1,81 @@
+{
+ "id": "T04_V1",
+ "slug": "no-fuel-first-20",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · BIKE FUEL",
+  "text": "DON'T EAT IN THE FIRST 20 MINUTES",
+  "box": "DON'T EAT",
+  "until": 8.54
+ },
+ "panels": [
+  {
+   "label": "FIRST 15-20 MIN ON THE BIKE",
+   "text": "EASY. NO FUEL.",
+   "accent": "NO FUEL.",
+   "at": 8.639999999999999,
+   "dur": 17.130000000000003
+  },
+  {
+   "label": "THE SIGNAL YOU'RE READY",
+   "text": "DEEP BREATHS = GUT IS BACK",
+   "accent": "GUT",
+   "at": 25.770000000000003,
+   "dur": 14.646666666666661
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 209.62,
+   "end": 236.65
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 236.65,
+   "end": 239.25,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031857_C018.mov",
+    "at": 1.0,
+    "cx": 0.5,
+    "cy": 0.55
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 239.25,
+   "end": 251.95
+  }
+ ],
+ "title": "Don't eat in the first 20 minutes of the bike",
+ "topic": "Don't eat in the first 20 minutes of the bike",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "gut",
+  "fuel",
+  "breaths",
+  "gel",
+  "stomach",
+  "respiration",
+  "easy"
+ ],
+ "tighten": 0.35
+}

@@ -1,0 +1,81 @@
+{
+ "id": "T07_V1",
+ "slug": "why-lactate-test",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · LAB TEST",
+  "text": "12 DAYS OUT: WE TESTED HIS BLOOD",
+  "box": "BLOOD",
+  "until": 29.0
+ },
+ "panels": [
+  {
+   "label": "THE RULE",
+   "text": "UNDERRIDE IS OK. OVERRIDE IS NOT.",
+   "accent": "OVERRIDE",
+   "at": 29.1,
+   "dur": 18.799999999999997
+  },
+  {
+   "label": "WHAT HE LEAVES WITH",
+   "text": "ONE HR VALUE. ONE POWER VALUE.",
+   "accent": "HR POWER",
+   "at": 47.9,
+   "dur": 5.950000000000003
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09031846_C006",
+   "start": 20.57,
+   "end": 74.54
+  },
+  {
+   "clip": "A001_09031846_C006",
+   "start": 74.54,
+   "end": 77.14,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031901_C023.mov",
+    "at": 44.0,
+    "cx": 0.42,
+    "cy": 0.5
+   }
+  },
+  {
+   "clip": "A001_09031846_C006",
+   "start": 77.14,
+   "end": 80.56
+  }
+ ],
+ "title": "12 days out: why we tested his blood",
+ "topic": "12 days out: why we tested his blood",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "override",
+  "overriding",
+  "precise",
+  "run",
+  "marathon",
+  "struggle",
+  "science"
+ ],
+ "tighten": 0.35
+}

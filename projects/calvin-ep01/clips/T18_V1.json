@@ -1,0 +1,63 @@
+{
+ "id": "T18_V1",
+ "slug": "walk-the-hills",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · RUN",
+  "text": "WALKING THE HILLS CAN BE FASTER",
+  "box": "WALKING",
+  "until": 14.6
+ },
+ "panels": [
+  {
+   "label": "STEEP HILLS",
+   "text": "POWER WALK UP. EASY DOWN.",
+   "accent": "WALK",
+   "at": 14.7,
+   "dur": 19.479999999999997
+  },
+  {
+   "label": "MATCHES BURNED EARLY",
+   "text": "= WALKING THE LAST 10K",
+   "accent": "10K",
+   "at": 34.18,
+   "dur": 9.436666666666667
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 932.98,
+   "end": 977.81
+  }
+ ],
+ "title": "Walking the hills can be faster",
+ "topic": "Walking the hills can be faster",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "walk",
+  "hills",
+  "quads",
+  "matches",
+  "10K",
+  "steep"
+ ],
+ "tighten": 0.35
+}

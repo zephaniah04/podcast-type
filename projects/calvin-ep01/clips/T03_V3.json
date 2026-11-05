@@ -1,0 +1,80 @@
+{
+ "id": "T03_V3",
+ "slug": "shoes-on-pedals",
+ "layout": "full",
+ "captions": "creator",
+ "accent": "#FF5A1F",
+ "cap_y": 0.68,
+ "jump_zoom": [
+  1.0,
+  1.18
+ ],
+ "names": [
+  {
+   "at": 2.266666666666667,
+   "dur": 2.8,
+   "name": "Coach Cal",
+   "role": "Calvin Zaryski · XTERRA world champion",
+   "y": 0.16,
+   "x": 0.07
+  }
+ ],
+ "stamps": [
+  {
+   "at": 24.81,
+   "text": "SAFE + SIMPLE",
+   "color": "#FF5A1F",
+   "dur": 1.3,
+   "y": 0.2
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 153.34,
+   "end": 155.42,
+   "cx": 0.71,
+   "zoom": 1.28,
+   "cy": 0.42,
+   "tighten": 0
+  },
+  {
+   "card": true,
+   "dur": 0.12,
+   "bg": [
+    "0x000000",
+    "0x000000"
+   ]
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 145.28,
+   "end": 194.91,
+   "cx": 0.71
+  }
+ ],
+ "title": "Shoes on the pedals? Keep it simple",
+ "topic": "Shoes on the pedals? Keep it simple",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "simple",
+  "disaster",
+  "concrete",
+  "grass",
+  "caveat",
+  "clips",
+  "40"
+ ],
+ "tighten": 0.35
+}

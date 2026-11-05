@@ -1,0 +1,82 @@
+{
+ "id": "T09_V1",
+ "slug": "burn-your-tank",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · BIKE PACING",
+  "text": "GO OVER FTP AND YOU BURN YOUR TANK",
+  "box": "BURN",
+  "until": 16.95
+ },
+ "panels": [
+  {
+   "label": "YOUR FUEL TANK",
+   "text": "GLYCOGEN: LIVER + MUSCLE",
+   "accent": "GLYCOGEN:",
+   "at": 17.05,
+   "dur": 5.920000000000002
+  },
+  {
+   "label": "WHAT HAPPENS LATER",
+   "chart": "drop",
+   "notes": [
+    "▼ 150 W: \"THIS IS ALL I GOT\""
+   ],
+   "at": 22.970000000000002,
+   "dur": 9.613333333333333
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 518.7,
+   "end": 543.63
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 543.63,
+   "end": 546.23,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031905_C026.mov",
+    "at": 28.0,
+    "cx": 0.62,
+    "cy": 0.45
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 546.23,
+   "end": 553.31
+  }
+ ],
+ "title": "Go over FTP and you burn your fuel tank",
+ "topic": "Go over FTP and you burn your fuel tank",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "accelerator",
+  "glycogen",
+  "burn",
+  "fuel",
+  "tanks",
+  "backfire"
+ ],
+ "tighten": 0.35
+}

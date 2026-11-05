@@ -1,0 +1,80 @@
+{
+ "id": "T06_V1",
+ "slug": "fuel-alarm",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · BIKE FUEL",
+  "text": "SET A 15-MINUTE FUEL ALARM",
+  "box": "15-MINUTE",
+  "until": 15.06
+ },
+ "panels": [
+  {
+   "label": "WATCH SETUP",
+   "text": "REPEAT TIMER: 15:00",
+   "accent": "15:00",
+   "at": 15.16,
+   "dur": 3.0
+  },
+  {
+   "label": "FOR THE WHOLE BIKE",
+   "text": "BEEP. FUEL. REPEAT.",
+   "accent": "FUEL.",
+   "at": 18.080000000000002,
+   "dur": 14.870000000000001
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 346.26,
+   "end": 365.55
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 365.55,
+   "end": 368.15000000000003,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031919_C035.mov",
+    "at": 10.0,
+    "cx": 0.66,
+    "cy": 0.45
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 368.15000000000003,
+   "end": 380.63
+  }
+ ],
+ "title": "Set a 15-minute fuel alarm",
+ "topic": "Set a 15-minute fuel alarm",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "watch",
+  "15",
+  "beeps",
+  "fuel",
+  "cue",
+  "countdown"
+ ],
+ "tighten": 0.35
+}

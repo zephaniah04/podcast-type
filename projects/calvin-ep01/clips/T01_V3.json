@@ -1,0 +1,80 @@
+{
+ "id": "T01_V3",
+ "slug": "swim-exit-spikes",
+ "layout": "full",
+ "captions": "creator",
+ "accent": "#FF5A1F",
+ "cap_y": 0.68,
+ "jump_zoom": [
+  1.0,
+  1.18
+ ],
+ "names": [
+  {
+   "at": 4.833333333333334,
+   "dur": 2.8,
+   "name": "Coach Cal",
+   "role": "Calvin Zaryski · XTERRA world champion",
+   "y": 0.16,
+   "x": 0.07
+  }
+ ],
+ "stamps": [
+  {
+   "at": 40.84,
+   "text": "SPIKES",
+   "color": "#FF5A1F",
+   "dur": 1.3,
+   "y": 0.2
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 34.7,
+   "end": 39.34,
+   "cx": 0.71,
+   "zoom": 1.28,
+   "cy": 0.42,
+   "tighten": 0
+  },
+  {
+   "card": true,
+   "dur": 0.12,
+   "bg": [
+    "0x000000",
+    "0x000000"
+   ]
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 20.76,
+   "end": 60.43,
+   "cx": 0.71
+  }
+ ],
+ "title": "Your swim exit can wreck your gut",
+ "topic": "Your swim exit can wreck your gut",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "spikes",
+  "spike",
+  "stomach",
+  "gut",
+  "flat",
+  "disaster",
+  "conservative"
+ ],
+ "tighten": 0.35
+}

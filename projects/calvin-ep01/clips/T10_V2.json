@@ -1,0 +1,84 @@
+{
+ "id": "T10_V2",
+ "slug": "climbs-under-160",
+ "layout": "full",
+ "captions": "bold",
+ "accent": "#FFD60A",
+ "cap_y": 0.7,
+ "cap_size": 70,
+ "cap_spacing": 3,
+ "cap_outline": 5,
+ "jump_zoom": [
+  1.0,
+  1.15
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 553.44,
+   "end": 568.1,
+   "cx": 0.71
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 568.1,
+   "end": 569.9,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09091926_C055.mov",
+    "cx": 0.29,
+    "cy": 0.5,
+    "at": 568.1,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 569.9,
+   "end": 579.94,
+   "cx": 0.71
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 579.94,
+   "end": 582.34,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031905_C026.mov",
+    "at": 28.0,
+    "cx": 0.62,
+    "cy": 0.45,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 582.34,
+   "end": 593.15,
+   "cx": 0.71
+  }
+ ],
+ "title": "Never cross 160 on the climbs",
+ "topic": "Never cross 160 on the climbs",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "160",
+  "climbs",
+  "fat",
+  "sugar",
+  "FTP",
+  "efficient"
+ ],
+ "tighten": 0.35
+}

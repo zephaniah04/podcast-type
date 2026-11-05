@@ -1,0 +1,64 @@
+{
+ "id": "T02_V1",
+ "slug": "rehearse-transition",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · T1",
+  "text": "REHEARSE YOUR TRANSITION BEFORE THE GUN",
+  "box": "REHEARSE",
+  "until": 7.26
+ },
+ "panels": [
+  {
+   "label": "RACE MORNING",
+   "notes": [
+    "1. WALK THE SWIM EXIT",
+    "2. PICK A LANDMARK",
+    "3. COUNT THE ROWS TO YOUR BIKE"
+   ],
+   "at": 7.359999999999999,
+   "dur": 16.240000000000002
+  },
+  {
+   "label": "IN YOUR HEAD, IN THE WATER",
+   "text": "EXIT. RIGHT. FOUR ROWS DOWN.",
+   "accent": "FOUR ROWS",
+   "at": 23.6,
+   "dur": 13.75
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 69.8,
+   "end": 107.87
+  }
+ ],
+ "title": "Rehearse your transition on race morning",
+ "topic": "Rehearse your transition on race morning",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "rehearse",
+  "landmark",
+  "rows",
+  "scrambling"
+ ],
+ "tighten": 0.35
+}

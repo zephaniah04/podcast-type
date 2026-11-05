@@ -1,0 +1,85 @@
+{
+ "id": "T08_V2",
+ "slug": "lactate-threshold",
+ "layout": "full",
+ "captions": "bold",
+ "accent": "#FFD60A",
+ "cap_y": 0.7,
+ "cap_size": 70,
+ "cap_spacing": 3,
+ "cap_outline": 5,
+ "jump_zoom": [
+  1.0,
+  1.15
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 461.72,
+   "end": 471.72,
+   "cx": 0.71
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 471.72,
+   "end": 473.52,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09091926_C055.mov",
+    "cx": 0.29,
+    "cy": 0.5,
+    "at": 471.72,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 473.52,
+   "end": 500.96,
+   "cx": 0.71
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 500.96,
+   "end": 503.36,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031901_C023.mov",
+    "at": 44.0,
+    "cx": 0.42,
+    "cy": 0.5,
+    "push": 0.02
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 503.36,
+   "end": 517.77,
+   "cx": 0.71
+  }
+ ],
+ "title": "Find the point where your lactate jumps",
+ "topic": "Find the point where your lactate jumps",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "lactate",
+  "linear",
+  "threshold",
+  "FTP",
+  "jumps",
+  "curvilinear",
+  "aerobic"
+ ],
+ "tighten": 0.35
+}

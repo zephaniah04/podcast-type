@@ -1,0 +1,80 @@
+{
+ "id": "T10_V1",
+ "slug": "climbs-under-160",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · BIKE CLIMBS",
+  "text": "NEVER CROSS 160 ON THE CLIMBS",
+  "box": "160",
+  "until": 13.81
+ },
+ "panels": [
+  {
+   "label": "IRONMAN MAX HEART RATE",
+   "text": "160 BPM. EVEN ON CLIMBS.",
+   "accent": "160",
+   "at": 13.91,
+   "dur": 12.139999999999999
+  },
+  {
+   "label": "CROSS THE LINE AND",
+   "text": "FAT OFF. SUGAR ON.",
+   "accent": "SUGAR",
+   "at": 26.05,
+   "dur": 13.500000000000004
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 553.44,
+   "end": 579.59
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 579.59,
+   "end": 582.19,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031905_C026.mov",
+    "at": 28.0,
+    "cx": 0.62,
+    "cy": 0.45
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 582.19,
+   "end": 593.15
+  }
+ ],
+ "title": "Never cross 160 on the climbs",
+ "topic": "Never cross 160 on the climbs",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "160",
+  "climbs",
+  "fat",
+  "sugar",
+  "FTP",
+  "efficient"
+ ],
+ "tighten": 0.35
+}

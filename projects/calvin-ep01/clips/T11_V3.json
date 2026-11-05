@@ -1,0 +1,93 @@
+{
+ "id": "T11_V3",
+ "slug": "ironman-hr-zone",
+ "layout": "full",
+ "captions": "creator",
+ "accent": "#FF5A1F",
+ "cap_y": 0.68,
+ "jump_zoom": [
+  1.0,
+  1.18
+ ],
+ "names": [
+  {
+   "at": 4.4,
+   "dur": 2.8,
+   "name": "Coach Cal",
+   "role": "Calvin Zaryski · XTERRA world champion",
+   "y": 0.16,
+   "x": 0.07
+  }
+ ],
+ "stamps": [
+  {
+   "at": 21.73,
+   "text": "NASAL",
+   "color": "#FF5A1F",
+   "dur": 1.3,
+   "y": 0.2
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 594.0,
+   "end": 598.2,
+   "cx": 0.71,
+   "zoom": 1.28,
+   "cy": 0.42,
+   "tighten": 0
+  },
+  {
+   "card": true,
+   "dur": 0.12,
+   "bg": [
+    "0x000000",
+    "0x000000"
+   ]
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 593.64,
+   "end": 622.83,
+   "cx": 0.71
+  }
+ ],
+ "title": "Settling into your Ironman heart rate zone",
+ "topic": "Settling into your Ironman heart rate zone",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "145",
+  "152",
+  "zone",
+  "nasal",
+  "calm",
+  "tight"
+ ],
+ "tighten": 0.35,
+ "stacks": [
+  {
+   "at": 21.85,
+   "items": [
+    "NASAL BREATHE",
+    "CALM THOUGHTS",
+    "SETTLE TO 145"
+   ],
+   "every": 0.7,
+   "color": "#FF5A1F",
+   "y": 0.14,
+   "dur": 3.6
+  }
+ ]
+}

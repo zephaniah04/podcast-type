@@ -1,0 +1,78 @@
+{
+ "id": "T20_V3",
+ "slug": "aid-station-rule",
+ "layout": "full",
+ "captions": "creator",
+ "accent": "#FF5A1F",
+ "cap_y": 0.68,
+ "jump_zoom": [
+  1.0,
+  1.18
+ ],
+ "names": [
+  {
+   "at": 1.9333333333333333,
+   "dur": 2.8,
+   "name": "Coach Cal",
+   "role": "Calvin Zaryski · XTERRA world champion",
+   "y": 0.16,
+   "x": 0.07
+  }
+ ],
+ "stamps": [
+  {
+   "at": 20.07,
+   "text": "GET RUNNING",
+   "color": "#FF5A1F",
+   "dur": 1.3,
+   "y": 0.2
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 1233.74,
+   "end": 1235.48,
+   "cx": 0.71,
+   "zoom": 1.28,
+   "cy": 0.42,
+   "tighten": 0
+  },
+  {
+   "card": true,
+   "dur": 0.12,
+   "bg": [
+    "0x000000",
+    "0x000000"
+   ]
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 1193.76,
+   "end": 1248.93,
+   "cx": 0.71
+  }
+ ],
+ "title": "The aid station rule on the run",
+ "topic": "The aid station rule on the run",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "running",
+  "rule",
+  "table",
+  "walk",
+  "seconds"
+ ],
+ "tighten": 0.35
+}

@@ -1,0 +1,67 @@
+{
+ "id": "T01_V1",
+ "slug": "swim-exit-spikes",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · SWIM EXIT",
+  "text": "YOUR SWIM EXIT CAN WRECK YOUR GUT",
+  "box": "GUT",
+  "until": 11.74
+ },
+ "panels": [
+  {
+   "label": "WHAT A SPIKE DOES",
+   "text": "BLOOD LEAVES YOUR GUT",
+   "accent": "GUT",
+   "at": 11.84,
+   "dur": 14.139999999999999
+  },
+  {
+   "label": "YOUR HEART RATE TRACE",
+   "chart": "flat_vs_zigzag",
+   "notes": [
+    "✓ FLAT = THE GOAL",
+    "✕ SPIKES = RECIPE FOR DISASTER"
+   ],
+   "at": 25.98,
+   "dur": 10.669999999999998
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 20.76,
+   "end": 60.43
+  }
+ ],
+ "title": "Your swim exit can wreck your gut",
+ "topic": "Your swim exit can wreck your gut",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "spikes",
+  "spike",
+  "stomach",
+  "gut",
+  "flat",
+  "disaster",
+  "conservative"
+ ],
+ "tighten": 0.35
+}

@@ -1,0 +1,81 @@
+{
+ "id": "T05_V1",
+ "slug": "rules-of-two",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · BIKE FUEL",
+  "text": "FUEL LIKE AN IV DRIP",
+  "box": "IV DRIP",
+  "until": 12.04
+ },
+ "panels": [
+  {
+   "label": "THE RULES OF TWO",
+   "text": "TOO FAST. TOO MUCH. TOO STRONG.",
+   "accent": "TOO",
+   "at": 12.139999999999999,
+   "dur": 14.240000000000002
+  },
+  {
+   "label": "THE GEL RULE",
+   "text": "GEL + WATER. NEVER GEL + CARB MIX.",
+   "accent": "WATER.",
+   "at": 26.380000000000003,
+   "dur": 16.870000000000005
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 301.74,
+   "end": 329.01
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 329.01,
+   "end": 331.61,
+   "tighten": 0,
+   "broll": {
+    "file": "H:/Nizam Blr/calvin/A001_09031857_C018.mov",
+    "at": 1.0,
+    "cx": 0.5,
+    "cy": 0.55
+   }
+  },
+  {
+   "clip": "A001_09091926_C055",
+   "start": 331.61,
+   "end": 346.51
+  }
+ ],
+ "title": "Fuel like an IV drip: the rules of two",
+ "topic": "Fuel like an IV drip: the rules of two",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "drip",
+  "fast",
+  "much",
+  "concentrated",
+  "water",
+  "guzzle",
+  "two"
+ ],
+ "tighten": 0.35
+}

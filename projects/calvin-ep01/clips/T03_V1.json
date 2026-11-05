@@ -1,0 +1,67 @@
+{
+ "id": "T03_V1",
+ "slug": "shoes-on-pedals",
+ "layout": "card",
+ "captions": "bold",
+ "accent": "#FF5A1F",
+ "cap_y": 0.795,
+ "cap_size": 72,
+ "cap_spacing": 5,
+ "progress": {},
+ "headline": {
+  "kicker": "IRONMAN · T1",
+  "text": "SHOES ON THE PEDALS? KEEP IT SIMPLE",
+  "box": "SIMPLE",
+  "until": 22.49
+ },
+ "panels": [
+  {
+   "label": "40 YEARS OF RACING SAYS",
+   "text": "SAFE AND SIMPLE",
+   "accent": "SIMPLE",
+   "at": 22.59,
+   "dur": 5.310000000000002
+  },
+  {
+   "label": "THE ONLY EXCEPTION",
+   "text": "400 M ON CONCRETE",
+   "accent": "400 M",
+   "notes": [
+    "RUNNING IN CLEATS DAMAGES THE CLIPS"
+   ],
+   "at": 27.900000000000002,
+   "dur": 20.816666666666666
+  }
+ ],
+ "segments": [
+  {
+   "clip": "A001_09091926_C055",
+   "start": 145.28,
+   "end": 194.91
+  }
+ ],
+ "title": "Shoes on the pedals? Keep it simple",
+ "topic": "Shoes on the pedals? Keep it simple",
+ "format": "short",
+ "fixes": {
+  "age station": "aid station",
+  "age stations": "aid stations",
+  "bloodlack tape": "blood lactate",
+  "iron man": "Ironman",
+  "Iron Man": "Ironman",
+  "carbomix": "carb mix",
+  "Morton": "Maurten",
+  "over -ride": "override",
+  "self -talk": "self-talk"
+ },
+ "keywords": [
+  "simple",
+  "disaster",
+  "concrete",
+  "grass",
+  "caveat",
+  "clips",
+  "40"
+ ],
+ "tighten": 0.35
+}
