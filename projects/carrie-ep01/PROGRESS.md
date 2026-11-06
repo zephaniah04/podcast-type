@@ -21,7 +21,7 @@ work straight through: 25 shorts (C01-C25) + L01 + L02 + L03 + tracker.
 - [x] shorts C01-C25 -> exports/carrie/ep01 (final 09:55, clean phrase-anchored edges, -14 LUFS)
 - [x] tracker (refresh again after the long-forms: python scripts/report.py projects/carrie-ep01 --exports exports/carrie/ep01)
 - [x] L01, L02, L03 -> exports/carrie/ep01 (+ _chapters.txt), P1 redone 11:20
-- [ ] commit + push specs / moments / tracker
+- [x] commit + push (ca5d4f8 on claude/keen-bardeen-3q8pez, 11:25)
 
 ## Done so far (06:05)
 - Engine: `PODCAST_HWDEC=cuda` env = GPU decode; `broll.panel: "top"` = card top half + talker bottom half
@@ -47,3 +47,15 @@ work straight through: 25 shorts (C01-C25) + L01 + L02 + L03 + tracker.
 - 10:30: L01/L02/L03 assembled (80.5 / 38.4 / 42.7 min). P1 re-render running (render_long2.log) -> re-assembles.
   Then: report.py, commit ONLY carrie files (NOT projects/calvin-ep01, scripts/coach_reel.py, studies_*.log: not ours),
   push to claude/keen-bardeen-3q8pez.
+
+## v2 long-form (2026-11-06, Nizam: "one very good long form with B-roll, motion elements, captions")
+- New: scripts/broll_sheet.py (keyless photo picker), scripts/stickers.py (Fluent 3D emoji floating elements),
+  podcast.py: side cards (broll.panel left/right in 16:9), layout "sbs", captions "pod" (word highlight), "stickers".
+- Plan: projects/carrie-ep01/build_long2.py (EV beats pinned to phrases), B-roll picks broll_picks.json (43 photos,
+  credits in broll/credits.json), 20 side cards (cards_long2.json), 57 stickers (stickers.json).
+- Render: `bash projects/carrie-ep01/render_long2.sh` (started 17:58, 4 parallel) -> exports/carrie/ep01/long2_pieces
+  -> assemble_long2.py -> exports/carrie/ep01/L01_full-episode_v2.mp4 (+ _chapters.txt). Re-run skips done pieces.
+- After: QA frames, report.py, commit + push (no media).
+- 19:35 DONE: exports/carrie/ep01/L01v2_full-episode_v2.mp4 (81:00, 1080p30, -14.0 LUFS) + _chapters.txt (18).
+  Pieces in exports/carrie/ep01/long2_v3 (re-do a final pass only: podcast.py <spec> ... --work $TEMP/podcast-work-l2 --reuse).
+  Credits for the description: projects/carrie-ep01/description_v2.md.

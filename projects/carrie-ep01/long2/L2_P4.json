@@ -1,0 +1,321 @@
+{
+ "_piece": true,
+ "id": "L2_P4",
+ "slug": "body",
+ "format": "long",
+ "title": "v2 body P4",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.1,
+  "wide_every": 4,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 68,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 2299.93,
+   "end": 2302.79,
+   "chapter": "Can I Gain Muscle Before Race Day?",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T15.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2302.79,
+   "end": 2500.68
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2500.68,
+   "end": 2515.58,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.45,
+   "zoom_r": 1.3,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2515.58,
+   "end": 2555.16
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2555.16,
+   "end": 2557.88,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/muscle-flex.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2557.88,
+   "end": 2604.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2604.98,
+   "end": 2607.1,
+   "chapter": "Meal Prep and Why Dinner Matters After Night Workouts",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T16.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2607.1,
+   "end": 2620.12
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2620.12,
+   "end": 2634.02,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L2_P4_c17.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2634.02,
+   "end": 2695.44
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2695.44,
+   "end": 2698.44,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/pancakes.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2698.44,
+   "end": 2723.86
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2723.86,
+   "end": 2727.04,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/hash-browns.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2727.04,
+   "end": 2779.83
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2779.83,
+   "end": 2796.0,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L2_P4_c18.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2796.0,
+   "end": 2825.2
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2825.1,
+   "end": 2828.32,
+   "chapter": "Real Food vs Multivitamins",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T17.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2828.32,
+   "end": 2881.84
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2881.84,
+   "end": 2884.8,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/spinach-kale.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2884.8,
+   "end": 2905.4
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2905.4,
+   "end": 2908.32,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/multivitamin.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2908.32,
+   "end": 2936.27
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2936.27,
+   "end": 2953.12,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L2_P4_c19.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2953.12,
+   "end": 3070.5
+  }
+ ],
+ "stickers": [
+  {
+   "at": 423.813,
+   "file": "projects/carrie-ep01/stickers/green-salad-add-colour.mov",
+   "x": "auto",
+   "group": "g0_2757.3",
+   "y": 0.3
+  },
+  {
+   "at": 433.887,
+   "file": "projects/carrie-ep01/stickers/crescent-moon-no-food-overnight.mov",
+   "x": "auto",
+   "group": "g1_2768.1",
+   "y": 0.3
+  },
+  {
+   "at": 514.753,
+   "file": "projects/carrie-ep01/stickers/tangerine-vitamin-c.mov",
+   "x": "auto",
+   "group": "g2_2854.9",
+   "y": 0.3
+  },
+  {
+   "at": 521.413,
+   "file": "projects/carrie-ep01/stickers/carrot-vitamin-a.mov",
+   "x": "auto",
+   "group": "g3_2861.6",
+   "y": 0.3
+  },
+  {
+   "at": 521.663,
+   "file": "projects/carrie-ep01/stickers/leafy-green-vitamin-k.mov",
+   "x": "auto",
+   "group": "g3_2861.6",
+   "y": 0.3
+  }
+ ],
+ "sfx": [
+  {
+   "at": 179.13,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 291.93,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 445.33,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 589.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  }
+ ]
+}

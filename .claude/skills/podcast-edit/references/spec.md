@@ -61,3 +61,15 @@ Output-timeline times = sum of segment durations before the moment. Easiest: ren
 ## Outputs
 `<out>/<id>_<slug>.mp4`, optional `_sheet.jpg` (`--sheet`), `_chapters.txt` (when chapters are set),
 `<work>/<id>/caps.ass` (all caption events, editable) and `captions.txt`.
+
+## Added 2026-11-06 (long-form with B-roll and motion, Carrie ep01 v2)
+| key | meaning |
+|---|---|
+| `captions: "pod"` | long-form podcast captions: bold white chunk (up to 6 words) at the bottom, the spoken word in the accent colour. `cap_size` (default 58 px at 1080p), `cap_y` (0.935 = just above the bottom edge) |
+| `stickers` | `[{"at": 12.4, "file": "projects/<ep>/stickers/banana-1-banana.mov", "x": 0.8, "y": 0.3}]` floating 3D element (alpha .mov from `scripts/stickers.py`), centre position, output timeline; drawn under the captions |
+| segment `layout: "sbs"` | 16:9 side-by-side split from ONE wide camera: left person / right person, faces from the face track; `zoom`, `zoom_r`, `cy` |
+| segment `broll.panel: "left"/"right"` (16:9) | side card: card (806x1080 from `scripts/cards.py`, `"w": 806, "h": 1080`) on that side, the talker cropped on the other (`cx` "left"/"right", `zoom`, `cy`) |
+| env `PODCAST_HWDEC=cuda` | GPU-decode the 4K HEVC sources (big speed-up; NVENC encode not needed) |
+| env `PODCAST_FINAL_PRESET` | x264 preset of the final pass (default `medium`; `fast` for long-forms on a deadline) |
+Tools: `scripts/broll_sheet.py` (keyless photo search -> numbered contact sheets -> `--get picks.json` with credits),
+`scripts/stickers.py` (Fluent 3D emoji, MIT: pop-in, slow float, label pill, pop-out).

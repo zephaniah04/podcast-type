@@ -22,3 +22,8 @@ projects/**/broll/*
 
 # reference downloads metadata
 references/studies/*/src.info.json
+
+# floating 3D elements are rendered per episode
+projects/**/stickers/
+projects/**/broll/_cand/
+projects/**/long2_pieces/

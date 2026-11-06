@@ -14,7 +14,7 @@ If a host rate-limits (HTTP 429), wait a minute or try another source; on a home
 """
 import argparse, json, os, re, subprocess, sys, urllib.parse
 
-UA = "podcast-type-broll/0.2 (video editing; contact via repo)"
+UA = "podcast-type-broll/0.3 (https://github.com/zephaniah04/podcast-type) curl/8"
 OK_LIC = re.compile(r"(cc0|pdm|public ?domain|^by$|^by-sa$|cc[- ]by(-sa)?|creativecommons\.org/(licenses/by(-sa)?|publicdomain))", re.I)
 
 

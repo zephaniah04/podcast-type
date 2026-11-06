@@ -1,10 +1,11 @@
 # Deliverables: carrie-ep01
 
-**3 long-form** (2:41:33 total) and **25 shorts** (18:53 total). Rendered 28 / 28.
+**4 long-form** (4:02:33 total) and **25 shorts** (18:53 total). Rendered 29 / 29.
 
 | ID | Type | Title | Topic | Look | Length | Source (raw timecodes) | B-roll | Status | File |
 |---|---|---|---|---|---|---|---|---|---|
 | L01 | Long-form (YouTube) | Fuelling Like an Endurance Athlete (full episode) | Whole consult: hydration, cramps, race fuel, daily eating, recovery | Long-form: cold open + chapters + cards | 1:20:27 | 87 segments | 38 | Rendered | L01_full-episode.mp4 |
+| L01v2 | Long-form (YouTube) | Fuelling Like an Endurance Athlete (full episode, v2) | Whole consult with B-roll photos, floating 3D elements, side cards, split screens, captions throughout | Long-form v2: captions + B-roll + motion elements | 1:21:00 | 87 segments | 63 | Rendered | L01v2_full-episode_v2.mp4 |
 | L02 | Long-form (YouTube) | Part 1: Hydration, Cramps and Race Fuelling | Food record, water, supplements, salt/cramps, sweat test, race fuelling, gym timing, creatine | Long-form: cold open + chapters + cards | 38:21 | 59 segments | 25 | Rendered | L02_part-1-hydration-cramps-race-fuel.mp4 |
 | L03 | Long-form (YouTube) | Part 2: Daily Eating, Protein and Recovery | Protein, meal timing, pre-workout carbs, no-cook dinners, muscle gain, meal prep, micronutrients | Long-form: cold open + chapters + cards | 42:44 | 35 segments | 14 | Rendered | L03_part-2-daily-eating-protein-recovery.mp4 |
 | C01 | Reel / Short | How to know you're a salty sweater | Sodium / sweat | B creator hyper-edit | 0:46 | 12:30-12:33, 12:40-12:50, 12:51-13:07, 13:08-13:15 ... | 1 | Rendered | C01_salty-sweater.mp4 |

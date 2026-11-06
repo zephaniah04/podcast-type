@@ -121,10 +121,10 @@ def frame(card, t, base, accent):
         lab = card.get("label", "")
         if lab:
             a = ease((t - 0.5) / 0.4)
-            text_c(d, (w / 2, y + fs.size * 0.62 + 20 * (1 - a) * S), lab, fit(lab, SERIF, 70 * S, w * 0.86), alpha_blend(INK, BG0, a))
+            text_c(d, (w / 2, y + max(fs.size * 0.62, 140 * S) + 20 * (1 - a) * S), lab, fit(lab, SERIF, 70 * S, w * 0.86), alpha_blend(INK, BG0, a))
         if card.get("sub"):
             a = ease((t - 0.9) / 0.4)
-            text_c(d, (w / 2, y + fs.size * 0.62 + 90 * S), card["sub"], fit(card["sub"], MED, 38 * S, w * 0.86), alpha_blend(MUTED, BG0, a))
+            text_c(d, (w / 2, y + max(fs.size * 0.62, 140 * S) + 90 * S), card["sub"], fit(card["sub"], MED, 38 * S, w * 0.86), alpha_blend(MUTED, BG0, a))
         # underline grows under the number
         ln = (nw + sw_) * ease((t - 0.2) / 0.8)
         d.rectangle([w / 2 - ln / 2, y + fs.size * 0.36, w / 2 + ln / 2, y + fs.size * 0.36 + 6 * S], fill=accent)
@@ -166,20 +166,27 @@ def frame(card, t, base, accent):
             rt = "DO" if ty == "dodont" else card["right"]["title"]
             lc, rc = (RED, GREEN) if ty == "dodont" else (MUTED, accent)
             top = ty0 + (110 if title else 20) * S
-            colw = w * 0.42
-            for side, (head, lines, col, x0, t0) in enumerate([(lt, L, lc, w * 0.06, 0.3), (rt, R, rc, w * 0.52, 0.3 + card.get("delay", 1.2))]):
+            if tall:  # stacked panels: full width, big text (side cards next to a talker)
+                gb = 30 * S; nl = max(len(L), len(R))
+                bh = min((h * 0.93 - top - gb) / 2, 150 * S + 100 * S * nl)
+                top += max(0, (h * 0.93 - top - 2 * bh - gb) / 2)  # centre the pair
+                rects = [(w * 0.07, top, w * 0.93, top + bh), (w * 0.07, top + bh + gb, w * 0.93, top + 2 * bh + gb)]
+            else:
+                rects = [(w * 0.06, top, w * 0.48, h * 0.92), (w * 0.52, top, w * 0.94, h * 0.92)]
+            for side, (head, lines, col, rect, t0) in enumerate([(lt, L, lc, rects[0], 0.3), (rt, R, rc, rects[1], 0.3 + card.get("delay", 1.2))]):
                 a = ease((t - t0) / 0.35)
                 if a <= 0:
                     continue
-                d.rounded_rectangle([x0, top, x0 + colw, h * 0.92], radius=28 * S, fill=alpha_blend(tuple(int(c * 0.18) for c in col), BG0, a), outline=alpha_blend(col, BG0, a), width=max(2, int(3 * S)))
-                hf = fit(head, BLACK, 56 * S, colw * 0.8)
-                d.text((x0 + colw / 2, top + 60 * S), head, font=hf, fill=alpha_blend(col, BG0, a), anchor="mm")
-                gap = min(110 * S, (h * 0.92 - top - 130 * S) / max(len(lines), 1))
+                x0, y0b, x1, y1b = rect; colw = x1 - x0
+                d.rounded_rectangle([x0, y0b, x1, y1b], radius=28 * S, fill=alpha_blend(tuple(int(c * 0.18) for c in col), BG0, a), outline=alpha_blend(col, BG0, a), width=max(2, int(3 * S)))
+                hf = fit(head, BLACK, (64 if tall else 56) * S, colw * 0.8)
+                d.text((x0 + colw / 2, y0b + 62 * S), head, font=hf, fill=alpha_blend(col, BG0, a), anchor="mm")
+                gap = min(110 * S, (y1b - y0b - 140 * S) / max(len(lines), 1))
                 for k, ln in enumerate(lines):
                     b = ease((t - t0 - 0.25 - 0.35 * k) / 0.3)
                     if b <= 0:
                         continue
-                    yy = top + 130 * S + gap * k + gap / 2
+                    yy = y0b + 130 * S + gap * k + gap / 2
                     mx_, r_ = x0 + 44 * S, 12 * S; cc = alpha_blend(col, BG0, b); lw = max(3, int(6 * S))
                     if ty == "dodont" and side == 0:  # cross
                         d.line([(mx_ - r_, yy - r_), (mx_ + r_, yy + r_)], fill=cc, width=lw)
@@ -189,9 +196,9 @@ def frame(card, t, base, accent):
                     else:
                         d.ellipse([mx_ - r_ * 0.6, yy - r_ * 0.6, mx_ + r_ * 0.6, yy + r_ * 0.6], fill=cc)
                     words = ln.split(); lines2 = [""]
-                    ff = font(MED, min(40 * S, gap * 0.4))
+                    ff = font(MED, min((50 if tall else 40) * S, gap * 0.42))
                     for wd in words:
-                        if ff.getlength((lines2[-1] + " " + wd).strip()) > colw - 100 * S:
+                        if ff.getlength((lines2[-1] + " " + wd).strip()) > colw - 110 * S:
                             lines2.append(wd)
                         else:
                             lines2[-1] = (lines2[-1] + " " + wd).strip()

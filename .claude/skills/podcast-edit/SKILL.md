@@ -193,3 +193,11 @@ chapter (writes `_chapters.txt` for the YouTube description). Render 20-30 min s
     person at a desk; chapter title card over the first 3 s of each chapter with `nocaps`; render the body in chunks
     once and build the halves (L02/L03) from the same chunks + their own cold open.
   - Windows: NVENC failed on this driver (needs 610+); `PODCAST_HWDEC=cuda` GPU *decode* still speeds 4K HEVC cuts.
+- 2026-11-06 (Carrie long-form v2, after Nizam: "no B-roll, no elements, very bad"): a podcast long-form needs a
+  visual every ~40-60 s, all driven by the words. Recipe in `projects/carrie-ep01/build_long2.py`: beats pinned to
+  phrases (`("A", "05:31", "one banana", "st", [("Banana", "1 banana")])`): full-frame photo B-roll 3 s with push-in
+  for named things (food, places, gear, a cramp), floating 3D element for objects/numbers said in passing, side card
+  for numbers/lists/protocols (talker stays on screen), side-by-side split for quick Q -> A, captions on the whole
+  episode ("pod" style). Pick every photo by eye from contact sheets: keyless search returns junk (bees for "salt
+  sweat") - drop a beat rather than show a wrong picture. Wikimedia needs a User-Agent with a contact URL or it 429s.
+  Face track every 3 s (`face_track(step=3)`) and a +-4 s window keeps leaning people in frame.
