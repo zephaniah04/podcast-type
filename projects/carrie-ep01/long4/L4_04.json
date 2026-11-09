@@ -155,7 +155,8 @@
     "file": "projects/carrie-ep01/v4/info/i_sweat_steps.mp4",
     "push": 0,
     "at": 0
-   }
+   },
+   "cap_ink": true
   },
   {
    "clip": "IMG_4342-001",
@@ -220,7 +221,8 @@
     "file": "projects/carrie-ep01/v4/info/i_sweat_1kg.mp4",
     "push": 0,
     "at": 0
-   }
+   },
+   "cap_ink": true
   },
   {
    "clip": "IMG_4342-001",
@@ -233,8 +235,8 @@
    "end": 1271.34,
    "tighten": 0,
    "layout": "frame",
-   "who": "R",
-   "side": "right",
+   "who": "L",
+   "side": "left",
    "bg": "paper",
    "panel": {
     "file": "projects/carrie-ep01/broll/liter-bottle.jpg",

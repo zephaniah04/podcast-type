@@ -290,7 +290,8 @@
     "file": "projects/carrie-ep01/v4/info/i_cramp_map.mp4",
     "push": 0,
     "at": 0
-   }
+   },
+   "cap_ink": true
   },
   {
    "clip": "IMG_4342-001",

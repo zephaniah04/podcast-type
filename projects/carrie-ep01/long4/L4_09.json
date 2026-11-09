@@ -121,7 +121,8 @@
     "file": "projects/carrie-ep01/v4/info/i_protein_meals.mp4",
     "push": 0,
     "at": 0
-   }
+   },
+   "cap_ink": true
   },
   {
    "clip": "IMG_4343-002",
@@ -516,7 +517,8 @@
     "file": "projects/carrie-ep01/v4/info/i_lunch_rebal.mp4",
     "push": 0,
     "at": 0
-   }
+   },
+   "cap_ink": true
   },
   {
    "clip": "IMG_4343-002",

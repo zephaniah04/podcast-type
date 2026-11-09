@@ -61,3 +61,10 @@ NEXT: QA L4_01 frames (framing, captions, panels) -> re-run build_long4.py once 
   would undo that edit.
 - Known, not fixed: Nizam's tight singles cut his back/shoulder at the left frame edge (head always whole) because the
   guard keeps Carrie out; lowercase "i" in some captions; host caption box wider than its text; headline/transition overlays unused.
+
+## 2026-11-09 10:05 IST — v4.1 exported after Nizam's review
+- Captions: one font/size/baseline, no host box, no blur, light outline, rare colour-only keyword, capital I,
+  dark captions on paper + light full-screen graphics (cap_ink). Graphics re-rendered still (no push/zoom/drift/shake),
+  no punch-ins. Nizam's back kept in frame (PEOPLE["L"] box widened). File A first 45 s shown wide (OLD_ANGLE_END).
+- I:\edited\Fuelling-Like-an-Endurance-Athlete_Nizam-x-Carrie-Mullin-Innes.mp4 (64.9 min) + _chapters.txt + _credits.txt.
+- System documented in .claude/skills/podcast-edit/references/fuel-lab-longform.md; pushed to GitHub.

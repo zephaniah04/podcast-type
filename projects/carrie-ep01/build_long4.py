@@ -236,6 +236,21 @@ def choose(cands, starts):
 FIG = [0]
 
 
+_LB = {}
+
+
+def light_bottom(relpath):
+    """True when the caption band (y 860-1080) of a graphic is light, sampled at 60 % of its length"""
+    if relpath not in _LB:
+        p = relpath if os.path.isabs(relpath) else os.path.join(ROOT, relpath)
+        d = dur_of(relpath) or 2.0
+        r = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{d * 0.6:.2f}", "-i", p, "-frames:v", "1", "-vf",
+                            "crop=1920:220:0:860,scale=96:11,format=gray", "-f", "rawvideo", "-"], capture_output=True)
+        px = r.stdout
+        _LB[relpath] = bool(px) and sum(px) / len(px) > 150
+    return _LB[relpath]
+
+
 def device_seg(c, clip):
     f, s, e, kind, pl = c[0], c[1], c[2], c[3], c[4]
     seg = {"clip": clip, "start": s, "end": e, "tighten": 0}
@@ -250,6 +265,8 @@ def device_seg(c, clip):
         FIG[0] += 1
         g = pl.get("graphic")
         seg["broll"] = {"file": pl["file"], "push": 0 if g else (0.03 if pl.get("video") else 0.07), "at": 0}
+        if g and light_bottom(pl["file"]):
+            seg["cap_ink"] = True  # light graphic: dark captions (white on paper was unreadable)
         if not g and pl.get("label"):
             seg["broll"].update(label=pl["label"].upper(), index=f"FIG.{FIG[0]:03d}")
     elif kind == "hero":

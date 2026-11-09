@@ -173,7 +173,8 @@
     "file": "projects/carrie-ep01/v4/info/i_gap_5h.mp4",
     "push": 0,
     "at": 0
-   }
+   },
+   "cap_ink": true
   },
   {
    "clip": "IMG_4343-002",
@@ -309,7 +310,8 @@
     "file": "projects/carrie-ep01/v4/info/i_forgot_carbs.mp4",
     "push": 0,
     "at": 0
-   }
+   },
+   "cap_ink": true
   },
   {
    "clip": "IMG_4343-002",

@@ -73,6 +73,17 @@ def piece(k):
     raise SystemExit(f"missing piece L4_{k}")
 
 
+def nice(title):
+    """YouTube chapter title in sentence case: 'CHATGPT WAS MY DIETITIAN' -> 'ChatGPT was my dietitian'"""
+    if not title.isupper():
+        return title
+    t = " " + title.lower() + " "
+    for a_, b_ in ((" i ", " I "), ("chatgpt", "ChatGPT"), ("30-min ", "30-minute "), ("don't", "Don't")):
+        t = t.replace(a_, b_)
+    t = t.strip()
+    return t[:1].upper() + t[1:]
+
+
 seq, chap = [], []
 seq.append(("L4_00", piece("00"), None))
 ts = gfx("title_sting.mp4")
@@ -101,7 +112,7 @@ hms = lambda t: (lambda h, m, s: f"{h}:{m:02d}:{s:02d}" if h else f"{m:02d}:{s:0
 t, lines = 0.0, ["00:00 Cold open"]
 for name, p, title in seq:
     if title:
-        lines.append(f"{hms(t)} {title.title() if title.isupper() else title}")
+        lines.append(f"{hms(t)} {nice(title)}")
     if name == "L4_99":
         lines.append(f"{hms(t)} Wrap-up")
     t += dur(p)

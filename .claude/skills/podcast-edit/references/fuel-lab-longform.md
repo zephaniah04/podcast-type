@@ -37,7 +37,8 @@ no recognisable people / brand logos (keep a blocklist: `AVOID` in build_long4.p
   half-transparent INK). No glow, no heavy stroke.
 - **No blur**: words appear with a 2-frame fade, nothing else.
 - Keyword = **colour only** (HIGHLIGHT on video, ACCENT on paper), and **rare**: numbers or explicit keywords, at most
-  one every 12 s (~one per 4-5 sentences). On the paper plate the caption is INK, not white.
+  one every 12 s (~one per 4-5 sentences). On the paper plate and on light full-screen graphics (auto-detected,
+  `cap_ink`) the caption is INK, not white.
 - One line, 2-5 words / <= 30 chars, break on punctuation or > 0.35 s pause; capital "I"; no um/uh; no dashes.
 - Engine: `captions_v4()` in `scripts/podcast.py`; knobs `cap_size`, `cap_key` (`mix`/`none`), `cap_key_gap`.
 

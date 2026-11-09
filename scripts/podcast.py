@@ -1583,7 +1583,7 @@ def main():
                             mw = {"talk": 1500, "broll": 1500, "frame": 1700, "wide": 880 if who in ("L", "R") else 1500}
                             meta.append({"y": seg.get("cap_y", ys[kind]), "x": seg.get("cap_x", xs.get(kind, 0.5)),
                                          "size": seg.get("cap_size", cfg["cap_size"]), "maxw": mw[kind], "who": who,
-                                         "paper": kind == "frame" and (seg.get("bg") or spec.get("bg", "paper")) == "paper"})
+                                         "paper": bool(seg.get("cap_ink")) or (kind == "frame" and (seg.get("bg") or spec.get("bg", "paper")) == "paper")})
         t += d
         print(f"  cut {i + 1}/{len(segs)}", end="\r", flush=True)
     total = t
