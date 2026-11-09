@@ -1,0 +1,2460 @@
+{
+ "accent": "#FFB238",
+ "fx": [
+  {
+   "id": "e_alarm-clock-6-37-am",
+   "kind": "emoji",
+   "emoji": "Alarm clock",
+   "label": "6:37 am",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_glass-of-milk-milkshake",
+   "kind": "emoji",
+   "emoji": "Glass of milk",
+   "label": "milkshake",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_egg-2-eggs",
+   "kind": "emoji",
+   "emoji": "Egg",
+   "label": "2 eggs",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_avocado-guacamole",
+   "kind": "emoji",
+   "emoji": "Avocado",
+   "label": "guacamole",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_honey-pot---honey",
+   "kind": "emoji",
+   "emoji": "Honey pot",
+   "label": "+ honey",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cup-with-straw-just-a-shake",
+   "kind": "emoji",
+   "emoji": "Cup with straw",
+   "label": "just a shake?",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_broccoli-more-veggies",
+   "kind": "emoji",
+   "emoji": "Broccoli",
+   "label": "more veggies",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_carrot",
+   "kind": "emoji",
+   "emoji": "Carrot",
+   "label": "",
+   "size": 330,
+   "dur": 2.4
+  },
+  {
+   "id": "e_leafy-green",
+   "kind": "emoji",
+   "emoji": "Leafy green",
+   "label": "",
+   "size": 330,
+   "dur": 2.4
+  },
+  {
+   "id": "e_stopwatch-1-pm----9-pm",
+   "kind": "emoji",
+   "emoji": "Stopwatch",
+   "label": "1 pm -> 9 pm?",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_banana-1-banana",
+   "kind": "emoji",
+   "emoji": "Banana",
+   "label": "1 banana",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_red-apple-1-apple",
+   "kind": "emoji",
+   "emoji": "Red apple",
+   "label": "1 apple",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_tangerine-1-orange",
+   "kind": "emoji",
+   "emoji": "Tangerine",
+   "label": "1 orange",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_droplet-just-a-sip",
+   "kind": "emoji",
+   "emoji": "Droplet",
+   "label": "just a sip",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_poultry-leg-chicken",
+   "kind": "emoji",
+   "emoji": "Poultry leg",
+   "label": "chicken",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_robot-chatgpt",
+   "kind": "emoji",
+   "emoji": "Robot",
+   "label": "ChatGPT",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_fish-omega-3",
+   "kind": "emoji",
+   "emoji": "Fish",
+   "label": "omega-3",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_sun-oct----apr",
+   "kind": "emoji",
+   "emoji": "Sun",
+   "label": "Oct -> Apr",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_warning-max-4-000-iu",
+   "kind": "emoji",
+   "emoji": "Warning",
+   "label": "max 4,000 IU",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_salt-salty-sweater",
+   "kind": "emoji",
+   "emoji": "Salt",
+   "label": "salty sweater",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_stopwatch-1-2-gels-in-1-42",
+   "kind": "emoji",
+   "emoji": "Stopwatch",
+   "label": "1-2 gels in 1:42",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_balance-scale-weigh-before---after",
+   "kind": "emoji",
+   "emoji": "Balance scale",
+   "label": "weigh before + after",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cup-with-straw-sports-drink",
+   "kind": "emoji",
+   "emoji": "Cup with straw",
+   "label": "sports drink",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_flexed-biceps-adaptation",
+   "kind": "emoji",
+   "emoji": "Flexed biceps",
+   "label": "adaptation",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_hot-beverage-caffeine",
+   "kind": "emoji",
+   "emoji": "Hot beverage",
+   "label": "caffeine",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_balance-scale-fine-balance",
+   "kind": "emoji",
+   "emoji": "Balance scale",
+   "label": "fine balance",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_droplet-you-wake-up-dry",
+   "kind": "emoji",
+   "emoji": "Droplet",
+   "label": "you wake up dry",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_banana-banana",
+   "kind": "emoji",
+   "emoji": "Banana",
+   "label": "banana",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_peanuts-peanut-butter",
+   "kind": "emoji",
+   "emoji": "Peanuts",
+   "label": "peanut butter",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cup-with-straw-carbs---protein",
+   "kind": "emoji",
+   "emoji": "Cup with straw",
+   "label": "carbs + protein",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_fish-just-a-source-of-fat",
+   "kind": "emoji",
+   "emoji": "Fish",
+   "label": "just a source of fat",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_flexed-biceps",
+   "kind": "emoji",
+   "emoji": "Flexed biceps",
+   "label": "",
+   "size": 330,
+   "dur": 2.4
+  },
+  {
+   "id": "e_glass-of-milk-1-000-kcal-shake",
+   "kind": "emoji",
+   "emoji": "Glass of milk",
+   "label": "1,000 kcal shake",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_banana-banana---dates",
+   "kind": "emoji",
+   "emoji": "Banana",
+   "label": "banana + dates",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_broccoli-broccoli",
+   "kind": "emoji",
+   "emoji": "Broccoli",
+   "label": "broccoli",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_ear-of-corn-corn",
+   "kind": "emoji",
+   "emoji": "Ear of corn",
+   "label": "corn",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_carrot-carrots",
+   "kind": "emoji",
+   "emoji": "Carrot",
+   "label": "carrots",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_egg-3-4-eggs",
+   "kind": "emoji",
+   "emoji": "Egg",
+   "label": "3-4 eggs",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_raised-fist-1-fist---1-cup",
+   "kind": "emoji",
+   "emoji": "Raised fist",
+   "label": "1 fist = 1 cup",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cooked-rice-2-cups-cooked",
+   "kind": "emoji",
+   "emoji": "Cooked rice",
+   "label": "2 cups cooked",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_droplet-water-with-meals",
+   "kind": "emoji",
+   "emoji": "Droplet",
+   "label": "water with meals",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_stopwatch-every-3-5-h",
+   "kind": "emoji",
+   "emoji": "Stopwatch",
+   "label": "every 3-5 h",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_bread-forgot-carbs",
+   "kind": "emoji",
+   "emoji": "Bread",
+   "label": "forgot carbs",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_banana-fruit-before-a-hard-one",
+   "kind": "emoji",
+   "emoji": "Banana",
+   "label": "fruit before a hard one",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_bowl-with-spoon-overnight-oats",
+   "kind": "emoji",
+   "emoji": "Bowl with spoon",
+   "label": "overnight oats",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_sandwich-protein---carbs",
+   "kind": "emoji",
+   "emoji": "Sandwich",
+   "label": "protein + carbs",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_egg-1-week-in-the-shell",
+   "kind": "emoji",
+   "emoji": "Egg",
+   "label": "1 week in the shell",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_blueberries-berries",
+   "kind": "emoji",
+   "emoji": "Blueberries",
+   "label": "berries",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_fish-fish---dairy",
+   "kind": "emoji",
+   "emoji": "Fish",
+   "label": "fish + dairy?",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_green-salad-add-colour",
+   "kind": "emoji",
+   "emoji": "Green salad",
+   "label": "add colour",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_crescent-moon-no-food-overnight",
+   "kind": "emoji",
+   "emoji": "Crescent moon",
+   "label": "no food overnight",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_tangerine-vitamin-c",
+   "kind": "emoji",
+   "emoji": "Tangerine",
+   "label": "vitamin C",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_carrot-vitamin-a",
+   "kind": "emoji",
+   "emoji": "Carrot",
+   "label": "vitamin A",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_leafy-green-vitamin-k",
+   "kind": "emoji",
+   "emoji": "Leafy green",
+   "label": "vitamin K",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_guacamole-toast-eggs---guac-sandwich",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/guacamole-toast.jpg",
+   "label": "eggs + guac sandwich",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "p_granola-100-150-g-granola",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/granola.jpg",
+   "label": "100-150 g granola",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_a-shake-won-t-recover-you",
+   "kind": "word",
+   "text": "A SHAKE WON'T RECOVER YOU",
+   "kicker": "not on its own",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "p_chicken-breast--150-g-chicken",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/chicken-breast.jpg",
+   "label": "~150 g chicken",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "p_cooked-rice-a-lot-of-rice",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/cooked-rice.jpg",
+   "label": "a lot of rice",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "w_lots-of-carbs",
+   "kind": "word",
+   "text": "LOTS OF CARBS",
+   "kicker": "",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "p_chicken-curry-chicken-gravy",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/chicken-curry.jpg",
+   "label": "chicken gravy",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "w_1-pm---9-pm",
+   "kind": "word",
+   "text": "1 PM - 9 PM",
+   "kicker": "what fuels that gap?",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "p_three-fruits-office-fruit",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/three-fruits.jpg",
+   "label": "office fruit",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "w_fuel-before---after",
+   "kind": "word",
+   "text": "FUEL BEFORE + AFTER",
+   "kicker": "still working on it",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "p_office-bottle-refilled-2-3x-a-day",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/office-bottle.jpg",
+   "label": "refilled 2-3x a day",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "p_deadlift-strength---running",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/deadlift.jpg",
+   "label": "strength + running",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "p_india-family-food-no-structured-diet",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/india-family-food.jpg",
+   "label": "no structured diet",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "e_glass-of-milk-the-one-constant",
+   "kind": "emoji",
+   "emoji": "Glass of milk",
+   "label": "the one constant",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_chatgpt-was-my-dietitian",
+   "kind": "word",
+   "text": "CHATGPT WAS MY DIETITIAN",
+   "kicker": "before Ironman",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "p_warehouse-store-the-costco-multi",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/warehouse-store.jpg",
+   "label": "the Costco multi",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_vitamin-d",
+   "kind": "word",
+   "text": "VITAMIN D",
+   "kicker": "deficient?",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "p_vitamin-gummies-a-chewable-is-fine",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/vitamin-gummies.jpg",
+   "label": "a chewable is fine",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_a-stored-vitamin",
+   "kind": "word",
+   "text": "A STORED VITAMIN",
+   "kicker": "so weekly doses work too",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_max-4-000-iu",
+   "kind": "word",
+   "text": "MAX 4,000 IU",
+   "kicker": "per day",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "p_race-medic-medics-on-standby",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/race-medic.jpg",
+   "label": "medics on standby",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "w_if-i-fall--take-me-out",
+   "kind": "word",
+   "text": "IF I FALL, TAKE ME OUT",
+   "kicker": "I'm not going to quit",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "w_pushed-through-the-pain",
+   "kind": "word",
+   "text": "PUSHED THROUGH THE PAIN",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_adhesive-bandage-pain-relief-spray",
+   "kind": "emoji",
+   "emoji": "Adhesive bandage",
+   "label": "pain-relief spray",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_hamstring-hamstrings-on-the-bi",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/hamstring.jpg",
+   "label": "hamstrings on the bike",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "w_carbs-won-t-fix-cramps",
+   "kind": "word",
+   "text": "CARBS WON'T FIX CRAMPS",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "p_wall-ball-wall-balls",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/wall-ball.jpg",
+   "label": "wall balls",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "p_finish-line-sprint-finish",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/finish-line.jpg",
+   "label": "sprint finish",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_start-hydrated",
+   "kind": "word",
+   "text": "START HYDRATED",
+   "kicker": "the day before counts",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "e_stopwatch-6-min-run---4-min-station",
+   "kind": "emoji",
+   "emoji": "Stopwatch",
+   "label": "6 min run + 4 min station",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_digital-scale-weigh-before---after",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/digital-scale.jpg",
+   "label": "weigh before + after",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "w_water---sodium",
+   "kind": "word",
+   "text": "WATER + SODIUM",
+   "kicker": "",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "p_energy-drink-cans-aid-station-drinks",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/energy-drink-cans.jpg",
+   "label": "aid-station drinks",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "e_pill-sodium-capsules",
+   "kind": "emoji",
+   "emoji": "Pill",
+   "label": "sodium capsules",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_muscle-adaptation",
+   "kind": "word",
+   "text": "MUSCLE ADAPTATION",
+   "kicker": "the cramps come later now",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "w_salty-sweater",
+   "kind": "word",
+   "text": "SALTY SWEATER",
+   "kicker": "",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_stimulant",
+   "kind": "word",
+   "text": "STIMULANT",
+   "kicker": "it lowers perceived effort",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_last-1k--2x-slower",
+   "kind": "word",
+   "text": "LAST 1K: 2X SLOWER",
+   "kicker": "because I cramped",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "w_70-80-kg",
+   "kind": "word",
+   "text": "70-80 KG",
+   "kicker": "my weight swings fast",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_my-strength-is-shrinking",
+   "kind": "word",
+   "text": "MY STRENGTH IS SHRINKING",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_rocket-stronger---faster",
+   "kind": "emoji",
+   "emoji": "Rocket",
+   "label": "stronger + faster",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_training-first",
+   "kind": "word",
+   "text": "TRAINING FIRST",
+   "kicker": "then eat enough",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "e_snail-too-heavy---slower",
+   "kind": "emoji",
+   "emoji": "Snail",
+   "label": "too heavy = slower",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_empty-gym-6-am-gym",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/empty-gym.jpg",
+   "label": "6 am gym",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_less-volume",
+   "kind": "word",
+   "text": "LESS VOLUME",
+   "kicker": "more time for the gym",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "p_lunges-lunges---cramps",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/lunges.jpg",
+   "label": "lunges = cramps",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "e_droplet-sip-every-set",
+   "kind": "emoji",
+   "emoji": "Droplet",
+   "label": "sip every set",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_peanut-butter-pb-sandwich",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/peanut-butter.jpg",
+   "label": "PB sandwich",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_blood-sugar-up",
+   "kind": "word",
+   "text": "BLOOD SUGAR UP",
+   "kicker": "that's the whole job",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "e_shower-shower---go",
+   "kind": "emoji",
+   "emoji": "Shower",
+   "label": "shower + go",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_cyclist-commute-bike-to-work",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/cyclist-commute.jpg",
+   "label": "bike to work",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "p_milkshake-shake-on-the-go",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/milkshake.jpg",
+   "label": "shake on the go",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_30-minutes-",
+   "kind": "word",
+   "text": "30 MINUTES?",
+   "kicker": "the anabolic window",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_2-workouts---30-min",
+   "kind": "word",
+   "text": "2 WORKOUTS = 30 MIN",
+   "kicker": "1 workout = 2 hours",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "p_supplement-powder-creatine",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/supplement-powder.jpg",
+   "label": "creatine",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "w_plateau-",
+   "kind": "word",
+   "text": "PLATEAU?",
+   "kicker": "",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_placebo-",
+   "kind": "word",
+   "text": "PLACEBO?",
+   "kicker": "1 week is too soon to tell",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "e_spoon-5-7-g-scoop",
+   "kind": "emoji",
+   "emoji": "Spoon",
+   "label": "5-7 g scoop",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_not-just-protein",
+   "kind": "word",
+   "text": "NOT JUST PROTEIN",
+   "kicker": "muscle needs more than that",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "p_plain-yogurt-the-go-to-breakfast",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/plain-yogurt.jpg",
+   "label": "the go-to breakfast",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "e_bowl-with-spoon--150-g-a-day",
+   "kind": "emoji",
+   "emoji": "Bowl with spoon",
+   "label": "~150 g a day",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_dates-fruit-banana---dates",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/dates-fruit.jpg",
+   "label": "banana + dates",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "p_veg-omelette-veg---3-4-eggs",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/veg-omelette.jpg",
+   "label": "veg + 3-4 eggs",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "w_no-fibre-at-all",
+   "kind": "word",
+   "text": "NO FIBRE AT ALL",
+   "kicker": "",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "e_cooked-rice-a-bit-less-rice",
+   "kind": "emoji",
+   "emoji": "Cooked rice",
+   "label": "a bit less rice",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_1-cup-of-veggies",
+   "kind": "word",
+   "text": "1 CUP OF VEGGIES",
+   "kicker": "raw or cooked",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_eat-every-3-5-hours",
+   "kind": "word",
+   "text": "EAT EVERY 3-5 HOURS",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_battery-muscle-energy-stores",
+   "kind": "emoji",
+   "emoji": "Battery",
+   "label": "muscle energy stores",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_office-fruit-2-3-pieces-of-fruit",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/office-fruit.jpg",
+   "label": "2-3 pieces of fruit",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "p_mount-royal-35-min-bike--each-wa",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/mount-royal.jpg",
+   "label": "35 min bike, each way",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_energy-out",
+   "kind": "word",
+   "text": "ENERGY OUT",
+   "kicker": "bike + run + gym",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_i-forgot-about-carbs",
+   "kind": "word",
+   "text": "I FORGOT ABOUT CARBS",
+   "kicker": "loaded up on protein",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_chocolate-bar-20-g-protein-bar",
+   "kind": "emoji",
+   "emoji": "Chocolate bar",
+   "label": "20 g protein bar",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_empty-gym-office-gym",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/empty-gym.jpg",
+   "label": "office gym",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_prime-yourself",
+   "kind": "word",
+   "text": "PRIME YOURSELF",
+   "kicker": "before a hard session",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "e_battery-a-gel-won-t-upset-you",
+   "kind": "emoji",
+   "emoji": "Battery",
+   "label": "a gel won't upset you",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_tomato-tomatoes",
+   "kind": "emoji",
+   "emoji": "Tomato",
+   "label": "tomatoes",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_onion-onions",
+   "kind": "emoji",
+   "emoji": "Onion",
+   "label": "onions",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_ice-eaten-cold",
+   "kind": "emoji",
+   "emoji": "Ice",
+   "label": "eaten cold",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_no-energy-to-cook",
+   "kind": "word",
+   "text": "NO ENERGY TO COOK",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "p_lunch-boxes-weekend-meal-prep",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/lunch-boxes.jpg",
+   "label": "weekend meal prep",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "p_canned-tuna-canned-tuna",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/canned-tuna.jpg",
+   "label": "canned tuna",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_more-than-a-shake",
+   "kind": "word",
+   "text": "MORE THAN A SHAKE",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "w_real-food",
+   "kind": "word",
+   "text": "REAL FOOD",
+   "kicker": "over shakes",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "e_cheese-wedge-cottage-cheese",
+   "kind": "emoji",
+   "emoji": "Cheese wedge",
+   "label": "cottage cheese",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_frozen-berries-frozen-fruit",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/frozen-berries.jpg",
+   "label": "frozen fruit",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "p_date-bar-dates--egg-whites--n",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/date-bar.jpg",
+   "label": "dates, egg whites, nuts",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "e_sandwich-x2",
+   "kind": "emoji",
+   "emoji": "Sandwich",
+   "label": "x2",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_memo-quick-meal-ideas",
+   "kind": "emoji",
+   "emoji": "Memo",
+   "label": "quick meal ideas",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_workouts---kitchen",
+   "kind": "word",
+   "text": "WORKOUTS > KITCHEN",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "w_the-fix--your-evenings",
+   "kind": "word",
+   "text": "THE FIX: YOUR EVENINGS",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "w_anyone-can-gain-muscle",
+   "kind": "word",
+   "text": "ANYONE CAN GAIN MUSCLE",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "p_dexa-body-composition",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/dexa.jpg",
+   "label": "body composition",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "e_crescent-moon-skipping-dinner",
+   "kind": "emoji",
+   "emoji": "Crescent moon",
+   "label": "skipping dinner",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_stopwatch-2-3-h-on-a-weekend",
+   "kind": "emoji",
+   "emoji": "Stopwatch",
+   "label": "2-3 h on a weekend",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_toaster-toast-them",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/toaster.jpg",
+   "label": "toast them",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_no-energy-to-push",
+   "kind": "word",
+   "text": "NO ENERGY TO PUSH",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_pill-d---b12",
+   "kind": "emoji",
+   "emoji": "Pill",
+   "label": "D + B12",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_sweet-potato-orange---vitamin-a",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/sweet-potato.jpg",
+   "label": "orange = vitamin A",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "p_chicken-salad-chicken-salad",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/chicken-salad.jpg",
+   "label": "chicken salad",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_phytochemicals",
+   "kind": "word",
+   "text": "PHYTOCHEMICALS",
+   "kicker": "you can't get that in a bottle",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "p_veg-market-more-plants",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/veg-market.jpg",
+   "label": "more plants",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_focus--evening-eating",
+   "kind": "word",
+   "text": "FOCUS: EVENING EATING",
+   "kicker": "check in a month",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_laptop-virtual-check-in",
+   "kind": "emoji",
+   "emoji": "Laptop",
+   "label": "virtual check-in",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_alarm-clock-6-37-am-wake-up",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/alarm-clock.jpg",
+   "label": "6:37 am wake-up",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "p_running-track-interval-work",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/running-track.jpg",
+   "label": "interval work",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "p_blood-test-blood-work--all-good",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/blood-test.jpg",
+   "label": "blood work: all good",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "p_mixed-veg-broccoli--corn--carr",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/mixed-veg.jpg",
+   "label": "broccoli, corn, carrots",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "p_pasta-carbs-carb-needs-drop-a-bi",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/pasta-carbs.jpg",
+   "label": "carb needs drop a bit",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "p_blender-smoothie-homemade-smoothie",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/blender-smoothie.jpg",
+   "label": "homemade smoothie",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "w_200-300-g-of-rice",
+   "kind": "word",
+   "text": "200-300 G OF RICE",
+   "kicker": "+ ~150 g chicken",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_cooked-rice-portion-check",
+   "kind": "emoji",
+   "emoji": "Cooked rice",
+   "label": "portion check",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_bike-hill-ironman--used-sodium",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/bike-hill.jpg",
+   "label": "Ironman: used sodium",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "w_hyrox--no-sodium",
+   "kind": "word",
+   "text": "HYROX: NO SODIUM",
+   "kicker": "just 1-2 gels",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "e_balance-scale-bring-a-scale",
+   "kind": "emoji",
+   "emoji": "Balance scale",
+   "label": "bring a scale",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_same-clothes--before---after",
+   "kind": "word",
+   "text": "SAME CLOTHES, BEFORE + AFTER",
+   "kicker": "or none at all",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_t-shirt-clothes-soak-up-sweat",
+   "kind": "emoji",
+   "emoji": "T-shirt",
+   "label": "clothes soak up sweat",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_a-little-dehydrated-is-ok",
+   "kind": "word",
+   "text": "A LITTLE DEHYDRATED IS OK",
+   "kicker": "after a workout",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_person-biking-hours-out-there",
+   "kind": "emoji",
+   "emoji": "Person biking",
+   "label": "hours out there",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_nauseated-face-upset-gut",
+   "kind": "emoji",
+   "emoji": "Nauseated face",
+   "label": "upset gut",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_more-carbs-on-race-day",
+   "kind": "word",
+   "text": "MORE CARBS ON RACE DAY",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "w_daily-fueling-first",
+   "kind": "word",
+   "text": "DAILY FUELING FIRST",
+   "kicker": "race fueling later",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_sunrise-am-strength",
+   "kind": "emoji",
+   "emoji": "Sunrise",
+   "label": "AM strength",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "p_sports-drink-practise-with-it-in-",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/sports-drink.jpg",
+   "label": "practise with it in training",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": -2.5
+  },
+  {
+   "id": "p_office-bottle-1-l-per-session",
+   "kind": "photo",
+   "file": "projects/carrie-ep01/broll/office-bottle.jpg",
+   "label": "1 L per session",
+   "w": 480,
+   "dur": 3.8,
+   "tilt": 2.0
+  },
+  {
+   "id": "w_heavy-sweater",
+   "kind": "word",
+   "text": "HEAVY SWEATER",
+   "kicker": "drink between every set",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_just-a-starting-point",
+   "kind": "word",
+   "text": "JUST A STARTING POINT",
+   "kicker": "we'll tinker with it",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_office-building-rush-to-work",
+   "kind": "emoji",
+   "emoji": "Office building",
+   "label": "rush to work",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_35-40-min-gap",
+   "kind": "word",
+   "text": "35-40 MIN GAP",
+   "kicker": "gym to first meal",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "e_flexed-biceps-push-further",
+   "kind": "emoji",
+   "emoji": "Flexed biceps",
+   "label": "push further",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_non-responders",
+   "kind": "word",
+   "text": "NON-RESPONDERS",
+   "kicker": "creatine doesn't work for everyone",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_next-meal-within-2-h",
+   "kind": "word",
+   "text": "NEXT MEAL WITHIN 2 H",
+   "kicker": "the second breakfast",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_bowl-with-spoon-plain---150-g",
+   "kind": "emoji",
+   "emoji": "Bowl with spoon",
+   "label": "plain, ~150 g",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_more-veg--a-bit-less-rice",
+   "kind": "word",
+   "text": "MORE VEG, A BIT LESS RICE",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "w_gym-uses-less-carb-per-minute",
+   "kind": "word",
+   "text": "GYM USES LESS CARB PER MINUTE",
+   "kicker": "than running or cycling",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_hourglass-not-done-1-pm-to-6-pm",
+   "kind": "emoji",
+   "emoji": "Hourglass not done",
+   "label": "1 pm to 6 pm",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_thinking-face-say-that-again",
+   "kind": "emoji",
+   "emoji": "Thinking face",
+   "label": "say that again?",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_active-every-evening",
+   "kind": "word",
+   "text": "ACTIVE EVERY EVENING",
+   "kicker": "so fuel the afternoon",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_person-running-run-or-bike",
+   "kind": "emoji",
+   "emoji": "Person running",
+   "label": "run or bike?",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_-30-min-each-way",
+   "kind": "word",
+   "text": "+30 MIN EACH WAY",
+   "kicker": "on the bike",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_the-problem--dinner",
+   "kind": "word",
+   "text": "THE PROBLEM: DINNER",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "w_life-happens",
+   "kind": "word",
+   "text": "LIFE HAPPENS",
+   "kicker": "",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "e_bread-decent-carbs",
+   "kind": "emoji",
+   "emoji": "Bread",
+   "label": "decent carbs",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_house-plan-b--home",
+   "kind": "emoji",
+   "emoji": "House",
+   "label": "plan B: home",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_fix-the-late-afternoon",
+   "kind": "word",
+   "text": "FIX THE LATE AFTERNOON",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_light-bulb-more-ideas-later",
+   "kind": "emoji",
+   "emoji": "Light bulb",
+   "label": "more ideas later",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_sunrise-gym-in-the-morning",
+   "kind": "emoji",
+   "emoji": "Sunrise",
+   "label": "gym in the morning",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_goggles-easy-swim--skip-it",
+   "kind": "emoji",
+   "emoji": "Goggles",
+   "label": "easy swim: skip it",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_bicycle-bike-home",
+   "kind": "emoji",
+   "emoji": "Bicycle",
+   "label": "bike home",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_balanced-meal",
+   "kind": "word",
+   "text": "BALANCED MEAL",
+   "kicker": "chicken + roti + veg",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "e_crescent-moon-make-it-the-night-before",
+   "kind": "emoji",
+   "emoji": "Crescent moon",
+   "label": "make it the night before",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_too-busy-to-cook-",
+   "kind": "word",
+   "text": "TOO BUSY TO COOK?",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_busts-in-silhouette-my-friends-do-it",
+   "kind": "emoji",
+   "emoji": "Busts in silhouette",
+   "label": "my friends do it",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_sunrise-or-at-breakfast",
+   "kind": "emoji",
+   "emoji": "Sunrise",
+   "label": "or at breakfast",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_speech-balloon-eat-while-you-chat",
+   "kind": "emoji",
+   "emoji": "Speech balloon",
+   "label": "eat while you chat",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_lifting-is-easier-on-the-gut",
+   "kind": "word",
+   "text": "LIFTING IS EASIER ON THE GUT",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_low-battery-energy-fades",
+   "kind": "emoji",
+   "emoji": "Low battery",
+   "label": "energy fades",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_sandwich-eating-at-the-gym",
+   "kind": "emoji",
+   "emoji": "Sandwich",
+   "label": "eating at the gym",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_flatbread-eggs---roti",
+   "kind": "emoji",
+   "emoji": "Flatbread",
+   "label": "eggs + roti",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cup-with-straw-alani-shake",
+   "kind": "emoji",
+   "emoji": "Cup with straw",
+   "label": "Alani shake",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_tuna-sandwich---shake-",
+   "kind": "word",
+   "text": "TUNA SANDWICH + SHAKE?",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_thinking-face-not-a-fan",
+   "kind": "emoji",
+   "emoji": "Thinking face",
+   "label": "not a fan",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_cardio--sandwich--gym",
+   "kind": "word",
+   "text": "CARDIO, SANDWICH, GYM",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_thumbs-up-keep-it-simple",
+   "kind": "emoji",
+   "emoji": "Thumbs up",
+   "label": "keep it simple",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_quick---easy",
+   "kind": "word",
+   "text": "QUICK + EASY",
+   "kicker": "the one upside of shakes",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_no-dairy",
+   "kind": "word",
+   "text": "NO DAIRY",
+   "kicker": "not with fish, for him",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "w_they-sound-weird",
+   "kind": "word",
+   "text": "THEY SOUND WEIRD",
+   "kicker": "but they're good",
+   "size": 112,
+   "dur": 2.8
+  },
+  {
+   "id": "e_convenience-store-convenience-food",
+   "kind": "emoji",
+   "emoji": "Convenience store",
+   "label": "convenience food",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_fork-and-knife-with-plate-post-workout-meal",
+   "kind": "emoji",
+   "emoji": "Fork and knife with plate",
+   "label": "post-workout meal",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_fire-energy-out",
+   "kind": "emoji",
+   "emoji": "Fire",
+   "label": "energy out",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_i-didn-t-change-much",
+   "kind": "word",
+   "text": "I DIDN'T CHANGE MUCH",
+   "kicker": "just the evenings",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_face-with-tears-of-joy-harder-than-dinner",
+   "kind": "emoji",
+   "emoji": "Face with tears of joy",
+   "label": "harder than dinner!",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_dinner---carbs---protein",
+   "kind": "word",
+   "text": "DINNER = CARBS + PROTEIN",
+   "kicker": "+ some colour",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_pill-or-the-easy-way",
+   "kind": "emoji",
+   "emoji": "Pill",
+   "label": "or the easy way",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "w_no-veggies--take-the-multi",
+   "kind": "word",
+   "text": "NO VEGGIES? TAKE THE MULTI",
+   "kicker": "",
+   "size": 96,
+   "dur": 2.8
+  },
+  {
+   "id": "e_printer-printing-the-plan",
+   "kind": "emoji",
+   "emoji": "Printer",
+   "label": "printing the plan",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_crescent-moon-still-struggling-at-night",
+   "kind": "emoji",
+   "emoji": "Crescent moon",
+   "label": "still struggling at night?",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_pancakes-breakfast",
+   "kind": "emoji",
+   "emoji": "Pancakes",
+   "label": "breakfast",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cooking-cook",
+   "kind": "emoji",
+   "emoji": "Cooking",
+   "label": "cook",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_egg-eggs",
+   "kind": "emoji",
+   "emoji": "Egg",
+   "label": "eggs",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_sandwich-sandwich",
+   "kind": "emoji",
+   "emoji": "Sandwich",
+   "label": "sandwich",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_bread-bread",
+   "kind": "emoji",
+   "emoji": "Bread",
+   "label": "bread",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_bowl-with-spoon-yogurt",
+   "kind": "emoji",
+   "emoji": "Bowl with spoon",
+   "label": "yogurt",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_bowl-with-spoon-granola",
+   "kind": "emoji",
+   "emoji": "Bowl with spoon",
+   "label": "granola",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_honey-pot-honey",
+   "kind": "emoji",
+   "emoji": "Honey pot",
+   "label": "honey",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_crescent-moon-night",
+   "kind": "emoji",
+   "emoji": "Crescent moon",
+   "label": "night",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cut-of-meat-protein",
+   "kind": "emoji",
+   "emoji": "Cut of meat",
+   "label": "protein",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cup-with-straw-shake",
+   "kind": "emoji",
+   "emoji": "Cup with straw",
+   "label": "shake",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_battery-recover",
+   "kind": "emoji",
+   "emoji": "Battery",
+   "label": "recover",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_bread-carbs",
+   "kind": "emoji",
+   "emoji": "Bread",
+   "label": "carbs",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_battery-recovery",
+   "kind": "emoji",
+   "emoji": "Battery",
+   "label": "recovery",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_fork-and-knife-with-plate-lunch",
+   "kind": "emoji",
+   "emoji": "Fork and knife with plate",
+   "label": "lunch",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cooked-rice-rice",
+   "kind": "emoji",
+   "emoji": "Cooked rice",
+   "label": "rice",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_broccoli-veggies",
+   "kind": "emoji",
+   "emoji": "Broccoli",
+   "label": "veggies",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_red-apple-apple",
+   "kind": "emoji",
+   "emoji": "Red apple",
+   "label": "apple",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_grapes-fruit",
+   "kind": "emoji",
+   "emoji": "Grapes",
+   "label": "fruit",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_droplet-water",
+   "kind": "emoji",
+   "emoji": "Droplet",
+   "label": "water",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_sweat-droplets-sweat",
+   "kind": "emoji",
+   "emoji": "Sweat droplets",
+   "label": "sweat",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_fork-and-knife-with-plate-dinner",
+   "kind": "emoji",
+   "emoji": "Fork and knife with plate",
+   "label": "dinner",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_flexed-biceps-strength",
+   "kind": "emoji",
+   "emoji": "Flexed biceps",
+   "label": "strength",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_running-shoe-running",
+   "kind": "emoji",
+   "emoji": "Running shoe",
+   "label": "running",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_peanuts-fat",
+   "kind": "emoji",
+   "emoji": "Peanuts",
+   "label": "fat",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_pill-supplement",
+   "kind": "emoji",
+   "emoji": "Pill",
+   "label": "supplement",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_pill-vitamin",
+   "kind": "emoji",
+   "emoji": "Pill",
+   "label": "vitamin",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_snowflake-winter",
+   "kind": "emoji",
+   "emoji": "Snowflake",
+   "label": "winter",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_bone-bones",
+   "kind": "emoji",
+   "emoji": "Bone",
+   "label": "bones",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_salt-salt",
+   "kind": "emoji",
+   "emoji": "Salt",
+   "label": "salt",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_running-shoe-run",
+   "kind": "emoji",
+   "emoji": "Running shoe",
+   "label": "run",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_salt-electrolytes",
+   "kind": "emoji",
+   "emoji": "Salt",
+   "label": "electrolytes",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_collision-cramps",
+   "kind": "emoji",
+   "emoji": "Collision",
+   "label": "cramps",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_collision-cramp",
+   "kind": "emoji",
+   "emoji": "Collision",
+   "label": "cramp",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_collision-cramping",
+   "kind": "emoji",
+   "emoji": "Collision",
+   "label": "cramping",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_chequered-flag-race",
+   "kind": "emoji",
+   "emoji": "Chequered flag",
+   "label": "race",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_person-biking-ironman",
+   "kind": "emoji",
+   "emoji": "Person biking",
+   "label": "Ironman",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_bicycle-biking",
+   "kind": "emoji",
+   "emoji": "Bicycle",
+   "label": "biking",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_salt-sodium",
+   "kind": "emoji",
+   "emoji": "Salt",
+   "label": "sodium",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_droplet-hydration",
+   "kind": "emoji",
+   "emoji": "Droplet",
+   "label": "hydration",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_battery-gels",
+   "kind": "emoji",
+   "emoji": "Battery",
+   "label": "gels",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_battery-gel",
+   "kind": "emoji",
+   "emoji": "Battery",
+   "label": "gel",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_high-voltage-energy",
+   "kind": "emoji",
+   "emoji": "High voltage",
+   "label": "energy",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_goggles-swim",
+   "kind": "emoji",
+   "emoji": "Goggles",
+   "label": "swim",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_bicycle-bike",
+   "kind": "emoji",
+   "emoji": "Bicycle",
+   "label": "bike",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_flexed-biceps-muscle",
+   "kind": "emoji",
+   "emoji": "Flexed biceps",
+   "label": "muscle",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_person-lifting-weights-gym",
+   "kind": "emoji",
+   "emoji": "Person lifting weights",
+   "label": "gym",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_sunrise-morning",
+   "kind": "emoji",
+   "emoji": "Sunrise",
+   "label": "morning",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_drop-of-blood-blood",
+   "kind": "emoji",
+   "emoji": "Drop of blood",
+   "label": "blood",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_chestnut-walnuts",
+   "kind": "emoji",
+   "emoji": "Chestnut",
+   "label": "walnuts",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_test-tube-creatine",
+   "kind": "emoji",
+   "emoji": "Test tube",
+   "label": "creatine",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_fire-calories",
+   "kind": "emoji",
+   "emoji": "Fire",
+   "label": "calories",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cooking-cooking",
+   "kind": "emoji",
+   "emoji": "Cooking",
+   "label": "cooking",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_carrot-carrot",
+   "kind": "emoji",
+   "emoji": "Carrot",
+   "label": "carrot",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_green-salad-salad",
+   "kind": "emoji",
+   "emoji": "Green salad",
+   "label": "salad",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_stopwatch-intervals",
+   "kind": "emoji",
+   "emoji": "Stopwatch",
+   "label": "intervals",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_bus-bus",
+   "kind": "emoji",
+   "emoji": "Bus",
+   "label": "bus",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_bowl-with-spoon-oats",
+   "kind": "emoji",
+   "emoji": "Bowl with spoon",
+   "label": "oats",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_ice-fridge",
+   "kind": "emoji",
+   "emoji": "Ice",
+   "label": "fridge",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_zzz-sleep",
+   "kind": "emoji",
+   "emoji": "Zzz",
+   "label": "sleep",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_fish-tuna",
+   "kind": "emoji",
+   "emoji": "Fish",
+   "label": "tuna",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cup-with-straw-smoothie",
+   "kind": "emoji",
+   "emoji": "Cup with straw",
+   "label": "smoothie",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cooking-kitchen",
+   "kind": "emoji",
+   "emoji": "Cooking",
+   "label": "kitchen",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_spiral-notepad-recipes",
+   "kind": "emoji",
+   "emoji": "Spiral notepad",
+   "label": "recipes",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_pancakes-pancakes",
+   "kind": "emoji",
+   "emoji": "Pancakes",
+   "label": "pancakes",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_leafy-green-spinach",
+   "kind": "emoji",
+   "emoji": "Leafy green",
+   "label": "spinach",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_balance-scale-1-kg---1-l",
+   "kind": "emoji",
+   "emoji": "Balance scale",
+   "label": "1 kg = 1 L",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_stopwatch-2-gels---1-42",
+   "kind": "emoji",
+   "emoji": "Stopwatch",
+   "label": "2 gels / 1:42",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_cup-with-straw-not-enough",
+   "kind": "emoji",
+   "emoji": "Cup with straw",
+   "label": "not enough",
+   "size": 330,
+   "dur": 2.9
+  },
+  {
+   "id": "e_red-apple-eat-the-fruit",
+   "kind": "emoji",
+   "emoji": "Red apple",
+   "label": "eat the fruit",
+   "size": 330,
+   "dur": 2.9
+  }
+ ]
+}

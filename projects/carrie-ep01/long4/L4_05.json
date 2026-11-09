@@ -1,0 +1,499 @@
+{
+ "_piece": true,
+ "id": "L4_05",
+ "slug": "v4",
+ "format": "long",
+ "title": "v4 chapter 5: SALT PILLS, CAFFEINE OR CARBS?",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.75,
+  "zoom_right": 1.5,
+  "punch": 1.0,
+  "wide_every": 4,
+  "cy": 0.4,
+  "min_turn": 1.6
+ },
+ "tighten": 0.5,
+ "captions": "v4",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs",
+  "protein shape": "protein shake",
+  "someone for veggies": "some more veggies",
+  "some of your race at lunch": "some of your rice at lunch",
+  "iron one chat": "Ironman, ChatGPT",
+  "gpd": "GPT"
+ },
+ "accent": "#FF5A1F",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 1418.785,
+   "end": 1429.82
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1429.82,
+   "end": 1433.86,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/swimmer.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "SWIM TRAINING",
+    "index": "FIG.064"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1433.86,
+   "end": 1436.2
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1436.2,
+   "end": 1439.96,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/swim-fins.jpg",
+    "label": "WITH FINS ON",
+    "index": "FIG.065",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1439.96,
+   "end": 1446.575
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1466.465,
+   "end": 1474.52
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1474.52,
+   "end": 1477.12,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_23_muscle_adaptation.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1477.12,
+   "end": 1478.4
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1478.4,
+   "end": 1482.14,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/muscle-fibres.jpg",
+    "label": "MUSCLE ADAPTATION",
+    "index": "FIG.066",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1482.14,
+   "end": 1498.5
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1499.52,
+   "end": 1505.48
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1505.48,
+   "end": 1509.32,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/electrolyte-tabs.jpg",
+    "label": "ZERO-CARB ELECTROLYTE",
+    "index": "FIG.067",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1509.32,
+   "end": 1524.1
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1524.1,
+   "end": 1528.02,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/coffee.jpg",
+    "label": "HAS CAFFEINE",
+    "index": "FIG.068",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1528.02,
+   "end": 1536.88
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1536.88,
+   "end": 1539.68,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_24_1_000_mg_sodium.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1539.68,
+   "end": 1546.72
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1546.72,
+   "end": 1552.72,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/r_sodium.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1552.72,
+   "end": 1555.69
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1555.69,
+   "end": 1564.12,
+   "tighten": 0,
+   "zoom": 1.0,
+   "cx": 0.5,
+   "cy": 0.5
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1564.12,
+   "end": 1564.955
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1567.585,
+   "end": 1572.16
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1572.16,
+   "end": 1577.86,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/coffee-cup.jpg",
+    "label": "CARB VS CAFFEINE",
+    "index": "FIG.070",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1577.86,
+   "end": 1593.06
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1593.06,
+   "end": 1599.06,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_caffeine_gauge.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1599.06,
+   "end": 1602.7
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1602.7,
+   "end": 1605.7,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_25_caffeine_belief.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1605.7,
+   "end": 1614.08
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1614.08,
+   "end": 1618.32,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/triathlon-swim.jpg",
+    "push": 0.07,
+    "at": 0,
+    "label": "HOURS OF TRIATHLON",
+    "index": "FIG.072"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1618.32,
+   "end": 1622.9
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1622.9,
+   "end": 1626.72,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/stomach-ache.jpg",
+    "label": "UPSET GUT",
+    "index": "FIG.073",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1626.72,
+   "end": 1631.82
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1634.96,
+   "end": 1650.8
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1650.8,
+   "end": 1655.22,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/running-track.jpg",
+    "push": 0.07,
+    "at": 0,
+    "label": "INTERVAL WORK",
+    "index": "FIG.074"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1655.22,
+   "end": 1672.3
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1672.3,
+   "end": 1675.1,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_26_last_1k_2x_slower.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1675.1,
+   "end": 1681.54
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1681.54,
+   "end": 1687.54,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/r_carbs.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1687.54,
+   "end": 1702.12
+  }
+ ],
+ "stickers": [
+  {
+   "at": 0.25,
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_05.mov",
+   "x": 0.1974,
+   "y": 0.0843,
+   "w": 0.3104
+  }
+ ],
+ "sfx": [
+  {
+   "at": 10.2,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 15.23,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 32.53,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 36.4,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 61.1,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 76.57,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 88.2,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 97.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 120.33,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 138.23,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 147.37,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 158.1,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 166.6,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 190.83,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 210.8,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 219.57,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  }
+ ]
+}

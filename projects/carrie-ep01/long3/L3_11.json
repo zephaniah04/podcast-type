@@ -1,0 +1,782 @@
+{
+ "_piece": true,
+ "id": "L3_11",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 11",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 247.98,
+   "end": 251.04,
+   "chapter": "Why 50 g of Protein Is Plenty",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T11.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 251.04,
+   "end": 270.38
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 270.38,
+   "end": 281.18,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_11_c13.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 281.18,
+   "end": 313.44
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 313.44,
+   "end": 316.9,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 316.9,
+   "end": 339.67
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 339.67,
+   "end": 347.48,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 347.48,
+   "end": 383.64
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 383.64,
+   "end": 387.62,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 387.62,
+   "end": 470.17
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 470.17,
+   "end": 473.75,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 473.75,
+   "end": 478.25
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 478.25,
+   "end": 481.89,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 481.89,
+   "end": 506.97
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 506.97,
+   "end": 511.19,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/veg-curry.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 511.19,
+   "end": 537.86
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 537.86,
+   "end": 543.21,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 543.21,
+   "end": 558.61
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 558.61,
+   "end": 562.15,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 562.15,
+   "end": 607.65
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 607.65,
+   "end": 611.99,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/baby-carrots.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 611.99,
+   "end": 630.41
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 630.41,
+   "end": 634.53,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/frozen-veg.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 634.53,
+   "end": 704.48
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 704.48,
+   "end": 715.37,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 715.37,
+   "end": 741.3
+  }
+ ],
+ "stickers": [
+  {
+   "at": 5.167,
+   "file": "projects/carrie-ep01/fx/e_pancakes-breakfast.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g5.167",
+   "w": 0.219
+  },
+  {
+   "at": 16.18,
+   "file": "projects/carrie-ep01/fx/e_glass-of-milk-1-000-kcal-shake.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g16.18",
+   "w": 0.238
+  },
+  {
+   "at": 38.58,
+   "file": "projects/carrie-ep01/fx/w_not-just-protein.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w38.58",
+   "w": 0.616
+  },
+  {
+   "at": 50.68,
+   "file": "projects/carrie-ep01/fx/w_next-meal-within-2-h.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w50.68",
+   "w": 0.625
+  },
+  {
+   "at": 59.65,
+   "file": "projects/carrie-ep01/fx/p_plain-yogurt-the-go-to-breakfast.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p59.65",
+   "w": 0.259
+  },
+  {
+   "at": 77.133,
+   "file": "projects/carrie-ep01/fx/e_bowl-with-spoon-plain---150-g.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g77.133",
+   "w": 0.219
+  },
+  {
+   "at": 93.56,
+   "file": "projects/carrie-ep01/fx/e_bowl-with-spoon--150-g-a-day.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g93.56",
+   "w": 0.219
+  },
+  {
+   "at": 107.5,
+   "file": "projects/carrie-ep01/fx/e_cup-with-straw-shake.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g107.5",
+   "w": 0.219
+  },
+  {
+   "at": 126.783,
+   "file": "projects/carrie-ep01/fx/p_dates-fruit-banana---dates.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p126.783",
+   "w": 0.259
+  },
+  {
+   "at": 136.34,
+   "file": "projects/carrie-ep01/fx/e_cut-of-meat-protein.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g136.34",
+   "w": 0.219
+  },
+  {
+   "at": 147.593,
+   "file": "projects/carrie-ep01/fx/e_poultry-leg-chicken.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g147.593",
+   "w": 0.219
+  },
+  {
+   "at": 152.693,
+   "file": "projects/carrie-ep01/fx/e_broccoli-veggies.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g152.693",
+   "w": 0.219
+  },
+  {
+   "at": 177.227,
+   "file": "projects/carrie-ep01/fx/w_more-veg--a-bit-less-rice.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w177.227",
+   "w": 0.724
+  },
+  {
+   "at": 186.96,
+   "file": "projects/carrie-ep01/fx/e_pancakes-breakfast.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g186.96",
+   "w": 0.219
+  },
+  {
+   "at": 194.253,
+   "file": "projects/carrie-ep01/fx/e_bread-bread.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g194.253",
+   "w": 0.219
+  },
+  {
+   "at": 197.0,
+   "file": "projects/carrie-ep01/fx/e_bowl-with-spoon-yogurt.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g197.0",
+   "w": 0.219
+  },
+  {
+   "at": 204.417,
+   "file": "projects/carrie-ep01/fx/p_mixed-veg-broccoli--corn--carr.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p204.417",
+   "w": 0.259
+  },
+  {
+   "at": 212.45,
+   "file": "projects/carrie-ep01/fx/p_veg-omelette-veg---3-4-eggs.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p212.45",
+   "w": 0.258
+  },
+  {
+   "at": 222.093,
+   "file": "projects/carrie-ep01/fx/e_sandwich-sandwich.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g222.093",
+   "w": 0.219
+  },
+  {
+   "at": 230.18,
+   "file": "projects/carrie-ep01/fx/w_no-fibre-at-all.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w230.18",
+   "w": 0.537
+  },
+  {
+   "at": 250.507,
+   "file": "projects/carrie-ep01/fx/e_cooked-rice-rice.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g250.507",
+   "w": 0.219
+  },
+  {
+   "at": 263.847,
+   "file": "projects/carrie-ep01/fx/e_person-lifting-weights-gym.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g263.847",
+   "w": 0.219
+  },
+  {
+   "at": 278.06,
+   "file": "projects/carrie-ep01/fx/e_person-biking-ironman.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g278.06",
+   "w": 0.219
+  },
+  {
+   "at": 281.92,
+   "file": "projects/carrie-ep01/fx/e_cooked-rice-a-bit-less-rice.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g281.92",
+   "w": 0.219
+  },
+  {
+   "at": 287.3,
+   "file": "projects/carrie-ep01/fx/e_flexed-biceps-muscle.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g287.3",
+   "w": 0.219
+  },
+  {
+   "at": 291.183,
+   "file": "projects/carrie-ep01/fx/p_pasta-carbs-carb-needs-drop-a-bi.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p291.183",
+   "w": 0.258
+  },
+  {
+   "at": 304.173,
+   "file": "projects/carrie-ep01/fx/w_gym-uses-less-carb-per-minute.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w304.173",
+   "w": 0.899
+  },
+  {
+   "at": 318.487,
+   "file": "projects/carrie-ep01/fx/e_chequered-flag-race.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g318.487",
+   "w": 0.219
+  },
+  {
+   "at": 323.267,
+   "file": "projects/carrie-ep01/fx/e_poultry-leg-chicken.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g323.267",
+   "w": 0.219
+  },
+  {
+   "at": 349.413,
+   "file": "projects/carrie-ep01/fx/e_green-salad-salad.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g349.413",
+   "w": 0.219
+  },
+  {
+   "at": 374.52,
+   "file": "projects/carrie-ep01/fx/e_broccoli-veggies.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g374.52",
+   "w": 0.219
+  },
+  {
+   "at": 377.9,
+   "file": "projects/carrie-ep01/fx/w_1-cup-of-veggies.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w377.9",
+   "w": 0.579
+  },
+  {
+   "at": 387.69,
+   "file": "projects/carrie-ep01/fx/e_cooked-rice-rice.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g387.69",
+   "w": 0.219
+  },
+  {
+   "at": 401.853,
+   "file": "projects/carrie-ep01/fx/e_raised-fist-1-fist---1-cup.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g401.853",
+   "w": 0.219
+  },
+  {
+   "at": 429.763,
+   "file": "projects/carrie-ep01/fx/e_cooked-rice-2-cups-cooked.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g429.763",
+   "w": 0.219
+  },
+  {
+   "at": 437.847,
+   "file": "projects/carrie-ep01/fx/e_high-voltage-energy.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g437.847",
+   "w": 0.219
+  },
+  {
+   "at": 455.38,
+   "file": "projects/carrie-ep01/fx/e_droplet-water-with-meals.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g455.38",
+   "w": 0.239
+  }
+ ],
+ "sfx": [
+  {
+   "at": 5.167,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 16.18,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 38.58,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 50.68,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 59.65,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 77.133,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 93.56,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 107.5,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 126.783,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 136.34,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 147.593,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 152.693,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 177.227,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 186.96,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 194.253,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 197.0,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 204.417,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 212.45,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 222.093,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 230.18,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 250.507,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 263.847,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 278.06,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 281.92,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 287.3,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 291.183,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 304.173,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 318.487,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 323.267,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 349.413,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 374.52,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 377.9,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 387.69,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 401.853,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 429.763,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 437.847,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 455.38,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 21.83,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 84.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 240.63,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 270.63,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 337.4,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 359.57,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 422.93,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.37,
+   "num": "11",
+   "text": "50 g of protein"
+  }
+ ]
+}

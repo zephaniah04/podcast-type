@@ -1,0 +1,368 @@
+{
+ "_piece": true,
+ "id": "L4_14",
+ "slug": "v4",
+ "format": "long",
+ "title": "v4 chapter 14: MULTIVITAMIN OR REAL FOOD?",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.75,
+  "zoom_right": 1.5,
+  "punch": 1.0,
+  "wide_every": 4,
+  "cy": 0.4,
+  "min_turn": 1.6
+ },
+ "tighten": 0.5,
+ "captions": "v4",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs",
+  "protein shape": "protein shake",
+  "someone for veggies": "some more veggies",
+  "some of your race at lunch": "some of your rice at lunch",
+  "iron one chat": "Ironman, ChatGPT",
+  "gpd": "GPT"
+ },
+ "accent": "#FF5A1F",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 2825.1,
+   "end": 2835.64
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2835.64,
+   "end": 2839.8,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/vitd-caps.jpg",
+    "label": "VITAMIN D, B12",
+    "index": "FIG.196",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2839.8,
+   "end": 2840.72
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2851.22,
+   "end": 2861.5
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2861.5,
+   "end": 2867.5,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "grid",
+   "panel": {
+    "file": "projects/carrie-ep01/v4/info/r_vitA.mp4",
+    "label": "",
+    "index": "FIG.197",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2867.5,
+   "end": 2881.38
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2881.38,
+   "end": 2886.88,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "grid",
+   "panel": {
+    "file": "projects/carrie-ep01/v4/info/i_greens.mp4",
+    "label": "",
+    "index": "FIG.198",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2886.88,
+   "end": 2895.84
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2895.84,
+   "end": 2899.24,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/chicken-salad.jpg",
+    "label": "CHICKEN SALAD",
+    "index": "FIG.199",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2899.24,
+   "end": 2904.7
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2904.7,
+   "end": 2908.42,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/multivitamin.jpg",
+    "label": "OR A MULTIVITAMIN",
+    "index": "FIG.200",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2908.42,
+   "end": 2930.52
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2930.52,
+   "end": 2934.36,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/empty-plate.jpg",
+    "label": "NO-VEG DAYS: MULTI",
+    "index": "FIG.201",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2934.36,
+   "end": 2940.22
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2940.22,
+   "end": 2944.0,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/whole-grains.jpg",
+    "label": "FIBRE",
+    "index": "FIG.202",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2944.0,
+   "end": 2945.04
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2945.04,
+   "end": 2951.54,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_food_vs_pill.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2951.54,
+   "end": 2959.695
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2962.12,
+   "end": 2974.7
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2974.7,
+   "end": 2978.48,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/veg-market.jpg",
+    "push": 0.07,
+    "at": 0,
+    "label": "MORE PLANTS",
+    "index": "FIG.204"
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2978.48,
+   "end": 2980.43
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2980.43,
+   "end": 2985.82,
+   "tighten": 0,
+   "zoom": 1.0,
+   "cx": 0.5,
+   "cy": 0.5
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2985.82,
+   "end": 2991.095
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 3082.33,
+   "end": 3082.97
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 3082.97,
+   "end": 3086.83,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/pharmacy-shelves.jpg",
+    "push": 0.07,
+    "at": 0,
+    "label": "PRESCRIPTION?",
+    "index": "FIG.205"
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 3086.83,
+   "end": 3124.01
+  }
+ ],
+ "stickers": [
+  {
+   "at": 0.25,
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_14.mov",
+   "x": 0.188,
+   "y": 0.0843,
+   "w": 0.2917
+  }
+ ],
+ "sfx": [
+  {
+   "at": 9.37,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 24.63,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 43.57,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 58.03,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 66.17,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 87.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 95.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 100.33,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 125.37,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 141.5,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  }
+ ]
+}

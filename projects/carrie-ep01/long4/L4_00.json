@@ -1,0 +1,141 @@
+{
+ "_piece": true,
+ "id": "L4_00",
+ "slug": "v4",
+ "format": "long",
+ "title": "v4 cold open",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.75,
+  "zoom_right": 1.5,
+  "punch": 1.0,
+  "wide_every": 4,
+  "cy": 0.4,
+  "min_turn": 1.6
+ },
+ "tighten": 0.3,
+ "captions": "v4",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs",
+  "protein shape": "protein shake",
+  "someone for veggies": "some more veggies",
+  "some of your race at lunch": "some of your rice at lunch",
+  "iron one chat": "Ironman, ChatGPT",
+  "gpd": "GPT"
+ },
+ "accent": "#FF5A1F",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 877.515,
+   "end": 880.13
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 776.855,
+   "end": 783.81
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1262.485,
+   "end": 1270.18
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 555.945,
+   "end": 560.46
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2310.05,
+   "end": 2315.965
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1143.17,
+   "end": 1144.19
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1144.19,
+   "end": 1150.69,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_forgot_carbs.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1150.69,
+   "end": 1152.43
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2063.63,
+   "end": 2067.63
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 896.09,
+   "end": 899.89
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2506.8,
+   "end": 2515.595
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2525.085,
+   "end": 2528.435
+  }
+ ],
+ "stickers": [],
+ "sfx": [
+  {
+   "at": 27.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  }
+ ]
+}

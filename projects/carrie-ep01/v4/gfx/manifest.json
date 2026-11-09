@@ -1,0 +1,2517 @@
+{
+ "generated": "2026-11-09 07:55",
+ "canvas": [
+  1920,
+  1080
+ ],
+ "fps": 30,
+ "alpha_codec": "qtrle (QuickTime Animation), pix_fmt argb, straight alpha, cropped to the element bbox (transitions full frame)",
+ "opaque_codec": "H.264 yuv420p BT.709 crf 14, no audio",
+ "files": [
+  {
+   "file": "projects/carrie-ep01/v4/gfx/title_sting.mp4",
+   "id": "title_sting",
+   "kind": "title",
+   "w": 1920,
+   "h": 1080,
+   "dur": 4.5,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.28,
+    0.72,
+    1.06,
+    1.8,
+    4.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_slow.mp3",
+    "assets/sfx/transition_short.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_fast.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -8,
+    -12,
+    -12,
+    -14,
+    -10
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_01.mp4",
+   "id": "chap_01",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 1,
+   "title": "WHAT I EAT IN A DAY",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_01.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_01.mov",
+   "id": "chapter_tag_01",
+   "kind": "tag",
+   "w": 426,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.1531,
+    "y": 0.0843,
+    "w": 0.2219
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_02.mp4",
+   "id": "chap_02",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 2,
+   "title": "CHATGPT WAS MY DIETITIAN",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_02.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_02.mov",
+   "id": "chapter_tag_02",
+   "kind": "tag",
+   "w": 536,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.1818,
+    "y": 0.0843,
+    "w": 0.2792
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_03.mp4",
+   "id": "chap_03",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 3,
+   "title": "IF I FALL, TAKE ME OUT",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_03.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_03.mov",
+   "id": "chapter_tag_03",
+   "kind": "tag",
+   "w": 452,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.1599,
+    "y": 0.0843,
+    "w": 0.2354
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_04.mp4",
+   "id": "chap_04",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 4,
+   "title": "THE 1 KG = 1 LITRE RULE",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_04.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_04.mov",
+   "id": "chapter_tag_04",
+   "kind": "tag",
+   "w": 462,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.1625,
+    "y": 0.0843,
+    "w": 0.2406
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_05.mp4",
+   "id": "chap_05",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 5,
+   "title": "SALT PILLS, CAFFEINE OR CARBS?",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_05.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_05.mov",
+   "id": "chapter_tag_05",
+   "kind": "tag",
+   "w": 596,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.1974,
+    "y": 0.0843,
+    "w": 0.3104
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_06.mp4",
+   "id": "chap_06",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 6,
+   "title": "STRONGER WITHOUT GETTING SLOWER",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_06.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_06.mov",
+   "id": "chapter_tag_06",
+   "kind": "tag",
+   "w": 672,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.2172,
+    "y": 0.0843,
+    "w": 0.35
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_07.mp4",
+   "id": "chap_07",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 7,
+   "title": "IS THE 30-MIN WINDOW REAL?",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_07.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_07.mov",
+   "id": "chapter_tag_07",
+   "kind": "tag",
+   "w": 556,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.187,
+    "y": 0.0843,
+    "w": 0.2896
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_08.mp4",
+   "id": "chap_08",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 8,
+   "title": "WILL OMEGA-3 BURN FAT?",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_08.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_08.mov",
+   "id": "chapter_tag_08",
+   "kind": "tag",
+   "w": 500,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.1724,
+    "y": 0.0843,
+    "w": 0.2604
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_09.mp4",
+   "id": "chap_09",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 9,
+   "title": "50 G OF PROTEIN IS PLENTY",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_09.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_09.mov",
+   "id": "chapter_tag_09",
+   "kind": "tag",
+   "w": 518,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.1771,
+    "y": 0.0843,
+    "w": 0.2698
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_10.mp4",
+   "id": "chap_10",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 10,
+   "title": "DON'T TRAIN ON EMPTY",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_10.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_10.mov",
+   "id": "chapter_tag_10",
+   "kind": "tag",
+   "w": 472,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.1651,
+    "y": 0.0843,
+    "w": 0.2458
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_11.mp4",
+   "id": "chap_11",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 11,
+   "title": "TOO TIRED TO COOK?",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_11.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_11.mov",
+   "id": "chapter_tag_11",
+   "kind": "tag",
+   "w": 438,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.1562,
+    "y": 0.0843,
+    "w": 0.2281
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_12.mp4",
+   "id": "chap_12",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 12,
+   "title": "A PROTEIN SHAKE IS NOT DINNER",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_12.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_12.mov",
+   "id": "chapter_tag_12",
+   "kind": "tag",
+   "w": 586,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.1948,
+    "y": 0.0843,
+    "w": 0.3052
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_13.mp4",
+   "id": "chap_13",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 13,
+   "title": "CAN I GAIN MUSCLE BY RACE DAY?",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_13.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_13.mov",
+   "id": "chapter_tag_13",
+   "kind": "tag",
+   "w": 610,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.201,
+    "y": 0.0843,
+    "w": 0.3177
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chap_14.mp4",
+   "id": "chap_14",
+   "kind": "chapter",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0,
+    0.12,
+    0.3,
+    2.78
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -9,
+    -12,
+    -14,
+    -12
+   ],
+   "n": 14,
+   "title": "MULTIVITAMIN OR REAL FOOD?",
+   "tag_file": "projects/carrie-ep01/v4/gfx/chapter_tag_14.mov"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_14.mov",
+   "id": "chapter_tag_14",
+   "kind": "tag",
+   "w": 560,
+   "h": 84,
+   "dur": 4.0,
+   "alpha": true,
+   "place": {
+    "x": 0.188,
+    "y": 0.0843,
+    "w": 0.2917
+   },
+   "sfx_at": [
+    0.0,
+    3.58
+   ],
+   "sfx": [
+    "assets/sfx/click.wav",
+    "assets/sfx/whoosh_soft.mp3"
+   ],
+   "sfx_gain_db": [
+    -14,
+    -16
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/outro.mp4",
+   "id": "outro",
+   "kind": "outro",
+   "w": 1920,
+   "h": 1080,
+   "dur": 6.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.3
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_slow.mp3"
+   ],
+   "sfx_gain_db": [
+    -14
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/lt_carrie.mov",
+   "id": "lt_carrie",
+   "kind": "lt",
+   "w": 852,
+   "h": 204,
+   "dur": 4.5,
+   "alpha": true,
+   "place": {
+    "x": 0.2667,
+    "y": 0.6824,
+    "w": 0.4437
+   },
+   "sfx_at": [
+    0.05,
+    0.2
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft2.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -13,
+    -14
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/lt_nizam.mov",
+   "id": "lt_nizam",
+   "kind": "lt",
+   "w": 602,
+   "h": 204,
+   "dur": 4.5,
+   "alpha": true,
+   "place": {
+    "x": 0.2016,
+    "y": 0.6824,
+    "w": 0.3135
+   },
+   "sfx_at": [
+    0.05,
+    0.2
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft2.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -13,
+    -14
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_01_74_kg.mp4",
+   "id": "hero_01_74_kg",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "74 KG"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_02_a_shake_won_t.mp4",
+   "id": "hero_02_a_shake_won_t",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "A SHAKE WON'T RECOVER YOU"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_03_rice_is_huge.mp4",
+   "id": "hero_03_rice_is_huge",
+   "kind": "hero:quote",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft2.mp3"
+   ],
+   "sfx_gain_db": [
+    -12
+   ],
+   "screen": "RICE IS HUGE"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_04_1_banana_1_apple_1.mp4",
+   "id": "hero_04_1_banana_1_apple_1",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "1 BANANA · 1 APPLE · 1 ORANGE"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_05_i_should_say_3.mp4",
+   "id": "hero_05_i_should_say_3",
+   "kind": "hero:quote",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft2.mp3"
+   ],
+   "sfx_gain_db": [
+    -12
+   ],
+   "screen": "I SHOULD SAY 3 LITRES..."
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_06_2_2_l_a_day.mp4",
+   "id": "hero_06_2_2_l_a_day",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "2.2 L A DAY"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_07_chatgpt_was_my.mp4",
+   "id": "hero_07_chatgpt_was_my",
+   "kind": "hero:quote",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft2.mp3"
+   ],
+   "sfx_gain_db": [
+    -12
+   ],
+   "screen": "CHATGPT WAS MY DIETITIAN"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_08_october_april.mp4",
+   "id": "hero_08_october_april",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "OCTOBER -> APRIL"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_09_1_000_iu_a_day.mp4",
+   "id": "hero_09_1_000_iu_a_day",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "1,000 IU A DAY"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_10_max_4_000_iu.mp4",
+   "id": "hero_10_max_4_000_iu",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "MAX 4,000 IU"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_11_salt_on_my_face.mp4",
+   "id": "hero_11_salt_on_my_face",
+   "kind": "hero:quote",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft2.mp3"
+   ],
+   "sfx_gain_db": [
+    -12
+   ],
+   "screen": "SALT ON MY FACE"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_12_i_cramp_a_lot.mp4",
+   "id": "hero_12_i_cramp_a_lot",
+   "kind": "hero:quote",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft2.mp3"
+   ],
+   "sfx_gain_db": [
+    -12
+   ],
+   "screen": "I CRAMP. A LOT."
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_13_if_i_fall_take_me.mp4",
+   "id": "hero_13_if_i_fall_take_me",
+   "kind": "hero:quote",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft2.mp3"
+   ],
+   "sfx_gain_db": [
+    -12
+   ],
+   "screen": "IF I FALL, TAKE ME OUT"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_14_muscle_or_sodium.mp4",
+   "id": "hero_14_muscle_or_sodium",
+   "kind": "hero:myth",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.05,
+    0.95,
+    1.25
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -10,
+    -12
+   ],
+   "screen": "MUSCLE OR SODIUM?"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_15_2_gels_in_1_42.mp4",
+   "id": "hero_15_2_gels_in_1_42",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "2 GELS IN 1:42"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_16_it_s_not_the_carbs.mp4",
+   "id": "hero_16_it_s_not_the_carbs",
+   "kind": "hero:myth",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.05,
+    0.95,
+    1.25
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -10,
+    -12
+   ],
+   "screen": "IT'S NOT THE CARBS"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_17_i_had_the_energy.mp4",
+   "id": "hero_17_i_had_the_energy",
+   "kind": "hero:quote",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft2.mp3"
+   ],
+   "sfx_gain_db": [
+    -12
+   ],
+   "screen": "I HAD THE ENERGY"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_18_1_gulp_12_min.mp4",
+   "id": "hero_18_1_gulp_12_min",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "1 GULP / 12 MIN"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_19_74_kg_73_kg.mp4",
+   "id": "hero_19_74_kg_73_kg",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "74 KG -> 73 KG"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_20_1_kg_1_litre.mp4",
+   "id": "hero_20_1_kg_1_litre",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "1 KG = 1 LITRE"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_21_250_500_ml.mp4",
+   "id": "hero_21_250_500_ml",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "+250-500 ML"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_22_water_sodium.mp4",
+   "id": "hero_22_water_sodium",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "WATER + SODIUM"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_23_muscle_adaptation.mp4",
+   "id": "hero_23_muscle_adaptation",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "MUSCLE ADAPTATION"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_24_1_000_mg_sodium.mp4",
+   "id": "hero_24_1_000_mg_sodium",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "1,000 MG SODIUM"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_25_caffeine_belief.mp4",
+   "id": "hero_25_caffeine_belief",
+   "kind": "hero:myth",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.05,
+    0.95,
+    1.25
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -10,
+    -12
+   ],
+   "screen": "CAFFEINE = BELIEF"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_26_last_1k_2x_slower.mp4",
+   "id": "hero_26_last_1k_2x_slower",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "LAST 1K: 2x SLOWER"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_27_stronger_faster.mp4",
+   "id": "hero_27_stronger_faster",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "STRONGER + FASTER"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_28_don_t_get_slower.mp4",
+   "id": "hero_28_don_t_get_slower",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "DON'T GET SLOWER"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_29_you_wake_up_dry.mp4",
+   "id": "hero_29_you_wake_up_dry",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "YOU WAKE UP DRY"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_30_yesterday_s_energy.mp4",
+   "id": "hero_30_yesterday_s_energy",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "YESTERDAY'S ENERGY"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_31_30_min_or_2_hours.mp4",
+   "id": "hero_31_30_min_or_2_hours",
+   "kind": "hero:myth",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.05,
+    0.95,
+    1.25
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -10,
+    -12
+   ],
+   "screen": "30 MIN? OR 2 HOURS?"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_32_omega_3_doesn_t.mp4",
+   "id": "hero_32_omega_3_doesn_t",
+   "kind": "hero:myth",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.05,
+    0.95,
+    1.25
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -10,
+    -12
+   ],
+   "screen": "OMEGA-3 DOESN'T BURN FAT"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_33_creatine_faster.mp4",
+   "id": "hero_33_creatine_faster",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "CREATINE = FASTER ATP"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_34_50_g_plenty.mp4",
+   "id": "hero_34_50_g_plenty",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "50 G = PLENTY"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_35_muscle_just.mp4",
+   "id": "hero_35_muscle_just",
+   "kind": "hero:myth",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.05,
+    0.95,
+    1.25
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -10,
+    -12
+   ],
+   "screen": "MUSCLE ≠ JUST PROTEIN"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_36_2_fists_2_cups.mp4",
+   "id": "hero_36_2_fists_2_cups",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "2 FISTS = 2 CUPS RICE"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_37_eat_every_3_5.mp4",
+   "id": "hero_37_eat_every_3_5",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "EAT EVERY 3-5 HOURS"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_38_1_pm_6_pm_5_hours.mp4",
+   "id": "hero_38_1_pm_6_pm_5_hours",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "1 PM -> 6 PM = 5 HOURS"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_39_no_one_gets_fat_on.mp4",
+   "id": "hero_39_no_one_gets_fat_on",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "NO ONE GETS FAT ON FRUIT"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_40_i_forgot_about.mp4",
+   "id": "hero_40_i_forgot_about",
+   "kind": "hero:quote",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft2.mp3"
+   ],
+   "sfx_gain_db": [
+    -12
+   ],
+   "screen": "I FORGOT ABOUT CARBS"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_41_the_evening_is_the.mp4",
+   "id": "hero_41_the_evening_is_the",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "THE EVENING IS THE PROBLEM"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_42_no_energy_to_cook.mp4",
+   "id": "hero_42_no_energy_to_cook",
+   "kind": "hero:quote",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft2.mp3"
+   ],
+   "sfx_gain_db": [
+    -12
+   ],
+   "screen": "NO ENERGY TO COOK"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_43_eggs_1_week_in_the.mp4",
+   "id": "hero_43_eggs_1_week_in_the",
+   "kind": "hero:number",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.8,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.1,
+    0.95
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3",
+    "assets/sfx/ding.mp3"
+   ],
+   "sfx_gain_db": [
+    -10,
+    -12
+   ],
+   "screen": "EGGS: 1 WEEK IN THE SHELL"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_44_a_shake_is_not.mp4",
+   "id": "hero_44_a_shake_is_not",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "A SHAKE IS NOT ENOUGH"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_45_just_eat_2.mp4",
+   "id": "hero_45_just_eat_2",
+   "kind": "hero:quote",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft2.mp3"
+   ],
+   "sfx_gain_db": [
+    -12
+   ],
+   "screen": "JUST EAT 2 SANDWICHES"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_46_anyone_can_gain.mp4",
+   "id": "hero_46_anyone_can_gain",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "ANYONE CAN GAIN MUSCLE"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_47_you_don_t_eat_at.mp4",
+   "id": "hero_47_you_don_t_eat_at",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "YOU DON'T EAT AT NIGHT"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_48_no_dinner_no_gains.mp4",
+   "id": "hero_48_no_dinner_no_gains",
+   "kind": "hero:myth",
+   "w": 1920,
+   "h": 1080,
+   "dur": 3.0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.05,
+    0.95,
+    1.25
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav",
+    "assets/sfx/pop.mp3"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -10,
+    -12
+   ],
+   "screen": "NO DINNER = NO GAINS"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hero_49_can_t_get_that_in.mp4",
+   "id": "hero_49_can_t_get_that_in",
+   "kind": "hero:punch",
+   "w": 1920,
+   "h": 1080,
+   "dur": 2.6,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.08,
+    0.1
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -11,
+    -13
+   ],
+   "screen": "CAN'T GET THAT IN A BOTTLE"
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hl_step1.mov",
+   "id": "hl_step1",
+   "kind": "headline",
+   "w": 1080,
+   "h": 258,
+   "dur": 3.5,
+   "alpha": true,
+   "place": {
+    "x": 0.3281,
+    "y": 0.2028,
+    "w": 0.5625
+   },
+   "sfx_at": [
+    0.0,
+    0.12
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -12,
+    -13
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hl_rule.mov",
+   "id": "hl_rule",
+   "kind": "headline",
+   "w": 756,
+   "h": 292,
+   "dur": 3.5,
+   "alpha": true,
+   "place": {
+    "x": 0.5,
+    "y": 0.4352,
+    "w": 0.3937
+   },
+   "sfx_at": [
+    0.0,
+    0.12
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -12,
+    -13
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/hl_why.mov",
+   "id": "hl_why",
+   "kind": "headline",
+   "w": 942,
+   "h": 292,
+   "dur": 3.5,
+   "alpha": true,
+   "place": {
+    "x": 0.2922,
+    "y": 0.4352,
+    "w": 0.4906
+   },
+   "sfx_at": [
+    0.0,
+    0.12
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_soft.mp3",
+    "assets/sfx/click.wav"
+   ],
+   "sfx_gain_db": [
+    -12,
+    -13
+   ]
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/tr_ink.mov",
+   "id": "tr_ink",
+   "kind": "transition",
+   "w": 1920,
+   "h": 1080,
+   "dur": 0.5,
+   "alpha": true,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3"
+   ],
+   "sfx_gain_db": [
+    -8
+   ],
+   "cover": [
+    0.2,
+    0.3
+   ],
+   "cut_at": 0.25
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/tr_bars.mov",
+   "id": "tr_bars",
+   "kind": "transition",
+   "w": 1920,
+   "h": 1080,
+   "dur": 0.5,
+   "alpha": true,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3"
+   ],
+   "sfx_gain_db": [
+    -8
+   ],
+   "cover": [
+    0.2,
+    0.3
+   ],
+   "cut_at": 0.25
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/tr_green.mov",
+   "id": "tr_green",
+   "kind": "transition",
+   "w": 1920,
+   "h": 1080,
+   "dur": 0.5,
+   "alpha": true,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3"
+   ],
+   "sfx_gain_db": [
+    -8
+   ],
+   "cover": [
+    0.2,
+    0.3
+   ],
+   "cut_at": 0.25
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/tr_blocks.mov",
+   "id": "tr_blocks",
+   "kind": "transition",
+   "w": 1920,
+   "h": 1080,
+   "dur": 0.5,
+   "alpha": true,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [
+    0.0
+   ],
+   "sfx": [
+    "assets/sfx/whoosh_fast.mp3"
+   ],
+   "sfx_gain_db": [
+    -8
+   ],
+   "cover": [
+    0.2,
+    0.3
+   ],
+   "cut_at": 0.25
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/bg_paper.png",
+   "id": "bg_paper",
+   "kind": "plate",
+   "w": 1920,
+   "h": 1080,
+   "dur": 0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [],
+   "sfx": [],
+   "sfx_gain_db": []
+  },
+  {
+   "file": "projects/carrie-ep01/v4/gfx/bg_grid.png",
+   "id": "bg_grid",
+   "kind": "plate",
+   "w": 1920,
+   "h": 1080,
+   "dur": 0,
+   "alpha": false,
+   "place": {
+    "x": 0.5,
+    "y": 0.5,
+    "w": 1.0
+   },
+   "sfx_at": [],
+   "sfx": [],
+   "sfx_gain_db": []
+  }
+ ]
+}

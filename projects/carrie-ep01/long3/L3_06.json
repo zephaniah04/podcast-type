@@ -1,0 +1,472 @@
+{
+ "_piece": true,
+ "id": "L3_06",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 6",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 1418.7,
+   "end": 1421.66,
+   "chapter": "1,000 mg of Sodium, Caffeine and Only 2 Gels",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T06.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1421.66,
+   "end": 1437.04
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1437.04,
+   "end": 1441.26,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/swim-fins.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1441.26,
+   "end": 1447.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1447.38,
+   "end": 1451.6,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/cycling-uphill.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1451.6,
+   "end": 1517.63
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1517.63,
+   "end": 1527.02,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1527.02,
+   "end": 1535.19
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1535.19,
+   "end": 1540.86,
+   "tighten": 0,
+   "cx": "left",
+   "zoom": 1.8,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_06_c7.mp4",
+    "panel": "right",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1540.86,
+   "end": 1553.59
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1553.59,
+   "end": 1564.12,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1564.12,
+   "end": 1575.08
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1575.08,
+   "end": 1579.14,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/coffee.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1579.14,
+   "end": 1602.76
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1602.76,
+   "end": 1631.8,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_06_c8.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1631.8,
+   "end": 1648.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1648.38,
+   "end": 1667.02,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_06_c9.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1667.02,
+   "end": 1702.6
+  }
+ ],
+ "stickers": [
+  {
+   "at": 39.467,
+   "file": "projects/carrie-ep01/fx/e_droplet-water.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g39.467",
+   "w": 0.219
+  },
+  {
+   "at": 47.3,
+   "file": "projects/carrie-ep01/fx/e_collision-cramping.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g47.3",
+   "w": 0.219
+  },
+  {
+   "at": 51.48,
+   "file": "projects/carrie-ep01/fx/w_muscle-adaptation.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w51.48",
+   "w": 0.613
+  },
+  {
+   "at": 59.48,
+   "file": "projects/carrie-ep01/fx/e_salt-electrolytes.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g59.48",
+   "w": 0.219
+  },
+  {
+   "at": 68.76,
+   "file": "projects/carrie-ep01/fx/e_collision-cramp.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g68.76",
+   "w": 0.219
+  },
+  {
+   "at": 81.14,
+   "file": "projects/carrie-ep01/fx/e_bread-carbs.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g81.14",
+   "w": 0.219
+  },
+  {
+   "at": 96.503,
+   "file": "projects/carrie-ep01/fx/e_hot-beverage-caffeine.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g96.503",
+   "w": 0.219
+  },
+  {
+   "at": 101.473,
+   "file": "projects/carrie-ep01/fx/e_salt-sodium.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g101.473",
+   "w": 0.219
+  },
+  {
+   "at": 116.16,
+   "file": "projects/carrie-ep01/fx/w_salty-sweater.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w116.16",
+   "w": 0.56
+  },
+  {
+   "at": 139.48,
+   "file": "projects/carrie-ep01/fx/e_battery-gel.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g139.48",
+   "w": 0.219
+  },
+  {
+   "at": 158.787,
+   "file": "projects/carrie-ep01/fx/w_stimulant.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w158.787",
+   "w": 0.411
+  },
+  {
+   "at": 202.707,
+   "file": "projects/carrie-ep01/fx/e_battery-gels.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g202.707",
+   "w": 0.219
+  },
+  {
+   "at": 234.26,
+   "file": "projects/carrie-ep01/fx/w_last-1k--2x-slower.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w234.26",
+   "w": 0.573
+  },
+  {
+   "at": 238.38,
+   "file": "projects/carrie-ep01/fx/e_collision-cramping.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g238.38",
+   "w": 0.219
+  },
+  {
+   "at": 248.027,
+   "file": "projects/carrie-ep01/fx/w_more-carbs-on-race-day.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w248.027",
+   "w": 0.735
+  },
+  {
+   "at": 257.673,
+   "file": "projects/carrie-ep01/fx/w_daily-fueling-first.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w257.673",
+   "w": 0.576
+  }
+ ],
+ "sfx": [
+  {
+   "at": 39.467,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 47.3,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 51.48,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 59.48,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 68.76,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 81.14,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 96.503,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 101.473,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 116.16,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 139.48,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 158.787,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 202.707,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 234.26,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 238.38,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 248.027,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 257.673,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 15.37,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 25.23,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 89.73,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 105.07,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 122.17,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 143.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 167.8,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 211.07,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.27,
+   "num": "06",
+   "text": "Sodium, caffeine, gels"
+  }
+ ]
+}

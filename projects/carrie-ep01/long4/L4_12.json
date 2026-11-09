@@ -1,0 +1,367 @@
+{
+ "_piece": true,
+ "id": "L4_12",
+ "slug": "v4",
+ "format": "long",
+ "title": "v4 chapter 12: A PROTEIN SHAKE IS NOT DINNER",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.75,
+  "zoom_right": 1.5,
+  "punch": 1.0,
+  "wide_every": 4,
+  "cy": 0.4,
+  "min_turn": 1.6
+ },
+ "tighten": 0.5,
+ "captions": "v4",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs",
+  "protein shape": "protein shake",
+  "someone for veggies": "some more veggies",
+  "some of your race at lunch": "some of your rice at lunch",
+  "iron one chat": "Ironman, ChatGPT",
+  "gpd": "GPT"
+ },
+ "accent": "#FF5A1F",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 1937.32,
+   "end": 1954.72
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1954.72,
+   "end": 1958.92,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/protein-powder.jpg",
+    "label": "SHAKE + TUNA?",
+    "index": "FIG.169",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1958.92,
+   "end": 1968.16
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1968.16,
+   "end": 1972.02,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/sleeping-man.jpg",
+    "label": "BEFORE BED",
+    "index": "FIG.170",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1972.02,
+   "end": 1979.84
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2045.23,
+   "end": 2049.13
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2049.13,
+   "end": 2052.85,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/big-meal.jpg",
+    "label": "JUST EAT SOMETHING",
+    "index": "FIG.171",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2052.85,
+   "end": 2064.67
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2064.67,
+   "end": 2071.17,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_shake_vs_food.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2071.17,
+   "end": 2081.44
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2081.44,
+   "end": 2085.48,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/whole-foods.jpg",
+    "label": "REAL FOOD > SHAKES",
+    "index": "FIG.173",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2085.48,
+   "end": 2105.4
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2108.44,
+   "end": 2114.74
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2114.74,
+   "end": 2118.5,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/smoothie-berries.jpg",
+    "label": "YOGURT + BERRIES",
+    "index": "FIG.174",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2118.5,
+   "end": 2130.9
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2130.9,
+   "end": 2136.4,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "grid",
+   "panel": {
+    "file": "projects/carrie-ep01/v4/info/i_smoothie.mp4",
+    "label": "",
+    "index": "FIG.175",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2136.4,
+   "end": 2158.64
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2158.64,
+   "end": 2162.78,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/overnight-oats.jpg",
+    "label": "OPTION 1: OATS",
+    "index": "FIG.176",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2162.78,
+   "end": 2173.96
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2173.96,
+   "end": 2179.02,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/salmon-fillet.jpg",
+    "label": "FISH + DAIRY? NO",
+    "index": "FIG.177",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2179.02,
+   "end": 2196.9
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2271.79,
+   "end": 2289.19
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2289.19,
+   "end": 2292.93,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/two-sandwiches.jpg",
+    "label": "TWO SANDWICHES",
+    "index": "FIG.178",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2292.93,
+   "end": 2296.95
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2300.91,
+   "end": 2315.41
+  }
+ ],
+ "stickers": [
+  {
+   "at": 0.25,
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_12.mov",
+   "x": 0.1948,
+   "y": 0.0843,
+   "w": 0.3052
+  }
+ ],
+ "sfx": [
+  {
+   "at": 16.23,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 29.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 42.33,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 55.73,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 71.3,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 98.57,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 112.87,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 139.6,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 154.47,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 193.13,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  }
+ ]
+}

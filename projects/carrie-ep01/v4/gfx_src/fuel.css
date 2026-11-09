@@ -1,0 +1,56 @@
+/* FUEL LAB motion system — shared tokens + primitives (rendered by HyperFrames, 1920x1080) */
+@font-face { font-family: "AB"; src: url(fonts/ArchivoBlack-Regular.ttf); font-weight: 400; }
+@font-face { font-family: "ITH"; src: url(fonts/InterTight-Heavy.ttf); font-weight: 400; }
+@font-face { font-family: "ITM"; src: url(fonts/InterTight-Medium.ttf); font-weight: 400; }
+@font-face { font-family: "IS"; src: url(fonts/InstrumentSerif-Italic.ttf); font-weight: 400; font-style: normal; }
+@font-face { font-family: "SM"; src: url(fonts/SpaceMono-Regular.ttf); font-weight: 400; }
+@font-face { font-family: "SM"; src: url(fonts/SpaceMono-Bold.ttf); font-weight: 700; }
+
+:root {
+  --ink: #0D0D0D; --ink2: #1A1A1A; --paper: #EFEBE3; --paper2: #E2DDD2; --accent: #FF5A1F; --hi: #FFD84D;
+  --green: #1F6B45; --grid: #2E8A5C; --green-deep: #154D31; --white: #FFFFFF;
+}
+html, body { margin: 0; padding: 0; background: transparent; width: 1920px; height: 1080px; overflow: hidden; }
+body.opaque { background: var(--ink); }
+#root { position: relative; width: 1920px; height: 1080px; overflow: hidden; }
+#app { position: absolute; inset: 0; }
+* { box-sizing: border-box; -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; font-kerning: normal; }
+
+/* ---- type ---- */
+.ab  { font-family: "AB"; font-weight: 400; text-transform: uppercase; letter-spacing: -0.02em; line-height: 0.9; }
+.ith { font-family: "ITH"; font-weight: 400; }
+.itm { font-family: "ITM"; font-weight: 400; }
+.is  { font-family: "IS"; font-weight: 400; letter-spacing: -0.01em; }
+.sm  { font-family: "SM"; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em; }
+.smr { font-family: "SM"; font-weight: 400; text-transform: uppercase; letter-spacing: 0.1em; }
+
+/* ---- 3D rig ---- */
+.stage { position: absolute; inset: 0; perspective: 2000px; perspective-origin: 50% 50%; }
+.cam   { position: absolute; inset: 0; transform-style: preserve-3d; }
+.layer { position: absolute; inset: 0; transform-style: preserve-3d; }
+.hud   { position: absolute; inset: 0; }
+.abs   { position: absolute; }
+
+/* ---- backgrounds ---- */
+.bg { position: absolute; left: -30%; top: -30%; width: 160%; height: 160%; }
+.bg-green { background: radial-gradient(ellipse 60% 60% at 45% 46%, #24804F 0%, #1F6B45 52%, #164F33 100%); }
+.bg-paper { background: radial-gradient(ellipse 70% 70% at 50% 45%, #F3F0E9 0%, #EFEBE3 55%, #E4DFD4 100%); }
+.bg-ink   { background: radial-gradient(ellipse 65% 65% at 50% 45%, #171717 0%, #0D0D0D 60%, #070707 100%); }
+.gridlines { position: absolute; inset: 0; background-size: 60px 60px; }
+.g-green { background-image: linear-gradient(90deg, rgba(58,160,106,.55) 2px, transparent 2px), linear-gradient(0deg, rgba(58,160,106,.55) 2px, transparent 2px); }
+.g-paper { background-image: linear-gradient(90deg, rgba(13,13,13,.065) 1.5px, transparent 1.5px), linear-gradient(0deg, rgba(13,13,13,.065) 1.5px, transparent 1.5px); }
+.g-ink   { background-image: linear-gradient(90deg, rgba(255,255,255,.05) 1.5px, transparent 1.5px), linear-gradient(0deg, rgba(255,255,255,.05) 1.5px, transparent 1.5px); }
+.vignette { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse 75% 75% at 50% 48%, rgba(0,0,0,0) 55%, rgba(0,0,0,.34) 100%); }
+.vignette.soft { background: radial-gradient(ellipse 80% 80% at 50% 48%, rgba(0,0,0,0) 60%, rgba(60,45,20,.12) 100%); }
+.grain { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; background-image: url(grain.png); background-size: 256px 256px; pointer-events: none; }
+
+/* ---- primitives ---- */
+.mask { display: block; overflow: hidden; padding: 0.06em 0.04em 0.02em 0.04em; margin: -0.06em -0.04em -0.02em -0.04em; }
+.line-in { display: block; white-space: nowrap; will-change: transform; }
+.w { display: inline-block; white-space: pre; }
+.chip { display: inline-flex; align-items: center; justify-content: center; white-space: nowrap; }
+.polaroid { position: absolute; background: #F7F5F0; padding: 14px 14px 46px 14px; box-shadow: 0 34px 70px rgba(0,0,0,.42), 0 6px 14px rgba(0,0,0,.25); }
+.polaroid .ph { width: 100%; height: 100%; background-size: cover; background-position: 50% 50%; filter: saturate(.9) contrast(1.06); }
+.polaroid .cap { position: absolute; left: 16px; bottom: 12px; font-family: "SM"; font-weight: 700; font-size: 15px; letter-spacing: .12em; color: #0D0D0D; text-transform: uppercase; opacity: .75; }
+.rule { position: absolute; height: 2px; transform-origin: 0 50%; }
+.outline-num { font-family: "AB"; color: transparent; letter-spacing: -0.05em; line-height: 0.78; white-space: nowrap; }

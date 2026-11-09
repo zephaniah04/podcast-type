@@ -1,0 +1,422 @@
+{
+ "_piece": true,
+ "id": "L4_06",
+ "slug": "v4",
+ "format": "long",
+ "title": "v4 chapter 6: STRONGER WITHOUT GETTING SLOWER",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.75,
+  "zoom_right": 1.5,
+  "punch": 1.0,
+  "wide_every": 4,
+  "cy": 0.4,
+  "min_turn": 1.6
+ },
+ "tighten": 0.5,
+ "captions": "v4",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs",
+  "protein shape": "protein shake",
+  "someone for veggies": "some more veggies",
+  "some of your race at lunch": "some of your rice at lunch",
+  "iron one chat": "Ironman, ChatGPT",
+  "gpd": "GPT"
+ },
+ "accent": "#FF5A1F",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 1703.045,
+   "end": 1719.595
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1732.245,
+   "end": 1738.52
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1748.96,
+   "end": 1759.12
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1759.12,
+   "end": 1762.38,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/bathroom-scale.jpg",
+    "label": "SWINGS 72-79 KG",
+    "index": "FIG.076",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1762.38,
+   "end": 1764.6
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1764.6,
+   "end": 1769.6,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "grid",
+   "panel": {
+    "file": "projects/carrie-ep01/v4/info/i_weight_range.mp4",
+    "label": "",
+    "index": "FIG.077",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1769.6,
+   "end": 1774.6
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1774.6,
+   "end": 1779.12,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/weightlifting.jpg",
+    "label": "GOAL: GAIN MUSCLE",
+    "index": "FIG.078",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1779.12,
+   "end": 1785.6
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1785.6,
+   "end": 1788.2,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_27_stronger_faster.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1788.2,
+   "end": 1797.84
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1797.84,
+   "end": 1802.14,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/big-meal.jpg",
+    "label": "EAT ENOUGH",
+    "index": "FIG.079",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1802.14,
+   "end": 1803.6
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1803.6,
+   "end": 1809.6,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_muscle_pyramid.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1809.6,
+   "end": 1817.18
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1817.18,
+   "end": 1819.78,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_28_don_t_get_slower.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1819.78,
+   "end": 1824.86
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1826.38,
+   "end": 1845.02
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1845.02,
+   "end": 1849.32,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/morning-gym.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "GYM FIRST THING",
+    "index": "FIG.081"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1849.32,
+   "end": 1859.64
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1859.64,
+   "end": 1863.36,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/night-run.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "RUNS IN THE EVENING",
+    "index": "FIG.082"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1863.36,
+   "end": 1881.12
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1881.12,
+   "end": 1884.94,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/marathon.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "HYROX: LESS VOLUME",
+    "index": "FIG.083"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1884.94,
+   "end": 1889.88
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1902.485,
+   "end": 1909.52
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1909.52,
+   "end": 1913.44,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/sports-drinks.jpg",
+    "label": "PRACTISE WITH IT",
+    "index": "FIG.084",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1913.44,
+   "end": 1924.1
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1924.1,
+   "end": 1928.3,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/running-friends.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "MINI-HYROX WITH A FRIEND",
+    "index": "FIG.085"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1928.3,
+   "end": 1937.02
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1937.02,
+   "end": 1940.4,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/lunges.jpg",
+    "label": "LEGS GONE",
+    "index": "FIG.086",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1940.4,
+   "end": 1969.12
+  }
+ ],
+ "stickers": [
+  {
+   "at": 0.25,
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_06.mov",
+   "x": 0.2172,
+   "y": 0.0843,
+   "w": 0.35
+  }
+ ],
+ "sfx": [
+  {
+   "at": 31.47,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 36.73,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 45.77,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 56.53,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 65.8,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 71.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 81.97,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 107.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 122.1,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 142.83,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 157.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 171.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 184.6,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  }
+ ]
+}

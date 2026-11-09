@@ -1,0 +1,272 @@
+{
+ "_piece": true,
+ "id": "L3_09",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 9",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 2170.02,
+   "end": 2173.1,
+   "chapter": "Is the 30-Minute Window Real?",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T09.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2173.1,
+   "end": 2218.65
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2218.65,
+   "end": 2222.5,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2222.5,
+   "end": 2277.89
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2277.89,
+   "end": 2281.67,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2281.67,
+   "end": 2303.19
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2303.19,
+   "end": 2328.27,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_09_c11.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2328.27,
+   "end": 2351.2
+  }
+ ],
+ "stickers": [
+  {
+   "at": 18.867,
+   "file": "projects/carrie-ep01/fx/e_office-building-rush-to-work.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g18.867",
+   "w": 0.219
+  },
+  {
+   "at": 33.653,
+   "file": "projects/carrie-ep01/fx/e_person-lifting-weights-gym.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g33.653",
+   "w": 0.219
+  },
+  {
+   "at": 37.433,
+   "file": "projects/carrie-ep01/fx/e_shower-shower---go.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g37.433",
+   "w": 0.219
+  },
+  {
+   "at": 44.017,
+   "file": "projects/carrie-ep01/fx/p_cyclist-commute-bike-to-work.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p44.017",
+   "w": 0.258
+  },
+  {
+   "at": 56.36,
+   "file": "projects/carrie-ep01/fx/w_35-40-min-gap.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w56.36",
+   "w": 0.506
+  },
+  {
+   "at": 69.58,
+   "file": "projects/carrie-ep01/fx/e_cup-with-straw-carbs---protein.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g69.58",
+   "w": 0.219
+  },
+  {
+   "at": 78.613,
+   "file": "projects/carrie-ep01/fx/e_cup-with-straw-shake.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g78.613",
+   "w": 0.219
+  },
+  {
+   "at": 95.35,
+   "file": "projects/carrie-ep01/fx/p_milkshake-shake-on-the-go.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p95.35",
+   "w": 0.259
+  },
+  {
+   "at": 147.727,
+   "file": "projects/carrie-ep01/fx/w_2-workouts---30-min.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w147.727",
+   "w": 0.621
+  },
+  {
+   "at": 152.953,
+   "file": "projects/carrie-ep01/fx/e_cup-with-straw-shake.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g152.953",
+   "w": 0.219
+  }
+ ],
+ "sfx": [
+  {
+   "at": 18.867,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 33.653,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 37.433,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 44.017,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 56.36,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 69.58,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 78.613,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 95.35,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 147.727,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 152.953,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 119.2,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.37,
+   "num": "09",
+   "text": "The 30-minute window"
+  }
+ ]
+}

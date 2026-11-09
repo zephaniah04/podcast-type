@@ -1,0 +1,458 @@
+{
+ "_piece": true,
+ "id": "L3_07",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 7",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 1702.54,
+   "end": 1705.7,
+   "chapter": "Gaining Muscle Without Getting Slower",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T07.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1705.7,
+   "end": 1717.12
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1717.12,
+   "end": 1721.38,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/runner-road.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1721.38,
+   "end": 1755.71
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1755.71,
+   "end": 1765.52,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1765.52,
+   "end": 1775.84
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1775.84,
+   "end": 1779.84,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/weightlifting.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1779.84,
+   "end": 1845.03
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1845.03,
+   "end": 1848.64,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1848.64,
+   "end": 1909.6
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1909.6,
+   "end": 1913.34,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1913.34,
+   "end": 1916.39
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1916.39,
+   "end": 1925.1,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1925.1,
+   "end": 1937.1
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1937.1,
+   "end": 1940.66,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1940.66,
+   "end": 1969.9
+  }
+ ],
+ "stickers": [
+  {
+   "at": 33.72,
+   "file": "projects/carrie-ep01/fx/e_flexed-biceps-strength.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g33.72",
+   "w": 0.219
+  },
+  {
+   "at": 53.483,
+   "file": "projects/carrie-ep01/fx/w_70-80-kg.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w53.483",
+   "w": 0.344
+  },
+  {
+   "at": 75.52,
+   "file": "projects/carrie-ep01/fx/w_my-strength-is-shrinking.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w75.52",
+   "w": 0.753
+  },
+  {
+   "at": 81.1,
+   "file": "projects/carrie-ep01/fx/e_rocket-stronger---faster.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g81.1",
+   "w": 0.238
+  },
+  {
+   "at": 94.413,
+   "file": "projects/carrie-ep01/fx/w_training-first.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w94.413",
+   "w": 0.518
+  },
+  {
+   "at": 105.16,
+   "file": "projects/carrie-ep01/fx/e_snail-too-heavy---slower.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g105.16",
+   "w": 0.26
+  },
+  {
+   "at": 109.667,
+   "file": "projects/carrie-ep01/fx/e_balance-scale-fine-balance.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g109.667",
+   "w": 0.219
+  },
+  {
+   "at": 113.273,
+   "file": "projects/carrie-ep01/fx/e_person-lifting-weights-gym.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g113.273",
+   "w": 0.219
+  },
+  {
+   "at": 125.613,
+   "file": "projects/carrie-ep01/fx/e_flexed-biceps-strength.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g125.613",
+   "w": 0.219
+  },
+  {
+   "at": 129.983,
+   "file": "projects/carrie-ep01/fx/p_empty-gym-6-am-gym.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p129.983",
+   "w": 0.259
+  },
+  {
+   "at": 143.253,
+   "file": "projects/carrie-ep01/fx/e_running-shoe-run.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g143.253",
+   "w": 0.219
+  },
+  {
+   "at": 148.073,
+   "file": "projects/carrie-ep01/fx/e_sunrise-am-strength.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g148.073",
+   "w": 0.219
+  },
+  {
+   "at": 165.18,
+   "file": "projects/carrie-ep01/fx/w_less-volume.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w165.18",
+   "w": 0.473
+  },
+  {
+   "at": 186.86,
+   "file": "projects/carrie-ep01/fx/e_salt-electrolytes.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g186.86",
+   "w": 0.219
+  },
+  {
+   "at": 190.35,
+   "file": "projects/carrie-ep01/fx/p_sports-drink-practise-with-it-in-.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p190.35",
+   "w": 0.259
+  },
+  {
+   "at": 199.61,
+   "file": "projects/carrie-ep01/fx/e_collision-cramping.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g199.61",
+   "w": 0.219
+  },
+  {
+   "at": 211.1,
+   "file": "projects/carrie-ep01/fx/e_running-shoe-run.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g211.1",
+   "w": 0.219
+  },
+  {
+   "at": 217.85,
+   "file": "projects/carrie-ep01/fx/p_lunges-lunges---cramps.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p217.85",
+   "w": 0.259
+  },
+  {
+   "at": 240.707,
+   "file": "projects/carrie-ep01/fx/e_running-shoe-running.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g240.707",
+   "w": 0.219
+  }
+ ],
+ "sfx": [
+  {
+   "at": 33.72,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 53.483,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 75.52,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 81.1,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 94.413,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 105.16,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 109.667,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 113.273,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 125.613,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 129.983,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 143.253,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 148.073,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 165.18,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 186.86,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 190.35,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 199.61,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 211.1,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 217.85,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 240.707,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 13.03,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 50.43,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 69.6,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 197.0,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.47,
+   "num": "07",
+   "text": "Muscle without slowing down"
+  }
+ ]
+}

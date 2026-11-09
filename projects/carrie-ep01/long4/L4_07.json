@@ -1,0 +1,767 @@
+{
+ "_piece": true,
+ "id": "L4_07",
+ "slug": "v4",
+ "format": "long",
+ "title": "v4 chapter 7: IS THE 30-MIN WINDOW REAL?",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.75,
+  "zoom_right": 1.5,
+  "punch": 1.0,
+  "wide_every": 4,
+  "cy": 0.4,
+  "min_turn": 1.6
+ },
+ "tighten": 0.5,
+ "captions": "v4",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs",
+  "protein shape": "protein shake",
+  "someone for veggies": "some more veggies",
+  "some of your race at lunch": "some of your rice at lunch",
+  "iron one chat": "Ironman, ChatGPT",
+  "gpd": "GPT"
+ },
+ "accent": "#FF5A1F",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 1969.86,
+   "end": 1976.82
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1976.82,
+   "end": 1980.58,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/weekly-planner.jpg",
+    "label": "SAMPLE DAYS",
+    "index": "FIG.087",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1980.58,
+   "end": 1987.84
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1987.84,
+   "end": 1991.6,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/gym-drink.jpg",
+    "label": "WATER AT THE GYM",
+    "index": "FIG.088",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1991.6,
+   "end": 2006.14
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2010.4,
+   "end": 2017.42
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2017.42,
+   "end": 2021.4,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/liter-bottle.jpg",
+    "label": "HER BOTTLE: 1 L",
+    "index": "FIG.089",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2021.4,
+   "end": 2027.3
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2027.3,
+   "end": 2031.12,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/gym-water.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "SIP EVERY SET",
+    "index": "FIG.090"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2031.12,
+   "end": 2038.34
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2038.34,
+   "end": 2043.34,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "grid",
+   "panel": {
+    "file": "projects/carrie-ep01/v4/info/i_set_drink.mp4",
+    "label": "",
+    "index": "FIG.091",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2043.34,
+   "end": 2047.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2047.36,
+   "end": 2049.96,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_29_you_wake_up_dry.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2049.96,
+   "end": 2051.04
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2051.04,
+   "end": 2054.58,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/sleeping-man.jpg",
+    "label": "NO WATER OVERNIGHT",
+    "index": "FIG.092",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2054.58,
+   "end": 2069.18
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2069.18,
+   "end": 2073.38,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/empty-plate.jpg",
+    "label": "TRAINING FASTED",
+    "index": "FIG.093",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2073.38,
+   "end": 2075.23
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2075.23,
+   "end": 2081.82,
+   "tighten": 0,
+   "zoom": 1.0,
+   "cx": 0.5,
+   "cy": 0.5
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2081.82,
+   "end": 2102.64
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2102.64,
+   "end": 2106.32,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/banana.jpg",
+    "label": "A BANANA",
+    "index": "FIG.094",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2106.32,
+   "end": 2110.94
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2110.94,
+   "end": 2114.7,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/pb-sandwich.jpg",
+    "label": "PB SANDWICH",
+    "index": "FIG.095",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2114.7,
+   "end": 2134.18
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2134.18,
+   "end": 2136.78,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_30_yesterday_s_energy.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2136.78,
+   "end": 2140.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2140.36,
+   "end": 2145.86,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "grid",
+   "panel": {
+    "file": "projects/carrie-ep01/v4/info/i_preworkout.mp4",
+    "label": "",
+    "index": "FIG.096",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2145.86,
+   "end": 2156.56
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2156.56,
+   "end": 2160.36,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/pb-toast.jpg",
+    "label": "OR PB TOAST",
+    "index": "FIG.097",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2160.36,
+   "end": 2169.44
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2170.02,
+   "end": 2191.88
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2206.24,
+   "end": 2210.64
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2210.64,
+   "end": 2214.3,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/shower.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "SHOWER + GO",
+    "index": "FIG.098"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2214.3,
+   "end": 2218.3
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2230.08,
+   "end": 2232.08
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2232.08,
+   "end": 2238.58,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_shower_map.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2238.58,
+   "end": 2250.01
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2250.01,
+   "end": 2254.53,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/chocolate-milk.jpg",
+    "label": "CARBS + PROTEIN",
+    "index": "FIG.100",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2254.53,
+   "end": 2262.98
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2262.98,
+   "end": 2272.35,
+   "tighten": 0,
+   "zoom": 1.0,
+   "cx": 0.5,
+   "cy": 0.5
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2272.35,
+   "end": 2277.81
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2277.81,
+   "end": 2281.77,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/blender-shake.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "HIS SHAKE, POST-GYM",
+    "index": "FIG.101"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2281.77,
+   "end": 2287.05
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2287.05,
+   "end": 2290.09,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/shaker-bottle.jpg",
+    "label": "GRAB AND GO",
+    "index": "FIG.102",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2290.09,
+   "end": 2297.89
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2297.89,
+   "end": 2301.65,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/wall-clock.jpg",
+    "label": "WHEN TO REFUEL?",
+    "index": "FIG.103",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2301.65,
+   "end": 2310.07
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2310.07,
+   "end": 2316.57,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_window_myth.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2316.57,
+   "end": 2320.57
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2320.57,
+   "end": 2324.63,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/jogging.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "2ND SESSION LATER",
+    "index": "FIG.105"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2324.63,
+   "end": 2329.23
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2329.23,
+   "end": 2335.23,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/r_window.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2335.23,
+   "end": 2337.83
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2337.83,
+   "end": 2341.77,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/protein-powder.jpg",
+    "label": "SHAKE RIGHT AFTER",
+    "index": "FIG.107",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2341.77,
+   "end": 2351.3
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 0.0,
+   "end": 7.82
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 7.82,
+   "end": 11.58,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/healthy-fats.jpg",
+    "label": "A BIT MORE FAT",
+    "index": "FIG.108",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 11.58,
+   "end": 21.12
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 21.12,
+   "end": 25.44,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/blood-test.jpg",
+    "label": "BLOOD WORK: ALL GOOD",
+    "index": "FIG.109",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 25.44,
+   "end": 29.35
+  }
+ ],
+ "stickers": [
+  {
+   "at": 0.25,
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_07.mov",
+   "x": 0.187,
+   "y": 0.0843,
+   "w": 0.2896
+  }
+ ],
+ "sfx": [
+  {
+   "at": 6.6,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 17.63,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 42.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 52.17,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 63.07,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 72.1,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 75.77,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 93.6,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 122.77,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 130.03,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 152.97,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 158.9,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 172.63,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 209.4,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 218.37,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 231.93,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 258.8,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 267.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 278.27,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 289.43,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 299.93,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 307.97,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 315.57,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 331.37,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 344.2,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  }
+ ]
+}

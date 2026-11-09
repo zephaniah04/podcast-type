@@ -1,0 +1,338 @@
+{
+ "_piece": true,
+ "id": "L3_08",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 8",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 1969.86,
+   "end": 1973.18,
+   "chapter": "Training Fasted? What to Eat Before the Gym",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T08.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1973.18,
+   "end": 1988.26
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1988.26,
+   "end": 1992.48,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/gym-drink.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1992.48,
+   "end": 2017.43
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2017.43,
+   "end": 2020.88,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2020.88,
+   "end": 2069.19
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2069.19,
+   "end": 2081.82,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2081.82,
+   "end": 2111.12
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2111.12,
+   "end": 2114.74,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2114.74,
+   "end": 2140.44
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2140.44,
+   "end": 2157.82,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_08_c10.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 2157.82,
+   "end": 2170.1
+  }
+ ],
+ "stickers": [
+  {
+   "at": 11.373,
+   "file": "projects/carrie-ep01/fx/e_person-lifting-weights-gym.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g11.373",
+   "w": 0.219
+  },
+  {
+   "at": 26.853,
+   "file": "projects/carrie-ep01/fx/e_droplet-sip-every-set.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g26.853",
+   "w": 0.219
+  },
+  {
+   "at": 47.083,
+   "file": "projects/carrie-ep01/fx/p_office-bottle-1-l-per-session.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p47.083",
+   "w": 0.258
+  },
+  {
+   "at": 62.76,
+   "file": "projects/carrie-ep01/fx/w_heavy-sweater.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w62.76",
+   "w": 0.575
+  },
+  {
+   "at": 79.72,
+   "file": "projects/carrie-ep01/fx/e_droplet-you-wake-up-dry.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g79.72",
+   "w": 0.231
+  },
+  {
+   "at": 85.04,
+   "file": "projects/carrie-ep01/fx/e_droplet-hydration.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g85.04",
+   "w": 0.219
+  },
+  {
+   "at": 114.48,
+   "file": "projects/carrie-ep01/fx/e_flexed-biceps-strength.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g114.48",
+   "w": 0.219
+  },
+  {
+   "at": 128.653,
+   "file": "projects/carrie-ep01/fx/e_banana-banana.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g128.653",
+   "w": 0.219
+  },
+  {
+   "at": 136.25,
+   "file": "projects/carrie-ep01/fx/p_peanut-butter-pb-sandwich.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p136.25",
+   "w": 0.259
+  },
+  {
+   "at": 156.913,
+   "file": "projects/carrie-ep01/fx/w_blood-sugar-up.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w156.913",
+   "w": 0.574
+  },
+  {
+   "at": 161.713,
+   "file": "projects/carrie-ep01/fx/e_high-voltage-energy.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g161.713",
+   "w": 0.219
+  },
+  {
+   "at": 192.707,
+   "file": "projects/carrie-ep01/fx/w_just-a-starting-point.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w192.707",
+   "w": 0.662
+  }
+ ],
+ "sfx": [
+  {
+   "at": 11.373,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 26.853,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 47.083,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 62.76,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 79.72,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 85.04,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 114.48,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 128.653,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 136.25,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 156.913,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 161.713,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 192.707,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 18.4,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 98.7,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 165.43,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.63,
+   "num": "08",
+   "text": "Training fasted"
+  }
+ ]
+}

@@ -1,0 +1,360 @@
+{
+ "_piece": true,
+ "id": "L3_15",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 15",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 2299.93,
+   "end": 2302.79,
+   "chapter": "Can I Gain Muscle Before Race Day?",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T15.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2302.79,
+   "end": 2420.46
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2420.46,
+   "end": 2427.01,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2427.01,
+   "end": 2500.68
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2500.68,
+   "end": 2515.58,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2515.58,
+   "end": 2550.84
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2550.84,
+   "end": 2554.46,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2554.46,
+   "end": 2555.16
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2555.16,
+   "end": 2559.32,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/muscle-flex.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2559.32,
+   "end": 2604.0
+  }
+ ],
+ "stickers": [
+  {
+   "at": 3.387,
+   "file": "projects/carrie-ep01/fx/e_fork-and-knife-with-plate-post-workout-meal.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g3.387",
+   "w": 0.264
+  },
+  {
+   "at": 37.807,
+   "file": "projects/carrie-ep01/fx/e_fire-energy-out.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g37.807",
+   "w": 0.219
+  },
+  {
+   "at": 50.587,
+   "file": "projects/carrie-ep01/fx/w_i-didn-t-change-much.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w50.587",
+   "w": 0.64
+  },
+  {
+   "at": 73.52,
+   "file": "projects/carrie-ep01/fx/e_face-with-tears-of-joy-harder-than-dinner.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g73.52",
+   "w": 0.265
+  },
+  {
+   "at": 79.427,
+   "file": "projects/carrie-ep01/fx/e_memo-quick-meal-ideas.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g79.427",
+   "w": 0.234
+  },
+  {
+   "at": 93.667,
+   "file": "projects/carrie-ep01/fx/w_workouts---kitchen.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w93.667",
+   "w": 0.629
+  },
+  {
+   "at": 125.633,
+   "file": "projects/carrie-ep01/fx/e_bowl-with-spoon-oats.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g125.633",
+   "w": 0.219
+  },
+  {
+   "at": 130.793,
+   "file": "projects/carrie-ep01/fx/e_cooking-cook.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g130.793",
+   "w": 0.219
+  },
+  {
+   "at": 154.133,
+   "file": "projects/carrie-ep01/fx/w_the-fix--your-evenings.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w154.133",
+   "w": 0.674
+  },
+  {
+   "at": 158.787,
+   "file": "projects/carrie-ep01/fx/e_collision-cramping.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g158.787",
+   "w": 0.219
+  },
+  {
+   "at": 165.167,
+   "file": "projects/carrie-ep01/fx/e_fork-and-knife-with-plate-dinner.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g165.167",
+   "w": 0.219
+  },
+  {
+   "at": 187.0,
+   "file": "projects/carrie-ep01/fx/e_chequered-flag-race.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g187.0",
+   "w": 0.219
+  },
+  {
+   "at": 207.88,
+   "file": "projects/carrie-ep01/fx/w_anyone-can-gain-muscle.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w207.88",
+   "w": 0.742
+  },
+  {
+   "at": 228.183,
+   "file": "projects/carrie-ep01/fx/p_dexa-body-composition.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p228.183",
+   "w": 0.258
+  },
+  {
+   "at": 270.167,
+   "file": "projects/carrie-ep01/fx/e_crescent-moon-skipping-dinner.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g270.167",
+   "w": 0.221
+  }
+ ],
+ "sfx": [
+  {
+   "at": 3.387,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 37.807,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 50.587,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 73.52,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 79.427,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 93.667,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 125.633,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 130.793,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 154.133,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 158.787,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 165.167,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 187.0,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 207.88,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 228.183,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 270.167,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 107.07,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 179.8,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 232.37,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.17,
+   "num": "15",
+   "text": "Muscle before race day"
+  }
+ ]
+}

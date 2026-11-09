@@ -1,0 +1,377 @@
+{
+ "_piece": true,
+ "id": "L3_03",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 3",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 537.92,
+   "end": 541.26,
+   "chapter": "ChatGPT Was My Dietitian: Supplements and Vitamin D",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T03.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 541.26,
+   "end": 568.22
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 568.22,
+   "end": 572.6,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/fish-oil.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 572.6,
+   "end": 586.44
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 586.44,
+   "end": 590.08,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 590.08,
+   "end": 591.02
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 591.02,
+   "end": 595.18,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/multivitamin.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 595.18,
+   "end": 609.49
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 609.49,
+   "end": 613.92,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/protein-powder.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 613.92,
+   "end": 629.7
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 629.7,
+   "end": 634.56,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/winter-sun.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 634.56,
+   "end": 649.23
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 649.23,
+   "end": 657.44,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 657.44,
+   "end": 667.1
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 667.1,
+   "end": 678.02,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_03_c1.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 678.02,
+   "end": 679.42
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 679.42,
+   "end": 682.88,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 682.88,
+   "end": 703.65
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 703.65,
+   "end": 713.66,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 713.66,
+   "end": 727.6
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 727.6,
+   "end": 735.47,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_03_c2.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 735.47,
+   "end": 742.0
+  }
+ ],
+ "stickers": [
+  {
+   "at": 16.607,
+   "file": "projects/carrie-ep01/fx/w_chatgpt-was-my-dietitian.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w16.607",
+   "w": 0.782
+  },
+  {
+   "at": 43.817,
+   "file": "projects/carrie-ep01/fx/p_warehouse-store-the-costco-multi.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p43.817",
+   "w": 0.259
+  },
+  {
+   "at": 59.58,
+   "file": "projects/carrie-ep01/fx/e_glass-of-milk-milkshake.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g59.58",
+   "w": 0.219
+  },
+  {
+   "at": 112.687,
+   "file": "projects/carrie-ep01/fx/e_sun-oct----apr.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g112.687",
+   "w": 0.219
+  },
+  {
+   "at": 128.617,
+   "file": "projects/carrie-ep01/fx/p_vitamin-gummies-a-chewable-is-fine.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p128.617",
+   "w": 0.259
+  },
+  {
+   "at": 147.487,
+   "file": "projects/carrie-ep01/fx/w_a-stored-vitamin.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w147.487",
+   "w": 0.62
+  },
+  {
+   "at": 162.713,
+   "file": "projects/carrie-ep01/fx/w_max-4-000-iu.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w162.713",
+   "w": 0.467
+  }
+ ],
+ "sfx": [
+  {
+   "at": 16.607,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 43.817,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 59.58,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 112.687,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 128.617,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 147.487,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 162.713,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 25.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 48.23,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 65.03,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 82.73,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 99.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 116.87,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 151.63,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 171.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.63,
+   "num": "03",
+   "text": "Supplements + vitamin D"
+  }
+ ]
+}

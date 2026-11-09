@@ -36,7 +36,12 @@ FONT_FILES = {
     "Instrument Serif Italic": "InstrumentSerif-Italic.ttf",
     "Jost Regular": "Jost-Regular.ttf",
     "Archivo Black": "ArchivoBlack-Regular.ttf",
+    "Space Mono": "SpaceMono-Regular.ttf",
+    "Space Mono Bold": "SpaceMono-Bold.ttf",  # ASS: \fnSpace Mono\b1
 }
+# v4 "FUEL LAB" palette (projects/carrie-ep01/v4/BRIEF.md)
+INK, PAPER, ACCENT4, HIGHLIGHT, TRACK, GRIDLINE = "#0D0D0D", "#EFEBE3", "#FF5A1F", "#FFD84D", "#1F6B45", "#2E8A5C"
+CACHE = None  # <work>/_cache: per-clip head samples, panel masks (set in main)
 
 
 # ----------------------------------------------------------------------------- helpers
@@ -79,6 +84,25 @@ def text_w(font, text, size, spacing=0):
     cmap, hmtx, upm = _measure_cache[font]
     adv = sum(hmtx[cmap.get(ord(c), cmap.get(ord("n")))][0] for c in text)
     return adv * size / upm + spacing * max(len(text) - 1, 0)
+
+
+_fm = {}
+
+
+def font_metrics(font):
+    """How libass sizes a font: (em px per ASS \\fs unit, descent per \\fs, ascent per \\fs).
+    libass maps \\fs to usWinAscent+usWinDescent, so the em is smaller than \\fs (Inter Tight: 0.70)."""
+    if font not in _fm:
+        from fontTools.ttLib import TTFont
+        f = TTFont(os.path.join(FONTS, FONT_FILES[font]))
+        os2 = f["OS/2"].usWinAscent + f["OS/2"].usWinDescent
+        _fm[font] = (f["head"].unitsPerEm / os2, -f["hhea"].descent / os2, f["hhea"].ascent / os2)
+    return _fm[font]
+
+
+def fs_of(font, em):
+    """ASS \\fs that renders `font` at an em size of `em` px (design-tool font size)."""
+    return em / font_metrics(font)[0]
 
 
 def faces_x(path, t, n=1):
@@ -166,6 +190,166 @@ def tracked_x(path, t0, t1, side):
     return float(np.median(near if near else allv))
 
 
+# ----------------------------------------------------------------------------- v4: heads + full-person framing guard
+# One locked-off two-person wide (left = "L", right = "R"). Body boxes are offsets from the head centre x (frame
+# fractions): "sh" head-and-shoulders, "reach" incl. gesturing hands; "knee" = (x, below y) of knees that poke into
+# low crops. Override per show with spec "people".
+PEOPLE = {
+    "L": {"x": 0.30, "top": 0.09, "sh": (-0.155, 0.08), "reach": (-0.155, 0.17), "knee": (0.58, 0.64)},  # back + shoulder fully in (review 2026-11-09)
+    "R": {"x": 0.79, "top": 0.10, "sh": (-0.08, 0.10), "reach": (-0.15, 0.10), "knee": (0.61, 0.60)},
+}
+# things to keep out of a crop when it is possible without breaking the person rules (desk monitor with client data)
+AVOID = [(0.565, 0.29, 0.70, 0.48)]
+
+
+_rot = {}
+
+
+def rotation(path):
+    if path not in _rot:
+        _rot[path] = _rotation(path)
+    return _rot[path]
+
+
+def _rotation(path):
+    out = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream_side_data=rotation",
+                          "-of", "csv=p=0", path], capture_output=True, text=True).stdout
+    m = re.findall(r"-?\d+", out)
+    return int(m[0]) % 360 if m else 0
+
+
+def detect_heads(img):
+    """Head centre x, head top y (0-1) of the two people in a 480x270 RGB still of the wide: dark hair on the left
+    against the light wall, blonde hair / skin on the right above the desk monitor. {"L": (x, top), "R": (x, top)}."""
+    H_, W_ = img.shape[:2]
+    f = img.astype(np.float32) / 255
+    mx = f.max(2); mn = f.min(2); s = (mx - mn) / np.maximum(mx, 1e-3)
+    res = {}
+    for side, mask, (x0, x1, y1) in (("L", mx < 0.30, (0.03, 0.57, 0.55)),
+                                     ("R", ((s > 0.17) & (mx > 0.35)) | (mx < 0.40), (0.585, 0.925, 0.285))):
+        m = np.zeros_like(mask)
+        m[:int(y1 * H_), int(x0 * W_):int(x1 * W_)] = mask[:int(y1 * H_), int(x0 * W_):int(x1 * W_)]
+        if side == "L":
+            m[int(0.19 * H_):, int(0.40 * W_):int(0.52 * W_)] = False  # desk lamp
+        rows = m.sum(1)
+        r = [y for y in np.nonzero(rows >= 4)[0] if y + 2 < H_ and rows[y + 1] >= 4 and rows[y + 2] >= 4]
+        if r:
+            xs = np.nonzero(m[r[0]:r[0] + int(0.10 * H_)])[1]
+            res[side] = (float(xs.mean() / W_), float(r[0] / H_))
+    return res
+
+
+_heads = {}
+
+
+def head_samples(path, times):
+    """detect_heads() at the keyframes nearest `times` (2 s grid), cached in <work>/_cache/<clip>_heads.json."""
+    name = os.path.splitext(os.path.basename(path))[0]
+    cp = os.path.join(CACHE or tempfile.gettempdir(), name + "_heads.json")
+    if path not in _heads:
+        _heads[path] = json.load(open(cp)) if os.path.exists(cp) else {}
+    db = _heads[path]
+    grid = sorted({f"{max(0.0, round(t / 2) * 2):.0f}" for t in times})
+    todo = [g for g in grid if g not in db]
+    if todo:
+        rot = rotation(path)
+        flip = {180: ",hflip,vflip", 90: ",transpose=2", 270: ",transpose=1"}.get(rot, "")
+
+        def one(g):
+            hw = os.environ.get("PODCAST_HWDEC") == "cuda"
+            vf = (f"scale_cuda=480:270,hwdownload,format=nv12{flip},format=rgb24" if hw else "scale=480:270,format=rgb24")
+            if hw and rot in (90, 270):
+                vf = f"scale_cuda=270:480,hwdownload,format=nv12{flip},format=rgb24"
+            cmd = ["ffmpeg", "-v", "error", *(["-hwaccel", "cuda", "-hwaccel_output_format", "cuda"] if hw else []),
+                   "-skip_frame", "nokey", "-ss", g, "-i", path, "-frames:v", "1", "-vf", vf, "-f", "rawvideo", "-"]
+            p = subprocess.run(cmd, capture_output=True)
+            if len(p.stdout) < 480 * 270 * 3:
+                return g, {}
+            return g, detect_heads(np.frombuffer(p.stdout[:480 * 270 * 3], np.uint8).reshape(270, 480, 3))
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(4) as ex:
+            for g, r in ex.map(one, todo):
+                db[g] = r
+        os.makedirs(os.path.dirname(cp), exist_ok=True)
+        try:
+            json.dump(db, open(cp + ".tmp", "w")); os.replace(cp + ".tmp", cp)
+        except OSError:
+            pass
+    return [db[g] for g in grid if g in db]
+
+
+def people_near(path, t0, t1, spec=None):
+    """Both people around source window [t0, t1]: {"L"|"R": {"x", "xmin", "xmax", "top"}} from head samples (2 s grid,
+    plus the face track), falling back to the show defaults."""
+    P = {**PEOPLE, **((spec or {}).get("people") or {})}
+    ts_ = [t0 + 0.3, (t0 + t1) / 2, t1 - 0.3] + list(np.arange(t0 + 2, t1 - 1, 4.0))
+    smp = head_samples(path, ts_)
+    out = {}
+    for k, side in (("L", 1), ("R", 2)):
+        xs = [s_[k][0] for s_ in smp if k in s_]
+        tops = [s_[k][1] for s_ in smp if k in s_]
+        try:
+            xs += [p[side] for p in face_track(path) if p[side] is not None and t0 - 3 <= p[0] <= t1 + 3]
+        except Exception:
+            pass
+        d = P[k]
+        if xs:
+            out[k] = {"x": float(np.median(xs)), "xmin": float(min(xs)), "xmax": float(max(xs)),
+                      # the detector finds the dense part of the hair: curly / blonde wisps sit ~0.03 / 0.015 higher
+                      "top": max(0.0, min(tops) - (0.03 if k == "L" else 0.015)) if tops else d["top"] - 0.02}
+        else:
+            out[k] = {"x": d["x"], "xmin": d["x"] - 0.04, "xmax": d["x"] + 0.06, "top": d["top"] - 0.02}
+        out[k]["cfg"] = d
+    out["avoid"] = [tuple(b) for b in (spec or {}).get("avoid", AVOID)]
+    return out
+
+
+def guard_rect(sw, sh_, aspect, z, cx, cy, subj, ppl, hr=0.07, zmax=2.3, box="sh", m=0.015, g=0.02):
+    """Full-person framing guard. Smallest change of (zoom, cx, cy) so that the subject's head-and-shoulders box sits
+    inside the crop with `hr` headroom above the head top, and the other person is either fully outside (reach box,
+    knees for low crops) or fully inside. Returns (zoom, cx, cy, note)."""
+    bw = min(1.0, aspect * sh_ / sw); bh = min(1.0, sw / (aspect * sh_))
+    o = "R" if subj == "L" else "L"
+    S, O = ppl[subj], ppl[o]
+    sl = S["xmin"] + S["cfg"][box][0]; sr = S["xmax"] + S["cfg"][box][1]
+    ol = O["xmin"] + O["cfg"]["reach"][0]; orr = O["xmax"] + O["cfg"]["reach"][1]
+    right = O["x"] > S["x"]
+    avoid = ppl.get("avoid", AVOID)
+
+    def fit(zz):
+        w, h = bw / zz, bh / zz
+        y0 = min(max(cy - h / 2, 0), 1 - h)
+        y0 = max(0.0, min(y0, S["top"] - hr * h))
+        y1 = y0 + h
+        kx, ky = O["cfg"]["knee"]
+        lo, hi = max(sr + m - w, 0.0), min(sl - m, 1 - w)
+        if right:
+            hi = min(hi, min(ol, kx if y1 > ky else 9) - g - w)
+        else:
+            lo = max(lo, max(orr, kx if y1 > ky else -9) + g)
+        if lo <= hi:
+            for ax0, ay0, ax1, ay1 in avoid:  # soft: only when the person rules still hold
+                if ay1 > y0 and ay0 < y1:
+                    if ax0 > S["x"] and lo <= min(hi, ax0 - 0.01 - w):
+                        hi = min(hi, ax0 - 0.01 - w)
+                    elif ax1 < S["x"] and max(lo, ax1 + 0.01) <= hi:
+                        lo = max(lo, ax1 + 0.01)
+            x0 = min(max(cx - w / 2, lo), hi)
+            return x0 + w / 2, y0 + h / 2
+        return None
+    cands = sorted(set([z] + [round(z + 0.02 * k, 3) for k in range(1, 80) if z + 0.02 * k <= zmax] +
+                       [round(z - 0.02 * k, 3) for k in range(1, 80) if z - 0.02 * k >= 1.0]), key=lambda q: (abs(q - z), -q))
+    for zz in cands:
+        r = fit(zz)
+        if r:
+            note = ""
+            if abs(zz - z) > 0.004 or abs(r[0] - cx) > 0.004 or abs(r[1] - cy) > 0.004:
+                note = f"guard {subj}: zoom {z:.2f}->{zz:.2f} cx {cx:.3f}->{r[0]:.3f} cy {cy:.3f}->{r[1]:.3f}"
+            return zz, r[0], r[1], note
+    # cannot isolate the subject: show both people completely (wide)
+    return 1.0, 0.5, 0.5, f"guard {subj}: no clean single at zoom <= {zmax}: wide two-shot"
+
+
 def resolve_cx(seg, path, which="cx"):
     v = seg.get(which, "auto")
     if isinstance(v, (int, float)):
@@ -206,6 +390,328 @@ LOOKS = {
 }
 
 
+# ----------------------------------------------------------------------------- v4: framed split-screen
+PANEL_W, PANEL_H, PANEL_R, PANEL_Y, PANEL_X = 840, 780, 24, 80, (80, 1000)
+
+
+def glog(out, msg):
+    if msg:
+        print("  " + msg)
+        try:
+            open(os.path.join(os.path.dirname(out), "guard.log"), "a", encoding="utf-8").write(
+                f"{os.path.basename(out)}: {msg}\n")
+        except OSError:
+            pass
+
+
+def guard_on(seg, spec, W, H):
+    return W > H and spec.get("guard", True) is not False and seg.get("guard", True) is not False
+
+
+def subject_of(seg, cx, ppl):
+    v = seg.get("cx")
+    if v in ("left", "right"):
+        return "L" if v == "left" else "R"
+    return "L" if abs(cx - ppl["L"]["x"]) <= abs(cx - ppl["R"]["x"]) else "R"
+
+
+def panel_crop(seg, spec, path, sw, sh_, vseg, who, out, guard=True):
+    """crop=... for a talker panel (840x780): the whole person (head with ~8 % headroom, shoulders, hands), nobody
+    else. who = "L" / "R"."""
+    ppl = people_near(path, vseg["start"], vseg["end"], spec)
+    a = PANEL_W / PANEL_H
+    z = float(seg.get("pzoom", 1.62))
+    h = 1 / z
+    P = ppl[who]
+    rch = P["cfg"]["reach"]
+    cx = float(seg["pcx"]) if isinstance(seg.get("pcx"), (int, float)) else P["x"] + (rch[0] + rch[1]) / 2
+    cy = float(seg["pcy"]) if isinstance(seg.get("pcy"), (int, float)) else P["top"] - 0.08 * h + h / 2
+    if guard:
+        z, cx, cy, note = guard_rect(sw, sh_, a, z, cx, cy, who, ppl, hr=0.075, zmax=2.0, box="reach")
+        glog(out, note and f"panel {note}")
+    return crop_expr(sw, sh_, a, z, cx, cy)
+
+
+def panel_assets(w, h, r):
+    """Anti-aliased rounded-corner alpha mask + soft drop shadow (PNG, cached)."""
+    from PIL import Image, ImageDraw, ImageFilter
+    d = CACHE or tempfile.gettempdir(); os.makedirs(d, exist_ok=True)
+    mp = os.path.join(d, f"mask_{w}x{h}_r{r}.png"); sp = os.path.join(d, f"shadow_{w}x{h}_r{r}.png")
+    if not os.path.exists(mp):
+        k = 4
+        im = Image.new("L", (w * k, h * k), 0)
+        ImageDraw.Draw(im).rounded_rectangle([0, 0, w * k - 1, h * k - 1], r * k, fill=255)
+        im.resize((w, h), Image.LANCZOS).save(mp)
+    if not os.path.exists(sp):
+        pad = 90
+        a = Image.new("L", (w + 2 * pad, h + 2 * pad), 0)
+        ImageDraw.Draw(a).rounded_rectangle([pad, pad + 20, pad + w, pad + h + 20], r, fill=int(255 * 0.28))
+        a = a.filter(ImageFilter.GaussianBlur(25))  # css 0 20 50 rgba(0,0,0,.28)
+        rgba = Image.new("RGBA", a.size, (0, 0, 0, 255)); rgba.putalpha(a); rgba.save(sp)
+    return mp, sp, 90
+
+
+TV709 = "scale=out_range=tv:out_color_matrix=bt709,format=yuv420p,setparams=range=tv:colorspace=bt709:color_primaries=bt709:color_trc=bt709"
+
+
+def hold(d):
+    """A still decoded and processed ONCE, repeated in memory for the segment (`-loop 1` re-decodes every frame)."""
+    n = max(int(round(d * FPS)) + 2, 1)
+    return f"loop=loop={n}:size=1:start=0,setpts=N/({FPS}*TB)"
+
+
+def fallback_plate(name, w, h):
+    """Flat PAPER / TRACK-green grid / INK plate (PNG, cached) when the designer's background is missing."""
+    from PIL import Image, ImageDraw
+    d = CACHE or tempfile.gettempdir(); os.makedirs(d, exist_ok=True)
+    p = os.path.join(d, f"plate_{name}_{w}x{h}.png")
+    if not os.path.exists(p):
+        col = {"grid": TRACK, "ink": INK}.get(name, PAPER)
+        im = Image.new("RGB", (w, h), col)
+        if name == "grid":
+            dr = ImageDraw.Draw(im)
+            for x in range(0, w, 96):
+                dr.rectangle([x, 0, x + 1, h], fill=GRIDLINE)
+            for y in range(0, h, 96):
+                dr.rectangle([0, y, w, y + 1], fill=GRIDLINE)
+        im.save(p)
+    return p
+
+
+def bg_file(name, spec):
+    if os.path.isfile(name):
+        return name
+    for d in (spec.get("gfx_dir"), os.path.join(spec.get("_dir", ""), "gfx"), os.path.join(spec.get("_dir", ""), "v4", "gfx"),
+              os.path.join(ROOT, "projects", "carrie-ep01", "v4", "gfx")):
+        if d:
+            p = d if os.path.isabs(d) else os.path.join(ROOT, d)
+            p = os.path.join(p, f"bg_{name}.png")
+            if os.path.isfile(p):
+                return p
+    return None
+
+
+def media_chain(bpath, label, tw, th, d, br, goff, gdur, inputs, look=""):
+    """Input + filter chain that fills tw x th with a photo / video (cover crop + slow push), continuing the video time
+    and the push across the pieces of one tightened segment (goff / gdur = offset / length of the whole group)."""
+    bw, bhh = probe(bpath)
+    still = bpath.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
+    k = inputs.count("-i")
+    if still:
+        inputs += ["-i", bpath]  # decoded + scaled once, then held in memory (hold())
+    else:
+        inputs += ["-stream_loop", "-1", "-ss", f"{float(br.get('at', 0)) + goff:.3f}", "-t", f"{d:.3f}", "-i", bpath]
+    push = float(br.get("push", 0.06 if still else 0.03))
+    n = max(int(round(gdur * FPS)), 1); o = int(round(goff * FPS))
+    zp = (f"zoompan=z='1+{push}*({o}+on)/{n}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={tw}x{th}:fps={FPS}"
+          if push > 0 else f"scale={tw}:{th}")
+    return (f"[{k}:v]{crop_expr(bw, bhh, tw / th, 1.0, float(br.get('cx', 0.5)), float(br.get('cy', 0.5)))},"
+            f"scale={tw * 2 if push > 0 else tw}:{th * 2 if push > 0 else th}:flags=lanczos:out_range=tv:out_color_matrix=bt709,"
+            f"format=yuv420p,{hold(d) if still else f'fps={FPS}'},setsar=1,{zp}{look}[{label}]")
+
+
+def frame_graph(seg, spec, path, sw, sh_, vseg, d, inputs, lk, W, H, out, tx):
+    """layout "frame": talker + panel media in two rounded 840x780 panels on a background plate.
+    layout "frame2": both people (left = L, right = R) in the two panels."""
+    lay = seg["layout"]
+    gd = guard_on(seg, spec, W, H)
+    goff, gdur = float(seg.get("_goff", 0.0)), float(seg.get("_gdur", d))
+    bgk = seg.get("bg", spec.get("bg", "paper"))
+    parts = []
+    if bgk == "blur":
+        parts.append(f"[0:v]fps={FPS},split=2[src][bgs];[bgs]scale=480:270,gblur=sigma=9,eq=brightness=-0.13:saturation=0.75,"
+                     f"scale={W}:{H}:flags=bilinear,setsar=1[bg]")
+    else:
+        parts.append(f"[0:v]fps={FPS}[src]")
+        f = bg_file(bgk, spec) or fallback_plate(bgk, W, H)
+        k = inputs.count("-i")
+        inputs += ["-i", f]
+        parts.append(f"[{k}:v]scale={W}:{H}:force_original_aspect_ratio=increase:out_range=tv:out_color_matrix=bt709,"
+                     f"crop={W}:{H},setsar=1,format=yuv420p,{hold(d)}[bg]")
+    mp, sp, pad = panel_assets(PANEL_W, PANEL_H, PANEL_R)
+    km = inputs.count("-i"); inputs += ["-i", mp]
+    shadow = seg.get("shadow", bgk == "paper")  # style guide: drop shadow on paper only
+    parts.append(f"[{km}:v]format=gray,{hold(d)},split=2[m0][m1]")
+    if shadow:
+        ks = inputs.count("-i"); inputs += ["-i", sp]
+        parts.append(f"[{ks}:v]format=rgba,{hold(d)},split=2[h0][h1]")
+    # who goes where
+    if lay == "frame2":
+        cl = panel_crop(seg, spec, path, sw, sh_, vseg, "L", out, gd)
+        cr = panel_crop(seg, spec, path, sw, sh_, vseg, "R", out, gd)
+        parts.append(f"[src]split=2[s0][s1];[s0]{cl},scale={PANEL_W}:{PANEL_H}:flags=lanczos{lk},setsar=1[p0];"
+                     f"[s1]{cr},scale={PANEL_W}:{PANEL_H}:flags=lanczos{lk},setsar=1[p1]")
+    else:
+        who, side = frame_who_side(seg, spec, tx)
+        ct = panel_crop(seg, spec, path, sw, sh_, vseg, who, out, gd)
+        parts.append(f"[src]{ct},scale={PANEL_W}:{PANEL_H}:flags=lanczos{lk},setsar=1[pt]")
+        pn = seg.get("panel") or {}
+        pf = pn.get("file")
+        if pf:
+            bpath = pf if os.path.isfile(pf) else os.path.join(ROOT, pf)
+            parts.append(media_chain(bpath, "pm", PANEL_W, PANEL_H, d, pn, goff, gdur, inputs))
+        else:
+            kc = inputs.count("-i")
+            inputs += ["-i", fallback_plate("ink", PANEL_W, PANEL_H)]
+            parts.append(f"[{kc}:v]scale=out_range=tv:out_color_matrix=bt709,format=yuv420p,setsar=1,{hold(d)}[pm]")
+        a, b = ("pt", "pm") if side == "left" else ("pm", "pt")
+        parts.append(f"[{a}]null[p0];[{b}]null[p1]")
+    enter = seg.get("enter", True) is not False and goff < 0.01
+    T, D = 8 / FPS, 60  # entrance (style guide s4): slide 60 px + fade, 8 f expo-out, second panel 3 f later
+    cur = "bg"
+    for i, x in enumerate(PANEL_X):
+        dl = 3 / FPS * i
+        if enter:
+            sgn = -1 if i == 0 else 1
+            off = f"{sgn * D}*if(lt(t,{dl:.3f}),1,if(lt(t,{dl + T:.3f}),pow(2,-10*(t-{dl:.3f})/{T}),0))"
+            fx = f"fade=t=in:st={dl:.3f}:d={T:.3f}:alpha=1,"
+            xe, xs_ = f"'{x}+{off}'", f"'{x - pad}+{off}'"
+        else:
+            fx, xe, xs_ = "", str(x), str(x - pad)
+        if shadow:
+            parts.append(f"[h{i}]{fx}null[hh{i}];[{cur}][hh{i}]overlay=x={xs_}:y={PANEL_Y - pad}:eval={'frame' if enter else 'init'}[b{i}a]")
+        else:
+            parts.append(f"[{cur}]null[b{i}a]")
+        parts.append(f"[p{i}]format=yuva420p[pa{i}];[pa{i}][m{i}]alphamerge,{fx}null[pq{i}];"
+                     f"[b{i}a][pq{i}]overlay=x={xe}:y={PANEL_Y}:eval={'frame' if enter else 'init'}:format=auto[b{i}]")
+        cur = f"b{i}"
+    return ";".join(parts) + f";[{cur}]null[v]"
+
+
+import math
+
+
+class Ex:
+    """A tiny expression that renders to ffmpeg expr syntax AND evaluates in Python (camera moves are planned on a
+    per-frame Python sample, rendered by ffmpeg with the identical formula)."""
+    def __init__(self, s, f):
+        self.s, self.f = s, f
+
+    def __call__(self, t):
+        return self.f(t)
+
+
+def K(v):
+    return Ex(f"({v:.6f})", lambda t, v=v: v)
+
+
+def ex_add(a, b): return Ex(f"({a.s}+{b.s})", lambda t: a(t) + b(t))
+def ex_sub(a, b): return Ex(f"({a.s}-{b.s})", lambda t: a(t) - b(t))
+def ex_mul(a, b): return Ex(f"({a.s}*{b.s})", lambda t: a(t) * b(t))
+def ex_div(a, b): return Ex(f"({a.s}/{b.s})", lambda t: a(t) / b(t))
+def ex_clip(a, lo, hi): return Ex(f"clip({a.s},{lo.s},{hi.s})", lambda t: min(max(a(t), lo(t)), hi(t)))
+
+
+def ex_ramp(at, dur, kind="io"):
+    """0 -> 1 over [at, at + dur]: "io" sine ease in-out, "out" cubic ease-out (fast in)."""
+    p = f"clip((TIME-{at:.4f})/{max(dur, 1e-3):.4f},0,1)"
+    pf = lambda t: min(max((t - at) / max(dur, 1e-3), 0.0), 1.0)
+    if kind == "out":
+        return Ex(f"(1-pow(1-{p},3))", lambda t: 1 - (1 - pf(t)) ** 3)
+    return Ex(f"(0.5-0.5*cos(PI*{p}))", lambda t: 0.5 - 0.5 * math.cos(math.pi * pf(t)))
+
+
+def ex_lerp(a, b, e):  # a + (b - a) * e   (a, b numbers)
+    return K(a) if abs(b - a) < 1e-9 else ex_add(K(a), ex_mul(K(b - a), e))
+
+
+def camera_graph(seg, spec, path, sw, sh_, vs, d, z, cx, cy, lk, W, H, out):
+    """v4 virtual camera on a talking-head segment: slow push / pull ("cam" move push|pull), punch-ins on words
+    ("punch"), a pan to the other person ("cam" move pan) and an optional handheld "drift". (z, cx, cy) is the guarded
+    base framing; the extremes of the move are re-checked against the full-person guard and clamped (logged).
+    Render: crop the union of all crops from the 4K source, scale it so the base crop is ~2x the output, then zoompan
+    (integer steps there = 1/2 output pixel: no visible stepping)."""
+    cam = dict(seg.get("cam") or {})
+    gd = guard_on(seg, spec, W, H)
+    ppl = people_near(path, vs, vs + d, spec)
+    subj = subject_of(seg, cx, ppl)
+    a = W / H
+    bw = min(1.0, a * sh_ / sw); bh = min(1.0, sw / (a * sh_))
+    ar = bh / bw  # crop height / width in normalised units
+    S = ppl[subj]
+    A = (cx - bw / z / 2, cy - bh / z / 2, bw / z)
+    anc = (S["x"], S["top"])  # zoom about the head top: headroom stays the same fraction of the frame
+    B, ancB, pan = A, anc, K(0)
+    if cam.get("move") == "pan":
+        tc = cam.get("to_cx", "right" if subj == "L" else "left")
+        tsub = ("L" if tc == "left" else "R") if tc in ("left", "right") else \
+            ("L" if abs(float(tc) - ppl["L"]["x"]) < abs(float(tc) - ppl["R"]["x"]) else "R")
+        tz = float(cam.get("to_zoom", z))
+        tcx = float(tc) if isinstance(tc, (int, float)) else ppl[tsub]["x"] + (0.035 if tsub == "L" else -0.03)
+        tcy = float(cam.get("to_cy", cy))
+        if gd and tz > 1:
+            tz, tcx, tcy, note = guard_rect(sw, sh_, a, tz, tcx, tcy, tsub, ppl)
+            glog(out, note and "pan target " + note)
+        B = (tcx - bw / tz / 2, tcy - bh / tz / 2, bw / tz)
+        ancB = (ppl[tsub]["x"], ppl[tsub]["top"])
+        pan = ex_ramp(float(cam.get("at", 0.0)), float(cam.get("dur", 0.6)))
+    # zoom factor M(t) relative to the base framing
+    terms = []
+    if cam.get("move") in ("push", "pull"):
+        f0 = float(cam.get("from", 1.0)); f1 = float(cam.get("to", 1.08 if cam["move"] == "push" else 0.93))
+        at = float(cam.get("at", 0.0))
+        terms.append((f0, f1, ex_lerp(f0, f1, ex_ramp(at, float(cam.get("dur", max(d - at, 0.1)))))))
+    for pu in seg.get("punch", []) or []:
+        at = float(pu["at"]); du = float(pu.get("dur", 0.25)); to = float(pu.get("to", 1.15))
+        e = ex_ramp(at, du, "out")
+        if pu.get("hold") is not None:
+            he = at + du + float(pu["hold"])
+            e = ex_mul(e, ex_sub(K(1), ex_ramp(he, du)))
+        terms.append((1.0, to, ex_lerp(1.0, to, e)))
+    M = K(1)
+    for _, _, e in terms:
+        M = ex_mul(M, e)
+    hi = 1.0
+    for f0, f1, _ in terms:
+        hi *= max(f0, f1)
+    lo = min([1.0] + [min(f0, f1) for f0, f1, _ in terms])
+    if gd and terms:  # the tightest crop keeps the shoulders, the widest keeps the other person out
+        sl = S["xmin"] + S["cfg"]["sh"][0]; sr = S["xmax"] + S["cfg"]["sh"][1]
+        cap_hi = min(A[2], B[2]) / ((sr - sl) + 0.03)
+        cap_lo = lo
+        if lo < 1.0:
+            gz, _, _, _ = guard_rect(sw, sh_, a, z * lo, cx, cy, subj, ppl)
+            cap_lo = max(lo, gz / z)
+        if hi > cap_hi or cap_lo > lo:
+            glog(out, f"cam: zoom range x{lo:.3f}-x{hi:.3f} clamped to x{cap_lo:.3f}-x{min(hi, cap_hi):.3f} (guard)")
+            M = ex_clip(M, K(cap_lo), K(max(min(hi, cap_hi), cap_lo)))
+    dr = float(seg.get("drift", 0) or 0)
+    if dr:  # handheld: two slow sines per axis, plus a little zoom so the drift never reaches an edge of the frame
+        M = ex_mul(M, K(1 + 3 * dr * z))
+        dxe = Ex(f"{dr:.5f}*(sin(2*PI*TIME/6.7+0.7)+0.5*sin(2*PI*TIME/2.9+1.9))",
+                 lambda t: dr * (math.sin(2 * math.pi * t / 6.7 + 0.7) + 0.5 * math.sin(2 * math.pi * t / 2.9 + 1.9)))
+        dye = Ex(f"{dr * 0.7:.5f}*(sin(2*PI*TIME/5.3+2.1)+0.5*sin(2*PI*TIME/3.7+0.4))",
+                 lambda t: 0.7 * dr * (math.sin(2 * math.pi * t / 5.3 + 2.1) + 0.5 * math.sin(2 * math.pi * t / 3.7 + 0.4)))
+    else:
+        dxe = dye = K(0)
+    bwid = ex_lerp(A[2], B[2], pan)  # base crop width (pan interpolates base rects and anchors)
+    wn = ex_div(bwid, M)
+    hn = ex_mul(wn, K(ar))
+    ax = ex_lerp(anc[0], ancB[0], pan); ay = ex_lerp(anc[1], ancB[1], pan)
+    bx = ex_lerp(A[0], B[0], pan); by = ex_lerp(A[1], B[1], pan)
+    xn = ex_clip(ex_add(ex_sub(ax, ex_mul(ex_sub(ax, bx), ex_div(wn, bwid))), dxe), K(0), ex_sub(K(1), wn))
+    yn = ex_clip(ex_add(ex_sub(ay, ex_mul(ex_sub(ay, by), ex_div(wn, bwid))), dye), K(0), ex_sub(K(1), hn))
+    # union of every crop of the move (per-frame sample), widened to the output aspect
+    tsm = [k / FPS for k in range(int(d * FPS) + 2)]
+    x0 = min(xn(t) for t in tsm); y0 = min(yn(t) for t in tsm)
+    x1 = max(xn(t) + wn(t) for t in tsm); y1 = max(yn(t) + hn(t) for t in tsm)
+    uw = max(x1 - x0, (y1 - y0) / ar); uh = uw * ar
+    if uh > 1:
+        uh = 1.0; uw = uh / ar
+    ux = min(max((x0 + x1) / 2 - uw / 2, 0), 1 - uw); uy = min(max((y0 + y1) / 2 - uh / 2, 0), 1 - uh)
+    ss = float(os.environ.get("PODCAST_CAM_SS", 1.5))  # supersampling of the base crop (zoompan integer steps = 1/ss px)
+    upx = int(min(ss * W * uw / min(A[2], B[2]), 2 * sw * uw, 3840)) // 2 * 2
+    uph = int(round(upx * uh * sh_ / (uw * sw))) // 2 * 2
+    cw_, ch_ = int(uw * sw) // 2 * 2, int(uh * sh_) // 2 * 2
+    cx_, cy_ = int(ux * sw), int(uy * sh_)
+    rx = lambda e: e.s.replace("TIME", "it")
+    zx = f"{uw:.6f}/{rx(wn)}"
+    xx = f"iw*({rx(xn)}-{ux:.6f})/{uw:.6f}"
+    yy = f"ih*({rx(yn)}-{uy:.6f})/{uh:.6f}"
+    return (f"[0:v]fps={FPS},crop={cw_}:{ch_}:{cx_}:{cy_},scale={upx}:{uph}:flags=bicubic,"
+            f"zoompan=z='{zx}':x='{xx}':y='{yy}':d=1:s={W}x{H}:fps={FPS}{lk}[v]")
+
+
 # ----------------------------------------------------------------------------- cutting
 def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
     if seg.get("card"):
@@ -226,14 +732,17 @@ def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
     inputs = [*hw, "-ss", f"{vs:.3f}", "-t", f"{d:.3f}", "-i", path]
 
     br = seg.get("broll")
-    if br:  # B-roll over the speaker's voice: picture from the B-roll file, audio (and captions) from the clip
+    goff, gdur = float(seg.get("_goff", 0.0)), float(seg.get("_gdur", d))  # position inside a tightened group
+    if layout in ("frame", "frame2") and W > H:
+        fc = frame_graph(seg, spec, path, sw, sh_, vseg, d, inputs, lk, W, H, out, tx_src)
+    elif br:  # B-roll over the speaker's voice: picture from the B-roll file, audio (and captions) from the clip
         bpath = br["file"] if os.path.isfile(br["file"]) else os.path.join(ROOT, br["file"])
         bw, bhh = probe(bpath)
         still = bpath.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
         if still:
-            inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{d:.3f}", "-i", bpath]
-        else:
-            inputs += ["-stream_loop", "-1", "-ss", f"{float(br.get('at', 0)):.3f}", "-t", f"{d:.3f}", "-i", bpath]
+            inputs += ["-i", bpath]
+        else:  # video B-roll continues across the jump cuts of its segment (goff)
+            inputs += ["-stream_loop", "-1", "-ss", f"{float(br.get('at', 0)) + goff:.3f}", "-t", f"{d:.3f}", "-i", bpath]
         panel = br.get("panel")  # "top": card/B-roll in the top half, the talker cropped in the bottom half
         side = panel in ("left", "right") and W > H  # 16:9 side card: card on that side, talker on the other
         if side:
@@ -241,11 +750,12 @@ def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
         else:
             tw, th = (W, int(W * 9 / 16) // 2 * 2) if (layout == "letterbox" and H > W) else (W, H // 2) if panel else (W, H)
         push = float(br.get("push", 0.06 if still else 0.03))  # slow push-in (Ken Burns); 0 = static
-        n = max(int(d * FPS), 1)
-        zp = (f"zoompan=z='1+{push}*on/{n}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={tw}x{th}:fps={FPS}"
+        n = max(int(round(gdur * FPS)), 1); o_ = int(round(goff * FPS))
+        zp = (f"zoompan=z='1+{push}*({o_}+on)/{n}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={tw}x{th}:fps={FPS}"
               if push > 0 else f"scale={tw}:{th}")
         fc = (f"[1:v]{crop_expr(bw, bhh, tw / th, 1.0, float(br.get('cx', 0.5)), float(br.get('cy', 0.5)))},"
-              f"scale={tw * 2 if push > 0 else tw}:{th * 2 if push > 0 else th}:flags=lanczos,fps={FPS},{zp}{lk if not panel else ''}")
+              f"scale={tw * 2 if push > 0 else tw}:{th * 2 if push > 0 else th}:flags=lanczos:out_range=tv:out_color_matrix=bt709,"
+              f"format=yuv420p,{hold(d) if still else f'fps={FPS}'},{zp}{lk if not panel else ''}")
         if side:
             rw = W - tw
             cx = resolve_cx(vseg, path) if not isinstance(seg.get("cx"), (int, float)) else float(seg["cx"])
@@ -270,7 +780,16 @@ def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
               f"[l][r]hstack,drawbox=x={hw - 3}:y=0:w=6:h=ih:color={spec.get('accent', '#FFB238').replace('#', '0x')}@1:t=fill[v]")
     elif layout == "full" or W > H:  # long-form is always full frame
         cx = resolve_cx(vseg, path) if (z > 1 or sw / sh_ > W / H + 0.05) else 0.5
-        fc = f"[0:v]{crop_expr(sw, sh_, W / H, z, cx, cy)},scale={W}:{H}:flags=lanczos{lk}[v]"
+        cam = seg.get("cam") or seg.get("punch") or seg.get("drift")
+        if guard_on(seg, spec, W, H) and z > 1.0:  # full-person framing guard (v4)
+            ppl = people_near(path, vs, vs + d, spec)
+            subj = subject_of(seg, cx, ppl)
+            z, cx, cy, note = guard_rect(sw, sh_, W / H, z, cx, cy, subj, ppl, zmax=float(seg.get("zmax", spec.get("zmax", 2.3))))
+            glog(out, note)
+        if cam and W > H:  # v4 virtual camera: time-varying sub-pixel crop on the 4K source
+            fc = camera_graph(seg, spec, path, sw, sh_, vs, d, z, cx, cy, lk, W, H, out)
+        else:
+            fc = f"[0:v]{crop_expr(sw, sh_, W / H, z, cx, cy)},scale={W}:{H}:flags=lanczos{lk}[v]"
     elif layout in ("letterbox", "band"):
         bh = int(W * 9 / 16) // 2 * 2
         cx = resolve_cx(vseg, path) if z > 1 else 0.5
@@ -303,8 +822,14 @@ def cut_segment(seg, spec, src, tx_src, out, W, H, enc):
     else:
         sys.exit(f"unknown layout {layout}")
     # exact length: every part is N whole frames and its audio exactly N/FPS s, so hundreds of cuts never drift
+    if fc.count("[0:v]") == 1 and rotation(path) == 180 and inputs[inputs.index("-i") + 1] == path:
+        # iPhone upside-down files: drop to 30 fps BEFORE the 4K flip (autorotate would flip all 60 frames)
+        k0 = inputs.index("-i")
+        inputs[k0:k0] = ["-noautorotate"]
+        fc = f"[0:v]sidedata=mode=delete:type=DISPLAYMATRIX,fps={FPS},hflip,vflip[r0];" + fc.replace("[0:v]", "[r0]")
     nfr = max(1, round(d * FPS)); dq = nfr / FPS
-    fc += f";[v]fps={FPS},tpad=stop_mode=clone:stop_duration=0.5,trim=end_frame={nfr},setpts=N/({FPS}*TB),setsar=1,format=yuv420p[vo]"
+    fc += (f";[v]fps={FPS},tpad=stop_mode=clone:stop_duration=0.5,trim=end_frame={nfr},setpts=N/({FPS}*TB),setsar=1,"
+           f"{TV709}[vo]")
     amap = "0:a:0"
     master = spec.get("master")
     if master and master != seg["clip"]:  # sound always from the master camera / best mic
@@ -462,7 +987,7 @@ class ASS:
         self.W, self.H, self.ev = W, H, []
         self.head = [
             "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}", "WrapStyle: 2",
-            "ScaledBorderAndShadow: yes", "", "[V4+ Styles]",
+            "ScaledBorderAndShadow: yes", "YCbCr Matrix: TV.709", "", "[V4+ Styles]",
             "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, "
             "Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
             "Style: Base,Inter Tight Medium,50,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,1,0,2,5,0,0,0,1",
@@ -561,6 +1086,201 @@ def caption_events(ass, caps, limits, keywords, style, cfg, accent, ys=None):
                         tag("Inter Tight Medium", ss, xl + 6, y0 + ks * 0.50, an=4) + post, 1)
 
 
+STOP = set("""the a an and or but so to of in on at for with from by as is are was were be been being it its it's this that
+these those i you he she we they me him her us them my your his our their just like really very what when where which who
+how then than there here have has had do does did not no yes yeah okay ok um uh i'm you're that's don't can can't will
+would could should about into out up down over also because if gonna wanna kind sort thing things know mean get got going
+go right well actually maybe some any all more most much many even still too only now said say says want need make made
+let's let there's they're we're it'll i'll i've you've what's doesn't didn't isn't wasn't aren't""".split())
+NUMWORDS = set("""one two three four five six seven eight nine ten eleven twelve fifteen twenty thirty forty fifty sixty
+hundred thousand million half double triple""".split())
+
+
+CONNECT = set("a an the of to in on for and or but is it i you my we that this with at be so".split())
+CONTRAST = set("why actually problem never real enough emotions really truth wrong mistake secret always only "
+               "huge massive crazy exactly".split())
+
+
+def v4_key(c, keywords):
+    """(i0, i1, kind) of the ONE keyword in a chunk (style guide s3): spec / accent keyword phrase > number (+ unit)
+    > contrast word (serif) > longest content word (data). kind: "kw" | "num" | "contrast" | "word"."""
+    k = find_key(c, keywords)
+    if k:
+        return k[0], k[1], "kw"
+    toks = [bare(w[2]) for w in c]
+    for i, t in enumerate(toks):
+        if re.search(r"\d", t) or t in NUMWORDS:
+            j = i + 1  # "150 grams", "2 gels": the unit rides along
+            if j < len(toks) and re.match(r"(g|grams?|kg|kilos?|ml|l|litres?|liters?|mg|percent|%|hours?|minutes?|min|k|x|"
+                                          r"gels?|eggs?|cups?|calories|kcal|ish|am|pm|a\.m\.|p\.m\.)$", toks[j]):
+                j += 1
+            return i, j, "num"
+    for i, t in enumerate(toks):
+        if t in CONTRAST:
+            return i, i + 1, "contrast"
+    best, bl = None, 3
+    for i, t in enumerate(toks):
+        if t not in STOP and len(t) > bl:
+            best, bl = i, len(t)
+    return (best, best + 1, "word") if best is not None else None
+
+
+def v4_clean(w):
+    """Caption token: no em/en dashes, drop trailing , . ; : (keep ? ! and inner punctuation)."""
+    w = w.replace("—", "").replace("–", "").replace("--", "").strip()
+    w = re.sub(r"^i(?=$|'|’|[,.;:?!])", "I", w)  # "i", "i'm", "i'll" -> capital I
+    if re.fullmatch(r"(\w\.){2,}", w):  # p.m. / a.m. / U.S. keep their dots
+        return w
+    return re.sub(r"[,.;:]+$", "", w)
+
+
+def v4_chunks(words, maxw=5, maxc=30):
+    """Style guide s3 chunking: 2-5 words, <= 30 characters, one line; break at punctuation or a pause > 0.35 s."""
+    out = []
+    for c in chunk(words, maxw, 2.4):
+        cur = []
+        for w in c:
+            if cur and len(" ".join(x[2] for x in cur + [w])) > maxc:
+                out.append(cur); cur = []
+            cur.append(w)
+        if cur:
+            if out and len(cur) == 1 and out[-1] is not None and len(out[-1]) < maxw and \
+                    len(" ".join(x[2] for x in out[-1] + cur)) <= maxc + 4 and cur[0][0] - out[-1][-1][1] < 0.35:
+                out[-1] = out[-1] + cur
+            else:
+                out.append(cur)
+    return out
+
+
+def captions_v4(ass, caps, limits, keywords, cfg, meta):
+    """v4 captions, revised after Nizam's review (2026-11-09): ONE font (Inter Tight Heavy), ONE size, one baseline for
+    every word of every speaker; no box behind anyone; no blur; a thin soft outline only. Word-by-word reveal with a
+    2-frame fade. A keyword changes COLOUR only (never size or font), and keywords are rare: numbers / spec keywords,
+    at most one every `cap_key_gap` seconds (default 12 s, about one per 4-5 sentences). On the paper plate (light
+    split-screen background) the text is INK with an ACCENT keyword instead of white."""
+    W, H = ass.W, ass.H
+    keymode = cfg.get("cap_key", "mix")
+    gap = float(cfg.get("cap_key_gap", 12.0))
+    last_key = -1e9
+    f0 = "Inter Tight Heavy"
+    for i, c in enumerate(caps):
+        m = meta[i]
+        c = [[a, b, v4_clean(w)] for a, b, w in c]
+        c = [w for w in c if w[2]]
+        if not c:
+            continue
+        k = float(m["size"]) / 66.0
+        st = c[0][0]
+        nxt = caps[i + 1][0][0] if i + 1 < len(caps) else None
+        en = min(nxt if nxt is not None else 9e9, c[-1][1] + 0.6)
+        if nxt is not None and 0 < nxt - en < 0.25:
+            en = nxt  # no flicker between chunks
+        en = min(en, limits[i])
+        if en - st < 0.1:
+            continue
+        key = None
+        if keymode != "none" and st - last_key >= gap:
+            kk = v4_key(c, keywords)
+            if kk and kk[2] in ("kw", "num"):
+                key = kk; last_key = st
+        paper = m.get("paper")
+        base_col = INK if paper else "#FFFFFF"
+        hi_col = ACCENT4 if paper else cfg.get("cap_color", HIGHLIGHT)
+        e0 = 66 * k
+        maxw = float(m.get("maxw", 1500))
+        sp_ = text_w(f0, " ", e0)
+        ws = [text_w(f0, w[2], e0, -0.01 * e0) for w in c]
+        tot = sum(ws) + sp_ * (len(ws) - 1)
+        sc = min(1.0, maxw / tot) if tot > 0 else 1.0  # shrink the whole line (all words together) to fit
+        ws = [x * sc for x in ws]; sp = sp_ * sc; tot *= sc
+        e = e0 * sc; fs = fs_of(f0, e)
+        yb = float(m["y"]) * H  # one baseline for the whole line
+        x = float(m.get("x", 0.5)) * W - tot / 2
+        if paper:
+            edge = "\\bord0\\shad0"
+        else:
+            edge = (f"\\3c{ass_color(INK)}\\bord{1.6 * k * sc:.1f}\\3a&H90&"
+                    f"\\4c{ass_color(INK)}\\shad{1.2 * k * sc:.1f}\\4a&HB0&")
+        for j, w in enumerate(c):
+            col = hi_col if (key and key[0] <= j < key[1]) else base_col
+            xc = x + ws[j] / 2; x += ws[j] + sp
+            s2 = max(c[j][0], st)
+            if s2 >= en - 0.04:
+                s2 = max(st, en - 0.3)
+            tg = (f"{{\\an2\\pos({xc:.1f},{yb:.1f})\\fn{f0}\\fs{fs:.1f}\\fsp{-0.01 * e:.2f}\\c{ass_color(col)}{edge}"
+                  f"\\alpha&HFF&\\t(0,60,\\alpha&H00&)}}")
+            ass.add(s2, en, tg + esc(w[2]), 6)
+
+
+def rrect(w, h, r):
+    """ASS vector path of a w x h rectangle with radius-r corners (origin top-left)."""
+    r = min(r, w / 2, h / 2); k = 0.4477 * r
+    return (f"m {r:.1f} 0 l {w - r:.1f} 0 b {w - k:.1f} 0 {w:.1f} {k:.1f} {w:.1f} {r:.1f} l {w:.1f} {h - r:.1f} "
+            f"b {w:.1f} {h - k:.1f} {w - k:.1f} {h:.1f} {w - r:.1f} {h:.1f} l {r:.1f} {h:.1f} b {k:.1f} {h:.1f} 0 {h - k:.1f} 0 {h - r:.1f} "
+            f"l 0 {r:.1f} b 0 {k:.1f} {k:.1f} 0 {r:.1f} 0")
+
+
+def label_events(ass, st, en, x, y, label, index, anim, style="hi", idx_y=None):
+    """Mono index box (top) + caps label pill. (x, y) = top-left of the pill; idx_y = top of the index box (None:
+    index sits left of the pill on the same row). anim: wipe / fade in. style "hi" INK on HIGHLIGHT, "ink" PAPER on INK."""
+    if en - st < 0.1:
+        return
+    d0 = 0.0
+    if index:
+        em = 20; fs = fs_of("Space Mono Bold", em)
+        tw = text_w("Space Mono Bold", index, em, 2.4); bw, bh = tw + 20, 34
+        iy = y if idx_y is None else idx_y
+        fad = "\\fad(140,0)" if anim else ""
+        ass.add(st, en, f"{{\\an7\\pos({x:.0f},{iy:.0f})\\p1\\bord0\\shad0\\c{ass_color(INK)}{fad}}}{rrect(bw, bh, 6)}{{\\p0}}", 8)
+        ass.add(st, en, f"{{\\an4\\pos({x + 10:.0f},{iy + bh / 2:.0f})\\fnSpace Mono\\b1\\fs{fs:.1f}\\fsp2.4\\bord0\\shad0"
+                        f"\\c{ass_color(PAPER)}{fad}}}{esc(index)}", 9)
+        if idx_y is None:
+            x += bw + 10
+        d0 = 0.06
+    if label:
+        txt = label.upper()
+        em = 30; fs = fs_of("Inter Tight Heavy", em)
+        tw = text_w("Inter Tight Heavy", txt, em, 1); bw, bh = tw + 36, 44
+        if idx_y is None and index:
+            y = y - 5  # centre the taller pill on the index row (44 vs 34)
+        bgc, fgc = (HIGHLIGHT, INK) if style == "hi" else (INK, PAPER)
+        clip = (f"\\clip({x:.0f},{y - 4:.0f},{x + 1:.0f},{y + bh + 4:.0f})\\t(0,230,0.5,\\clip({x:.0f},{y - 4:.0f},{x + bw:.0f},{y + bh + 4:.0f}))"
+                if anim else "")
+        s2 = st + (d0 if anim else 0)
+        ass.add(s2, en, f"{{\\an7\\pos({x:.0f},{y:.0f})\\p1\\bord0\\shad0\\c{ass_color(bgc)}{clip}}}{rrect(bw, bh, bh / 2)}{{\\p0}}", 8)
+        ass.add(s2, en, f"{{\\an4\\pos({x + 18:.0f},{y + bh / 2:.0f})\\fnInter Tight Heavy\\fs{fs:.1f}\\fsp1\\bord0\\shad0"
+                        f"\\c{ass_color(fgc)}{clip}}}{esc(txt)}", 9)
+
+
+def frame_who_side(seg, spec, tx):
+    who = seg.get("who")
+    if who not in ("L", "R"):
+        who = speaker_of(tx, spec.get("master") or seg["clip"], seg["start"], seg["end"])
+        who = who if who in ("L", "R") else "L"
+    return who, seg.get("side", "left" if who == "L" else "right")
+
+
+def panel_labels(ass, seginfo, spec, tx):
+    """Labels + indices of frame panels and full-screen B-roll (output timeline)."""
+    W, H = ass.W, ass.H
+    for t0, d, seg in seginfo:
+        if seg.get("card"):
+            continue
+        enter = seg.get("enter", True) is not False and float(seg.get("_goff", 0)) < 0.01
+        if seg.get("layout") == "frame" and W > H:
+            pn = seg.get("panel") or {}
+            if pn.get("label") or pn.get("index"):
+                _, side = frame_who_side(seg, spec, tx)
+                px = PANEL_X[1] if side == "left" else PANEL_X[0]
+                st = t0 + (0.30 if enter else 0.0)
+                label_events(ass, st, t0 + d, px + 24, PANEL_Y + PANEL_H - 24 - 44, pn.get("label"), pn.get("index"),
+                             enter, pn.get("style", "hi"), idx_y=PANEL_Y + 24)
+        br = seg.get("broll") or {}
+        if br and not br.get("panel") and (br.get("label") or br.get("index")) and W > H:
+            st = t0 + (0.12 if enter else 0.0)
+            label_events(ass, st, t0 + d, 96, 88, br.get("label"), br.get("index"), enter, br.get("style", "hi"))
+
+
 def build_overlays(ass, spec, total, cfg, sfx):
     W, H = ass.W, ass.H
     sc = W / 1080 if H > W else H / 1080 * 0.9
@@ -635,6 +1355,21 @@ def build_overlays(ass, spec, total, cfg, sfx):
                    f"\\3c{ass_color(col)}\\bord{30 * sc:.0f}\\shad0\\fad(120,0)\\fscx90\\fscy90\\t(0,140,\\fscx100\\fscy100)}}")
             ass.add(s2, end, box + esc(it), 5, "Box")
             sfx.append(("pop.mp3", s2, 0.3))
+    for tg in spec.get("tags", []):  # chapter tag, top-left: [03] VITAMIN D  (fades in/out, stays put)
+        at, until = float(tg["at"]), min(float(tg.get("until", total)), total)
+        if until - at < 1.0:
+            continue
+        fs = 25 * sc; x = 0.034 * W; y = 0.062 * H
+        num, txt = tg.get("num", ""), tg["text"].upper()
+        nw = text_w("Inter Tight Heavy", num, fs) + 26 * sc
+        tw = text_w("Inter Tight Medium", txt, fs, 1) + 30 * sc
+        h = fs * 1.75
+        box = lambda x0, w, col, a: (f"{{\\an7\\pos({x0:.0f},{y - h / 2:.0f})\\p1\\bord0\\shad0\\c{ass_color(col)}\\alpha&H{a}&\\fad(300,300)}}"
+                                     f"m 0 0 l {w:.0f} 0 l {w:.0f} {h:.0f} l 0 {h:.0f}{{\\p0}}")
+        ass.add(at, until, box(x, nw, accent, "00"), 2)
+        ass.add(at, until, box(x + nw, tw, "#0E1116", "38"), 2)
+        ass.add(at, until, tag("Inter Tight Heavy", fs, x + nw / 2, y, color="101010", extra="\\fad(300,300)\\bord0\\shad0") + esc(num), 3)
+        ass.add(at, until, tag("Inter Tight Medium", fs, x + nw + 15 * sc, y, an=4, sp=1, extra="\\fad(300,300)\\bord0\\shad0") + esc(txt), 3)
     ec = cfg.get("endcard")
     if ec:
         st, en = ec["_at"], total
@@ -652,6 +1387,8 @@ def build_overlays(ass, spec, total, cfg, sfx):
 
 def faces_on_screen(seg, spec, src, W, H, t_src):
     """Output-frame x (0..1) of the faces visible in a full-frame 16:9 segment at source time t_src."""
+    if seg.get("layout") == "sbs":
+        return [0.25, 0.75]
     if seg.get("card") or seg.get("broll") or seg.get("layout", "full") != "full":
         return []
     path = find_clip(src, seg["clip"]); sw, sh_ = probe(path)
@@ -667,6 +1404,10 @@ def faces_on_screen(seg, spec, src, W, H, t_src):
         ox = (fx * sw - x0) / cw
         if -0.1 < ox < 1.1:
             out.append(ox)
+    if z > 1.2 and seg.get("cx") in ("left", "right"):
+        # tight single: the person fills the middle of the crop even when the detector misses a profile face;
+        # keep the open side (the way they face, toward the other person) for overlays
+        out += [0.32, 0.45, 0.55] if seg["cx"] == "left" else [0.45, 0.55, 0.68]
     return out
 
 
@@ -683,17 +1424,22 @@ def place_stickers(sts, seginfo, spec, src, W, H):
         if hit:
             t0, d, sg = hit
             faces = faces_on_screen(sg, spec, src, W, H, sg["start"] + (at - t0))
-        n, gap = len(g), 0.13  # faces get a wide berth: people lean, detections lag
-        best, bs = None, -1
-        for k in range(0, 13):
-            x1 = 0.09 + 0.065 * k
+        n = len(g)
+        hw = max(float(s.get("w", 0.10)) for s in g) / 2  # half width of the widest element in the group
+        gap = max(0.13, 2 * hw + 0.01)  # faces get a wide berth: people lean, detections lag
+        best, bs = None, -9
+        for k in range(0, 60):
+            x1 = 0.02 + hw + 0.015 * k
             xs = [x1 + gap * i for i in range(n)]
-            if xs[-1] > 0.93:
+            if xs[-1] + hw > 0.985:
                 break
-            sc = min((min(abs(x - f) for f in faces) if faces else 1.0) for x in xs)  # bigger = further from every face
+            # bigger = the element's nearest edge is further from every face
+            sc = min((min(abs(x - f) for f in faces) - hw if faces else 1.0) for x in xs)
             sc += 0.02 * (1 if 0.25 < sum(xs) / n < 0.75 else 0)  # slight preference for the open middle when tied
             if sc > bs:
                 best, bs = xs, sc
+        if best is None:
+            best = [0.5] * n
         for stk, x in zip(g, best):
             stk["x"] = x
 
@@ -715,8 +1461,13 @@ def main():
     W, H = (1080, 1920) if fmt_ == "short" else (1920, 1080)
     style = spec.get("captions", "lockup" if fmt_ == "short" else "none")
     default_y = {"full": 0.62, "letterbox": 0.5, "band": 0.5, "split": 0.5}.get(spec.get("layout", "full"), 0.6)
-    cfg = {"cap_y": spec.get("cap_y", default_y if fmt_ == "short" else 0.83), "cap_x": spec.get("cap_x", 0.09),
-           "cap_size": spec.get("cap_size", 58)}
+    cfg = {"cap_y": spec.get("cap_y", default_y if fmt_ == "short" else (1004 / 1080 if style == "v4" else 0.83)),
+           "cap_x": spec.get("cap_x", 0.09), "cap_size": spec.get("cap_size", 66 if style == "v4" else 58),
+           "cap_host": spec.get("cap_host", "L"), "host_box": spec.get("host_box", True),
+           "cap_color": spec.get("cap_color", HIGHLIGHT), "cap_key": spec.get("cap_key", "mix")}
+    global CACHE
+    CACHE = os.path.abspath(os.path.join(a.work, "_cache"))  # shared by every chunk rendered into the same --work
+    spec["_dir"] = os.path.dirname(os.path.abspath(a.spec))
     enc = ["-c:v", "libx264", "-preset", "ultrafast" if a.draft else "veryfast", "-crf", "26" if a.draft else "16",
            "-pix_fmt", "yuv420p"]
     work = os.path.abspath(os.path.join(a.work, rid)); os.makedirs(work, exist_ok=True)
@@ -728,11 +1479,15 @@ def main():
     for seg in spec["segments"]:
         g = seg.get("tighten", gap)
         pieces = tighten(seg, a.tx, float(g), spec.get("drop_fillers", True), spec.get("master")) if (g and not seg.get("card") and seg.get("text") is None) else [seg]
+        goff, gl = 0.0, [max(1, round((q["end"] - q["start"]) * FPS)) / FPS for q in pieces] if not seg.get("card") else [0]
         for k, p in enumerate(pieces):
             if jz and len(pieces) > 1 and "zoom" not in seg:
                 p = {**p, "zoom": jz[k % len(jz)]}
             if k > 0:
                 p.pop("chapter", None)
+            if len(pieces) > 1:  # B-roll / panel video and push continue across the jump cuts; panels animate in once
+                p = {**p, "_goff": round(goff, 4), "_gdur": round(sum(gl), 4)}
+                goff += gl[k]
             segs.append(p)
     af_ = spec.get("auto_frame")
     if af_:  # one wide two-shot camera -> "multicam": tight on whoever talks, back to wide now and then
@@ -743,7 +1498,7 @@ def main():
         split = []  # first cut every piece at speaker changes (midpoint of the gap between the two words)
         for p in segs:
             jp = os.path.join(a.tx, (spec.get("master") or p.get("clip", "")) + ".json")
-            if p.get("card") or p.get("broll") or "cx" in p or p.get("layout") in ("split", "sbs") or not os.path.exists(jp):
+            if p.get("card") or p.get("broll") or "cx" in p or p.get("layout") in ("split", "sbs", "frame", "frame2") or not os.path.exists(jp):
                 split.append(p); continue
             ws = [w for sg in json.load(open(jp, encoding="utf-8")) for w in sg["w"]
                   if p["start"] - 0.05 <= w[0] < p["end"] - 0.05 and len(w) > 4 and w[4] in "LR"]
@@ -758,7 +1513,7 @@ def main():
         segs = split
         last, turns = None, 0
         for k, p in enumerate(segs):
-            if p.get("card") or p.get("broll") or "cx" in p or p.get("layout") in ("split", "sbs"):
+            if p.get("card") or p.get("broll") or "cx" in p or p.get("layout") in ("split", "sbs", "frame", "frame2"):
                 continue
             who = speaker_of(a.tx, spec.get("master") or p["clip"], p["start"], p["end"])
             if who == "?" and fmt_ != "long":
@@ -778,9 +1533,14 @@ def main():
         segs.append({"card": True, **spec["endcard"]})
 
     parts, caps, limits, t, chapters = [], [], [], 0.0, []
-    cys = []; seginfo = []
+    cys = []; seginfo = []; meta = []
     keywords = [k.lower() for k in spec.get("keywords", [])]
-    maxw = {"minimal": 4, "lockup": 5, "creator": 4, "pod": 6}.get(style, 4)
+    maxw = {"minimal": 4, "lockup": 5, "creator": 4, "pod": 6, "v4": 5}.get(style, 4)
+    prev = None
+    for seg in segs:  # v4 panels: a segment that continues the previous frame layout does not re-animate
+        if seg.get("layout") in ("frame", "frame2") and prev is not None and "enter" not in seg and                 prev.get("layout") == seg["layout"] and prev.get("side") == seg.get("side") and                 (prev.get("panel") or {}).get("file") == (seg.get("panel") or {}).get("file") and not seg.get("_goff"):
+            seg["enter"] = False
+        prev = seg
     for i, seg in enumerate(segs):
         p = os.path.join(work, f"s{i:03d}.mov")
         if seg.get("chapter"):
@@ -805,17 +1565,36 @@ def main():
             if words:
                 words = apply_fixes(words, spec.get("fixes", {}))
                 cu = spec.get("captions_until")  # long-form: captions over the cold open + intro only
-                for c in chunk([[max(w[0], 0) + t, min(w[1], d) + t, w[2]] for w in words], maxw):
+                ww = [[max(w[0], 0) + t, min(w[1], d) + t, w[2]] for w in words]
+                if style == "v4" and spec.get("drop_fillers", True):  # no um / uh on screen
+                    ww = [w for w in ww if re.sub(r"[^\w]", "", w[2]).lower() not in FILLERS]
+                for c in (v4_chunks(ww) if style == "v4" else chunk(ww, maxw)):
                     if cu is None or c[0][0] < float(cu):
                         caps.append(c); limits.append(min(t + d, float(cu)) if cu is not None else t + d)
                         cys.append(seg.get("cap_y", 0.88 if (seg.get("broll") or {}).get("panel") else None))
+                        if style == "v4":  # position / size / width per layout (style guide s3)
+                            br_ = seg.get("broll") or {}
+                            s0 = seg["start"] + (c[0][0] - t); s1 = seg["start"] + (c[-1][1] - t)
+                            who = speaker_of(a.tx, spec.get("master") or seg["clip"], s0, s1)
+                            kind = "frame" if seg.get("layout") in ("frame", "frame2") else "broll" if (br_ and not br_.get("panel"))                                 else "wide" if float(seg.get("zoom", 1.0)) <= 1.05 and seg.get("layout", "full") == "full" else "talk"
+                            ys = {"talk": cfg["cap_y"], "wide": cfg["cap_y"], "frame": spec.get("cap_y_frame", 1010 / 1080),
+                                  "broll": spec.get("cap_y_broll", cfg["cap_y"])}
+                            xs = {"wide": (600 if who == "L" else 1320) / 1920 if who in ("L", "R") else 0.5}
+                            mw = {"talk": 1500, "broll": 1500, "frame": 1700, "wide": 880 if who in ("L", "R") else 1500}
+                            meta.append({"y": seg.get("cap_y", ys[kind]), "x": seg.get("cap_x", xs.get(kind, 0.5)),
+                                         "size": seg.get("cap_size", cfg["cap_size"]), "maxw": mw[kind], "who": who,
+                                         "paper": kind == "frame" and (seg.get("bg") or spec.get("bg", "paper")) == "paper"})
         t += d
         print(f"  cut {i + 1}/{len(segs)}", end="\r", flush=True)
     total = t
     print()
 
     ass = ASS(W, H); sfx = []
-    caption_events(ass, caps, limits, keywords, style, cfg, spec.get("accent", "#FFFFFF"), cys)
+    if style == "v4":
+        captions_v4(ass, caps, limits, keywords, cfg, meta)
+    else:
+        caption_events(ass, caps, limits, keywords, style, cfg, spec.get("accent", "#FFFFFF"), cys)
+    panel_labels(ass, seginfo, spec, a.tx)
     build_overlays(ass, spec, total, cfg, sfx)
     for s in spec.get("sfx", []):  # manual hits: {"at": 3.2, "file": "whoosh_fast.mp3", "vol": 0.4}
         sfx.append((s["file"], float(s["at"]), float(s.get("vol", 0.4))))
@@ -840,12 +1619,28 @@ def main():
     sts = spec.get("stickers", [])
     fc = ""
     vin = "[0:v]"
+    sfiles = [os.path.abspath(stk["file"] if os.path.isfile(stk["file"]) else os.path.join(ROOT, stk["file"])) for stk in sts]
     for j, stk in enumerate(sts):  # {"at": s, "file": "x.mov", "x": 0.8, "y": 0.3} centre position, output timeline
-        inputs += ["-i", os.path.abspath(stk["file"] if os.path.isfile(stk["file"]) else os.path.join(ROOT, stk["file"]))]
+        inputs += (["-t", f"{float(stk['dur']):.3f}"] if stk.get("dur") else []) + ["-i", sfiles[j]]  # "dur": cut early
     place_stickers(sts, seginfo, spec, a.src, W, H)
     for j, stk in enumerate(sts):
         k = 1 + len(sfx) + (1 if mus else 0) + j
-        fc += (f"[{k}:v]format=rgba,setpts=PTS-STARTPTS+{float(stk['at']):.3f}/TB[sk{j}];"
+        at_ = float(stk["at"])
+        if at_ >= total:
+            continue
+        ch = "format=rgba"
+        if stk.get("w") and stk.get("x") != "auto" and (style == "v4" or stk.get("scale")) and stk.get("scale", True) is not False:
+            tw_ = int(float(stk["w"]) * W) // 2 * 2  # v4: "w" = drawn width (fraction of the frame); v3 specs: placement hint
+            if abs(probe(sfiles[j])[0] - tw_) > 4:
+                ch += f",scale={tw_}:-2:flags=lanczos"
+        dur = float(stk["dur"]) if stk.get("dur") else None
+        fd = float(stk.get("fade", 0) or 0)
+        if fd > 0:
+            ch += f",fade=t=in:st=0:d={fd:.3f}:alpha=1"
+            if dur:
+                ch += f",fade=t=out:st={max(dur - fd, 0):.3f}:d={fd:.3f}:alpha=1"
+        ch += ",scale=out_range=tv:out_color_matrix=bt709,format=yuva420p"
+        fc += (f"[{k}:v]{ch},setpts=PTS-STARTPTS+{at_:.3f}/TB[sk{j}];"
                f"{vin}[sk{j}]overlay=x={float(stk.get('x', 0.8)) * W:.0f}-w/2:y={float(stk.get('y', 0.3)) * H:.0f}-h/2:eof_action=pass:format=auto[ov{j}];")
         vin = f"[ov{j}]"
     fc += f"{vin}ass=caps.ass:fontsdir=fonts[v];"

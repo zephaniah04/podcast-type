@@ -1,0 +1,502 @@
+{
+ "_piece": true,
+ "id": "L3_12",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 12",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 741.19,
+   "end": 744.47,
+   "chapter": "The 5-Hour Gap Before Evening Training",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T12.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 744.47,
+   "end": 859.12
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 859.12,
+   "end": 868.87,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_12_c14.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 868.87,
+   "end": 881.35
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 881.35,
+   "end": 885.07,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 885.07,
+   "end": 898.57
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 898.57,
+   "end": 903.15,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/fruit-bowl.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 903.15,
+   "end": 948.72
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 948.72,
+   "end": 955.35,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 955.35,
+   "end": 970.88
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 970.88,
+   "end": 981.03,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 981.03,
+   "end": 996.83
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 996.83,
+   "end": 1001.03,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/city-cycling.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1001.03,
+   "end": 1056.11
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1056.11,
+   "end": 1060.29,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/city-bus.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1060.29,
+   "end": 1095.5
+  }
+ ],
+ "stickers": [
+  {
+   "at": 15.493,
+   "file": "projects/carrie-ep01/fx/w_eat-every-3-5-hours.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w15.493",
+   "w": 0.617
+  },
+  {
+   "at": 31.887,
+   "file": "projects/carrie-ep01/fx/e_battery-muscle-energy-stores.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g31.887",
+   "w": 0.293
+  },
+  {
+   "at": 38.007,
+   "file": "projects/carrie-ep01/fx/e_hourglass-not-done-1-pm-to-6-pm.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g38.007",
+   "w": 0.219
+  },
+  {
+   "at": 60.68,
+   "file": "projects/carrie-ep01/fx/e_person-lifting-weights-gym.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g60.68",
+   "w": 0.219
+  },
+  {
+   "at": 68.593,
+   "file": "projects/carrie-ep01/fx/e_thinking-face-say-that-again.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g68.593",
+   "w": 0.219
+  },
+  {
+   "at": 84.253,
+   "file": "projects/carrie-ep01/fx/w_active-every-evening.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w84.253",
+   "w": 0.651
+  },
+  {
+   "at": 118.707,
+   "file": "projects/carrie-ep01/fx/e_grapes-fruit.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g118.707",
+   "w": 0.219
+  },
+  {
+   "at": 120.95,
+   "file": "projects/carrie-ep01/fx/p_office-fruit-2-3-pieces-of-fruit.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p120.95",
+   "w": 0.258
+  },
+  {
+   "at": 155.387,
+   "file": "projects/carrie-ep01/fx/e_person-running-run-or-bike.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g155.387",
+   "w": 0.219
+  },
+  {
+   "at": 168.993,
+   "file": "projects/carrie-ep01/fx/e_sweat-droplets-sweat.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g168.993",
+   "w": 0.219
+  },
+  {
+   "at": 176.463,
+   "file": "projects/carrie-ep01/fx/e_stopwatch-intervals.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g176.463",
+   "w": 0.219
+  },
+  {
+   "at": 186.553,
+   "file": "projects/carrie-ep01/fx/e_bicycle-biking.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g186.553",
+   "w": 0.219
+  },
+  {
+   "at": 195.057,
+   "file": "projects/carrie-ep01/fx/e_snowflake-winter.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g195.057",
+   "w": 0.219
+  },
+  {
+   "at": 220.533,
+   "file": "projects/carrie-ep01/fx/e_bicycle-bike.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g220.533",
+   "w": 0.219
+  },
+  {
+   "at": 236.26,
+   "file": "projects/carrie-ep01/fx/w_-30-min-each-way.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w236.26",
+   "w": 0.64
+  },
+  {
+   "at": 244.227,
+   "file": "projects/carrie-ep01/fx/e_fork-and-knife-with-plate-dinner.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g244.227",
+   "w": 0.219
+  },
+  {
+   "at": 249.58,
+   "file": "projects/carrie-ep01/fx/w_the-problem--dinner.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w249.58",
+   "w": 0.615
+  },
+  {
+   "at": 262.3,
+   "file": "projects/carrie-ep01/fx/e_bicycle-biking.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g262.3",
+   "w": 0.219
+  },
+  {
+   "at": 281.56,
+   "file": "projects/carrie-ep01/fx/e_high-voltage-energy.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g281.56",
+   "w": 0.219
+  },
+  {
+   "at": 285.247,
+   "file": "projects/carrie-ep01/fx/w_energy-out.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w285.247",
+   "w": 0.442
+  },
+  {
+   "at": 302.28,
+   "file": "projects/carrie-ep01/fx/w_life-happens.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w302.28",
+   "w": 0.47
+  }
+ ],
+ "sfx": [
+  {
+   "at": 15.493,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 31.887,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 38.007,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 60.68,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 68.593,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 84.253,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 118.707,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 120.95,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 155.387,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 168.993,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 176.463,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 186.553,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 195.057,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 220.533,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 236.26,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 244.227,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 249.58,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 262.3,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 281.56,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 285.247,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 302.28,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 102.23,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 134.9,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 174.13,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 189.97,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 215.43,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 269.03,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.57,
+   "num": "12",
+   "text": "The 5-hour gap"
+  }
+ ]
+}

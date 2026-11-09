@@ -1,0 +1,582 @@
+{
+ "bathroom-scale": [
+  "bathroom scale feet",
+  "person weighing scale"
+ ],
+ "food-diary": [
+  "food diary notebook",
+  "food journal writing"
+ ],
+ "fried-eggs": [
+  "fried eggs pan",
+  "sunny side up eggs"
+ ],
+ "wall-clock": [
+  "wall clock",
+  "clock face hands"
+ ],
+ "banana": [
+  "banana fruit",
+  "bananas bunch"
+ ],
+ "red-apple": [
+  "red apple",
+  "apple fruit"
+ ],
+ "orange-fruit": [
+  "orange fruit",
+  "oranges citrus"
+ ],
+ "desk-bottle": [
+  "reusable water bottle desk",
+  "water bottle office desk"
+ ],
+ "cool-run": [
+  "runner autumn leaves",
+  "running winter cold"
+ ],
+ "chicken-drumsticks": [
+  "chicken drumsticks",
+  "roast chicken legs"
+ ],
+ "india-street": [
+  "india street market",
+  "indian city street"
+ ],
+ "omega-capsules": [
+  "fish oil capsules",
+  "omega 3 softgels"
+ ],
+ "phone-chat": [
+  "smartphone in hand",
+  "person using smartphone"
+ ],
+ "vitamin-d": [
+  "vitamin d capsules",
+  "vitamin d3 softgel"
+ ],
+ "sunny-walk": [
+  "walking in sunshine",
+  "sunny street pedestrians"
+ ],
+ "montreal-winter": [
+  "montreal winter snow street",
+  "montreal snow"
+ ],
+ "vitamin-d-foods": [
+  "salmon eggs mushrooms",
+  "oily fish eggs"
+ ],
+ "pill-organizer": [
+  "weekly pill organizer",
+  "pill box days of week"
+ ],
+ "bone-xray": [
+  "x-ray leg bones",
+  "radiograph knee bone"
+ ],
+ "salt-crystals": [
+  "sea salt crystals",
+  "salt crystals macro"
+ ],
+ "salt-stains": [
+  "salt stains sweat",
+  "dried sweat salt shirt"
+ ],
+ "salt-shaker": [
+  "salt shaker",
+  "salt shaker table"
+ ],
+ "sports-drinks": [
+  "sports drink bottles",
+  "isotonic drink"
+ ],
+ "calf-muscles": [
+  "calf muscle anatomy",
+  "gastrocnemius soleus"
+ ],
+ "fitness-race": [
+  "hyrox",
+  "fitness race indoor"
+ ],
+ "pain-spray": [
+  "pain relief spray",
+  "cold spray injury"
+ ],
+ "leg-muscles": [
+  "leg muscles anatomy",
+  "quadriceps hamstring anatomy"
+ ],
+ "muscle-fibres": [
+  "muscle fibers anatomy",
+  "skeletal muscle fibre"
+ ],
+ "electrolyte-mix": [
+  "electrolyte powder drink",
+  "drink powder sachet"
+ ],
+ "triathlete-run": [
+  "triathlon run",
+  "ironman triathlon running"
+ ],
+ "energy-gels": [
+  "energy gel",
+  "sports gel packet"
+ ],
+ "start-line": [
+  "marathon start line",
+  "runners starting line"
+ ],
+ "water-cup": [
+  "paper cup water",
+  "cup of water"
+ ],
+ "stopwatch-hand": [
+  "stopwatch",
+  "stopwatch hand"
+ ],
+ "workout-gear": [
+  "gym clothes",
+  "running shoes clothes flat lay"
+ ],
+ "sweaty-shirt": [
+  "sweaty t-shirt",
+  "sweat soaked shirt"
+ ],
+ "liter-bottle": [
+  "one liter water bottle",
+  "plastic water bottle"
+ ],
+ "measuring-jug": [
+  "measuring jug water",
+  "measuring cup liquid"
+ ],
+ "water-glass": [
+  "glass of water",
+  "water glass"
+ ],
+ "aid-station": [
+  "aid station marathon",
+  "water station race"
+ ],
+ "nutrition-label": [
+  "nutrition facts label",
+  "nutrition label"
+ ],
+ "salt-pills": [
+  "salt tablets",
+  "white capsules"
+ ],
+ "triathlon-swim": [
+  "triathlon swim start",
+  "open water swim race"
+ ],
+ "stomach-ache": [
+  "stomach ache",
+  "abdominal pain"
+ ],
+ "calendar": [
+  "calendar",
+  "wall calendar"
+ ],
+ "big-meal": [
+  "large meal plate",
+  "plate of food"
+ ],
+ "balance-scale": [
+  "balance scale",
+  "scales of justice"
+ ],
+ "sunrise-city": [
+  "sunrise city skyline",
+  "early morning city"
+ ],
+ "weekly-planner": [
+  "weekly planner",
+  "planner notebook"
+ ],
+ "sleeping-man": [
+  "man sleeping in bed",
+  "sleeping bed"
+ ],
+ "bedside-water": [
+  "glass of water bedside",
+  "bedside table water"
+ ],
+ "empty-plate": [
+  "empty plate",
+  "empty plate fork knife"
+ ],
+ "pb-sandwich": [
+  "peanut butter sandwich",
+  "peanut butter jelly sandwich"
+ ],
+ "glucose-meter": [
+  "blood glucose meter",
+  "glucometer"
+ ],
+ "pb-toast": [
+  "peanut butter toast",
+  "toast with peanut butter"
+ ],
+ "apartment-gym": [
+  "apartment gym",
+  "small home gym"
+ ],
+ "chocolate-milk": [
+  "chocolate milk",
+  "glass of chocolate milk"
+ ],
+ "shaker-bottle": [
+  "protein shaker bottle",
+  "shaker bottle"
+ ],
+ "kitchen-timer": [
+  "kitchen timer",
+  "egg timer"
+ ],
+ "rice-bowl": [
+  "small bowl of rice",
+  "bowl of white rice"
+ ],
+ "carb-foods": [
+  "carbohydrate foods",
+  "bread pasta potatoes"
+ ],
+ "shake-ingredients": [
+  "banana oats milk",
+  "smoothie ingredients"
+ ],
+ "healthy-fats": [
+  "avocado nuts olive oil",
+  "healthy fats food"
+ ],
+ "salmon-fillet": [
+  "salmon fillet",
+  "raw salmon"
+ ],
+ "walnut-kernels": [
+  "walnuts",
+  "walnut kernels"
+ ],
+ "butter-block": [
+  "butter block",
+  "butter"
+ ],
+ "creatine-scoop": [
+  "white powder scoop",
+  "creatine powder"
+ ],
+ "weight-plates": [
+  "weight plates",
+  "barbell plates gym"
+ ],
+ "atp-molecule": [
+  "adenosine triphosphate",
+  "ATP molecule"
+ ],
+ "breakfast-table": [
+  "breakfast table",
+  "breakfast"
+ ],
+ "calculator": [
+  "calculator",
+  "calculator hand"
+ ],
+ "yogurt-tub": [
+  "yogurt tub",
+  "yogurt container"
+ ],
+ "handful-oats": [
+  "handful of oats",
+  "oats in hand"
+ ],
+ "curry-rice": [
+  "curry and rice",
+  "curry rice plate"
+ ],
+ "carrot-bunch": [
+  "bunch of carrots",
+  "fresh carrots"
+ ],
+ "frozen-peas": [
+  "frozen peas",
+  "frozen vegetables bag"
+ ],
+ "green-salad": [
+  "green salad",
+  "salad bowl"
+ ],
+ "fist": [
+  "clenched fist",
+  "fist hand"
+ ],
+ "raw-rice": [
+  "uncooked rice grains",
+  "raw rice"
+ ],
+ "rice-cups": [
+  "measuring cup rice",
+  "cup of rice"
+ ],
+ "meal-water": [
+  "meal with glass of water",
+  "lunch water glass"
+ ],
+ "desk-work": [
+  "office desk laptop",
+  "working at desk"
+ ],
+ "river-path": [
+  "riverside path",
+  "river running path"
+ ],
+ "bus-stop": [
+  "bus stop waiting",
+  "bus stop"
+ ],
+ "fitness-watch": [
+  "fitness tracker watch",
+  "smartwatch wrist"
+ ],
+ "fruit-snacks": [
+  "fruit gummies",
+  "gummy candy"
+ ],
+ "wafer-cookies": [
+  "wafer cookie",
+  "wafers"
+ ],
+ "bread-loaf": [
+  "loaf of bread",
+  "sliced bread"
+ ],
+ "egg-sandwich": [
+  "egg sandwich",
+  "egg salad sandwich"
+ ],
+ "tomatoes": [
+  "tomatoes",
+  "fresh tomatoes"
+ ],
+ "onions": [
+  "onions",
+  "red onions"
+ ],
+ "oats-jars": [
+  "overnight oats jar",
+  "oats in jar"
+ ],
+ "desk-breakfast": [
+  "breakfast at desk",
+  "breakfast office"
+ ],
+ "tired-couch": [
+  "tired man couch",
+  "exhausted sofa"
+ ],
+ "gym-snack": [
+  "eating in gym",
+  "athlete eating snack"
+ ],
+ "packed-sandwich": [
+  "packed sandwich",
+  "sandwich wrapped"
+ ],
+ "eggs-fridge": [
+  "eggs in refrigerator",
+  "egg tray fridge"
+ ],
+ "peeled-eggs": [
+  "peeled boiled eggs",
+  "hard boiled eggs"
+ ],
+ "dinner-plate": [
+  "dinner plate",
+  "home cooked dinner"
+ ],
+ "whole-foods": [
+  "whole foods",
+  "fresh food ingredients"
+ ],
+ "cottage-cheese-bowl": [
+  "cottage cheese",
+  "cottage cheese bowl"
+ ],
+ "milk-glass": [
+  "glass of milk",
+  "milk"
+ ],
+ "egg-whites": [
+  "egg whites",
+  "separated egg white"
+ ],
+ "mixed-nuts": [
+  "mixed nuts",
+  "nuts"
+ ],
+ "convenience-store": [
+  "convenience store shelves",
+  "convenience store"
+ ],
+ "two-sandwiches": [
+  "sandwiches plate",
+  "two sandwiches"
+ ],
+ "healthy-snacks": [
+  "healthy snacks",
+  "snack foods"
+ ],
+ "quick-meal": [
+  "quick meal",
+  "simple meal"
+ ],
+ "kitchen-interior": [
+  "home kitchen",
+  "kitchen interior"
+ ],
+ "recipe-book": [
+  "recipe book",
+  "cookbook open"
+ ],
+ "sloppy-joe": [
+  "sloppy joe",
+  "sloppy joe sandwich"
+ ],
+ "tired-athlete": [
+  "tired athlete",
+  "exhausted gym"
+ ],
+ "magnesium": [
+  "magnesium supplement",
+  "magnesium tablets"
+ ],
+ "green-smoothie": [
+  "green smoothie",
+  "spinach smoothie"
+ ],
+ "whole-grains": [
+  "whole grains",
+  "beans lentils fiber"
+ ],
+ "colorful-produce": [
+  "colorful fruits vegetables",
+  "rainbow vegetables"
+ ],
+ "office-printer": [
+  "printer",
+  "office printer"
+ ],
+ "video-call": [
+  "video call laptop",
+  "video conference"
+ ],
+ "pharmacy-shelves": [
+  "pharmacy shelves",
+  "drugstore"
+ ],
+ "sunset-city": [
+  "sunset city",
+  "city evening"
+ ],
+ "running-shoes": [
+  "running shoes",
+  "runner shoes road"
+ ],
+ "bicycle-parked": [
+  "bicycle parked",
+  "commuter bicycle"
+ ],
+ "lab-report": [
+  "blood test results",
+  "laboratory report"
+ ],
+ "coffee-cup": [
+  "cup of coffee",
+  "espresso cup"
+ ],
+ "laptop-desk": [
+  "laptop on desk",
+  "laptop computer"
+ ],
+ "cold-runner": [
+  "runner snow",
+  "jogging winter"
+ ],
+ "india-market": [
+  "mumbai street",
+  "delhi street market"
+ ],
+ "vitd-softgels": [
+  "vitamin D softgels",
+  "yellow softgel capsules"
+ ],
+ "pill-box": [
+  "pill organizer",
+  "pill box tablets"
+ ],
+ "electrolyte-tabs": [
+  "effervescent tablet glass",
+  "electrolyte tablets"
+ ],
+ "gel-sachets": [
+  "energy gels running",
+  "sports nutrition gel"
+ ],
+ "gym-clothes": [
+  "sportswear flat lay",
+  "gym bag clothes shoes"
+ ],
+ "sweat-tshirt": [
+  "sweat soaked t-shirt runner",
+  "sweaty runner shirt"
+ ],
+ "measuring-cup": [
+  "measuring cup water",
+  "measuring jug kitchen"
+ ],
+ "race-aid-table": [
+  "marathon water station volunteers",
+  "marathon drinks table"
+ ],
+ "sweat-salt-marks": [
+  "salt stains sweat clothes",
+  "white salt sweat cap"
+ ],
+ "nightstand-water": [
+  "glass of water nightstand",
+  "bedside table glass"
+ ],
+ "frozen-veg-bag": [
+  "frozen green peas",
+  "frozen mixed vegetables"
+ ],
+ "vitd-caps": [
+  "vitamin D3",
+  "vitamin supplement capsules"
+ ],
+ "gel-pack": [
+  "energy gel packet marathon",
+  "sports gel sachet"
+ ],
+ "salt-crust": [
+  "salt crust sweat",
+  "sweat salt stains hat"
+ ],
+ "tired-sofa": [
+  "tired man sofa",
+  "man asleep on couch"
+ ],
+ "gym-eating": [
+  "man eating sandwich",
+  "eating lunch break"
+ ],
+ "jar-oats": [
+  "overnight oats",
+  "oatmeal jar"
+ ],
+ "measure-jug": [
+  "measuring jug",
+  "pyrex measuring cup"
+ ]
+}

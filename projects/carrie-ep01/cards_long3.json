@@ -1,0 +1,373 @@
+{
+ "accent": "#FFB238",
+ "cards": [
+  {
+   "id": "L3_02_c0",
+   "type": "bignum",
+   "value": 2.2,
+   "decimals": 1,
+   "suffix": " L",
+   "label": "of water a day",
+   "kicker": "at 74 kg",
+   "sub": "more on heavy-sweat days",
+   "w": 806,
+   "h": 1080,
+   "dur": 14.91
+  },
+  {
+   "id": "L3_03_c1",
+   "type": "bignum",
+   "value": 1000,
+   "suffix": " IU",
+   "label": "vitamin D a day",
+   "kicker": "October -> April",
+   "sub": "we can't get enough from food",
+   "w": 806,
+   "h": 1080,
+   "dur": 11.72
+  },
+  {
+   "id": "L3_03_c2",
+   "type": "list",
+   "title": "Why vitamin D",
+   "items": [
+    "Bone strength",
+    "Immunity",
+    "Inflammation"
+   ],
+   "at": [
+    2.2,
+    4.3,
+    5.4
+   ],
+   "w": 806,
+   "h": 1080,
+   "dur": 8.67
+  },
+  {
+   "id": "L3_04_c3",
+   "type": "versus",
+   "title": "Why the cramps?",
+   "left": {
+    "title": "Muscle",
+    "lines": [
+     "Fatigue from new loads"
+    ]
+   },
+   "right": {
+    "title": "Sodium + fluid",
+    "lines": [
+     "Worth testing first"
+    ]
+   },
+   "delay": 3.0,
+   "w": 806,
+   "h": 1080,
+   "dur": 14.04
+  },
+  {
+   "id": "L3_04_c4",
+   "type": "bignum",
+   "value": 2,
+   "suffix": " gels",
+   "label": "in 1 h 42 min of HYROX",
+   "kicker": "what I used",
+   "count": false,
+   "w": 806,
+   "h": 1080,
+   "dur": 4.46
+  },
+  {
+   "id": "L3_05_c5",
+   "type": "bignum",
+   "value": 1,
+   "suffix": " L",
+   "label": "of sweat per kilo lost",
+   "kicker": "74 kg -> 73 kg",
+   "sub": "that you didn't replace",
+   "w": 806,
+   "h": 1080,
+   "dur": 13.1
+  },
+  {
+   "id": "L3_05_c6",
+   "type": "list",
+   "title": "Rehydrate",
+   "numbered": true,
+   "items": [
+    "Weigh before",
+    "Weigh after",
+    "Drink the loss",
+    "+250-500 ml"
+   ],
+   "at": [
+    0.3,
+    0.8,
+    1.5,
+    5.0
+   ],
+   "w": 806,
+   "h": 1080,
+   "dur": 15.66
+  },
+  {
+   "id": "L3_06_c7",
+   "type": "bignum",
+   "value": 1000,
+   "suffix": " mg",
+   "label": "sodium in one packet",
+   "kicker": "salty sweater?",
+   "w": 806,
+   "h": 1080,
+   "dur": 6.47
+  },
+  {
+   "id": "L3_06_c8",
+   "type": "dodont",
+   "title": "Caffeine in long races",
+   "dont": [
+    "All race long",
+    "Upset gut"
+   ],
+   "do": [
+    "Save it for the end",
+    "For the final push"
+   ],
+   "delay": 4.0,
+   "w": 806,
+   "h": 1080,
+   "dur": 29.84
+  },
+  {
+   "id": "L3_06_c9",
+   "type": "versus",
+   "title": "Carbs in intervals",
+   "left": {
+    "title": "No carbs",
+    "lines": [
+     "Last 1K fades"
+    ]
+   },
+   "right": {
+    "title": "Carbs all race",
+    "lines": [
+     "Last 1K = first 1K"
+    ]
+   },
+   "delay": 3.5,
+   "w": 806,
+   "h": 1080,
+   "dur": 19.44
+  },
+  {
+   "id": "L3_08_c10",
+   "type": "list",
+   "title": "Before a morning lift",
+   "items": [
+    "Banana",
+    "+ peanut butter",
+    "or PB on toast"
+   ],
+   "at": [
+    0.6,
+    2.6,
+    15.0
+   ],
+   "w": 806,
+   "h": 1080,
+   "dur": 18.18
+  },
+  {
+   "id": "L3_09_c11",
+   "type": "versus",
+   "title": "When to refuel",
+   "left": {
+    "title": "1 workout",
+    "lines": [
+     "Within 2 hours"
+    ]
+   },
+   "right": {
+    "title": "2 workouts",
+    "lines": [
+     "Within 30 min"
+    ]
+   },
+   "delay": 4.0,
+   "w": 806,
+   "h": 1080,
+   "dur": 25.88
+  },
+  {
+   "id": "L3_10_c12",
+   "type": "list",
+   "title": "How creatine helps",
+   "numbered": true,
+   "items": [
+    "Regenerates ATP",
+    "More power",
+    "Muscle builds faster"
+   ],
+   "at": [
+    1.5,
+    5.0,
+    9.0
+   ],
+   "w": 806,
+   "h": 1080,
+   "dur": 17.92
+  },
+  {
+   "id": "L3_11_c13",
+   "type": "bignum",
+   "value": 50,
+   "suffix": " g",
+   "label": "protein in one shake",
+   "kicker": "that's plenty",
+   "w": 806,
+   "h": 1080,
+   "dur": 11.6
+  },
+  {
+   "id": "L3_12_c14",
+   "type": "timeline",
+   "title": "Don't train on empty",
+   "points": [
+    {
+     "t": "1 pm",
+     "label": "Lunch",
+     "at": 0.4
+    },
+    {
+     "t": "3-4 pm",
+     "label": "Snack / fruit",
+     "at": 1.6
+    },
+    {
+     "t": "6 pm",
+     "label": "Training",
+     "at": 8.4
+    }
+   ],
+   "w": 806,
+   "h": 1080,
+   "dur": 10.55
+  },
+  {
+   "id": "L3_13_c15",
+   "type": "list",
+   "title": "Prime before you train",
+   "items": [
+    "Fruit snacks",
+    "Honey wafer",
+    "A small bar",
+    "A gel"
+   ],
+   "at": [
+    5.0,
+    7.5,
+    11.5,
+    22.0
+   ],
+   "w": 806,
+   "h": 1080,
+   "dur": 26.47
+  },
+  {
+   "id": "L3_14_c16",
+   "type": "timeline",
+   "title": "Double session day",
+   "points": [
+    {
+     "t": "Cardio",
+     "label": "Run / bike",
+     "at": 0.5
+    },
+    {
+     "t": "Eat",
+     "label": "In between",
+     "at": 2.5
+    },
+    {
+     "t": "Gym",
+     "label": "Strength",
+     "at": 5.0
+    },
+    {
+     "t": "Finish",
+     "label": "The rest after",
+     "at": 15.5
+    }
+   ],
+   "w": 806,
+   "h": 1080,
+   "dur": 23.21
+  },
+  {
+   "id": "L3_16_c17",
+   "type": "list",
+   "title": "Weekend meal prep",
+   "items": [
+    "Chicken",
+    "Rice",
+    "Veggies",
+    "Eat it all week"
+   ],
+   "at": [
+    7.0,
+    9.0,
+    10.5,
+    13.5
+   ],
+   "w": 806,
+   "h": 1080,
+   "dur": 14.7
+  },
+  {
+   "id": "L3_16_c18",
+   "type": "timeline",
+   "title": "The empty-tank cycle",
+   "points": [
+    {
+     "t": "Night",
+     "label": "Workout",
+     "at": 0.5
+    },
+    {
+     "t": "Bed",
+     "label": "Shake only",
+     "at": 5.0
+    },
+    {
+     "t": "6 am",
+     "label": "Gym + banana",
+     "at": 11.0
+    }
+   ],
+   "w": 806,
+   "h": 1080,
+   "dur": 16.97
+  },
+  {
+   "id": "L3_17_c19",
+   "type": "versus",
+   "title": "Real food vs a pill",
+   "left": {
+    "title": "Multivitamin",
+    "lines": [
+     "Fills the gaps"
+    ]
+   },
+   "right": {
+    "title": "Real food",
+    "lines": [
+     "Fibre + phytochemicals"
+    ]
+   },
+   "delay": 3.0,
+   "w": 806,
+   "h": 1080,
+   "dur": 17.65
+  }
+ ]
+}

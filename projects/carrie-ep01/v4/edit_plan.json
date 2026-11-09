@@ -1,0 +1,2493 @@
+{
+ "est_minutes": 64.34,
+ "title": "Fuelling Like an Endurance Athlete",
+ "subtitle": "A real consult with high-performance sports dietitian Carrie Mullin Innes: salt, cramps, sweat tests, protein and the evening-fuel gap",
+ "cold_open": [
+  {
+   "f": "A",
+   "start": 877.515,
+   "end": 880.13,
+   "who": "N",
+   "text": "If I fall, just take me out or else I'm not going to quit.",
+   "why": "Scroll-stopper: a cramping athlete telling the medics to drag him off rather than let him quit. Stakes in 2 s.",
+   "est_s": 2.5
+  },
+  {
+   "f": "A",
+   "start": 776.855,
+   "end": 783.81,
+   "who": "N",
+   "text": "I can see salt on my eyes, over here, on my cheek, everywhere.",
+   "why": "Vivid physical image (salt crust on his face) that sets up the whole sodium thread.",
+   "est_s": 5.9
+  },
+  {
+   "f": "A",
+   "start": 1262.485,
+   "end": 1270.18,
+   "who": "C",
+   "text": "you lost a kilo. That means you've lost a liter of water that you didn't replace.",
+   "why": "The single most useful rule in the episode (1 kg lost = 1 L of sweat not replaced) as a number hit.",
+   "est_s": 7.5
+  },
+  {
+   "f": "A",
+   "start": 555.945,
+   "end": 560.46,
+   "who": "N",
+   "text": "before I started iron one chat, GPD was kind of my dietitian.",
+   "why": "Laugh + relatable confession: ChatGPT was his dietitian before a real one.",
+   "est_s": 4.4
+  },
+  {
+   "f": "A",
+   "start": 2310.05,
+   "end": 2315.965,
+   "who": "C",
+   "text": "Isn't it 30 minutes? I just heard it. Yeah no it occurs well as far as we know it occurs in the first two hours.",
+   "why": "Myth vs fact in one breath: Nizam asks about the 30-minute window, Carrie corrects to 2 hours (Nizam asks, Carrie answers).",
+   "est_s": 5.8
+  },
+  {
+   "f": "B",
+   "start": 1143.17,
+   "end": 1152.43,
+   "who": "N",
+   "text": "but I have just loaded protein in my home. Like I started it up. Because that's the muscle building block, but I forgot about calves and other stuff.",
+   "why": "Self-aware mistake most gym-goers make: all protein, no carbs (caption fix: 'calves' -> 'carbs').",
+   "est_s": 8.3
+  },
+  {
+   "f": "B",
+   "start": 2063.63,
+   "end": 2067.63,
+   "who": "C",
+   "text": "Because I just think your protein shake is not enough for you.",
+   "why": "Bold verdict from the expert: the protein shake is not enough.",
+   "est_s": 3.8
+  },
+  {
+   "f": "B",
+   "start": 896.09,
+   "end": 899.89,
+   "who": "C",
+   "text": "If you had another one, no one's getting overweight from eating fruit.",
+   "why": "Light laugh beat, breaks the run of warnings.",
+   "est_s": 3.6
+  },
+  {
+   "f": "B",
+   "start": 2506.8,
+   "end": 2515.595,
+   "who": "N",
+   "text": "the goal before the race, can I be in good shape, a little bit gained shape and gain like more muscle mass",
+   "why": "Cliffhanger question: the episode's real stakes - can he gain muscle before race day?",
+   "est_s": 7.5
+  },
+  {
+   "f": "B",
+   "start": 2525.085,
+   "end": 2528.435,
+   "who": "C",
+   "text": "i honestly think like can you gain muscle mass",
+   "why": "Unresolved answer: cut before her verdict - viewers stay to hear it (chapter 13).",
+   "est_s": 3.4
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "title": "WHAT I EAT IN A DAY",
+   "kicker": "a HYROX athlete's food log, line by line",
+   "summary": "Carrie walks through Nizam's real food log: shake and eggs, Greek yogurt and granola, a mountain of rice, three office fruits, 'I should say three litres but I might lie' (he needs ~2.2 L), and chicken with roti for dinner.",
+   "out_start_s": 52.7,
+   "est_minutes": 5.06,
+   "keep": [
+    {
+     "f": "A",
+     "start": 5.76,
+     "end": 13.37,
+     "note": "cold start: Carrie names Nizam, his 74 kg is the number every later calculation uses",
+     "est_s": 3.3,
+     "first": "Nizam how much do you weigh?",
+     "last": "much do you weigh? 74 kilos."
+    },
+    {
+     "f": "A",
+     "start": 72.22,
+     "end": 170.88,
+     "note": "breakfast + timing; first warning: a protein shake alone never recovers you",
+     "est_s": 92.2,
+     "first": "So thanks for sharing your food",
+     "last": "see what's going into your muscles."
+    },
+    {
+     "f": "A",
+     "start": 190.56,
+     "end": 241.88,
+     "note": "lunch: 200-300 g rice + ~150 g chicken",
+     "est_s": 46.8,
+     "first": "Then your lunch is eaten around",
+     "last": "that's how much I typically take."
+    },
+    {
+     "f": "A",
+     "start": 258.06,
+     "end": 277.58,
+     "note": "'Rice is huge, I take a lot of rice' (portion reveal)",
+     "est_s": 18.6,
+     "first": "Now this is a very tiny",
+     "last": "so you're getting lots of carbs."
+    },
+    {
+     "f": "A",
+     "start": 278.22,
+     "end": 362.96,
+     "note": "veg gap, the 1 pm -> 9 pm question, banana/apple/orange every day",
+     "est_s": 80.5,
+     "first": "Okay, and then you might have",
+     "last": "been burned during my training session."
+    },
+    {
+     "f": "A",
+     "start": 364.665,
+     "end": 374.06,
+     "note": "'I should tell three, but I might lie'",
+     "est_s": 7.2,
+     "first": "And how much water do you",
+     "last": "I might lie, so. That's okay."
+    },
+    {
+     "f": "A",
+     "start": 396.56,
+     "end": 431.175,
+     "note": "2.2 L for his body weight, more on heavy-sweat days",
+     "est_s": 34.4,
+     "first": "And so based on your body",
+     "last": "let's put it that way okay"
+    },
+    {
+     "f": "A",
+     "start": 437.02,
+     "end": 457.9,
+     "note": "dinner: chicken + roti - closes the day",
+     "est_s": 20.5,
+     "first": "okay so then when you have",
+     "last": "like that. Something like that. Yeah."
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "CHATGPT WAS MY DIETITIAN",
+   "kicker": "old habits, pills and the vitamin D rule",
+   "summary": "The switch to HYROX (strength + running), how he ate last time (holiday in India, no plan), and the supplements ChatGPT suggested: omega-3, a Costco multivitamin, whey. Carrie's one must-have: vitamin D every day October to April, 1,000 IU, never more than 4,000 IU a day.",
+   "out_start_s": 356.2,
+   "est_minutes": 3.69,
+   "keep": [
+    {
+     "f": "A",
+     "start": 461.48,
+     "end": 524.06,
+     "note": "the new goal: HYROX = strength + running; last HYROX: untrained, eating everything on holiday in India",
+     "est_s": 61.7,
+     "first": "So you're going to be switching",
+     "last": "used to stay the constant everywhere."
+    },
+    {
+     "f": "A",
+     "start": 537.92,
+     "end": 612.64,
+     "note": "ChatGPT as dietitian, omega-3 after the shake, multivitamin, whey",
+     "est_s": 69.1,
+     "first": "And then, do you take any",
+     "last": "Whey protein powder by own nutrition."
+    },
+    {
+     "f": "A",
+     "start": 622.78,
+     "end": 637.82,
+     "note": "the vitamin D question",
+     "est_s": 13.3,
+     "first": "I'm just going to start filling",
+     "last": "D deficient? No. Okay. I should."
+    },
+    {
+     "f": "A",
+     "start": 652.04,
+     "end": 736.35,
+     "note": "Oct-Apr, 1,000 IU/day, weekly 3,000 IU option, max 4,000 IU; bones, immunity, inflammation",
+     "est_s": 77.5,
+     "first": "So one thing I would say",
+     "last": "inflammation and things like that, okay?"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "IF I FALL, TAKE ME OUT",
+   "kicker": "salty sweat, calf cramps and only 2 gels",
+   "summary": "Salt crust on his face after every 10K, cramps on the sandbag lunges at HYROX and in a 70.3, and a race fuelled by just two gels. Is it sodium, or is it the muscle?",
+   "out_start_s": 577.8,
+   "est_minutes": 4.98,
+   "keep": [
+    {
+     "f": "A",
+     "start": 750.27,
+     "end": 821.49,
+     "note": "the salt-on-my-face test, Gatorade after, 'is that why I cramp?'",
+     "est_s": 65.9,
+     "first": "how do you know that you",
+     "last": "you said you were a cramper."
+    },
+    {
+     "f": "A",
+     "start": 824.295,
+     "end": 847.39,
+     "note": "why he came: 'I cramp a lot'",
+     "est_s": 21.7,
+     "first": "So this happened like the one",
+     "last": "when I did my high rocks."
+    },
+    {
+     "f": "A",
+     "start": 854.19,
+     "end": 972.49,
+     "note": "HYROX lunges, 'if I fall, just take me out', the 70.3 cramps; muscle vs sodium debate",
+     "est_s": 114.4,
+     "first": "So after my six kilometers of",
+     "last": "intake and see if it helps"
+    },
+    {
+     "f": "A",
+     "start": 973.61,
+     "end": 1082.86,
+     "note": "electrolytes in Ironman vs none in HYROX: 2 gels in 1:42; 'I had the energy, my legs didn't'",
+     "est_s": 96.6,
+     "first": "So I guess I might then",
+     "last": "not allowing me to do that."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "THE 1 KG = 1 LITRE RULE",
+   "kicker": "the two-scale sweat test anyone can do",
+   "summary": "One gulp of water every 12 minutes - is that enough? Carrie's sweat test: weigh before and after, every kilo lost is a litre to replace plus 250-500 ml, then swap water for an electrolyte drink or sodium capsules.",
+   "out_start_s": 876.5,
+   "est_minutes": 4.81,
+   "keep": [
+    {
+     "f": "A",
+     "start": 1091.96,
+     "end": 1187.8,
+     "note": "arrive hydrated; one gulp per km, every ~12 min",
+     "est_s": 89.4,
+     "first": "So how about your water intake",
+     "last": "That's not bad. That's not bad."
+    },
+    {
+     "f": "A",
+     "start": 1189.12,
+     "end": 1236.26,
+     "note": "weigh before and after, same clothes",
+     "est_s": 44.5,
+     "first": "I mean, I don't know if",
+     "last": "in your workout gear. Okay. Yeah."
+    },
+    {
+     "f": "A",
+     "start": 1247.64,
+     "end": 1321.06,
+     "note": "74 -> 73 kg = 1 L; drink it back + 250-500 ml",
+     "est_s": 67.2,
+     "first": "But if you weigh yourself before",
+     "last": "So it's water and sodium, okay?"
+    },
+    {
+     "f": "A",
+     "start": 1321.36,
+     "end": 1413.435,
+     "note": "sports drink instead of water; learn its sodium; or sodium capsules with each gel",
+     "est_s": 87.1,
+     "first": "So what I would suggest is",
+     "last": "rules. I shall look into that."
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "SALT PILLS, CAFFEINE OR CARBS?",
+   "kicker": "why my last 1K took twice as long",
+   "summary": "Cramps fading in training points to muscle adaptation. Then race fuel decoded: 1,000 mg of sodium in one LMNT packet, caffeine only lowers perceived effort (save it for the end), and carbs keep the last 1K as fast as the first.",
+   "out_start_s": 1164.8,
+   "est_minutes": 4.01,
+   "keep": [
+    {
+     "f": "A",
+     "start": 1418.785,
+     "end": 1446.575,
+     "note": "cramps with swim fins",
+     "est_s": 25.1,
+     "first": "You don't ever seem to cramp",
+     "last": "to investigate a little bit myself."
+    },
+    {
+     "f": "A",
+     "start": 1466.465,
+     "end": 1498.5,
+     "note": "cramping less = muscle adaptation",
+     "est_s": 31.2,
+     "first": "but right now, because I have",
+     "last": "nowadays it's like delaying Okay, good."
+    },
+    {
+     "f": "A",
+     "start": 1499.52,
+     "end": 1564.955,
+     "note": "LMNT: 1,000 mg sodium per packet, for salty sweaters; train with it first",
+     "est_s": 59.5,
+     "first": "Okay, so I guess what I'm",
+     "last": "I just have a curious question"
+    },
+    {
+     "f": "A",
+     "start": 1567.585,
+     "end": 1631.82,
+     "note": "carb gel vs caffeine gel: caffeine = lower perceived effort, use it late",
+     "est_s": 59.9,
+     "first": "what difference that would make like",
+     "last": "they might need an extra push"
+    },
+    {
+     "f": "A",
+     "start": 1634.96,
+     "end": 1702.12,
+     "note": "carbs during HYROX keep the last 1K = first 1K; 'my last one took twice the time'",
+     "est_s": 64.8,
+     "first": "I mean, I realize in the",
+     "last": "do you know what I mean"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "STRONGER WITHOUT GETTING SLOWER",
+   "kicker": "the 4-month plan: strength plus speed",
+   "summary": "Nizam's goal for the next four months: get stronger and faster. Carrie: training drives muscle, food lets it happen, and the trick is not gaining so much you slow down. Plus the cramp verdict: try electrolytes on lunge days.",
+   "out_start_s": 1405.2,
+   "est_minutes": 3.62,
+   "keep": [
+    {
+     "f": "A",
+     "start": 1703.045,
+     "end": 1719.595,
+     "note": "the goal question",
+     "est_s": 15.4,
+     "first": "and I guess we could say",
+     "last": "of the key pieces in this."
+    },
+    {
+     "f": "A",
+     "start": 1732.245,
+     "end": 1738.52,
+     "note": "running + strength",
+     "est_s": 5.9,
+     "first": "So mostly my focus will be",
+     "last": "of running with my strength training,"
+    },
+    {
+     "f": "A",
+     "start": 1748.96,
+     "end": 1824.86,
+     "note": "70-80 kg swings; gain muscle, strength shrinking; eat enough but don't get slower",
+     "est_s": 68.0,
+     "first": "My body adapts to the food",
+     "last": "be like a fine balance. Right."
+    },
+    {
+     "f": "A",
+     "start": 1826.38,
+     "end": 1889.88,
+     "note": "his ideal day; HYROX doesn't need volume - drop some for the gym",
+     "est_s": 62.0,
+     "first": "I don't know where I might",
+     "last": "time to do the gym, right?"
+    },
+    {
+     "f": "A",
+     "start": 1902.485,
+     "end": 1969.12,
+     "note": "cramps only in competition; 2 km + lunges = legs gone; test electrolytes on lunge days",
+     "est_s": 65.6,
+     "first": "let's just gear in on this",
+     "last": "a difference. Just see. Yeah. Okay."
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "IS THE 30-MIN WINDOW REAL?",
+   "kicker": "eat before, refuel after a morning lift",
+   "summary": "A sample gym morning: you wake up dehydrated, so drink between every set; don't lift fasted (banana + peanut butter); then refuel within 2 hours - or within 30 minutes if you train again that day.",
+   "out_start_s": 1622.1,
+   "est_minutes": 5.8,
+   "keep": [
+    {
+     "f": "A",
+     "start": 1969.86,
+     "end": 2006.14,
+     "note": "sample day 1: gym first thing, water every set change",
+     "est_s": 35.3,
+     "first": "Okay. So what I might do",
+     "last": "just drink it to your content."
+    },
+    {
+     "f": "A",
+     "start": 2010.4,
+     "end": 2169.44,
+     "note": "1 L bottle, you wake up dry, don't train fasted: banana + PB or PB toast",
+     "est_s": 149.5,
+     "first": "Yeah, just make sure it's regular.",
+     "last": "this is just a starting point."
+    },
+    {
+     "f": "A",
+     "start": 2170.02,
+     "end": 2191.88,
+     "note": "post-workout reality: rushing to work",
+     "est_s": 20.1,
+     "first": "Yeah. Okay. So then you're drinking",
+     "last": "I might probably rush to work."
+    },
+    {
+     "f": "A",
+     "start": 2206.24,
+     "end": 2218.3,
+     "note": "shower, change, 10 minutes to work",
+     "est_s": 10.7,
+     "first": "So gym is in my same",
+     "last": "away. So it's not that far."
+    },
+    {
+     "f": "A",
+     "start": 2230.08,
+     "end": 2351.3,
+     "note": "carbs + protein while showering; the 30-min vs 2-hour window",
+     "est_s": 106.2,
+     "first": "So typically we are seeing somewhere",
+     "last": "the recipe the same for now."
+    },
+    {
+     "f": "B",
+     "start": 0.0,
+     "end": 29.35,
+     "note": "his homemade shake passes; blood work 'looks amazing'",
+     "est_s": 26.2,
+     "first": "It's pretty high carb. And it's",
+     "last": "say do your homemade protein shape."
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "title": "WILL OMEGA-3 BURN FAT?",
+   "kicker": "the omega myth and what creatine does",
+   "summary": "No - omega-3 is just a different kind of fat. Then creatine: it regenerates ATP faster so you can produce more power, it takes longer than a week to work, 5 g a scoop, and it's fine to wait.",
+   "out_start_s": 1970.1,
+   "est_minutes": 3.12,
+   "keep": [
+    {
+     "f": "B",
+     "start": 29.35,
+     "end": 52.74,
+     "note": "myth: omega-3 burns fat (clause 'which is less anti-inflammatory' dropped: likely mis-heard)",
+     "est_s": 19.7,
+     "first": "And if I have that omega,",
+     "last": "you a different style of fat,"
+    },
+    {
+     "f": "B",
+     "start": 56.28,
+     "end": 83.975,
+     "note": "the shake's fat is mostly saturated; carbs + protein matter more than the omega",
+     "est_s": 27.1,
+     "first": "The problem is, is that, you",
+     "last": "be the end of the world."
+    },
+    {
+     "f": "B",
+     "start": 90.76,
+     "end": 221.78,
+     "note": "his plateau theory, ATP explanation, one-week 'placebo', 5-7 g",
+     "est_s": 122.5,
+     "first": "I guess I might ask you,",
+     "last": "body weight, you could do that."
+    },
+    {
+     "f": "B",
+     "start": 227.44,
+     "end": 245.62,
+     "note": "put it in the shake - or wait, no problem",
+     "est_s": 17.6,
+     "first": "It's just that some people will",
+     "last": "no problem at all with that."
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "title": "50 G OF PROTEIN IS PLENTY",
+   "kicker": "second breakfast, rice and the veg gap",
+   "summary": "His 1,000-calorie shake already has 45-50 g of protein - plenty. Next meal within 2 hours, yogurt + two handfuls of granola, then lunch: less rice, a cup of veg, ~2 cooked cups of rice (2 fists).",
+   "out_start_s": 2157.1,
+   "est_minutes": 5.38,
+   "keep": [
+    {
+     "f": "B",
+     "start": 247.98,
+     "end": 290.38,
+     "note": "1,000 kcal shake, 45-50 g protein = plenty",
+     "est_s": 40.4,
+     "first": "So then you're gonna bike or",
+     "last": "not just about protein intake, right?"
+    },
+    {
+     "f": "B",
+     "start": 299.8,
+     "end": 320.235,
+     "note": "next meal within 2 h: Greek yogurt + granola, his go-to",
+     "est_s": 19.3,
+     "first": "And then I would say maybe",
+     "last": "have been just habited to it."
+    },
+    {
+     "f": "B",
+     "start": 330.56,
+     "end": 335.26,
+     "note": "plain yogurt",
+     "est_s": 4.4,
+     "first": "So the Greek yogurt, is it",
+     "last": "Is it flavored? Plain. Plain. Okay."
+    },
+    {
+     "f": "B",
+     "start": 365.18,
+     "end": 393.955,
+     "note": "two handfuls of granola",
+     "est_s": 27.3,
+     "first": "And then your granola, I'd say",
+     "last": "we're getting more carbs and protein"
+    },
+    {
+     "f": "B",
+     "start": 394.905,
+     "end": 411.3,
+     "note": "lunch check",
+     "est_s": 15.2,
+     "first": "and then your lunch is about",
+     "last": "chicken or rice and the veggies"
+    },
+    {
+     "f": "B",
+     "start": 430.555,
+     "end": 445.17,
+     "note": "more veg, a bit less rice",
+     "est_s": 13.4,
+     "first": "so you don't have to change",
+     "last": "bit, I think we'll be okay."
+    },
+    {
+     "f": "B",
+     "start": 499.25,
+     "end": 595.49,
+     "note": "veg into the gravy; less training volume = fewer carbs; keep the chicken",
+     "est_s": 92.7,
+     "first": "So one thing you could do,",
+     "last": "chicken around where it was at."
+    },
+    {
+     "f": "B",
+     "start": 596.67,
+     "end": 634.785,
+     "note": "raw baby carrots, frozen veg",
+     "est_s": 37.0,
+     "first": "Is it okay? for example I",
+     "last": "something you just throw it in"
+    },
+    {
+     "f": "B",
+     "start": 647.455,
+     "end": 728.73,
+     "note": "a cup of veg; fists -> ~2 cups cooked rice; needs are individual",
+     "est_s": 72.8,
+     "first": "for sure so I'll just put",
+     "last": "you and how much you need."
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "title": "DON'T TRAIN ON EMPTY",
+   "kicker": "the 5-hour gap before evening training",
+   "summary": "Eat every 3-5 hours. Lunch at 1, training at 6 is a 5-hour gap, so the office fruit stays (2 or 3 - no one gets fat on fruit). Before the session: a small carb primer (fruit snacks, a wafer, a gel) - 'I loaded up on protein and forgot carbs.'",
+   "out_start_s": 2479.7,
+   "est_minutes": 5.47,
+   "keep": [
+    {
+     "f": "B",
+     "start": 741.93,
+     "end": 796.19,
+     "note": "eat every 3-5 hours; long gaps don't refill muscle energy",
+     "est_s": 49.5,
+     "first": "And then your afternoon snacks, it",
+     "last": "you've had enough in your day."
+    },
+    {
+     "f": "B",
+     "start": 838.475,
+     "end": 877.43,
+     "note": "1 pm lunch -> 6 pm training = 5 hours",
+     "est_s": 35.9,
+     "first": "Is your evening always going to",
+     "last": "I'll put your fruit in there."
+    },
+    {
+     "f": "B",
+     "start": 880.31,
+     "end": 909.87,
+     "note": "'no one's getting overweight from eating fruit'",
+     "est_s": 24.7,
+     "first": "Do you need three pieces of",
+     "last": "need that, then you have it."
+    },
+    {
+     "f": "B",
+     "start": 1027.39,
+     "end": 1037.51,
+     "note": "the dinner worry (pays off in ch 11-13)",
+     "est_s": 8.6,
+     "first": "And then you're going to have",
+     "last": "getting a little concerned with, right?"
+    },
+    {
+     "f": "B",
+     "start": 1077.85,
+     "end": 1163.49,
+     "note": "pre-session primer; 'I forgot about carbs'",
+     "est_s": 82.5,
+     "first": "Okay, so a couple of things",
+     "last": "of protein bar is it though?"
+    },
+    {
+     "f": "B",
+     "start": 1168.47,
+     "end": 1187.81,
+     "note": "20 g protein bar, OK on carbs - also a morning pre-gym option",
+     "est_s": 18.6,
+     "first": "It's from pure protein. Okay. protein,",
+     "last": "Oh, it's not bad for carbs."
+    },
+    {
+     "f": "B",
+     "start": 1322.105,
+     "end": 1349.015,
+     "note": "the diagnosis: the later part of the day is the problem",
+     "est_s": 26.9,
+     "first": "i think we just need to",
+     "last": "problem yeah yeah that's exactly right"
+    },
+    {
+     "f": "B",
+     "start": 1364.9,
+     "end": 1450.38,
+     "note": "move a fruit or a gel to just before a hard session; a gel won't upset a swim",
+     "est_s": 81.7,
+     "first": "but with this later day stuff,",
+     "last": "put in brackets, hard workout. Okay."
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "title": "TOO TIRED TO COOK?",
+   "kicker": "no-cook dinners after a night session",
+   "summary": "No energy after an evening session? Overnight oats made the night before (eat them at the gym), food between cardio and weights, a tuna sandwich, and hard-boiled eggs that keep a week in the shell.",
+   "out_start_s": 2808.1,
+   "est_minutes": 5.29,
+   "keep": [
+    {
+     "f": "B",
+     "start": 1453.46,
+     "end": 1476.16,
+     "note": "the default: a balanced dinner",
+     "est_s": 19.2,
+     "first": "And then I would say as",
+     "last": "in there too, I would admit."
+    },
+    {
+     "f": "B",
+     "start": 1512.04,
+     "end": 1515.095,
+     "note": "the fallback",
+     "est_s": 3.0,
+     "first": "but if you can't make that",
+     "last": "if you can't make that meal"
+    },
+    {
+     "f": "B",
+     "start": 1517.305,
+     "end": 1571.18,
+     "note": "overnight oats, made the night before",
+     "est_s": 48.0,
+     "first": "could you do like overnight oats",
+     "last": "Okay. But it's basically eaten cold."
+    },
+    {
+     "f": "B",
+     "start": 1577.77,
+     "end": 1627.89,
+     "note": "'you come home with no energy'; time + a gap before sleep",
+     "est_s": 47.9,
+     "first": "do you think you'd even like",
+     "last": "between my sleep and my dinner."
+    },
+    {
+     "f": "B",
+     "start": 1638.47,
+     "end": 1667.99,
+     "note": "eat it from the backpack at the gym",
+     "est_s": 27.8,
+     "first": "Cause you need to have something.",
+     "last": "minutes right there after my workout."
+    },
+    {
+     "f": "B",
+     "start": 1689.915,
+     "end": 1772.23,
+     "note": "cardio then gym: eat in between; people eat at the gym",
+     "est_s": 78.1,
+     "first": "let's say you're now doing a",
+     "last": "like, depending how intense it is."
+    },
+    {
+     "f": "B",
+     "start": 1795.19,
+     "end": 1849.92,
+     "note": "tuna sandwich = protein + carbs",
+     "est_s": 45.7,
+     "first": "Okay. Now another idea that you",
+     "last": "just can tuna, spread it, yeah."
+    },
+    {
+     "f": "B",
+     "start": 1851.58,
+     "end": 1903.195,
+     "note": "hard-boiled eggs keep a week in the shell",
+     "est_s": 47.5,
+     "first": "Now, another idea that you could",
+     "last": "uh i don't know some roti"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "title": "A PROTEIN SHAKE IS NOT DINNER",
+   "kicker": "why the shake alone isn't enough",
+   "summary": "'Your protein shake is not enough for you.' Carrie's real-food swaps: a Greek-yogurt or cottage-cheese smoothie with frozen fruit, and - after Nizam's no-fish-with-dairy rule - simply two tuna sandwiches.",
+   "out_start_s": 3125.3,
+   "est_minutes": 3.54,
+   "keep": [
+    {
+     "f": "B",
+     "start": 1937.32,
+     "end": 1979.84,
+     "note": "an Alani shake still needs carbs; shake + sandwich? 'No.'",
+     "est_s": 37.9,
+     "first": "The other thing is you could",
+     "last": "that what it is? Yeah. Okay."
+    },
+    {
+     "f": "B",
+     "start": 2045.23,
+     "end": 2105.4,
+     "note": "'your protein shake is not enough for you'; real food vs accessibility",
+     "est_s": 51.2,
+     "first": "Really at the end of the",
+     "last": "what I was saying. that's all."
+    },
+    {
+     "f": "B",
+     "start": 2108.44,
+     "end": 2196.9,
+     "note": "yogurt/cottage cheese + frozen fruit smoothie; 'no fish with dairy'",
+     "est_s": 85.0,
+     "first": "Do you like smoothies? Would you",
+     "last": "I can try, but certainly not."
+    },
+    {
+     "f": "B",
+     "start": 2271.79,
+     "end": 2296.95,
+     "note": "make it simple: two sandwiches",
+     "est_s": 24.1,
+     "first": "So one of them was the",
+     "last": "this simple and say two sandwiches."
+    },
+    {
+     "f": "B",
+     "start": 2300.91,
+     "end": 2315.41,
+     "note": "when to eat them",
+     "est_s": 14.3,
+     "first": "So, but it will be like",
+     "last": "doing one, it's your post workout."
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "title": "CAN I GAIN MUSCLE BY RACE DAY?",
+   "kicker": "why the evening is the real problem",
+   "summary": "The verdict: anyone can gain muscle - the training drives it, but he doesn't always eat at night, and that's the one thing to fix. Meal prep 2-3 hours on a weekend, quick hacks, and why skipping dinner after a night session kills the next morning's gains.",
+   "out_start_s": 3337.7,
+   "est_minutes": 5.04,
+   "keep": [
+    {
+     "f": "B",
+     "start": 2462.73,
+     "end": 2488.6,
+     "note": "the diagnosis: it's the evening",
+     "est_s": 23.2,
+     "first": "Cause I think really overall after",
+     "last": "part that just can be optimized."
+    },
+    {
+     "f": "B",
+     "start": 2500.665,
+     "end": 2515.595,
+     "note": "the big question",
+     "est_s": 13.7,
+     "first": "do you think realistically by end",
+     "last": "and gain like more muscle mass"
+    },
+    {
+     "f": "B",
+     "start": 2525.085,
+     "end": 2557.9,
+     "note": "'anyone can gain muscle mass'",
+     "est_s": 31.7,
+     "first": "i honestly think like can you",
+     "last": "going to have a huge response."
+    },
+    {
+     "f": "B",
+     "start": 2570.365,
+     "end": 2583.3,
+     "note": "only change: optimise the evening",
+     "est_s": 12.3,
+     "first": "I didn't change a lot. The",
+     "last": "Do you know what I mean?"
+    },
+    {
+     "f": "B",
+     "start": 2590.92,
+     "end": 2677.015,
+     "note": "'you don't always eat at night'; meal prep 2-3 h at the weekend",
+     "est_s": 82.0,
+     "first": "But I'm gathering from our discussion",
+     "last": "time yeah it's perfectly enough time"
+    },
+    {
+     "f": "B",
+     "start": 2677.025,
+     "end": 2738.56,
+     "note": "sloppy joes, protein oatmeal pancakes, hash browns + eggs",
+     "est_s": 60.5,
+     "first": "okay because even i will tell",
+     "last": "you just need some quick hacks"
+    },
+    {
+     "f": "B",
+     "start": 2741.285,
+     "end": 2824.32,
+     "note": "carbs + protein + colour; no dinner after a night session = no muscle from the morning lift",
+     "est_s": 79.1,
+     "first": "so what are we trying to",
+     "last": "difficult. Oh, okay. Yeah. Gotcha. Yeah."
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "title": "MULTIVITAMIN OR REAL FOOD?",
+   "kicker": "what you can't get in a bottle",
+   "summary": "Three fruits a day cover vitamin C, but no greens or orange veg means low vitamins A and K. Spinach or kale in the shake, a salad at dinner - or a multivitamin on no-veg days. Real food wins: fibre and phytochemicals. And no, supplements aren't prescribed - they're cheap.",
+   "out_start_s": 3640.0,
+   "est_minutes": 3.02,
+   "keep": [
+    {
+     "f": "B",
+     "start": 2825.1,
+     "end": 2840.72,
+     "note": "Nizam asks about micronutrients",
+     "est_s": 14.5,
+     "first": "And like taking, for example, you",
+     "last": "know what? It's a good point."
+    },
+    {
+     "f": "B",
+     "start": 2851.22,
+     "end": 2959.695,
+     "note": "vit C covered, A + K missing; spinach/kale/salad or a multivitamin; phytochemicals",
+     "est_s": 99.2,
+     "first": "So if you're eating three pieces",
+     "last": "incorporating them more into your meals."
+    },
+    {
+     "f": "B",
+     "start": 2962.12,
+     "end": 2991.095,
+     "note": "offer: a follow-up just on veggies; today was about the training",
+     "est_s": 28.6,
+     "first": "If you just at the end",
+     "last": "understanding of your workouts and everything"
+    },
+    {
+     "f": "B",
+     "start": 3082.33,
+     "end": 3124.01,
+     "note": "OTC, no prescription; creatine and vitamin D can wait, they're cheap",
+     "est_s": 38.8,
+     "first": "Do they come under prescribed medicines?",
+     "last": "yeah like they're really not expensive"
+    }
+   ]
+  }
+ ],
+ "outro": [
+  {
+   "f": "B",
+   "start": 3015.76,
+   "end": 3056.78,
+   "text": "So what I'm going to do is I'm going to print this and I will suggest that you walk away. You just work on this with the main focus being your evening eating. And then I'd say in a month, just because you've got some training time on your hands, we meet again, even if it's for 30 minutes, it can even be virtual. And we'll go, Okay, where are you at? What's working? What's not? If you say, I'm still struggling with that nighttime, we just talk about your nighttime. And if you say, you know, it's I'm eating at night now, but I still can't get those veggies in my diet. We'll talk just about getting veggies in your diet.",
+   "note": "the plan in one line (focus on evening eating) + 'we meet again in a month'",
+   "est_s": 39.0
+  }
+ ],
+ "hero_lines": [
+  {
+   "f": "A",
+   "t": 5.84,
+   "phrase": "Nizam how much do you weigh?",
+   "screen": "74 KG",
+   "style": "number",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 165.54,
+   "phrase": "that's never going to recover you enough.",
+   "screen": "A SHAKE WON'T RECOVER YOU",
+   "style": "punch",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 269.06,
+   "phrase": "Rice is huge, I take a lot of rice.",
+   "screen": "RICE IS HUGE",
+   "style": "quote",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 334.2,
+   "phrase": "one banana, one apple and one orange.",
+   "screen": "1 BANANA · 1 APPLE · 1 ORANGE",
+   "style": "number",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 370.96,
+   "phrase": "I should tell three, but I might lie,",
+   "screen": "I SHOULD SAY 3 LITRES...",
+   "style": "quote",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 405.76,
+   "phrase": "you would only need about 2 .2",
+   "screen": "2.2 L A DAY",
+   "style": "number",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 555.94,
+   "phrase": "before I started iron one chat, GPD was kind of my dietitian.",
+   "screen": "CHATGPT WAS MY DIETITIAN",
+   "style": "quote",
+   "chapter": 2
+  },
+  {
+   "f": "A",
+   "t": 662.92,
+   "phrase": "October to April,",
+   "screen": "OCTOBER -> APRIL",
+   "style": "punch",
+   "chapter": 2
+  },
+  {
+   "f": "A",
+   "t": 668.76,
+   "phrase": "So I've listed 1 ,000 IUs a day.",
+   "screen": "1,000 IU A DAY",
+   "style": "number",
+   "chapter": 2
+  },
+  {
+   "f": "A",
+   "t": 715.48,
+   "phrase": "maximum amount you should take in a day is 4 ,000.",
+   "screen": "MAX 4,000 IU",
+   "style": "number",
+   "chapter": 2
+  },
+  {
+   "f": "A",
+   "t": 776.85,
+   "phrase": "I can see salt on my eyes,",
+   "screen": "SALT ON MY FACE",
+   "style": "quote",
+   "chapter": 3
+  },
+  {
+   "f": "A",
+   "t": 831.05,
+   "phrase": "I cramp a",
+   "screen": "I CRAMP. A LOT.",
+   "style": "quote",
+   "chapter": 3
+  },
+  {
+   "f": "A",
+   "t": 877.51,
+   "phrase": "If I fall, just take me out",
+   "screen": "IF I FALL, TAKE ME OUT",
+   "style": "quote",
+   "chapter": 3
+  },
+  {
+   "f": "A",
+   "t": 960.51,
+   "phrase": "Is it more of a muscular thing",
+   "screen": "MUSCLE OR SODIUM?",
+   "style": "myth",
+   "chapter": 3
+  },
+  {
+   "f": "A",
+   "t": 1017.83,
+   "phrase": "So I had just two gels.",
+   "screen": "2 GELS IN 1:42",
+   "style": "number",
+   "chapter": 3
+  },
+  {
+   "f": "A",
+   "t": 1049.38,
+   "phrase": "it's not about the carb loading.",
+   "screen": "IT'S NOT THE CARBS",
+   "style": "myth",
+   "chapter": 3
+  },
+  {
+   "f": "A",
+   "t": 1079.08,
+   "phrase": "I had the energy, it's just like my legs are not allowing me",
+   "screen": "I HAD THE ENERGY",
+   "style": "quote",
+   "chapter": 3
+  },
+  {
+   "f": "A",
+   "t": 1178.86,
+   "phrase": "six minutes of run plus four minutes of station",
+   "screen": "1 GULP / 12 MIN",
+   "style": "number",
+   "chapter": 4
+  },
+  {
+   "f": "A",
+   "t": 1257.72,
+   "phrase": "So if you went in at 74 kilos and you came out at 73,",
+   "screen": "74 KG -> 73 KG",
+   "style": "number",
+   "chapter": 4
+  },
+  {
+   "f": "A",
+   "t": 1265.66,
+   "phrase": "you've lost a liter of water",
+   "screen": "1 KG = 1 LITRE",
+   "style": "number",
+   "chapter": 4
+  },
+  {
+   "f": "A",
+   "t": 1290.38,
+   "phrase": "like about 250 mils more, 500 mils more.",
+   "screen": "+250-500 ML",
+   "style": "number",
+   "chapter": 4
+  },
+  {
+   "f": "A",
+   "t": 1317.52,
+   "phrase": "So it's water and sodium, okay?",
+   "screen": "WATER + SODIUM",
+   "style": "punch",
+   "chapter": 4
+  },
+  {
+   "f": "A",
+   "t": 1474.56,
+   "phrase": "that's showing me a muscle adaptation",
+   "screen": "MUSCLE ADAPTATION",
+   "style": "punch",
+   "chapter": 5
+  },
+  {
+   "f": "A",
+   "t": 1536.92,
+   "phrase": "is a thousand milligrams of sodium.",
+   "screen": "1,000 MG SODIUM",
+   "style": "number",
+   "chapter": 5
+  },
+  {
+   "f": "A",
+   "t": 1602.74,
+   "phrase": "It's making you believe that you can work harder,",
+   "screen": "CAFFEINE = BELIEF",
+   "style": "myth",
+   "chapter": 5
+  },
+  {
+   "f": "A",
+   "t": 1672.34,
+   "phrase": "the last one I took twice the time",
+   "screen": "LAST 1K: 2x SLOWER",
+   "style": "number",
+   "chapter": 5
+  },
+  {
+   "f": "A",
+   "t": 1785.64,
+   "phrase": "the pretty much goal will be like get strength and get faster.",
+   "screen": "STRONGER + FASTER",
+   "style": "punch",
+   "chapter": 6
+  },
+  {
+   "f": "A",
+   "t": 1817.22,
+   "phrase": "not gaining too much that you become slower.",
+   "screen": "DON'T GET SLOWER",
+   "style": "punch",
+   "chapter": 6
+  },
+  {
+   "f": "A",
+   "t": 2047.4,
+   "phrase": "you're waking up a little bit drier",
+   "screen": "YOU WAKE UP DRY",
+   "style": "punch",
+   "chapter": 7
+  },
+  {
+   "f": "A",
+   "t": 2134.22,
+   "phrase": "You're gonna be using yesterday's energy stores",
+   "screen": "YESTERDAY'S ENERGY",
+   "style": "punch",
+   "chapter": 7
+  },
+  {
+   "f": "A",
+   "t": 2310.13,
+   "phrase": "Isn't it 30 minutes?",
+   "screen": "30 MIN? OR 2 HOURS?",
+   "style": "myth",
+   "chapter": 7
+  },
+  {
+   "f": "B",
+   "t": 48.66,
+   "phrase": "It's not going to burn anything.",
+   "screen": "OMEGA-3 DOESN'T BURN FAT",
+   "style": "myth",
+   "chapter": 8
+  },
+  {
+   "f": "B",
+   "t": 164.24,
+   "phrase": "it helps to regenerate ATP quicker.",
+   "screen": "CREATINE = FASTER ATP",
+   "style": "punch",
+   "chapter": 8
+  },
+  {
+   "f": "B",
+   "t": 275.3,
+   "phrase": "And that's plenty of protein.",
+   "screen": "50 G = PLENTY",
+   "style": "number",
+   "chapter": 9
+  },
+  {
+   "f": "B",
+   "t": 286.68,
+   "phrase": "gaining muscle is not just about protein intake,",
+   "screen": "MUSCLE ≠ JUST PROTEIN",
+   "style": "myth",
+   "chapter": 9
+  },
+  {
+   "f": "B",
+   "t": 711.31,
+   "phrase": "two cups of rice cooked.",
+   "screen": "2 FISTS = 2 CUPS RICE",
+   "style": "number",
+   "chapter": 9
+  },
+  {
+   "f": "B",
+   "t": 757.13,
+   "phrase": "need to eat every three to five hours.",
+   "screen": "EAT EVERY 3-5 HOURS",
+   "style": "number",
+   "chapter": 10
+  },
+  {
+   "f": "B",
+   "t": 867.85,
+   "phrase": "that's five hours.",
+   "screen": "1 PM -> 6 PM = 5 HOURS",
+   "style": "number",
+   "chapter": 10
+  },
+  {
+   "f": "B",
+   "t": 897.89,
+   "phrase": "no one's getting overweight",
+   "screen": "NO ONE GETS FAT ON FRUIT",
+   "style": "punch",
+   "chapter": 10
+  },
+  {
+   "f": "B",
+   "t": 1148.63,
+   "phrase": "Because that's the muscle building block,",
+   "screen": "I FORGOT ABOUT CARBS",
+   "style": "quote",
+   "chapter": 10
+  },
+  {
+   "f": "B",
+   "t": 1339.82,
+   "phrase": "it's this later part of",
+   "screen": "THE EVENING IS THE PROBLEM",
+   "style": "punch",
+   "chapter": 10
+  },
+  {
+   "f": "B",
+   "t": 1605.73,
+   "phrase": "I'm hearing that you come home and you have no energy",
+   "screen": "NO ENERGY TO COOK",
+   "style": "quote",
+   "chapter": 11
+  },
+  {
+   "f": "B",
+   "t": 1877.2,
+   "phrase": "They stay good in the fridge for a week,",
+   "screen": "EGGS: 1 WEEK IN THE SHELL",
+   "style": "number",
+   "chapter": 11
+  },
+  {
+   "f": "B",
+   "t": 2063.71,
+   "phrase": "Because I just think your protein shake is not enough for you.",
+   "screen": "A SHAKE IS NOT ENOUGH",
+   "style": "punch",
+   "chapter": 12
+  },
+  {
+   "f": "B",
+   "t": 2293.89,
+   "phrase": "Let's make this simple and say two sandwiches.",
+   "screen": "JUST EAT 2 SANDWICHES",
+   "style": "quote",
+   "chapter": 12
+  },
+  {
+   "f": "B",
+   "t": 2529.88,
+   "phrase": "anyone can gain muscle mass",
+   "screen": "ANYONE CAN GAIN MUSCLE",
+   "style": "punch",
+   "chapter": 13
+  },
+  {
+   "f": "B",
+   "t": 2594.0,
+   "phrase": "you don't always eat at night.",
+   "screen": "YOU DON'T EAT AT NIGHT",
+   "style": "punch",
+   "chapter": 13
+  },
+  {
+   "f": "B",
+   "t": 2799.08,
+   "phrase": "you might not be able to build mass after that.",
+   "screen": "NO DINNER = NO GAINS",
+   "style": "myth",
+   "chapter": 13
+  },
+  {
+   "f": "B",
+   "t": 2951.34,
+   "phrase": "You can't get that in a bottle.",
+   "screen": "CAN'T GET THAT IN A BOTTLE",
+   "style": "punch",
+   "chapter": 14
+  }
+ ],
+ "key_facts": [
+  {
+   "f": "A",
+   "t": 12.67,
+   "phrase": "74 kilos.",
+   "fact": "Nizam's body weight: 74 kg (basis for every number below)",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 126.18,
+   "phrase": "roughly around 100 to 150 grams.",
+   "fact": "Office breakfast: 100-150 g granola into 150 g plain Greek yogurt + a little honey",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 159.28,
+   "phrase": "in the event you just do a protein shake,",
+   "fact": "A protein shake alone after an evening workout is never enough to recover",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 229.3,
+   "phrase": "200 to 300 grams of rice along with 150 ish gram of chicken.",
+   "fact": "His lunch: 200-300 g rice + ~150 g chicken",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 299.0,
+   "phrase": "so definitely probably need more veggies in your diet",
+   "fact": "Needs more vegetables (nutrient standpoint)",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 334.2,
+   "phrase": "one banana, one apple and one orange.",
+   "fact": "Afternoon snack: 1 banana + 1 apple + 1 orange, every day",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 405.76,
+   "phrase": "you would only need about 2 .2",
+   "fact": "Daily water at 74 kg: ~2.2 L (more on heavy-sweat days)",
+   "chapter": 1
+  },
+  {
+   "f": "A",
+   "t": 662.92,
+   "phrase": "October to April,",
+   "fact": "Vitamin D supplement every day, October to April",
+   "chapter": 2
+  },
+  {
+   "f": "A",
+   "t": 668.76,
+   "phrase": "So I've listed 1 ,000 IUs a day.",
+   "fact": "Vitamin D dose: 1,000 IU per day (can't get enough from diet)",
+   "chapter": 2
+  },
+  {
+   "f": "A",
+   "t": 711.24,
+   "phrase": "a couple of times a week and take three at one time.",
+   "fact": "Alternative: 3,000 IU a couple of times a week (fat-soluble, stored)",
+   "chapter": 2
+  },
+  {
+   "f": "A",
+   "t": 715.48,
+   "phrase": "maximum amount you should take in a day is 4 ,000.",
+   "fact": "Upper limit: 4,000 IU vitamin D per day",
+   "chapter": 2
+  },
+  {
+   "f": "A",
+   "t": 730.27,
+   "phrase": "it will help with your bone strength,",
+   "fact": "Vitamin D: bone strength, may help immunity and inflammation",
+   "chapter": 2
+  },
+  {
+   "f": "A",
+   "t": 960.51,
+   "phrase": "Is it more of a muscular thing",
+   "fact": "Cramping cause is debated (muscular vs sodium/hydration) - optimise hydration + sodium anyway",
+   "chapter": 3
+  },
+  {
+   "f": "A",
+   "t": 1017.83,
+   "phrase": "So I had just two gels.",
+   "fact": "His HYROX fuel: 2 gels in 1 h 42 min (at ~40 min and ~1:15-1:20), no sodium",
+   "chapter": 3
+  },
+  {
+   "f": "A",
+   "t": 1178.86,
+   "phrase": "six minutes of run plus four minutes of station",
+   "fact": "HYROX drinking: one cup/gulp of water per km, roughly every 12 minutes",
+   "chapter": 4
+  },
+  {
+   "f": "A",
+   "t": 1224.96,
+   "phrase": "You have to be the same, how you do the pre -weight and the post -weight,",
+   "fact": "Sweat test: weigh before and after in the same clothing (ideally none)",
+   "chapter": 4
+  },
+  {
+   "f": "A",
+   "t": 1257.72,
+   "phrase": "So if you went in at 74 kilos and you came out at 73,",
+   "fact": "74 kg -> 73 kg = 1 kg lost = 1 L of sweat not replaced",
+   "chapter": 4
+  },
+  {
+   "f": "A",
+   "t": 1290.38,
+   "phrase": "like about 250 mils more, 500 mils more.",
+   "fact": "Rehydrate the loss + 250-500 ml extra (1.2-1.5 L per kg) because some is urinated out",
+   "chapter": 4
+  },
+  {
+   "f": "A",
+   "t": 1335.74,
+   "phrase": "could you do a sports drink instead of the little water?",
+   "fact": "In races: swap the water cups for a sports/electrolyte drink",
+   "chapter": 4
+  },
+  {
+   "f": "A",
+   "t": 1373.12,
+   "phrase": "find out what kind of electrolyte drink they're doing",
+   "fact": "Find out the event's electrolyte drink and its sodium content",
+   "chapter": 4
+  },
+  {
+   "f": "A",
+   "t": 1401.06,
+   "phrase": "when you did your gel, I would do your sodium capsules then.",
+   "fact": "If no electrolyte drink: take sodium capsules at the same time as each gel",
+   "chapter": 4
+  },
+  {
+   "f": "A",
+   "t": 1536.92,
+   "phrase": "is a thousand milligrams of sodium.",
+   "fact": "LMNT: 1,000 mg sodium per packet, little/no carbohydrate - for salty sweaters",
+   "chapter": 5
+  },
+  {
+   "f": "A",
+   "t": 1550.66,
+   "phrase": "but you'd almost to train with it",
+   "fact": "Trial any electrolyte drink in training before race day",
+   "chapter": 5
+  },
+  {
+   "f": "A",
+   "t": 1605.84,
+   "phrase": "like it's kind of decreasing your perceived effort",
+   "fact": "Caffeine = stimulant that lowers perceived effort",
+   "chapter": 5
+  },
+  {
+   "f": "A",
+   "t": 1624.46,
+   "phrase": "Normally when people use caffeine they might use it more towards the end",
+   "fact": "Caffeine: use it late in a long race; all race long upsets the gut",
+   "chapter": 5
+  },
+  {
+   "f": "A",
+   "t": 1652.94,
+   "phrase": "if you want your first repeat,",
+   "fact": "Carbs during interval-type racing keep the last 1K as good as the first",
+   "chapter": 5
+  },
+  {
+   "f": "A",
+   "t": 1962.84,
+   "phrase": "you might want to try all the electrolyte drink",
+   "fact": "Test the electrolyte drink on run + lunge training days",
+   "chapter": 6
+  },
+  {
+   "f": "A",
+   "t": 2038.4,
+   "phrase": "drink you know almost between every set",
+   "fact": "Morning gym: drink almost between every set (heavy sweater, 1 L bottle)",
+   "chapter": 7
+  },
+  {
+   "f": "A",
+   "t": 2047.4,
+   "phrase": "you're waking up a little",
+   "fact": "You start a morning session not fully hydrated",
+   "chapter": 7
+  },
+  {
+   "f": "A",
+   "t": 2140.42,
+   "phrase": "So let's say something like a banana. You could even put some peanut butter on it",
+   "fact": "Before a morning lift: banana (+ peanut butter) or peanut butter on toast",
+   "chapter": 7
+  },
+  {
+   "f": "A",
+   "t": 2248.25,
+   "phrase": "could you even be drinking something that has carbs and protein in it?",
+   "fact": "Start refuelling with carbs + protein while you shower and get ready",
+   "chapter": 7
+  },
+  {
+   "f": "A",
+   "t": 2313.53,
+   "phrase": "as far as we know it occurs in the first two hours.",
+   "fact": "Recovery window: within the first 2 hours",
+   "chapter": 7
+  },
+  {
+   "f": "A",
+   "t": 2329.29,
+   "phrase": "Okay, so in that case, I would say do it within 30 minutes.",
+   "fact": "Training twice that day: refuel within 30 minutes",
+   "chapter": 7
+  },
+  {
+   "f": "B",
+   "t": 164.24,
+   "phrase": "it helps to regenerate ATP quicker.",
+   "fact": "Creatine regenerates ATP faster -> more power -> muscle develops faster",
+   "chapter": 8
+  },
+  {
+   "f": "B",
+   "t": 191.16,
+   "phrase": "It takes longer than",
+   "fact": "Creatine takes longer than a week to work; some people don't respond",
+   "chapter": 8
+  },
+  {
+   "f": "B",
+   "t": 214.38,
+   "phrase": "Yeah, five.",
+   "fact": "Creatine: one 5 g scoop (5-7 g OK at his body weight)",
+   "chapter": 8
+  },
+  {
+   "f": "B",
+   "t": 262.76,
+   "phrase": "It has like roughly around 1000 calories.",
+   "fact": "His homemade shake: ~1,000 kcal",
+   "chapter": 9
+  },
+  {
+   "f": "B",
+   "t": 270.36,
+   "phrase": "roughly 45 to 50 grams of protein in it.",
+   "fact": "45-50 g protein per shake = plenty, no need for more",
+   "chapter": 9
+  },
+  {
+   "f": "B",
+   "t": 299.88,
+   "phrase": "And then I would say maybe within this two hour timeframe",
+   "fact": "Next meal (second breakfast) within 2 hours of the post-workout shake",
+   "chapter": 9
+  },
+  {
+   "f": "B",
+   "t": 373.42,
+   "phrase": "Yeah, two handfuls.",
+   "fact": "Granola: two handfuls",
+   "chapter": 9
+  },
+  {
+   "f": "B",
+   "t": 505.83,
+   "phrase": "you could just add some veggies while that's cooking,",
+   "fact": "Add vegetables to the curry/gravy while it cooks",
+   "chapter": 9
+  },
+  {
+   "f": "B",
+   "t": 549.15,
+   "phrase": "you won't need quite as much rice.",
+   "fact": "HYROX = less training volume than Ironman -> slightly less rice, keep the chicken",
+   "chapter": 9
+  },
+  {
+   "f": "B",
+   "t": 614.81,
+   "phrase": "Yeah just get some raw baby carrots",
+   "fact": "Easy veg: raw baby carrots in a container, or a bag of frozen veg",
+   "chapter": 9
+  },
+  {
+   "f": "B",
+   "t": 647.45,
+   "phrase": "for sure so I'll just put a cup of veggies in there",
+   "fact": "Lunch: 1 cup of vegetables, cooked or raw",
+   "chapter": 9
+  },
+  {
+   "f": "B",
+   "t": 710.21,
+   "phrase": "So that's about two cups of rice cooked.",
+   "fact": "Rice: ~2 cups cooked (about 2 fists)",
+   "chapter": 9
+  },
+  {
+   "f": "B",
+   "t": 756.25,
+   "phrase": "Typically people need to eat every three to five hours.",
+   "fact": "Eat every 3-5 hours",
+   "chapter": 10
+  },
+  {
+   "f": "B",
+   "t": 864.89,
+   "phrase": "If you're eating that at one and you're not working out till six, that's five hours.",
+   "fact": "Lunch 1 pm -> training 6 pm = 5-hour gap: needs a snack",
+   "chapter": 10
+  },
+  {
+   "f": "B",
+   "t": 883.45,
+   "phrase": "You might only need two.",
+   "fact": "2-3 pieces of fruit in the afternoon (flexible)",
+   "chapter": 10
+  },
+  {
+   "f": "B",
+   "t": 1113.35,
+   "phrase": "some Welch's fruit snacks or a little honey stinger wafer",
+   "fact": "Pre-session primer: fruit snacks, a Honey Stinger wafer, a small bar or a gel",
+   "chapter": 10
+  },
+  {
+   "f": "B",
+   "t": 1174.13,
+   "phrase": "20 grams of protein in it.",
+   "fact": "Pure Protein bar: 20 g protein, OK carbs - pre-workout option instead of banana + PB",
+   "chapter": 10
+  },
+  {
+   "f": "B",
+   "t": 1392.9,
+   "phrase": "you could move one of your two or three pieces of fruit to just before you do the exercise",
+   "fact": "Hard evening session: move a fruit (or a gel) to just before it",
+   "chapter": 10
+  },
+  {
+   "f": "B",
+   "t": 1431.6,
+   "phrase": "Well, if it's a gel, it won't.",
+   "fact": "A gel before a swim won't upset the stomach",
+   "chapter": 10
+  },
+  {
+   "f": "B",
+   "t": 1517.3,
+   "phrase": "could you do like overnight oats",
+   "fact": "No-cook dinner: overnight oats made the night before, eaten cold",
+   "chapter": 11
+  },
+  {
+   "f": "B",
+   "t": 1710.57,
+   "phrase": "Because most times when people do weight kind of resistance training,",
+   "fact": "Weights jostle the stomach less - you can eat between cardio and gym",
+   "chapter": 11
+  },
+  {
+   "f": "B",
+   "t": 1823.74,
+   "phrase": "Okay, because tuna's got your protein. You've got your carbs with the bread",
+   "fact": "Tuna sandwich = protein + carbs",
+   "chapter": 11
+  },
+  {
+   "f": "B",
+   "t": 1877.2,
+   "phrase": "They stay good in the fridge for a week, provided you keep them in their shell.",
+   "fact": "Hard-boiled eggs keep 1 week in the fridge in their shell",
+   "chapter": 11
+  },
+  {
+   "f": "B",
+   "t": 1942.14,
+   "phrase": "You could, but you'd still need the carbs with it.",
+   "fact": "An Alani/protein shake still needs carbs with it",
+   "chapter": 12
+  },
+  {
+   "f": "B",
+   "t": 2130.96,
+   "phrase": "just use some Greek yogurt or even cottage cheese with some frozen fruit",
+   "fact": "Dinner smoothie: Greek yogurt or cottage cheese + frozen fruit (+ berries, banana)",
+   "chapter": 12
+  },
+  {
+   "f": "B",
+   "t": 2293.89,
+   "phrase": "Let's make this simple and say two sandwiches.",
+   "fact": "Fallback dinner: two tuna sandwiches",
+   "chapter": 12
+  },
+  {
+   "f": "B",
+   "t": 2529.88,
+   "phrase": "anyone can gain muscle mass",
+   "fact": "Anyone can gain muscle - training drives it, fuel enables it",
+   "chapter": 13
+  },
+  {
+   "f": "B",
+   "t": 2669.34,
+   "phrase": "I think I can spare that maybe two hours",
+   "fact": "Meal prep: 2-3 hours one weekend day (chicken, rice, veg)",
+   "chapter": 13
+  },
+  {
+   "f": "B",
+   "t": 2756.24,
+   "phrase": "Ideally, you've got some color in there too.",
+   "fact": "Dinner goal: carbs + protein + colour (veg)",
+   "chapter": 13
+  },
+  {
+   "f": "B",
+   "t": 2797.22,
+   "phrase": "You might not get, you might not be able to build mass after that.",
+   "fact": "No dinner after a night workout -> morning lift builds little muscle",
+   "chapter": 13
+  },
+  {
+   "f": "B",
+   "t": 2851.3,
+   "phrase": "So if you're eating three pieces of fruit a day,",
+   "fact": "3 fruits a day ~ covers vitamin C",
+   "chapter": 14
+  },
+  {
+   "f": "B",
+   "t": 2860.84,
+   "phrase": "and they're more like vitamin A and vitamin",
+   "fact": "Likely low: vitamin A and K (no greens, no orange veg)",
+   "chapter": 14
+  },
+  {
+   "f": "B",
+   "t": 2881.44,
+   "phrase": "a bag of spinach or a of kale that you keep in the freezer",
+   "fact": "Frozen spinach/kale into the morning shake, or a salad at lunch/dinner",
+   "chapter": 14
+  },
+  {
+   "f": "B",
+   "t": 2928.76,
+   "phrase": "Why don't we put the days that you're not eating veggies, that you do multivitamin mineral supplement.",
+   "fact": "Multivitamin-mineral only on no-veg days",
+   "chapter": 14
+  },
+  {
+   "f": "B",
+   "t": 2945.1,
+   "phrase": "There's things called phytochemicals",
+   "fact": "Real food adds fibre + phytochemicals a pill can't",
+   "chapter": 14
+  },
+  {
+   "f": "B",
+   "t": 3108.69,
+   "phrase": "They're available without prescription.",
+   "fact": "Supplements are OTC (no prescription) and inexpensive",
+   "chapter": 14
+  },
+  {
+   "f": "B",
+   "t": 3028.88,
+   "phrase": "And then I'd say in a month,",
+   "fact": "Follow-up in a month, 30 min, can be virtual",
+   "chapter": "outro"
+  }
+ ],
+ "dropped": [
+  {
+   "f": "A",
+   "start": 13.37,
+   "end": 72.22,
+   "reason": "pre-roll: mic check, moving the camera, 'can we start from here', typing set-up; pre-roll: silence before Carrie starts",
+   "words": 122,
+   "est_s": 31.8,
+   "text": "Do you mind if I just start talking? Is that okay? Yeah, yeah. Is ..."
+  },
+  {
+   "f": "A",
+   "start": 170.88,
+   "end": 190.56,
+   "reason": "dead end: 'I don't know the exact grams of carbs' / 'another recovery'",
+   "words": 37,
+   "est_s": 16.8,
+   "text": "Okay. So, you know, I don't know the exact grams of carbs here. That's ..."
+  },
+  {
+   "f": "A",
+   "start": 241.88,
+   "end": 258.06,
+   "reason": "minor: chicken portion '180' back-and-forth",
+   "words": 43,
+   "est_s": 14.5,
+   "text": "Okay. So do you figure that's kind of around the amount of chicken you're ..."
+  },
+  {
+   "f": "A",
+   "start": 362.96,
+   "end": 364.67,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 2,
+   "est_s": 1.3,
+   "text": "Okay. Okay. And how much water do you think you're drinking in a day?"
+  },
+  {
+   "f": "A",
+   "start": 374.06,
+   "end": 396.56,
+   "reason": "back-and-forth: 'two ish, two to three, I refill twice or thrice' (kept the joke + the 2.2 L answer)",
+   "words": 49,
+   "est_s": 18.8,
+   "text": "Two ish. Two liters ish. Well, you know. Sometimes I would tell like two ..."
+  },
+  {
+   "f": "A",
+   "start": 431.18,
+   "end": 437.02,
+   "reason": "garbled filler ('just once I don't sure')",
+   "words": 5,
+   "est_s": 2.1,
+   "text": "just once I don't sure okay so then when you have when you make"
+  },
+  {
+   "f": "A",
+   "start": 457.9,
+   "end": 461.48,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 3,
+   "est_s": 2.3,
+   "text": "Okay. Okay. Okay. So you're going to be switching to your more high rocks"
+  },
+  {
+   "f": "A",
+   "start": 524.06,
+   "end": 537.92,
+   "reason": "filler: 'just looking this over'",
+   "words": 17,
+   "est_s": 7.7,
+   "text": "Okay. Okay. Just looking this over in terms of looking at your day to ..."
+  },
+  {
+   "f": "A",
+   "start": 612.64,
+   "end": 622.78,
+   "reason": "filler: 'so I guess a couple of things'",
+   "words": 12,
+   "est_s": 6.1,
+   "text": "Okay. Okay. All right. Okay. So I guess a couple of things. I'm just"
+  },
+  {
+   "f": "A",
+   "start": 637.82,
+   "end": 652.04,
+   "reason": "garbled ASR ('after post-sex') - unusable caption",
+   "words": 31,
+   "est_s": 11.6,
+   "text": "Okay. So, um, like currently you're outside every day, right? Uh, yeah. Like after ..."
+  },
+  {
+   "f": "A",
+   "start": 736.35,
+   "end": 750.27,
+   "reason": "repeat of the 2.2 L water advice + garbled 'are you okay / you sold'",
+   "words": 38,
+   "est_s": 13.0,
+   "text": "So I've got listed how much you should drink per day. So I would ..."
+  },
+  {
+   "f": "A",
+   "start": 821.49,
+   "end": 824.29,
+   "reason": "false start ('So as you saw in the')",
+   "words": 7,
+   "est_s": 2.3,
+   "text": "So as you saw in the So this happened like the one of the"
+  },
+  {
+   "f": "A",
+   "start": 847.39,
+   "end": 854.19,
+   "reason": "confusing aside about a similar event in India",
+   "words": 19,
+   "est_s": 5.3,
+   "text": "So high rocks are similar events like back in India, we had similar event ..."
+  },
+  {
+   "f": "A",
+   "start": 1082.86,
+   "end": 1091.96,
+   "reason": "logistics: Carrie looking for a document",
+   "words": 23,
+   "est_s": 7.4,
+   "text": "Yeah. Yeah. Okay. Um, I just want to pull up a document here for ..."
+  },
+  {
+   "f": "A",
+   "start": 1187.8,
+   "end": 1189.12,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 1,
+   "est_s": 0.5,
+   "text": "Um, I mean, I don't know if I'm keeping pace with your sweating. The"
+  },
+  {
+   "f": "A",
+   "start": 1236.26,
+   "end": 1247.64,
+   "reason": "repetition: clothing makes the weigh-in imperfect (kept the clearer take)",
+   "words": 35,
+   "est_s": 8.1,
+   "text": "It's not perfect when the clothing's on. I will admit because the clothing is ..."
+  },
+  {
+   "f": "A",
+   "start": 1413.43,
+   "end": 1418.79,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 6,
+   "est_s": 4.3,
+   "text": "Yeah. Okay. So, um, you You don't ever seem to cramp in training. Is"
+  },
+  {
+   "f": "A",
+   "start": 1446.58,
+   "end": 1466.46,
+   "reason": "ramble: biking uphill 35 min to the pool (kept the adaptation point)",
+   "words": 53,
+   "est_s": 18.3,
+   "text": "because I bike uphill while going. That's why it takes 35 minutes to go ..."
+  },
+  {
+   "f": "A",
+   "start": 1564.95,
+   "end": 1567.59,
+   "reason": "garbled ASR ('on the auto flu is that')",
+   "words": 7,
+   "est_s": 3.0,
+   "text": "on the auto flu is that what difference that would make like when I"
+  },
+  {
+   "f": "A",
+   "start": 1631.82,
+   "end": 1634.96,
+   "reason": "filler",
+   "words": 2,
+   "est_s": 1.1,
+   "text": "Okay. So, I mean, I realize in the high rocks training, you're not even"
+  },
+  {
+   "f": "A",
+   "start": 1702.12,
+   "end": 1703.05,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 2,
+   "est_s": 1.3,
+   "text": "and and I guess we could say like what are your goals of your"
+  },
+  {
+   "f": "A",
+   "start": 1719.6,
+   "end": 1732.24,
+   "reason": "aside: no sprint/swim races planned",
+   "words": 35,
+   "est_s": 12.9,
+   "text": "Okay. So I might be doing just because there's no sprint or no, any ..."
+  },
+  {
+   "f": "A",
+   "start": 1738.52,
+   "end": 1748.96,
+   "reason": "false start: 'let me ask this question, is it possible...'",
+   "words": 27,
+   "est_s": 8.6,
+   "text": "and let me ask this question. Is it possible, like I'm planning to like, ..."
+  },
+  {
+   "f": "A",
+   "start": 1889.88,
+   "end": 1902.48,
+   "reason": "unclear phrase ('achieve as much mass rate') + filler",
+   "words": 33,
+   "est_s": 11.8,
+   "text": "Because for you to do, you know, it's going to take up a lot ..."
+  },
+  {
+   "f": "A",
+   "start": 2006.14,
+   "end": 2010.4,
+   "reason": "repetition: 'just make sure it's regular' (kept one take)",
+   "words": 12,
+   "est_s": 3.6,
+   "text": "Oh, yeah, I'll just like, well, yeah. Just make sure it's regular. Yeah, just"
+  },
+  {
+   "f": "A",
+   "start": 2191.88,
+   "end": 2206.24,
+   "reason": "logistics: 'how long will it take you to get to work'",
+   "words": 36,
+   "est_s": 11.4,
+   "text": "OK. Just want to be on the safer side. OK. OK. That's fine. So ..."
+  },
+  {
+   "f": "A",
+   "start": 2218.3,
+   "end": 2230.08,
+   "reason": "commute detail (5 min bike / 10 min walk)",
+   "words": 27,
+   "est_s": 10.0,
+   "text": "I just bike or walk kind of. Okay. So bike or walk. So it's ..."
+  },
+  {
+   "f": "B",
+   "start": 52.74,
+   "end": 56.28,
+   "reason": "likely mis-heard clause ('less anti-inflammatory') - avoided a wrong claim on screen",
+   "words": 5,
+   "est_s": 2.9,
+   "text": "which is less anti -inflammatory. The problem is, is that, you know, this one"
+  },
+  {
+   "f": "B",
+   "start": 83.97,
+   "end": 90.76,
+   "reason": "garbled ASR ('naturally getting a little bit of a loss')",
+   "words": 16,
+   "est_s": 5.1,
+   "text": "Oh, okay. And you are naturally getting a little bit of a loss. Okay, ..."
+  },
+  {
+   "f": "B",
+   "start": 221.78,
+   "end": 227.44,
+   "reason": "repetition: 'if you want to wait... no problem' (kept the closing take)",
+   "words": 19,
+   "est_s": 5.2,
+   "text": "But I'll tell you if you want to wait at that later. There's no ..."
+  },
+  {
+   "f": "B",
+   "start": 245.62,
+   "end": 247.98,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 3,
+   "est_s": 1.8,
+   "text": "Okay? Okay. Okay. So then you're gonna bike or walk to work and then"
+  },
+  {
+   "f": "B",
+   "start": 290.38,
+   "end": 299.8,
+   "reason": "dead air: Carrie doing maths ('74, sorry')",
+   "words": 24,
+   "est_s": 6.7,
+   "text": "Okay. 74. Sorry. I'm just doing a tiny bit of math here. Yeah. Okay. ..."
+  },
+  {
+   "f": "B",
+   "start": 320.24,
+   "end": 330.56,
+   "reason": "filler: 'would you recommend something / we could put that as an option'",
+   "words": 39,
+   "est_s": 9.4,
+   "text": "So I'm like, anyways, I don't have an option. So would you recommend something? ..."
+  },
+  {
+   "f": "B",
+   "start": 335.26,
+   "end": 365.18,
+   "reason": "detail: the 750 g tub maths (150 g a day) - the 150 g yogurt portion is already stated in chapter 1",
+   "words": 80,
+   "est_s": 28.4,
+   "text": "And you think is, are you taking it out of a big container or ..."
+  },
+  {
+   "f": "B",
+   "start": 393.95,
+   "end": 394.9,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 2,
+   "est_s": 1.3,
+   "text": "okay and then your lunch is about three hours or two hours later okay"
+  },
+  {
+   "f": "B",
+   "start": 411.3,
+   "end": 430.56,
+   "reason": "rambling set-up of the veggie point (kept the sharp version)",
+   "words": 39,
+   "est_s": 14.8,
+   "text": "what I'm just wondering and this is I don't want you to at the ..."
+  },
+  {
+   "f": "B",
+   "start": 445.17,
+   "end": 499.25,
+   "reason": "tangent: his home breakfast alternatives (mixed veg + eggs)",
+   "words": 163,
+   "est_s": 51.4,
+   "text": "Okay. Okay. Does that make sense? Yeah. So typically I used to have like ..."
+  },
+  {
+   "f": "B",
+   "start": 595.49,
+   "end": 596.67,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 1,
+   "est_s": 0.5,
+   "text": "Okay. Is it okay? for example I was just wondering like I'm just trying"
+  },
+  {
+   "f": "B",
+   "start": 634.78,
+   "end": 647.46,
+   "reason": "garbled ASR ('salami with raw carrots')",
+   "words": 34,
+   "est_s": 12.7,
+   "text": "yeah or else I'm just even wondering like if it's possible to just like ..."
+  },
+  {
+   "f": "B",
+   "start": 728.73,
+   "end": 741.93,
+   "reason": "minor: water with meals",
+   "words": 40,
+   "est_s": 11.8,
+   "text": "Okay. And then do you drink water with that meal? Yeah. Okay. I don't ..."
+  },
+  {
+   "f": "B",
+   "start": 796.19,
+   "end": 838.48,
+   "reason": "repeated question ('I heard the question wrong, can you repeat')",
+   "words": 122,
+   "est_s": 32.8,
+   "text": "Do you know what I mean? If you were just doing that, then I ..."
+  },
+  {
+   "f": "B",
+   "start": 909.87,
+   "end": 1027.39,
+   "reason": "evening-session length + intervals aside (an hour of sweat); logistics: commute to Mount Royal, bus vs bike",
+   "words": 290,
+   "est_s": 98.8,
+   "text": "Okay. Okay. Okay. Then you are going to do your later day workout, which ..."
+  },
+  {
+   "f": "B",
+   "start": 1037.51,
+   "end": 1077.85,
+   "reason": "logistics: no car, bus vs bike, energy-expenditure ramble",
+   "words": 113,
+   "est_s": 36.3,
+   "text": "I'm like to figure out that dinner aspect like somehow like maybe even if ..."
+  },
+  {
+   "f": "B",
+   "start": 1163.49,
+   "end": 1168.47,
+   "reason": "garbled ASR + label check",
+   "words": 14,
+   "est_s": 3.6,
+   "text": "I can just turn the plan. I think probably you can get the label."
+  },
+  {
+   "f": "B",
+   "start": 1187.81,
+   "end": 1322.11,
+   "reason": "dead-end scenarios: lunch-hour office gym, backup plans, double day",
+   "words": 387,
+   "est_s": 125.8,
+   "text": "Yeah. So that if you have those bars at home, just so you know, ..."
+  },
+  {
+   "f": "B",
+   "start": 1349.02,
+   "end": 1364.9,
+   "reason": "filler: 'I can always add more ideas later'",
+   "words": 44,
+   "est_s": 14.7,
+   "text": "that's what it seems like so I'm just gonna say for the I can ..."
+  },
+  {
+   "f": "B",
+   "start": 1450.38,
+   "end": 1453.46,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 7,
+   "est_s": 2.1,
+   "text": "Let's put it that way. Yep. Okay. And then I would say as soon"
+  },
+  {
+   "f": "B",
+   "start": 1476.16,
+   "end": 1512.04,
+   "reason": "repetition of the balanced-dinner idea + 'because you have the energy' (mis-heard, meaning flips)",
+   "words": 72,
+   "est_s": 29.6,
+   "text": "Okay, well that's good, that's better than nothing. Or if you don't have a ..."
+  },
+  {
+   "f": "B",
+   "start": 1515.1,
+   "end": 1517.31,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 6,
+   "est_s": 5.2,
+   "text": "because you have the energy could you do like overnight oats is that something"
+  },
+  {
+   "f": "B",
+   "start": 1571.18,
+   "end": 1577.77,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 3,
+   "est_s": 2.0,
+   "text": "Okay. Okay. So do you think you'd even like that idea? I like the"
+  },
+  {
+   "f": "B",
+   "start": 1627.89,
+   "end": 1638.47,
+   "reason": "filler: 'if I start working again in the morning... does this make sense'",
+   "words": 24,
+   "est_s": 8.8,
+   "text": "Yeah. And because if I start working or again in the morning then yeah. ..."
+  },
+  {
+   "f": "B",
+   "start": 1667.99,
+   "end": 1689.91,
+   "reason": "recap of the day before the double-workout scenario",
+   "words": 68,
+   "est_s": 21.8,
+   "text": "Yeah and especially like I guess the other thing I'm just thinking about like ..."
+  },
+  {
+   "f": "B",
+   "start": 1772.23,
+   "end": 1795.19,
+   "reason": "filler: 'I'll just give you this as an idea'",
+   "words": 40,
+   "est_s": 13.7,
+   "text": "But anyways, I'll just give you this. Yeah, as an idea to take with ..."
+  },
+  {
+   "f": "B",
+   "start": 1849.92,
+   "end": 1851.58,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 1,
+   "est_s": 0.5,
+   "text": "Yeah. Now, another idea that you could do in the evening, so again, I"
+  },
+  {
+   "f": "B",
+   "start": 1903.19,
+   "end": 1937.32,
+   "reason": "unresolved question + 24 s silence",
+   "words": 38,
+   "est_s": 9.8,
+   "text": "with something like that even appeal to or does that sound gross I'm just ..."
+  },
+  {
+   "f": "B",
+   "start": 1979.84,
+   "end": 2045.23,
+   "reason": "rambling re-explanation: 'I'm just giving you different scenarios'",
+   "words": 153,
+   "est_s": 53.3,
+   "text": "The only reason I'm saying that, okay, let me pack up to your gym ..."
+  },
+  {
+   "f": "B",
+   "start": 2196.9,
+   "end": 2271.79,
+   "reason": "brand tangent: RX bars",
+   "words": 152,
+   "est_s": 52.5,
+   "text": "Okay. Um, okay. So if I just needed to add another whole food option ..."
+  },
+  {
+   "f": "B",
+   "start": 2296.95,
+   "end": 2300.91,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 3,
+   "est_s": 1.7,
+   "text": "Okay. So, okay. So, but it will be like my probably post workout meal"
+  },
+  {
+   "f": "B",
+   "start": 2315.41,
+   "end": 2462.73,
+   "reason": "wrap-up chatter: 'is that giving you something to work with', meal-idea list logistics",
+   "words": 384,
+   "est_s": 131.1,
+   "text": "Okay. Okay. Okay. So the last thing I'm going to do here is I ..."
+  },
+  {
+   "f": "B",
+   "start": 2488.6,
+   "end": 2500.66,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 25,
+   "est_s": 11.1,
+   "text": "I'm just curious if we do like follow, if I, I hope I should, ..."
+  },
+  {
+   "f": "B",
+   "start": 2515.59,
+   "end": 2525.09,
+   "reason": "Nizam's add-on ('we might touch bases') before Carrie's answer",
+   "words": 24,
+   "est_s": 9.6,
+   "text": "um well it's just like after this we might like touch bases a little ..."
+  },
+  {
+   "f": "B",
+   "start": 2557.9,
+   "end": 2570.36,
+   "reason": "trailing unfinished sentence",
+   "words": 19,
+   "est_s": 12.5,
+   "text": "It's just going to be a matter of are you fueling yourself well enough ..."
+  },
+  {
+   "f": "B",
+   "start": 2583.3,
+   "end": 2590.92,
+   "reason": "filler",
+   "words": 23,
+   "est_s": 6.3,
+   "text": "Because I think that like this, I know you might say it's, you know, ..."
+  },
+  {
+   "f": "B",
+   "start": 2738.56,
+   "end": 2741.28,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 9,
+   "est_s": 2.7,
+   "text": "is it like what so I'm just wondering so what are we trying to"
+  },
+  {
+   "f": "B",
+   "start": 2840.72,
+   "end": 2851.22,
+   "reason": "garbled ASR ('magnesium on the knife')",
+   "words": 27,
+   "est_s": 8.0,
+   "text": "So - Even the magnesium on the knife, for example? Well - It's just ..."
+  },
+  {
+   "f": "B",
+   "start": 2959.7,
+   "end": 2962.12,
+   "reason": "tightening: false start / filler / repeat",
+   "words": 2,
+   "est_s": 1.3,
+   "text": "Okay. Okay. If you just at the end of the day are like, it's"
+  },
+  {
+   "f": "B",
+   "start": 2991.09,
+   "end": 3015.76,
+   "reason": "wrap-up: 'have I gone over time', 'we should end it'",
+   "words": 54,
+   "est_s": 23.2,
+   "text": "right okay so I'll just do that and we have I gone over time ..."
+  },
+  {
+   "f": "B",
+   "start": 3056.78,
+   "end": 3082.33,
+   "reason": "logistics: printing downstairs; end of outro (used separately)",
+   "words": 18,
+   "est_s": 7.6,
+   "text": "Does that make sense? Okay. Okay. Okay. So this is going to print downstairs. ..."
+  },
+  {
+   "f": "B",
+   "start": 3124.01,
+   "end": 3151.05,
+   "reason": "walk-out logistics: picking up the print",
+   "words": 43,
+   "est_s": 17.0,
+   "text": "okay okay so why don't i walk you down if that's okay and we ..."
+  }
+ ],
+ "outro_out_start_s": 3821.1,
+ "est_breakdown_s": {
+  "cold_open": 52.7,
+  "chapters": 3768.4,
+  "outro": 39.0
+ }
+}

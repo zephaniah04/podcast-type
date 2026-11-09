@@ -1,0 +1,537 @@
+{
+ "_piece": true,
+ "id": "L4_02",
+ "slug": "v4",
+ "format": "long",
+ "title": "v4 chapter 2: CHATGPT WAS MY DIETITIAN",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.75,
+  "zoom_right": 1.5,
+  "punch": 1.0,
+  "wide_every": 4,
+  "cy": 0.4,
+  "min_turn": 1.6
+ },
+ "tighten": 0.5,
+ "captions": "v4",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs",
+  "protein shape": "protein shake",
+  "someone for veggies": "some more veggies",
+  "some of your race at lunch": "some of your rice at lunch",
+  "iron one chat": "Ironman, ChatGPT",
+  "gpd": "GPT"
+ },
+ "accent": "#FF5A1F",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 461.48,
+   "end": 474.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 474.0,
+   "end": 477.98,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/deadlift.jpg",
+    "label": "MORE STRENGTH",
+    "index": "FIG.022",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 477.98,
+   "end": 498.5
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 498.5,
+   "end": 502.92,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/india-family-food.jpg",
+    "push": 0.07,
+    "at": 0,
+    "label": "BACK IN INDIA",
+    "index": "FIG.023"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 502.92,
+   "end": 509.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 509.36,
+   "end": 513.68,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/indian-food.jpg",
+    "label": "NO STRUCTURED DIET",
+    "index": "FIG.024",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 513.68,
+   "end": 524.06
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 537.92,
+   "end": 539.34
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 539.34,
+   "end": 543.66,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/supplements.jpg",
+    "label": "SUPPLEMENTS?",
+    "index": "FIG.025",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 543.66,
+   "end": 548.58
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 548.58,
+   "end": 552.5,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/fish-oil.jpg",
+    "label": "OMEGA-3",
+    "index": "FIG.026",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 552.5,
+   "end": 555.9
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 555.9,
+   "end": 558.9,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_07_chatgpt_was_my.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 558.9,
+   "end": 567.72
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 567.72,
+   "end": 571.8,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/omega-capsules.jpg",
+    "label": "OMEGA AFTER BREAKFAST",
+    "index": "FIG.027",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 571.8,
+   "end": 572.89
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 572.89,
+   "end": 579.86,
+   "tighten": 0,
+   "zoom": 1.0,
+   "cx": 0.5,
+   "cy": 0.5
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 579.86,
+   "end": 586.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 586.36,
+   "end": 591.36,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "grid",
+   "panel": {
+    "file": "projects/carrie-ep01/v4/info/i_supp_stack.mp4",
+    "label": "",
+    "index": "FIG.028",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 591.36,
+   "end": 601.42
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 601.42,
+   "end": 605.72,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/shaker-bottle.jpg",
+    "push": 0.07,
+    "at": 0,
+    "label": "WHEY IN THE SHAKE",
+    "index": "FIG.029"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 605.72,
+   "end": 612.64
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 622.78,
+   "end": 629.62
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 629.62,
+   "end": 634.32,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/vitd-caps.jpg",
+    "label": "VITAMIN D",
+    "index": "FIG.030",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 634.32,
+   "end": 637.82
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 652.04,
+   "end": 662.88
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 662.88,
+   "end": 665.48,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_08_october_april.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 665.48,
+   "end": 668.72
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 668.72,
+   "end": 671.52,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_09_1_000_iu_a_day.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 671.52,
+   "end": 672.58
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 672.58,
+   "end": 676.3,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/vitamin-d-foods.jpg",
+    "label": "HARD FROM FOOD",
+    "index": "FIG.031",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 676.3,
+   "end": 678.96
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 678.96,
+   "end": 682.8,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/vitamin-gummies.jpg",
+    "label": "A CHEWABLE WORKS",
+    "index": "FIG.032",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 682.8,
+   "end": 689.56
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 689.56,
+   "end": 693.26,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/pill-box.jpg",
+    "label": "WEEKLY BIG DOSE?",
+    "index": "FIG.033",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 693.26,
+   "end": 715.42
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 715.42,
+   "end": 720.92,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_vitd_max.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 720.92,
+   "end": 730.61
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 730.61,
+   "end": 736.11,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "grid",
+   "panel": {
+    "file": "projects/carrie-ep01/v4/info/r_vitd.mp4",
+    "label": "",
+    "index": "FIG.035",
+    "push": 0,
+    "at": 0
+   }
+  }
+ ],
+ "stickers": [
+  {
+   "at": 0.25,
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_02.mov",
+   "x": 0.1818,
+   "y": 0.0843,
+   "w": 0.2792
+  }
+ ],
+ "sfx": [
+  {
+   "at": 12.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 36.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 46.93,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 62.73,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 69.93,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 75.6,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 87.13,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 105.73,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 119.73,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 136.9,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 155.2,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 160.73,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 164.6,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 169.73,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 179.7,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 203.7,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 216.13,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  }
+ ]
+}

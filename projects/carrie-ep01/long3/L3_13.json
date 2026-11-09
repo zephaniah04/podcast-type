@@ -1,0 +1,429 @@
+{
+ "_piece": true,
+ "id": "L3_13",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 13",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 1095.41,
+   "end": 1098.85,
+   "chapter": "I Loaded Up on Protein and Forgot Carbs",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T13.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1098.85,
+   "end": 1108.42
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1108.42,
+   "end": 1134.09,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_13_c15.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1134.09,
+   "end": 1137.83
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1137.83,
+   "end": 1142.13,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/protein-bar.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1142.13,
+   "end": 1262.57
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1262.57,
+   "end": 1265.87,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1265.87,
+   "end": 1429.26
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1429.26,
+   "end": 1433.76,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/swimming-pool.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1433.76,
+   "end": 1451.0
+  }
+ ],
+ "stickers": [
+  {
+   "at": 52.887,
+   "file": "projects/carrie-ep01/fx/w_i-forgot-about-carbs.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w52.887",
+   "w": 0.658
+  },
+  {
+   "at": 61.6,
+   "file": "projects/carrie-ep01/fx/e_sunrise-morning.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g61.6",
+   "w": 0.219
+  },
+  {
+   "at": 75.0,
+   "file": "projects/carrie-ep01/fx/e_chocolate-bar-20-g-protein-bar.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g75.0",
+   "w": 0.225
+  },
+  {
+   "at": 87.207,
+   "file": "projects/carrie-ep01/fx/e_bread-decent-carbs.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g87.207",
+   "w": 0.219
+  },
+  {
+   "at": 96.913,
+   "file": "projects/carrie-ep01/fx/e_person-lifting-weights-gym.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g96.913",
+   "w": 0.219
+  },
+  {
+   "at": 107.833,
+   "file": "projects/carrie-ep01/fx/e_banana-banana.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g107.833",
+   "w": 0.219
+  },
+  {
+   "at": 124.24,
+   "file": "projects/carrie-ep01/fx/e_cup-with-straw-shake.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g124.24",
+   "w": 0.219
+  },
+  {
+   "at": 133.44,
+   "file": "projects/carrie-ep01/fx/e_pancakes-breakfast.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g133.44",
+   "w": 0.219
+  },
+  {
+   "at": 137.5,
+   "file": "projects/carrie-ep01/fx/e_sandwich-sandwich.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g137.5",
+   "w": 0.219
+  },
+  {
+   "at": 150.013,
+   "file": "projects/carrie-ep01/fx/e_fork-and-knife-with-plate-lunch.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g150.013",
+   "w": 0.219
+  },
+  {
+   "at": 153.85,
+   "file": "projects/carrie-ep01/fx/p_empty-gym-office-gym.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p153.85",
+   "w": 0.259
+  },
+  {
+   "at": 166.7,
+   "file": "projects/carrie-ep01/fx/e_house-plan-b--home.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g166.7",
+   "w": 0.219
+  },
+  {
+   "at": 217.433,
+   "file": "projects/carrie-ep01/fx/w_fix-the-late-afternoon.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w217.433",
+   "w": 0.702
+  },
+  {
+   "at": 244.113,
+   "file": "projects/carrie-ep01/fx/e_light-bulb-more-ideas-later.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g244.113",
+   "w": 0.227
+  },
+  {
+   "at": 266.34,
+   "file": "projects/carrie-ep01/fx/e_sunrise-gym-in-the-morning.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g266.34",
+   "w": 0.264
+  },
+  {
+   "at": 280.4,
+   "file": "projects/carrie-ep01/fx/e_banana-fruit-before-a-hard-one.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g280.4",
+   "w": 0.297
+  },
+  {
+   "at": 284.8,
+   "file": "projects/carrie-ep01/fx/e_battery-gel.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g284.8",
+   "w": 0.219
+  },
+  {
+   "at": 300.44,
+   "file": "projects/carrie-ep01/fx/w_prime-yourself.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w300.44",
+   "w": 0.561
+  },
+  {
+   "at": 321.453,
+   "file": "projects/carrie-ep01/fx/e_battery-a-gel-won-t-upset-you.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g321.453",
+   "w": 0.288
+  },
+  {
+   "at": 327.293,
+   "file": "projects/carrie-ep01/fx/e_goggles-easy-swim--skip-it.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g327.293",
+   "w": 0.246
+  }
+ ],
+ "sfx": [
+  {
+   "at": 52.887,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 61.6,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 75.0,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 87.207,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 96.913,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 107.833,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 124.24,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 133.44,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 137.5,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 150.013,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 153.85,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 166.7,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 217.433,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 244.113,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 266.34,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 280.4,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 284.8,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 300.44,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 321.453,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 327.293,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 11.9,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 40.7,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 314.13,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.73,
+   "num": "13",
+   "text": "I forgot carbs"
+  }
+ ]
+}

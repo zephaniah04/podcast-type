@@ -1,0 +1,618 @@
+{
+ "_piece": true,
+ "id": "L3_04",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 4",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 741.95,
+   "end": 745.37,
+   "chapter": "Salt on My Face and Cramps in Every HYROX",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T04.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 745.37,
+   "end": 750.3
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 750.3,
+   "end": 765.05,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 765.05,
+   "end": 793.57
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 793.57,
+   "end": 797.31,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/sports-drink.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 797.31,
+   "end": 831.07
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 831.07,
+   "end": 835.27,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/cramp.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 835.27,
+   "end": 860.5
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 860.5,
+   "end": 864.85,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/sandbag-lunge.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 864.85,
+   "end": 876.39
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 876.39,
+   "end": 880.11,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 880.11,
+   "end": 881.3
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 881.3,
+   "end": 891.17,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 891.17,
+   "end": 927.07
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 927.07,
+   "end": 931.19,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/ironman-bike.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 931.19,
+   "end": 948.31
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 948.31,
+   "end": 952.01,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 952.01,
+   "end": 959.23
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 959.23,
+   "end": 972.47,
+   "tighten": 0,
+   "cx": "left",
+   "zoom": 1.8,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_04_c3.mp4",
+    "panel": "right",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 972.47,
+   "end": 991.82
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 991.82,
+   "end": 995.63,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 995.63,
+   "end": 1017.85
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1017.85,
+   "end": 1021.51,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_04_c4.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1021.51,
+   "end": 1026.12
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1026.12,
+   "end": 1030.85,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/rowing-machine.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1030.85,
+   "end": 1070.24
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1070.24,
+   "end": 1073.74,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1073.74,
+   "end": 1074.72
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1074.72,
+   "end": 1078.08,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1078.08,
+   "end": 1086.1
+  }
+ ],
+ "stickers": [
+  {
+   "at": 7.25,
+   "file": "projects/carrie-ep01/fx/e_sweat-droplets-sweat.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g7.25",
+   "w": 0.219
+  },
+  {
+   "at": 25.373,
+   "file": "projects/carrie-ep01/fx/e_running-shoe-run.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g25.373",
+   "w": 0.219
+  },
+  {
+   "at": 36.987,
+   "file": "projects/carrie-ep01/fx/e_salt-salty-sweater.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g36.987",
+   "w": 0.219
+  },
+  {
+   "at": 70.573,
+   "file": "projects/carrie-ep01/fx/e_collision-cramps.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g70.573",
+   "w": 0.219
+  },
+  {
+   "at": 95.253,
+   "file": "projects/carrie-ep01/fx/e_running-shoe-run.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g95.253",
+   "w": 0.219
+  },
+  {
+   "at": 125.95,
+   "file": "projects/carrie-ep01/fx/p_race-medic-medics-on-standby.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p125.95",
+   "w": 0.258
+  },
+  {
+   "at": 137.123,
+   "file": "projects/carrie-ep01/fx/w_pushed-through-the-pain.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w137.123",
+   "w": 0.755
+  },
+  {
+   "at": 151.173,
+   "file": "projects/carrie-ep01/fx/e_adhesive-bandage-pain-relief-spray.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g151.173",
+   "w": 0.233
+  },
+  {
+   "at": 159.133,
+   "file": "projects/carrie-ep01/fx/e_chequered-flag-race.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g159.133",
+   "w": 0.219
+  },
+  {
+   "at": 183.107,
+   "file": "projects/carrie-ep01/fx/e_bicycle-biking.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g183.107",
+   "w": 0.219
+  },
+  {
+   "at": 196.25,
+   "file": "projects/carrie-ep01/fx/p_hamstring-hamstrings-on-the-bi.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p196.25",
+   "w": 0.258
+  },
+  {
+   "at": 228.867,
+   "file": "projects/carrie-ep01/fx/e_salt-electrolytes.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g228.867",
+   "w": 0.219
+  },
+  {
+   "at": 238.083,
+   "file": "projects/carrie-ep01/fx/p_bike-hill-ironman--used-sodium.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p238.083",
+   "w": 0.258
+  },
+  {
+   "at": 250.64,
+   "file": "projects/carrie-ep01/fx/w_hyrox--no-sodium.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w250.64",
+   "w": 0.64
+  },
+  {
+   "at": 254.753,
+   "file": "projects/carrie-ep01/fx/e_stopwatch-1-2-gels-in-1-42.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g254.753",
+   "w": 0.219
+  },
+  {
+   "at": 277.9,
+   "file": "projects/carrie-ep01/fx/e_running-shoe-run.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g277.9",
+   "w": 0.219
+  },
+  {
+   "at": 291.24,
+   "file": "projects/carrie-ep01/fx/w_carbs-won-t-fix-cramps.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w291.24",
+   "w": 0.729
+  },
+  {
+   "at": 296.34,
+   "file": "projects/carrie-ep01/fx/e_battery-gel.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g296.34",
+   "w": 0.219
+  },
+  {
+   "at": 300.48,
+   "file": "projects/carrie-ep01/fx/e_high-voltage-energy.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g300.48",
+   "w": 0.219
+  },
+  {
+   "at": 305.75,
+   "file": "projects/carrie-ep01/fx/p_wall-ball-wall-balls.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p305.75",
+   "w": 0.258
+  },
+  {
+   "at": 310.217,
+   "file": "projects/carrie-ep01/fx/p_finish-line-sprint-finish.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p310.217",
+   "w": 0.259
+  }
+ ],
+ "sfx": [
+  {
+   "at": 7.25,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 25.373,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 36.987,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 70.573,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 95.253,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 125.95,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 137.123,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 151.173,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 159.133,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 183.107,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 196.25,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 228.867,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 238.083,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 250.64,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 254.753,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 277.9,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 291.24,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 296.34,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 300.48,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 305.75,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 310.217,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 6.2,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 46.57,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 82.47,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 109.9,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 130.13,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 174.83,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 207.03,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 261.73,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 269.73,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.73,
+   "num": "04",
+   "text": "Salt + cramps"
+  }
+ ]
+}

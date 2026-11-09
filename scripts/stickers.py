@@ -47,7 +47,7 @@ def render(st, src, out, accent):
     H = (int(S * 1.35) + (int(S * 0.36) if label else 0)) // 2 * 2
     n = int(round(dur * FPS))
     p = subprocess.Popen(["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-r", str(FPS),
-                          "-i", "-", "-c:v", "qtrle", "-pix_fmt", "argb", out], stdin=subprocess.PIPE)
+                          "-i", "-", "-c:v", "qtrle", "-g", "9999", "-pix_fmt", "argb", out], stdin=subprocess.PIPE)
     for i in range(n):
         t = i / FPS
         frame = Image.new("RGBA", (W, H), (0, 0, 0, 0))

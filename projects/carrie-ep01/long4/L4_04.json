@@ -1,0 +1,527 @@
+{
+ "_piece": true,
+ "id": "L4_04",
+ "slug": "v4",
+ "format": "long",
+ "title": "v4 chapter 4: THE 1 KG = 1 LITRE RULE",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.75,
+  "zoom_right": 1.5,
+  "punch": 1.0,
+  "wide_every": 4,
+  "cy": 0.4,
+  "min_turn": 1.6
+ },
+ "tighten": 0.5,
+ "captions": "v4",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs",
+  "protein shape": "protein shake",
+  "someone for veggies": "some more veggies",
+  "some of your race at lunch": "some of your rice at lunch",
+  "iron one chat": "Ironman, ChatGPT",
+  "gpd": "GPT"
+ },
+ "accent": "#FF5A1F",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 1091.96,
+   "end": 1101.7
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1101.7,
+   "end": 1107.7,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/r_prehydrate.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1107.7,
+   "end": 1141.04
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1141.04,
+   "end": 1145.46,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/race-water-cups.jpg",
+    "push": 0.07,
+    "at": 0,
+    "label": "NO BOTTLE IN RACE",
+    "index": "FIG.050"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1145.46,
+   "end": 1160.94
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1160.94,
+   "end": 1165.0,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/water-cup.jpg",
+    "label": "ONE CUP PER KM",
+    "index": "FIG.051",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1165.0,
+   "end": 1178.82
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1178.82,
+   "end": 1181.62,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_18_1_gulp_12_min.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1181.62,
+   "end": 1187.8
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1189.12,
+   "end": 1193.76
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1193.76,
+   "end": 1200.26,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_sweat_steps.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1200.26,
+   "end": 1215.06
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1215.06,
+   "end": 1218.96,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/bathroom-scale.jpg",
+    "label": "BRING A SCALE",
+    "index": "FIG.053",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1218.96,
+   "end": 1224.9
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1224.9,
+   "end": 1229.9,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "grid",
+   "panel": {
+    "file": "projects/carrie-ep01/v4/info/i_same_clothes.mp4",
+    "label": "",
+    "index": "FIG.054",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1229.9,
+   "end": 1236.26
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1247.64,
+   "end": 1257.66
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1257.66,
+   "end": 1263.66,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_sweat_1kg.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1263.66,
+   "end": 1267.14
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1267.14,
+   "end": 1271.34,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/liter-bottle.jpg",
+    "label": "1 KG = 1L",
+    "index": "FIG.056",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1271.34,
+   "end": 1274.02
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1274.02,
+   "end": 1277.74,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/drinking-water.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "REHYDRATE",
+    "index": "FIG.057"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1277.74,
+   "end": 1290.34
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1290.34,
+   "end": 1293.14,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_21_250_500_ml.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1293.14,
+   "end": 1307.08
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1307.08,
+   "end": 1313.08,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/r_sweat.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1313.08,
+   "end": 1317.48
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1317.48,
+   "end": 1320.08,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_22_water_sodium.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1320.08,
+   "end": 1321.06
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1321.36,
+   "end": 1336.22
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1336.22,
+   "end": 1340.0,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/sports-drinks.jpg",
+    "label": "SPORTS DRINK > WATER",
+    "index": "FIG.059",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1340.0,
+   "end": 1346.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1346.38,
+   "end": 1350.76,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/race-aid-table.jpg",
+    "push": 0.07,
+    "at": 0,
+    "label": "AID-STATION DRINKS",
+    "index": "FIG.060"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1350.76,
+   "end": 1373.06
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1373.06,
+   "end": 1379.56,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_station_steps.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1379.56,
+   "end": 1380.86
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1380.86,
+   "end": 1384.76,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/nutrition-label.jpg",
+    "label": "CHECK THE SODIUM",
+    "index": "FIG.062",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1384.76,
+   "end": 1393.86
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1393.86,
+   "end": 1397.24,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/salt-pills.jpg",
+    "label": "SODIUM TABLETS",
+    "index": "FIG.063",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1397.24,
+   "end": 1413.435
+  }
+ ],
+ "stickers": [
+  {
+   "at": 0.25,
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_04.mov",
+   "x": 0.1625,
+   "y": 0.0843,
+   "w": 0.2406
+  }
+ ],
+ "sfx": [
+  {
+   "at": 9.17,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 45.77,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 63.5,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 78.97,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 91.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 110.87,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 120.03,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 140.93,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 150.37,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 157.23,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 171.67,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 185.13,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 195.4,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 212.17,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 221.9,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 248.07,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 255.87,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 268.8,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+01:49  photo card   guacamole-toast ("eggs + guac sandwich")
+02:03  full-screen  yogurt-granola
+02:34  full-screen  night-run
+03:20  full-screen  chicken-rice
+03:34  photo card   chicken-breast ("~150 g chicken")
+04:20  photo card   cooked-rice ("a lot of rice")
+04:40  photo card   chicken-curry ("chicken gravy")
+05:16  photo card   three-fruits ("office fruit")
+06:06  photo card   office-bottle ("refilled 2-3x a day")
+06:33  full-screen  sweaty-athlete
+07:04  full-screen  roti
+07:22  full-screen  hyrox
+07:30  photo card   deadlift ("strength + running")
+07:54  full-screen  indian-food
+08:05  photo card   india-family-food ("no structured diet")
+08:53  full-screen  fish-oil
+09:11  photo card   warehouse-store ("the Costco multi")
+09:16  full-screen  multivitamin
+09:33  full-screen  protein-powder
+09:49  full-screen  winter-sun
+10:34  photo card   vitamin-gummies ("a chewable is fine")
+12:18  full-screen  sports-drink
+12:54  full-screen  cramp
+13:20  full-screen  sandbag-lunge
+13:36  photo card   race-medic ("medics on standby")
+14:25  full-screen  ironman-bike
+14:47  photo card   hamstring ("hamstrings on the bike")
+15:28  photo card   bike-hill ("Ironman: used sodium")
+16:00  full-screen  rowing-machine
+16:36  photo card   wall-ball ("wall balls")
+16:40  photo card   finish-line ("sprint finish")
+17:41  full-screen  race-water-cups
+18:30  photo card   digital-scale ("weigh before + after")
+20:51  photo card   energy-drink-cans ("aid-station drinks")
+22:12  full-screen  swim-fins
+22:22  full-screen  cycling-uphill
+24:20  full-screen  coffee
+26:33  full-screen  runner-road
+27:29  full-screen  weightlifting
+28:29  photo card   empty-gym ("6 am gym")
+29:30  photo card   sports-drink ("practise with it in training")
+29:57  photo card   lunges ("lunges = cramps")
+30:48  full-screen  gym-drink
+31:16  photo card   office-bottle ("1 L per session")
+32:45  photo card   peanut-butter ("PB sandwich")
+34:27  photo card   cyclist-commute ("bike to work")
+35:19  photo card   milkshake ("shake on the go")
+39:51  photo card   plain-yogurt ("the go-to breakfast")
+40:58  photo card   dates-fruit ("banana + dates")
+42:16  photo card   mixed-veg ("broccoli, corn, carrots")
+42:24  photo card   veg-omelette ("veg + 3-4 eggs")
+42:52  full-screen  veg-curry
+43:43  photo card   pasta-carbs ("carb needs drop a bit")
+44:29  full-screen  baby-carrots
+44:51  full-screen  frozen-veg
+48:30  photo card   office-fruit ("2-3 pieces of fruit")
+48:44  full-screen  fruit-bowl
+50:05  full-screen  city-cycling
+50:58  full-screen  city-bus
+52:14  full-screen  protein-bar
+54:08  photo card   empty-gym ("office gym")
+56:48  full-screen  swimming-pool
+57:24  full-screen  chicken-wrap
+58:07  full-screen  overnight-oats
+59:29  photo card   lunch-boxes ("weekend meal prep")
+59:58  full-screen  gym-bag
+1:02:33  full-screen  tuna-sandwich
+1:02:58  photo card   canned-tuna ("canned tuna")
+1:03:13  full-screen  boiled-eggs
+1:06:21  photo card   blender-smoothie ("homemade smoothie")
+1:06:26  full-screen  smoothie-berries
+1:06:45  photo card   frozen-berries ("frozen fruit")
+1:07:58  photo card   date-bar ("dates, egg whites, nuts")
+1:12:49  photo card   dexa ("body composition")
+1:12:54  full-screen  muscle-flex
+1:15:06  full-screen  pancakes
+1:15:19  photo card   toaster ("toast them")
+1:15:33  full-screen  hash-browns
+1:17:52  photo card   sweet-potato ("orange = vitamin A")
+1:18:04  full-screen  spinach-kale
+1:18:18  photo card   chicken-salad ("chicken salad")
+1:18:27  full-screen  multivitamin
+1:19:29  photo card   veg-market ("more plants")

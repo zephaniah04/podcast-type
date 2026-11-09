@@ -164,7 +164,8 @@ Never: logos/brands as hero, recognisable public figures out of context, waterma
 
 ## Long-form episodes (16:9, 1920x1080)
 
-Follow `references/longform.md` (cold-open trailer -> sting -> intro -> chapters). Engine: `"format": "long"`,
+**Informational episodes: use the approved FUEL LAB system — `references/fuel-lab-longform.md`** (look, devices,
+Nizam's caption + motion rules, pipeline). Follow `references/longform.md` (cold-open trailer -> sting -> intro -> chapters). Engine: `"format": "long"`,
 `"tighten": 0.6`, `"jump_zoom": [1.0, 1.12]` on single-camera stretches, `"chapter"` on the first segment of each
 chapter (writes `_chapters.txt` for the YouTube description). Render 20-30 min sections separately, then concat.
 
@@ -201,3 +202,20 @@ chapter (writes `_chapters.txt` for the YouTube description). Render 20-30 min s
   episode ("pod" style). Pick every photo by eye from contact sheets: keyless search returns junk (bees for "salt
   sweat") - drop a beat rather than show a wrong picture. Wikimedia needs a User-Agent with a contact URL or it 429s.
   Face track every 3 s (`face_track(step=3)`) and a +-4 s window keeps leaning people in frame.
+- 2026-11-07 (Carrie long-form v3, after Nizam: "I can't see any B-roll, motion cards or split screens"): v2's one
+  visual per 40-60 s reads as *nothing* over 80 min. Target **one device every ~10-15 s** plus the camera cuts.
+  Recipe: `projects/carrie-ep01/build_long3.py` + `scripts/fx.py` (alpha .mov overlays):
+  - kinds: `br` full-frame photo, `card` side card, `sbs` split, `pip` floating photo card (rounded, white rim,
+    label tab; the shot goes **wide** underneath and the card sits centred between the two people at y 0.42),
+    `wd` kinetic keyword (heavy type on an accent bar, y 0.72, a real quote or the number), `st` 3D emoji (330 px).
+  - two automatic passes: emoji on spoken keywords (each <= 7x, 70 s apart) and split screens wherever both people
+    talk >= 1.2 s inside 4-11 s with 3+ turns. Greedy by priority (card > br > sbs > pip > wd > st > auto).
+  - `L3_FLAGS=--gaps python build_long3.py --no-render` prints every 22+ s stretch with nothing on screen and the
+    words said there: write beats for those. One render chunk per chapter keeps each final pass to <= ~60 overlays.
+  - Overlay placement: tight single shots assume the person fills the middle (profile faces are missed by the
+    detector) and use the side they face; elements carry their real width (`w`) so nothing clips a face or the edge.
+  - Chapter tag top-left for the whole chapter (`"tags"`), pop/whoosh sfx on every element at low volume.
+- 2026-11-09 (Carrie long-form v4, FUEL LAB, 64.8 min, approved look): specialist agents + `build_long4.py`; full
+  system in `references/fuel-lab-longform.md`. Nizam's review: captions must be ONE font, ONE size, one baseline, no
+  box behind the host, no blur, light outline only, keyword = colour only and rare; graphics must sit still (no
+  push / zoom / shake / 3D drift); no punch-in zooms. Designs, split screens and real B-roll were praised.

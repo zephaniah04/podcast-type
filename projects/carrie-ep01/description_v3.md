@@ -1,0 +1,71 @@
+# L01 v3: YouTube description add-ons
+
+## Photo credits (put in the description)
+
+- "20180924 UCI Road World Championships Innsbruck Men U23 ITT Timur Malieiev 850 8237.jpg" by Granada, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:20180924_UCI_Road_World_Championships_Innsbruck_Men_U23_ITT_Timur_Malieiev_850_8237.jpg
+- "Fresh fruits and a blender are arranged on a kitchen counter for smoothie preparation.jpg" by Shixart1985, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Fresh_fruits_and_a_blender_are_arranged_on_a_kitchen_counter_for_smoothie_preparation.jpg
+- "Boiled eggs, increasing in boiling time from left to right.jpg" by Wikisearcher, CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Boiled_eggs,_increasing_in_boiling_time_from_left_to_right.jpg
+- "John West Infusions Tuna with Lemon & Thyme.jpg" by JIP, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:John_West_Infusions_Tuna_with_Lemon_%26_Thyme.jpg
+- "2020-08-30 06 33 37 A serving of Healthy Choice Simply Steamers Grilled Chicken & Broccoli Alfredo (Chicken Breast & Broccoli in a Creamy Alfredo Sauce) before application of Alfredo sauce in the Dulles section of Sterling, Loudoun County, Virginia.jpg" by Famartin, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:2020-08-30_06_33_37_A_serving_of_Healthy_Choice_Simply_Steamers_Grilled_Chicken_%26_Broccoli_Alfredo_(Chicken_Breast_%26_Broccoli_in_a_Creamy_Alfredo_Sauce)_before_application_of_Alfredo_sauce_in_the_Dulles_section_of_Sterling,_Loudoun_County,_Virginia.jpg
+- "Aunt Lay Leong's Curry Chicken.jpg" by Alpha from Melbourne, Australia, CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Aunt_Lay_Leong%27s_Curry_Chicken.jpg
+- "Fried Chicken Fillet Rice Set from Red Bowl at SM J Mall (2026-07-26).jpg" by Wide Awake!, CC BY 4.0: https://commons.wikimedia.org/wiki/File:Fried_Chicken_Fillet_Rice_Set_from_Red_Bowl_at_SM_J_Mall_(2026-07-26).jpg
+- "Chicken wrap 2.jpg" by HutheMeow, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Chicken_wrap_2.jpg
+- "Bus on a Quebec City street.jpg" by Wilfredor, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Bus_on_a_Quebec_City_street.jpg
+- "Cycling during in Brooklyn Bridge Park.jpg" by Adjoajo, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Cycling_during_in_Brooklyn_Bridge_Park.jpg
+- "Coffee Beans macro 1.jpg" by Daniel Schwen, CC BY 3.0: https://commons.wikimedia.org/wiki/File:Coffee_Beans_macro_1.jpg
+- "2023-05-20 18 50 21 Freshly cooked white rice in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg" by Famartin, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:2023-05-20_18_50_21_Freshly_cooked_white_rice_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg
+- "Andrea Baldini teams 2014 CIP t132153.jpg" by Marie-Lan Nguyen, CC BY 3.0: https://commons.wikimedia.org/wiki/File:Andrea_Baldini_teams_2014_CIP_t132153.jpg
+- "Cycling at Bhor Ghat.jpg" by Kirankutch, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Cycling_at_Bhor_Ghat.jpg
+- "Bicycle in The Hague 28.JPG" by João Pimentel Ferreira, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Bicycle_in_The_Hague_28.JPG
+- "2021-01-09 15 06 34 A Kellogg's Special K Chocolate Cherry Nut Protein Snack Bar in the Dulles section of Sterling, Loudoun County, Virginia.jpg" by Famartin, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:2021-01-09_15_06_34_A_Kellogg%27s_Special_K_Chocolate_Cherry_Nut_Protein_Snack_Bar_in_the_Dulles_section_of_Sterling,_Loudoun_County,_Virginia.jpg
+- "DATES MEDJOOL.jpg" by ORGANIChouse, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:DATES_MEDJOOL.jpg
+- "Deadlift-phase 2.JPG" by stu_spivack, CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Deadlift-phase_2.JPG
+- "Adult body composition through air displacement plethysmography.jpg" by cosmed, CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Adult_body_composition_through_air_displacement_plethysmography.jpg
+- "Medals weighed in digital scale.jpg" by Kpubkalanami, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Medals_weighed_in_digital_scale.jpg
+- "2008 CrossFit Games - deadlift.jpg" by Brad Greenlee (photos · photo sets), CC BY 2.0: https://commons.wikimedia.org/wiki/File:2008_CrossFit_Games_-_deadlift.jpg
+- "Energy drinks of various brands.jpg" by Oto Zapletal, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Energy_drinks_of_various_brands.jpg
+- "Lachsölkapsel.jpg" by Marco Almbauer, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Lachs%C3%B6lkapsel.jpg
+- "Frozen Raspberries.jpg" by epSos.de, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Frozen_Raspberries.jpg
+- "Frozen Vegetables.jpg" by Flixtey, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Frozen_Vegetables.jpg
+- "20241117 Fruit Platter anagoria.jpg" by Anagoria, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:20241117_Fruit_Platter_anagoria.jpg
+- "Guacamole Sandwich.jpg" by Kjokkenutstyr, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Guacamole_Sandwich.jpg
+- "Cricket kit bag at Epping Foresters Cricket Club 1.jpg" by Acabashi, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Cricket_kit_bag_at_Epping_Foresters_Cricket_Club_1.jpg
+- "Woman with curly hair sits on a gym floor, preparing to take a sip from her water bottle.jpg" by Shixart1985, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Woman_with_curly_hair_sits_on_a_gym_floor,_preparing_to_take_a_sip_from_her_water_bottle.jpg
+- "Bishop Loughlin Games - Armory - Track & Field (11609407975).jpg" by Steven Pisano from Brooklyn, NY, USA, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Bishop_Loughlin_Games_-_Armory_-_Track_%26_Field_(11609407975).jpg
+- "Chicken Fillet, Scrambled Egg & Hash Brown Breakfast.jpg" by Ceeseven, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Chicken_Fillet,_Scrambled_Egg_%26_Hash_Brown_Breakfast.jpg
+- "Andhra Bhojanam.JPG" by United Hotel Management Academy, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Andhra_Bhojanam.JPG
+- "Indian vegetarian thali,.jpg" by Shuchi999, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Indian_vegetarian_thali,.jpg
+- "Dumbbell lunges.jpg" by Tyler  Read, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Dumbbell_lunges.jpg
+- "DFC 0816 A close-up of a hand holding a plastic cup while a chocolatey smoothie is poured over ice from a blender.jpg" by PattayaPatrol, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:DFC_0816_A_close-up_of_a_hand_holding_a_plastic_cup_while_a_chocolatey_smoothie_is_poured_over_ice_from_a_blender.jpg
+- "2020-08-31 03 37 20 A sample of Birds Eye Steamfresh Chef's Favorites Lightly Seasoned Asian Medley (Carrots, broccoli, baby cob corn, sugar snap peas) in the Dulles section of Sterling, Loudoun County, Virginia.jpg" by Famartin, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:2020-08-31_03_37_20_A_sample_of_Birds_Eye_Steamfresh_Chef%27s_Favorites_Lightly_Seasoned_Asian_Medley_(Carrots,_broccoli,_baby_cob_corn,_sugar_snap_peas)_in_the_Dulles_section_of_Sterling,_Loudoun_County,_Virginia.jpg
+- "500 mg calcium supplements with vitamin D.jpg" by Ragesoss, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:500_mg_calcium_supplements_with_vitamin_D.jpg
+- "Happy people doing exercises at night on the streets of kigali.jpg" by Isma250, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Happy_people_doing_exercises_at_night_on_the_streets_of_kigali.jpg
+- "Les fruits (dessert aprés le couscous).jpg" by Bsghaier, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Les_fruits_(dessert_apr%C3%A9s_le_couscous).jpg
+- "Buttermilk pancakes from a recipe by Darina Allen.jpg" by Lajmmoore, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Buttermilk_pancakes_from_a_recipe_by_Darina_Allen.jpg
+- "(Pasta) by David Adam Kess (pic.2).jpg" by David Adam Kess, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:(Pasta)_by_David_Adam_Kess_(pic.2).jpg
+- "2021-01-09 15 06 34 A Kellogg's Special K Chocolate Cherry Nut Protein Snack Bar in the Dulles section of Sterling, Loudoun County, Virginia.jpg" by Famartin, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:2021-01-09_15_06_34_A_Kellogg%27s_Special_K_Chocolate_Cherry_Nut_Protein_Snack_Bar_in_the_Dulles_section_of_Sterling,_Loudoun_County,_Virginia.jpg
+- "Woman measures protein powder into a shaker cup in a kitchen setting while preparing for a workout.jpg" by Shixart1985, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Woman_measures_protein_powder_into_a_shaker_cup_in_a_kitchen_setting_while_preparing_for_a_workout.jpg
+- "Spraying on a glue bandage - Dublin Marathon.jpg" by Peter Brown from Dublin, Ireland, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Spraying_on_a_glue_bandage_-_Dublin_Marathon.jpg
+- "Marathon de Paris 2007 n2.jpg" by Nelson Minar from San Francisco, USA, CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Marathon_de_Paris_2007_n2.jpg
+- "2012 'Zürcher Theater Spektakel' - Chapati 2012-08-25 17-46-31 (P7000).JPG" by Roland zh, CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:2012_%27Z%C3%BCrcher_Theater_Spektakel%27_-_Chapati_2012-08-25_17-46-31_(P7000).JPG
+- "Ergs in the College Gym.jpg" by Izzy8167, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Ergs_in_the_College_Gym.jpg
+- "Lopez Ivanov Diniz.JPG" by Aronu, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Lopez_Ivanov_Diniz.JPG
+- "Banana, Berries & Buttermilk (4388754037).jpg" by Katrin Gilger, CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Banana,_Berries_%26_Buttermilk_(4388754037).jpg
+- "Spinacia oleracea (51364931334).jpg" by Алексей Тараканов, CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Spinacia_oleracea_(51364931334).jpg
+- "John O'Brien has a drink (2006).jpg" by Jarrett Campbell, CC BY 2.0: https://commons.wikimedia.org/wiki/File:John_O%27Brien_has_a_drink_(2006).jpg
+- "MiguelAngelLopez 1.JPG" by Aronu, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:MiguelAngelLopez_1.JPG
+- "A Large Sweet Potato.jpg" by Gogerr, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:A_Large_Sweet_Potato.jpg
+- "JetFalcon diving fins size M Made in Japan.jpg" by R. Henrik Nilsson, CC BY 4.0: https://commons.wikimedia.org/wiki/File:JetFalcon_diving_fins_size_M_Made_in_Japan.jpg
+- "Public Swimming Pool in Melbourne VIC Australia.jpg" by KeepActive Australia from Melbourne, VIC, Australia, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Public_Swimming_Pool_in_Melbourne_VIC_Australia.jpg
+- "Misc fruit.jpg" by Sandy Austin, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Misc_fruit.jpg
+- "Illuminating toaster (4349276370).jpg" by Lee Haywood from Wollaton, Nottingham, England, CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Illuminating_toaster_(4349276370).jpg
+- "Mmm... tuna salad on rye.jpg" by jeffreyw, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Mmm..._tuna_salad_on_rye.jpg
+- "Aunt Yoke Ling's Vegetable Curry (2874458745).jpg" by Alpha from Melbourne, Australia, CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Aunt_Yoke_Ling%27s_Vegetable_Curry_(2874458745).jpg
+- "DSCF0838 A colorful market stall piled high with fresh onions red and yellow bell peppers and other vegetables under the market lights.jpg" by PattayaPatrol, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:DSCF0838_A_colorful_market_stall_piled_high_with_fresh_onions_red_and_yellow_bell_peppers_and_other_vegetables_under_the_market_lights.jpg
+- "Bell Pepper Omelette kolkata West Bengal 02.jpg" by Sgsamrat2021, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Bell_Pepper_Omelette_kolkata_West_Bengal_02.jpg
+- "Vitamin D Gummies.jpg" by Suzanne Schroeter, CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Vitamin_D_Gummies.jpg
+- "Costco (14965).jpg" by EvanCarroll, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Costco_(14965).jpg
+- "Bradley Golf Course, low winter sun - geograph.org.uk - 7042803.jpg" by yorkshirelad, CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Bradley_Golf_Course,_low_winter_sun_-_geograph.org.uk_-_7042803.jpg
+- "Yogurt, fruit, granola bowl (34999358091).jpg" by T.Tseng, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Yogurt,_fruit,_granola_bowl_(34999358091).jpg
+
+3D emoji: Microsoft Fluent Emoji (MIT licence), github.com/microsoft/fluentui-emoji

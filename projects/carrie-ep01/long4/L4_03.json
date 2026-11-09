@@ -1,0 +1,531 @@
+{
+ "_piece": true,
+ "id": "L4_03",
+ "slug": "v4",
+ "format": "long",
+ "title": "v4 chapter 3: IF I FALL, TAKE ME OUT",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.75,
+  "zoom_right": 1.5,
+  "punch": 1.0,
+  "wide_every": 4,
+  "cy": 0.4,
+  "min_turn": 1.6
+ },
+ "tighten": 0.5,
+ "captions": "v4",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs",
+  "protein shape": "protein shake",
+  "someone for veggies": "some more veggies",
+  "some of your race at lunch": "some of your rice at lunch",
+  "iron one chat": "Ironman, ChatGPT",
+  "gpd": "GPT"
+ },
+ "accent": "#FF5A1F",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 750.27,
+   "end": 760.15
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 760.15,
+   "end": 763.97,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/marathon.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "10K RUNS",
+    "index": "FIG.036"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 763.97,
+   "end": 776.81
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 776.81,
+   "end": 779.81,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_11_salt_on_my_face.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 779.81,
+   "end": 796.03
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 796.03,
+   "end": 799.85,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/electrolyte-tabs.jpg",
+    "push": 0.07,
+    "at": 0,
+    "label": "ELECTROLYTES",
+    "index": "FIG.037"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 799.85,
+   "end": 821.49
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 824.295,
+   "end": 831.01
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 831.01,
+   "end": 834.01,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_12_i_cramp_a_lot.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 834.01,
+   "end": 837.33
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 837.33,
+   "end": 841.57,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/calf-muscles.jpg",
+    "label": "ALWAYS THE CALVES",
+    "index": "FIG.038",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 841.57,
+   "end": 847.39
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 854.19,
+   "end": 860.49
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 860.49,
+   "end": 864.95,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/sandbag-lunge.jpg",
+    "label": "SANDBAG LUNGES",
+    "index": "FIG.039",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 864.95,
+   "end": 877.47
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 877.47,
+   "end": 880.47,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_13_if_i_fall_take_me.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 880.47,
+   "end": 888.23
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 888.23,
+   "end": 892.43,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/exhausted-runner.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "PUSHED THROUGH",
+    "index": "FIG.040"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 892.43,
+   "end": 916.35
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 916.35,
+   "end": 920.07,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/lunges.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "LUNGES = CRAMPS",
+    "index": "FIG.041"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 920.07,
+   "end": 926.63
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 926.63,
+   "end": 930.89,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/ironman-bike.jpg",
+    "push": 0.07,
+    "at": 0,
+    "label": "HALF IRONMAN 70.3",
+    "index": "FIG.042"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 930.89,
+   "end": 934.45
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 934.45,
+   "end": 938.25,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/cyclist-road.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "FUELED ON THE BIKE",
+    "index": "FIG.043"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 938.25,
+   "end": 948.23
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 948.23,
+   "end": 954.73,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_cramp_map.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 954.73,
+   "end": 960.47
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 960.47,
+   "end": 963.47,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_14_muscle_or_sodium.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 963.47,
+   "end": 972.49
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 973.61,
+   "end": 991.81
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 991.81,
+   "end": 995.73,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/triathlete-run.jpg",
+    "push": 0.07,
+    "at": 0,
+    "label": "USED SODIUM: IRONMAN",
+    "index": "FIG.045"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 995.73,
+   "end": 1017.77
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1017.77,
+   "end": 1024.77,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_race_plan.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1024.77,
+   "end": 1049.34
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1049.34,
+   "end": 1052.34,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_16_it_s_not_the_carbs.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1052.34,
+   "end": 1054.96
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1054.96,
+   "end": 1060.96,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_carbs_myth.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1060.96,
+   "end": 1068.86
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1068.86,
+   "end": 1072.6,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/wall-balls.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "STILL HAD ENERGY",
+    "index": "FIG.048"
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1072.6,
+   "end": 1079.04
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1079.04,
+   "end": 1082.04,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_17_i_had_the_energy.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1082.04,
+   "end": 1082.86
+  }
+ ],
+ "stickers": [
+  {
+   "at": 0.25,
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_03.mov",
+   "x": 0.1599,
+   "y": 0.0843,
+   "w": 0.2354
+  }
+ ],
+ "sfx": [
+  {
+   "at": 7.27,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 23.9,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 39.57,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 71.0,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 76.43,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 92.5,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 109.4,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 119.4,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 146.3,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 155.83,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 163.63,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 176.73,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 188.8,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 217.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 240.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 263.7,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 268.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 282.43,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 291.5,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  }
+ ]
+}

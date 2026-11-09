@@ -1,0 +1,360 @@
+{
+ "_piece": true,
+ "id": "L3_02",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 2",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 364.6,
+   "end": 367.38,
+   "chapter": "How Much Water You Actually Need",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T02.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 367.38,
+   "end": 384.26
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 384.26,
+   "end": 387.9,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 387.9,
+   "end": 389.19
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 389.19,
+   "end": 394.52,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 394.52,
+   "end": 396.59
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 396.59,
+   "end": 410.7,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_02_c0.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 410.7,
+   "end": 412.7
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 412.7,
+   "end": 416.78,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/sweaty-athlete.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 416.78,
+   "end": 422.57
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 422.57,
+   "end": 429.56,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 429.56,
+   "end": 447.74
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 447.74,
+   "end": 451.9,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/roti.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 451.9,
+   "end": 466.02
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 466.02,
+   "end": 469.84,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/hyrox.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 469.84,
+   "end": 474.01
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 474.01,
+   "end": 477.44,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 477.44,
+   "end": 498.58
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 498.58,
+   "end": 502.82,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/indian-food.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 502.82,
+   "end": 509.44
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 509.44,
+   "end": 513.08,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 513.08,
+   "end": 516.21
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 516.21,
+   "end": 524.04,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 524.04,
+   "end": 538.0
+  }
+ ],
+ "stickers": [
+  {
+   "at": 14.65,
+   "file": "projects/carrie-ep01/fx/p_office-bottle-refilled-2-3x-a-day.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p14.65",
+   "w": 0.258
+  },
+  {
+   "at": 66.14,
+   "file": "projects/carrie-ep01/fx/e_fork-and-knife-with-plate-dinner.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g66.14",
+   "w": 0.219
+  },
+  {
+   "at": 98.75,
+   "file": "projects/carrie-ep01/fx/p_deadlift-strength---running.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p98.75",
+   "w": 0.259
+  },
+  {
+   "at": 134.183,
+   "file": "projects/carrie-ep01/fx/p_india-family-food-no-structured-diet.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p134.183",
+   "w": 0.258
+  },
+  {
+   "at": 146.41,
+   "file": "projects/carrie-ep01/fx/e_glass-of-milk-the-one-constant.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g146.41",
+   "w": 0.237
+  }
+ ],
+ "sfx": [
+  {
+   "at": 14.65,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 66.14,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 98.75,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 134.183,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 146.41,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 19.43,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 25.5,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 41.6,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 51.47,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 73.07,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 90.6,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 123.17,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 140.8,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.07,
+   "num": "02",
+   "text": "How much water"
+  }
+ ]
+}

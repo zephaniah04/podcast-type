@@ -1,0 +1,280 @@
+{
+ "_piece": true,
+ "id": "L3_00",
+ "slug": "open",
+ "format": "long",
+ "title": "Cold open CO1",
+ "topic": "cold open",
+ "tighten": 0.35,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "accent": "#FFB238",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "keywords": [],
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 872.87,
+   "end": 880.13,
+   "cx": "left",
+   "zoom": 1.9,
+   "cy": 0.38,
+   "look": "bw"
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 777.11,
+   "end": 783.81,
+   "cx": "left",
+   "zoom": 1.9,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1257.86,
+   "end": 1270.18,
+   "cx": "right",
+   "zoom": 1.55,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1602.76,
+   "end": 1609.38,
+   "cx": "right",
+   "zoom": 1.55,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1017.85,
+   "end": 1021.53,
+   "cx": "left",
+   "zoom": 1.9,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 555.96,
+   "end": 560.46,
+   "cx": "left",
+   "zoom": 1.9,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2063.63,
+   "end": 2067.61,
+   "cx": "right",
+   "zoom": 1.55,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 1143.51,
+   "end": 1152.43,
+   "cx": "left",
+   "zoom": 1.9,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 896.09,
+   "end": 899.89,
+   "cx": "right",
+   "zoom": 1.55,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2799.0,
+   "end": 2808.46,
+   "cx": "right",
+   "zoom": 1.55,
+   "cy": 0.38,
+   "look": "bw"
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2508.66,
+   "end": 2515.58,
+   "cx": "left",
+   "zoom": 1.9,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2525.1,
+   "end": 2528.18,
+   "cx": "right",
+   "zoom": 1.55,
+   "cy": 0.38
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 0.0,
+   "end": 3.5,
+   "nocaps": true,
+   "tighten": 0,
+   "mute": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/CO1_title.mp4",
+    "push": 0
+   }
+  }
+ ],
+ "sfx": [
+  {
+   "at": 0.0,
+   "file": "whoosh_slow.mp3",
+   "vol": 0.3
+  },
+  {
+   "at": 7.67,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 13.2,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 25.37,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 32.0,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 35.67,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 40.17,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 44.13,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 52.17,
+   "file": "pop.mp3",
+   "vol": 0.16
+  }
+ ],
+ "cap_size": 66,
+ "stickers": [
+  {
+   "at": 7.67,
+   "file": "projects/carrie-ep01/fx/e_salt-salty-sweater.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "cosalt",
+   "w": 0.219
+  },
+  {
+   "at": 13.2,
+   "file": "projects/carrie-ep01/fx/e_balance-scale-1-kg---1-l.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "cokilo",
+   "w": 0.219
+  },
+  {
+   "at": 25.37,
+   "file": "projects/carrie-ep01/fx/e_hot-beverage-caffeine.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "cocaffeine",
+   "w": 0.219
+  },
+  {
+   "at": 32.0,
+   "file": "projects/carrie-ep01/fx/e_stopwatch-2-gels---1-42.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "cogels",
+   "w": 0.219
+  },
+  {
+   "at": 35.67,
+   "file": "projects/carrie-ep01/fx/e_robot-chatgpt.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "cochatgpt",
+   "w": 0.219
+  },
+  {
+   "at": 40.17,
+   "file": "projects/carrie-ep01/fx/e_cup-with-straw-not-enough.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "coshake",
+   "w": 0.219
+  },
+  {
+   "at": 44.13,
+   "file": "projects/carrie-ep01/fx/e_bread-forgot-carbs.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "cocarbs",
+   "w": 0.219
+  },
+  {
+   "at": 52.17,
+   "file": "projects/carrie-ep01/fx/e_red-apple-eat-the-fruit.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "cofruit",
+   "w": 0.219
+  }
+ ]
+}

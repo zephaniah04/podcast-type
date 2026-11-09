@@ -1,0 +1,614 @@
+{
+ "_piece": true,
+ "id": "L4_13",
+ "slug": "v4",
+ "format": "long",
+ "title": "v4 chapter 13: CAN I GAIN MUSCLE BY RACE DAY?",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.75,
+  "zoom_right": 1.5,
+  "punch": 1.0,
+  "wide_every": 4,
+  "cy": 0.4,
+  "min_turn": 1.6
+ },
+ "tighten": 0.5,
+ "captions": "v4",
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs",
+  "protein shape": "protein shake",
+  "someone for veggies": "some more veggies",
+  "some of your race at lunch": "some of your rice at lunch",
+  "iron one chat": "Ironman, ChatGPT",
+  "gpd": "GPT"
+ },
+ "accent": "#FF5A1F",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 2462.73,
+   "end": 2476.96
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2476.96,
+   "end": 2481.74,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/calf-muscles.jpg",
+    "label": "CRAMPS, WATER, SALT",
+    "index": "FIG.179",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2481.74,
+   "end": 2484.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2484.0,
+   "end": 2487.8,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/dinner-plate.jpg",
+    "label": "THE FIX: DINNER",
+    "index": "FIG.180",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2487.8,
+   "end": 2488.6
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2500.665,
+   "end": 2503.74
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2503.74,
+   "end": 2507.7,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/calendar.jpg",
+    "label": "3-4 MONTHS OUT",
+    "index": "FIG.181",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2507.7,
+   "end": 2515.595
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2525.085,
+   "end": 2529.84
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2529.84,
+   "end": 2532.44,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_46_anyone_can_gain.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2532.44,
+   "end": 2550.76
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2550.76,
+   "end": 2554.44,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/dexa.jpg",
+    "label": "BODY COMPOSITION",
+    "index": "FIG.182",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2554.44,
+   "end": 2557.9
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2570.365,
+   "end": 2583.3
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2590.92,
+   "end": 2593.96
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2593.96,
+   "end": 2596.56,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_47_you_don_t_eat_at.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2596.56,
+   "end": 2610.02
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2610.02,
+   "end": 2617.02,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_nocook_list.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2617.02,
+   "end": 2621.8
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2621.8,
+   "end": 2626.46,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/lunch-boxes.jpg",
+    "push": 0.07,
+    "at": 0,
+    "label": "WEEKEND MEAL PREP",
+    "index": "FIG.184"
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2626.46,
+   "end": 2628.56
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2628.56,
+   "end": 2633.3,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/chicken-breast.jpg",
+    "label": "CHICKEN, RICE, VEG",
+    "index": "FIG.185",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2633.3,
+   "end": 2654.82
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2654.82,
+   "end": 2658.86,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/recipe-book.jpg",
+    "label": "3 RECIPES TO TRY",
+    "index": "FIG.186",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2658.86,
+   "end": 2671.44
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2671.44,
+   "end": 2675.46,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/kitchen-timer.jpg",
+    "label": "2-3 HOURS",
+    "index": "FIG.187",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2675.46,
+   "end": 2677.015
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2677.025,
+   "end": 2688.88
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2688.88,
+   "end": 2693.64,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "L",
+   "side": "left",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/sloppy-joe.jpg",
+    "label": "SLOPPY JOES + PANCAKES",
+    "index": "FIG.188",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2693.64,
+   "end": 2709.32
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2709.32,
+   "end": 2713.52,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/toaster.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "INTO THE TOASTER",
+    "index": "FIG.189"
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2713.52,
+   "end": 2723.78
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2723.78,
+   "end": 2727.92,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/hash-browns.jpg",
+    "label": "FROZEN HASH BROWNS",
+    "index": "FIG.190",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2727.92,
+   "end": 2730.66
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2730.66,
+   "end": 2735.36,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll_video/eggs-frying.mp4",
+    "push": 0.03,
+    "at": 0,
+    "label": "+ EGGS = HASH",
+    "index": "FIG.191"
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2735.36,
+   "end": 2738.56
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2741.285,
+   "end": 2756.78
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2756.78,
+   "end": 2762.28,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "grid",
+   "panel": {
+    "file": "projects/carrie-ep01/v4/info/i_dinner_plate.mp4",
+    "label": "",
+    "index": "FIG.192",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2762.28,
+   "end": 2768.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2768.0,
+   "end": 2771.9,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/sleeping-man.jpg",
+    "label": "NO FOOD OVERNIGHT",
+    "index": "FIG.193",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2771.9,
+   "end": 2779.82
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2779.82,
+   "end": 2786.32,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/info/i_night_gap.mp4",
+    "push": 0,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2786.32,
+   "end": 2799.04
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2799.04,
+   "end": 2802.04,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/v4/gfx/hero_48_no_dinner_no_gains.mp4",
+    "push": 0,
+    "at": 0
+   },
+   "nocaps": true
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2802.04,
+   "end": 2810.4
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2810.4,
+   "end": 2814.12,
+   "tighten": 0,
+   "layout": "frame",
+   "who": "R",
+   "side": "right",
+   "bg": "paper",
+   "panel": {
+    "file": "projects/carrie-ep01/broll/tired-athlete.jpg",
+    "label": "NO ENERGY TO PUSH",
+    "index": "FIG.195",
+    "push": 0.05,
+    "at": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2814.12,
+   "end": 2824.32
+  }
+ ],
+ "stickers": [
+  {
+   "at": 0.25,
+   "file": "projects/carrie-ep01/v4/gfx/chapter_tag_13.mov",
+   "x": 0.201,
+   "y": 0.0843,
+   "w": 0.3177
+  }
+ ],
+ "sfx": [
+  {
+   "at": 12.03,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 18.57,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 26.23,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 41.57,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 61.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 83.97,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 97.2,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 108.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 115.23,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 139.8,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 156.07,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 173.4,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 192.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 206.4,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 212.7,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 235.33,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 246.0,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 257.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 275.27,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.22
+  },
+  {
+   "at": 285.33,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.22
+  }
+ ]
+}

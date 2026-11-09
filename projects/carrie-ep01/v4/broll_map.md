@@ -1,0 +1,106 @@
+# v4 B-roll map
+
+- beats placed: **234** (A 121, B 113) — prio 1: 130, prio 2: 94, prio 3: 10
+- treat: split 144, full 76, stack 14
+- unique photos used: 140 (59 existing, 81 new in v4); photo placements: 198
+- videos used: 42 unique, 53 placements
+- only beats inside edit_plan.json keep / cold_open / outro ranges; never two beats within 6 s; each file <= 3x and >= 3 min apart (approx. output time)
+- `out` = approximate output time (s) from the edit plan, `ch` = chapter (0 = cold open, 99 = outro)
+
+## Beats still waiting for media
+
+- A 16:49 "i use just gels" -> p:gel-pack (1-2 GELS ONLY, prio 1)
+- A 20:33 "in your workout gear" -> p:gym-clothes (SAME GEAR, prio 2)
+- B 11:17 "if you saw my" -> p:fist (1 FIST = 1CUP, prio 2)
+- B 18:49 "it could even be" -> p:gel-pack (OR A GEL, prio 1)
+- B 26:46 "you have no energy" -> p:tired-sofa (HOME, NO ENERGY, prio 1)
+- B 50:17 "going to print this" -> p:office-printer (PRINTING THE PLAN, prio 2)
+
+## Beats skipped
+
+- A 00:30 "jump onto my computer": outside the edit plan
+- A 01:19 "waking up around 637": within 6 s of a higher-priority beat
+- A 01:41 "two little overcooked eggs": within 6 s of a higher-priority beat
+- A 02:55 "the exact grams of carbs": outside the edit plan
+- A 03:30 "or a chicken wrap": within 6 s of a higher-priority beat
+- A 06:24 "my water bottle in": outside the edit plan
+- A 06:30 "so i refill at": outside the edit plan
+- A 08:42 "milkshake used to stay": only 2.2 s before a cut
+- A 10:41 "you're outside every": outside the edit plan
+- A 12:17 "how much you should drink": outside the edit plan
+- A 13:10 "more salt in your": within 6 s of a higher-priority beat
+- A 14:06 "when i did my": only 2.2 s before a cut
+- A 15:48 "hamstring because of the": reuse limit (3x / 3 min)
+- A 16:20 "or electrolyte drinks": reuse limit (3x / 3 min)
+- A 17:55 "sprinting my last couple": within 6 s of a higher-priority beat
+- A 18:07 "pull up a document": outside the edit plan
+- A 18:27 "you've drank well the": within 6 s of a higher-priority beat
+- A 19:49 "keeping pace with your": within 6 s of a higher-priority beat
+- A 20:42 "clothing is going to": outside the edit plan
+- A 24:07 "because i bike uphill": outside the edit plan
+- A 24:24 "jump into the water": outside the edit plan
+- A 28:18 "even your day -to": reuse limit (3x / 3 min)
+- A 28:37 "running is one of": only 2.5 s before a cut
+- A 28:48 "cycling and swimming in": outside the edit plan
+- A 28:57 "with my strength training": only 1.6 s before a cut
+- A 30:23 "like a fine balance": only 2.0 s before a cut
+- A 34:17 "first thing in the": within 6 s of a higher-priority beat
+- A 36:28 "rush to work": only 1.6 s before a cut
+- A 36:59 "i just bike or": outside the edit plan
+- B 01:08 "more saturated fat": within 6 s of a higher-priority beat
+- B 03:32 "the one little scoop": reuse limit (3x / 3 min)
+- B 05:42 "the 750 thing": outside the edit plan
+- B 07:13 "that much rice": reuse limit (3x / 3 min)
+- B 07:50 "this mixed veggies": outside the edit plan
+- B 07:56 "the big pack which": outside the edit plan
+- B 08:09 "sometimes the peanut butter": outside the edit plan
+- B 08:28 "add some veggies while": within 6 s of a higher-priority beat
+- B 09:41 "running or cycling or": within 6 s of a higher-priority beat
+- B 09:52 "keep your chicken around": only 2.5 s before a cut
+- B 10:45 "some green veggies": outside the edit plan
+- B 12:11 "drink water with that": outside the edit plan
+- B 12:31 "all three together": within 6 s of a higher-priority beat
+- B 14:35 "put your fruit in": only 1.6 s before a cut
+- B 15:25 "a run or a": outside the edit plan
+- B 15:39 "an hour of sweat": outside the edit plan
+- B 15:51 "intervals every single day": outside the edit plan
+- B 16:15 "till the winter shows": outside the edit plan
+- B 16:28 "near the boon river": outside the edit plan
+- B 16:38 "bike to mount royal": outside the edit plan
+- B 16:48 "you might bike somewhere": outside the edit plan
+- B 17:35 "my personal vehicle here": outside the edit plan
+- B 17:42 "wait for the bus": outside the edit plan
+- B 17:52 "overall energy expenditure": outside the edit plan
+- B 20:10 "instead of the banana": outside the edit plan
+- B 20:40 "your greek yogurt and": outside the edit plan
+- B 21:02 "a gym in our": outside the edit plan
+- B 21:16 "come back home and": outside the edit plan
+- B 21:41 "a little bit of run": outside the edit plan
+- B 24:49 "your chicken and your": outside the edit plan
+- B 24:56 "chicken tomatoes onions": outside the edit plan
+- B 27:31 "talking to people": within 6 s of a higher-priority beat
+- B 28:08 "fruit in the afternoon": outside the edit plan
+- B 33:27 "did your cardio": outside the edit plan
+- B 33:38 "have your protein shake": outside the edit plan
+- B 34:58 "of having the tuna": reuse limit (3x / 3 min)
+- B 36:58 "so they're dates egg": outside the edit plan
+- B 37:40 "still a convenience food": outside the edit plan
+- B 38:51 "quick meal and snack": outside the edit plan
+- B 39:43 "more harder than making": outside the edit plan
+- B 39:52 "quick and easy meal": outside the edit plan
+- B 40:06 "into your workouts versus": outside the edit plan
+- B 40:38 "do the overnight oats": outside the edit plan
+- B 40:45 "the time to cook": outside the edit plan
+- B 41:54 "like more muscle mass": only 1.3 s before a cut
+- B 42:37 "have a huge response": only 1.5 s before a cut
+- B 43:59 "like the meal prep": reuse limit (3x / 3 min)
+- B 47:23 "the magnesium": outside the edit plan
+- B 49:07 "phytochemicals in foods": reuse limit (3x / 3 min)
+- B 50:31 "in a month": within 6 s of a higher-priority beat
+- B 51:58 "the creatine the": reuse limit (3x / 3 min)
+
+## Notes for the orchestrator
+- Cold open: its 10 clips are also inside chapter keeps, so their beats are listed once by source time (`ch` = the chapter); place them wherever that source time appears (e.g. A 12:57 "salt on my eyes" -> v:sweat).
+- Tools (re-runnable): `v4/tools/beats.py` (hand-written beat list), `build_map.py` (resolves best available asset, writes this map), `validate_map.py` (phrase via build_long2.find, files, spacing, reuse, labels, edit-plan ranges), `photos.py` / `mixkit.py` (search, contact sheets, download + credits). `l2.py` imports build_long2 with a bare() stand-in if scripts/podcast.py is mid-edit.
+- Videos: 44 Mixkit clips (Mixkit Stock Video Free License, each item checked = #videoFree), trimmed to 8 s, no audio, x264 crf 20; many are 1280x720 (Mixkit has no 1080p rendition for older items). Credits: broll_video/credits.json.
+- Licence notes: new photos are CC0 / PD / CC BY / CC BY-SA from Wikimedia Commons (credits incl. author + licence in broll/credits.json, `"added": "v4"`); BY / BY-SA need a credit line in the description. Borderline: fitness-race.jpg (HYROX event, logo visible, athlete), pain-spray.jpg (pro football match, medic spraying a player), sports-drinks.jpg is generic bottles; existing cramp.jpg / sweaty-athlete.jpg / sports-drink.jpg / energy-drink-cans.jpg were avoided (recognisable athletes / brand hero).

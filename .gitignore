@@ -27,3 +27,9 @@ references/studies/*/src.info.json
 projects/**/stickers/
 projects/**/broll/_cand/
 projects/**/long2_pieces/
+projects/**/fx/
+
+# v4 long-form: rendered graphics + logs stay local (sources, specs and manifests are tracked)
+*.log
+projects/**/v4/gfx/_sig/
+projects/**/v4/gfx/*.png

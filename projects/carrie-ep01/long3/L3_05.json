@@ -1,0 +1,466 @@
+{
+ "_piece": true,
+ "id": "L3_05",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 5",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4342-001",
+   "start": 1086.0,
+   "end": 1089.02,
+   "chapter": "The 1 kg = 1 Litre Sweat Test",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T05.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1089.02,
+   "end": 1105.99
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1105.99,
+   "end": 1115.86,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1115.86,
+   "end": 1130.13
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1130.13,
+   "end": 1137.26,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1137.26,
+   "end": 1141.12
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1141.12,
+   "end": 1145.36,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/race-water-cups.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1145.36,
+   "end": 1195.1
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1195.1,
+   "end": 1198.64,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1198.64,
+   "end": 1257.86
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1257.86,
+   "end": 1270.16,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_05_c5.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1270.16,
+   "end": 1279.24
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1279.24,
+   "end": 1294.1,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_05_c6.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1294.1,
+   "end": 1347.2
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1347.2,
+   "end": 1350.66,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1350.66,
+   "end": 1355.59
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1355.59,
+   "end": 1365.42,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1365.42,
+   "end": 1378.85
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1378.85,
+   "end": 1384.48,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4342-001",
+   "start": 1384.48,
+   "end": 1418.8
+  }
+ ],
+ "stickers": [
+  {
+   "at": 5.88,
+   "file": "projects/carrie-ep01/fx/e_droplet-water.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g5.88",
+   "w": 0.219
+  },
+  {
+   "at": 13.873,
+   "file": "projects/carrie-ep01/fx/w_start-hydrated.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w13.873",
+   "w": 0.597
+  },
+  {
+   "at": 32.247,
+   "file": "projects/carrie-ep01/fx/e_chequered-flag-race.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g32.247",
+   "w": 0.219
+  },
+  {
+   "at": 62.36,
+   "file": "projects/carrie-ep01/fx/e_flexed-biceps-strength.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g62.36",
+   "w": 0.219
+  },
+  {
+   "at": 73.233,
+   "file": "projects/carrie-ep01/fx/e_droplet-water.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g73.233",
+   "w": 0.219
+  },
+  {
+   "at": 85.273,
+   "file": "projects/carrie-ep01/fx/e_stopwatch-6-min-run---4-min-station.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g85.273",
+   "w": 0.328
+  },
+  {
+   "at": 100.383,
+   "file": "projects/carrie-ep01/fx/p_digital-scale-weigh-before---after.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p100.383",
+   "w": 0.258
+  },
+  {
+   "at": 118.187,
+   "file": "projects/carrie-ep01/fx/e_balance-scale-bring-a-scale.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g118.187",
+   "w": 0.219
+  },
+  {
+   "at": 131.1,
+   "file": "projects/carrie-ep01/fx/w_same-clothes--before---after.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w131.1",
+   "w": 0.877
+  },
+  {
+   "at": 202.347,
+   "file": "projects/carrie-ep01/fx/w_a-little-dehydrated-is-ok.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w202.347",
+   "w": 0.759
+  },
+  {
+   "at": 212.727,
+   "file": "projects/carrie-ep01/fx/w_water---sodium.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w212.727",
+   "w": 0.579
+  },
+  {
+   "at": 230.067,
+   "file": "projects/carrie-ep01/fx/e_cup-with-straw-sports-drink.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g230.067",
+   "w": 0.219
+  },
+  {
+   "at": 240.883,
+   "file": "projects/carrie-ep01/fx/p_energy-drink-cans-aid-station-drinks.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p240.883",
+   "w": 0.258
+  },
+  {
+   "at": 285.727,
+   "file": "projects/carrie-ep01/fx/e_salt-sodium.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g285.727",
+   "w": 0.219
+  },
+  {
+   "at": 294.64,
+   "file": "projects/carrie-ep01/fx/e_pill-sodium-capsules.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g294.64",
+   "w": 0.238
+  }
+ ],
+ "sfx": [
+  {
+   "at": 5.88,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 13.873,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 32.247,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 62.36,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 73.233,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 85.273,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 100.383,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 118.187,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 131.1,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 142.173,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 202.347,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 212.727,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 230.067,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 240.883,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 285.727,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 294.64,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 18.1,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 40.43,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 51.4,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 157.17,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 177.5,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 249.13,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 270.73,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.33,
+   "num": "05",
+   "text": "The sweat test"
+  }
+ ]
+}

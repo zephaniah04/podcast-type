@@ -1,0 +1,425 @@
+{
+ "_piece": true,
+ "id": "L3_17",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 17",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 2825.1,
+   "end": 2828.32,
+   "chapter": "Real Food vs Multivitamins",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T17.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2828.32,
+   "end": 2869.32
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2869.32,
+   "end": 2872.78,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2872.78,
+   "end": 2881.84
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2881.84,
+   "end": 2885.98,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/spinach-kale.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2885.98,
+   "end": 2895.92
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2895.92,
+   "end": 2899.26,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2899.26,
+   "end": 2905.4
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2905.4,
+   "end": 2909.48,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/multivitamin.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2909.48,
+   "end": 2936.27
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2936.27,
+   "end": 2953.12,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_17_c19.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2953.12,
+   "end": 2962.71
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2962.71,
+   "end": 2970.06,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2970.06,
+   "end": 2975.2
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2975.2,
+   "end": 2978.9,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2978.9,
+   "end": 2988.63
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2988.63,
+   "end": 2998.36,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2998.36,
+   "end": 3070.5
+  }
+ ],
+ "stickers": [
+  {
+   "at": 9.633,
+   "file": "projects/carrie-ep01/fx/e_pill-d---b12.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g9.633",
+   "w": 0.219
+  },
+  {
+   "at": 26.553,
+   "file": "projects/carrie-ep01/fx/e_tangerine-vitamin-c.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g26.553",
+   "w": 0.219
+  },
+  {
+   "at": 33.213,
+   "file": "projects/carrie-ep01/fx/e_carrot-vitamin-a.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g33.213",
+   "w": 0.219
+  },
+  {
+   "at": 33.463,
+   "file": "projects/carrie-ep01/fx/e_leafy-green-vitamin-k.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g33.213",
+   "w": 0.219
+  },
+  {
+   "at": 41.117,
+   "file": "projects/carrie-ep01/fx/p_sweet-potato-orange---vitamin-a.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p41.117",
+   "w": 0.258
+  },
+  {
+   "at": 49.573,
+   "file": "projects/carrie-ep01/fx/e_cup-with-straw-smoothie.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g49.573",
+   "w": 0.219
+  },
+  {
+   "at": 62.693,
+   "file": "projects/carrie-ep01/fx/e_green-salad-salad.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g62.693",
+   "w": 0.219
+  },
+  {
+   "at": 67.717,
+   "file": "projects/carrie-ep01/fx/p_chicken-salad-chicken-salad.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p67.717",
+   "w": 0.259
+  },
+  {
+   "at": 93.127,
+   "file": "projects/carrie-ep01/fx/e_pill-or-the-easy-way.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g93.127",
+   "w": 0.222
+  },
+  {
+   "at": 98.56,
+   "file": "projects/carrie-ep01/fx/w_no-veggies--take-the-multi.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w98.56",
+   "w": 0.803
+  },
+  {
+   "at": 138.517,
+   "file": "projects/carrie-ep01/fx/p_veg-market-more-plants.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p138.517",
+   "w": 0.259
+  },
+  {
+   "at": 179.087,
+   "file": "projects/carrie-ep01/fx/e_printer-printing-the-plan.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g179.087",
+   "w": 0.23
+  },
+  {
+   "at": 186.847,
+   "file": "projects/carrie-ep01/fx/w_focus--evening-eating.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w186.847",
+   "w": 0.671
+  },
+  {
+   "at": 197.833,
+   "file": "projects/carrie-ep01/fx/e_laptop-virtual-check-in.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g197.833",
+   "w": 0.224
+  },
+  {
+   "at": 203.753,
+   "file": "projects/carrie-ep01/fx/e_crescent-moon-still-struggling-at-night.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g203.753",
+   "w": 0.314
+  }
+ ],
+ "sfx": [
+  {
+   "at": 9.633,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 26.553,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 33.213,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 41.117,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 49.573,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 62.693,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 67.717,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 93.127,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 98.56,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 138.517,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 179.087,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 186.847,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 197.833,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 203.753,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 53.5,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 76.67,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 102.33,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 125.9,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 151.8,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.53,
+   "num": "17",
+   "text": "Real food vs pills"
+  }
+ ]
+}

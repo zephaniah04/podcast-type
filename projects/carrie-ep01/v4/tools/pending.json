@@ -1,0 +1,80 @@
+[
+ {
+  "f": "A",
+  "at": "16:49",
+  "phrase": "i use just gels",
+  "asset": "p:gel-pack",
+  "label": "1-2 GELS ONLY",
+  "treat": "split",
+  "hold": 3.5,
+  "prio": 1,
+  "why": "only gels at HYROX",
+  "alt": null,
+  "reason": "no media yet"
+ },
+ {
+  "f": "B",
+  "at": "18:49",
+  "phrase": "it could even be",
+  "asset": "p:gel-pack",
+  "label": "OR A GEL",
+  "treat": "split",
+  "hold": 3.0,
+  "prio": 1,
+  "why": "or a gel",
+  "alt": null,
+  "reason": "no media yet"
+ },
+ {
+  "f": "B",
+  "at": "26:46",
+  "phrase": "you have no energy",
+  "asset": "p:tired-sofa",
+  "label": "HOME, NO ENERGY",
+  "treat": "split",
+  "hold": 3.0,
+  "prio": 1,
+  "why": "too tired to cook",
+  "alt": null,
+  "reason": "no media yet"
+ },
+ {
+  "f": "A",
+  "at": "20:33",
+  "phrase": "in your workout gear",
+  "asset": "p:gym-clothes",
+  "label": "SAME GEAR",
+  "treat": "split",
+  "hold": 3.0,
+  "prio": 2,
+  "why": "weigh in the same clothes",
+  "alt": null,
+  "reason": "no media yet"
+ },
+ {
+  "f": "B",
+  "at": "11:17",
+  "phrase": "if you saw my",
+  "asset": "p:fist",
+  "label": "1 FIST = 1CUP",
+  "treat": "split",
+  "hold": 3.0,
+  "prio": 2,
+  "why": "fist as a portion guide",
+  "alt": null,
+  "reason": "no media yet"
+ },
+ {
+  "f": "B",
+  "at": "50:17",
+  "phrase": "going to print this",
+  "asset": "p:office-printer",
+  "label": "PRINTING THE PLAN",
+  "treat": "split",
+  "hold": 3.0,
+  "prio": 2,
+  "why": "she prints his plan",
+  "alt": null,
+  "reason": "no media yet"
+ }
+]

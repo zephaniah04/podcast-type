@@ -1,0 +1,253 @@
+{
+ "_piece": true,
+ "id": "L3_10",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 10",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 90.76,
+   "end": 93.84,
+   "chapter": "What Creatine Actually Does",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T10.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 93.84,
+   "end": 130.53
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 130.53,
+   "end": 138.06,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 138.06,
+   "end": 162.74
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 162.74,
+   "end": 179.86,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_10_c12.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 179.86,
+   "end": 248.1
+  }
+ ],
+ "stickers": [
+  {
+   "at": 23.827,
+   "file": "projects/carrie-ep01/fx/w_plateau-.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w23.827",
+   "w": 0.375
+  },
+  {
+   "at": 28.567,
+   "file": "projects/carrie-ep01/fx/e_flexed-biceps-muscle.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g28.567",
+   "w": 0.219
+  },
+  {
+   "at": 53.073,
+   "file": "projects/carrie-ep01/fx/e_flexed-biceps-push-further.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g53.073",
+   "w": 0.219
+  },
+  {
+   "at": 61.013,
+   "file": "projects/carrie-ep01/fx/w_non-responders.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w61.013",
+   "w": 0.607
+  },
+  {
+   "at": 90.087,
+   "file": "projects/carrie-ep01/fx/e_flexed-biceps.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g90.087",
+   "w": 0.219
+  },
+  {
+   "at": 96.167,
+   "file": "projects/carrie-ep01/fx/w_placebo-.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w96.167",
+   "w": 0.377
+  },
+  {
+   "at": 113.267,
+   "file": "projects/carrie-ep01/fx/e_spoon-5-7-g-scoop.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g113.267",
+   "w": 0.219
+  },
+  {
+   "at": 130.427,
+   "file": "projects/carrie-ep01/fx/e_cup-with-straw-shake.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g130.427",
+   "w": 0.219
+  },
+  {
+   "at": 139.487,
+   "file": "projects/carrie-ep01/fx/e_test-tube-creatine.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g139.487",
+   "w": 0.219
+  }
+ ],
+ "sfx": [
+  {
+   "at": 23.827,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 28.567,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 53.073,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 61.013,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 90.087,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 96.167,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 113.267,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 130.427,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 139.487,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 36.0,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 65.97,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 3.37,
+   "num": "10",
+   "text": "Creatine"
+  }
+ ]
+}

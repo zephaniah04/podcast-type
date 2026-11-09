@@ -1,0 +1,371 @@
+{
+ "_piece": true,
+ "id": "L3_16",
+ "slug": "chapter",
+ "format": "long",
+ "title": "v3 chapter 16",
+ "topic": "long-form part",
+ "auto_frame": {
+  "zoom": 1.8,
+  "zoom_right": 1.5,
+  "punch": 1.12,
+  "wide_every": 5,
+  "cy": 0.38,
+  "min_turn": 1.6
+ },
+ "tighten": 0.6,
+ "captions": "pod",
+ "cap_y": 0.935,
+ "cap_size": 66,
+ "fixes": {
+  "high rocks": "HYROX",
+  "high rods": "HYROX",
+  "hydrox": "HYROX",
+  "hyrox": "HYROX",
+  "high rock": "HYROX",
+  "gait rate": "Gatorade",
+  "elani": "Alani",
+  "lani": "Alani",
+  "omega -3": "omega-3",
+  "omega 3": "omega-3",
+  "o 'clock": "o'clock",
+  "pre -workout": "pre-workout",
+  "hard -boiled": "hard-boiled",
+  "go -to": "go-to",
+  "iron one chat, gpd": "Ironman, ChatGPT",
+  "chat gpt": "ChatGPT",
+  "cops": "calves",
+  "camping": "cramping",
+  "minute -for -minute": "minute-for-minute",
+  "anti -inflammatory": "anti-inflammatory",
+  "150 -ish": "150-ish",
+  "multi -vitamin": "multivitamin",
+  "6 p .m.": "6 p.m.",
+  "mils": "ml",
+  "1.42": "1:42",
+  "fence": "fins",
+  "lmnt": "LMNT",
+  "forgot about calves": "forgot about carbs",
+  "1 .42": "1:42",
+  "1 .2": "1.2",
+  "1 .5": "1.5",
+  "ious": "IUs",
+  "ius": "IUs",
+  "salami": "salad",
+  "roadie": "roti",
+  "boon river": "Bow River",
+  "two x": "2x",
+  "homo milk": "homo milk",
+  "1,000 ius": "1,000 IUs"
+ },
+ "accent": "#FFB238",
+ "segments": [
+  {
+   "clip": "IMG_4343-002",
+   "start": 2604.98,
+   "end": 2607.1,
+   "chapter": "Meal Prep and Why Dinner Matters After Night Workouts",
+   "tighten": 0,
+   "nocaps": true,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/T16.mp4",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2607.1,
+   "end": 2620.12
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2620.12,
+   "end": 2634.02,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_16_c17.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2634.02,
+   "end": 2664.43
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2664.43,
+   "end": 2674.88,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2674.88,
+   "end": 2695.44
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2695.44,
+   "end": 2699.82,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/pancakes.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2699.82,
+   "end": 2709.4
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2709.4,
+   "end": 2712.68,
+   "tighten": 0,
+   "cx": 0.5,
+   "zoom": 1.0
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2712.68,
+   "end": 2723.86
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2723.86,
+   "end": 2727.82,
+   "tighten": 0,
+   "broll": {
+    "file": "projects/carrie-ep01/broll/hash-browns.jpg",
+    "push": 0.07
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2727.82,
+   "end": 2779.83
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2779.83,
+   "end": 2796.0,
+   "tighten": 0,
+   "cx": "right",
+   "zoom": 1.5,
+   "cy": 0.38,
+   "broll": {
+    "file": "projects/carrie-ep01/cards/L3_16_c18.mp4",
+    "panel": "left",
+    "push": 0
+   }
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2796.0,
+   "end": 2817.21
+  },
+  {
+   "clip": "IMG_4343-002",
+   "start": 2817.21,
+   "end": 2825.0,
+   "tighten": 0,
+   "layout": "sbs",
+   "zoom": 1.6,
+   "zoom_r": 1.4,
+   "cy": 0.36
+  }
+ ],
+ "stickers": [
+  {
+   "at": 4.833,
+   "file": "projects/carrie-ep01/fx/e_cooking-cook.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g4.833",
+   "w": 0.219
+  },
+  {
+   "at": 9.073,
+   "file": "projects/carrie-ep01/fx/e_cooking-cooking.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g9.073",
+   "w": 0.219
+  },
+  {
+   "at": 48.227,
+   "file": "projects/carrie-ep01/fx/e_spiral-notepad-recipes.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g48.227",
+   "w": 0.219
+  },
+  {
+   "at": 63.97,
+   "file": "projects/carrie-ep01/fx/e_stopwatch-2-3-h-on-a-weekend.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g63.97",
+   "w": 0.268
+  },
+  {
+   "at": 99.817,
+   "file": "projects/carrie-ep01/fx/p_toaster-toast-them.mov",
+   "x": 0.595,
+   "y": 0.37,
+   "group": "p99.817",
+   "w": 0.259
+  },
+  {
+   "at": 120.807,
+   "file": "projects/carrie-ep01/fx/e_egg-eggs.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g120.807",
+   "w": 0.219
+  },
+  {
+   "at": 139.86,
+   "file": "projects/carrie-ep01/fx/w_dinner---carbs---protein.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w139.86",
+   "w": 0.73
+  },
+  {
+   "at": 146.013,
+   "file": "projects/carrie-ep01/fx/e_green-salad-add-colour.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g146.013",
+   "w": 0.219
+  },
+  {
+   "at": 156.087,
+   "file": "projects/carrie-ep01/fx/e_crescent-moon-no-food-overnight.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g156.087",
+   "w": 0.247
+  },
+  {
+   "at": 161.087,
+   "file": "projects/carrie-ep01/fx/e_battery-recovery.mov",
+   "x": "auto",
+   "y": 0.3,
+   "group": "g161.087",
+   "w": 0.219
+  },
+  {
+   "at": 196.533,
+   "file": "projects/carrie-ep01/fx/w_no-energy-to-push.mov",
+   "x": "auto",
+   "y": 0.72,
+   "group": "w196.533",
+   "w": 0.572
+  }
+ ],
+ "sfx": [
+  {
+   "at": 4.833,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 9.073,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 48.227,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 63.97,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 99.817,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.24
+  },
+  {
+   "at": 120.807,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 139.86,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 146.013,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 156.087,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 161.087,
+   "file": "pop.mp3",
+   "vol": 0.16
+  },
+  {
+   "at": 196.533,
+   "file": "whoosh_fast.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 14.2,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 56.9,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 86.23,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 113.4,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 167.53,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  },
+  {
+   "at": 203.27,
+   "file": "whoosh_soft.mp3",
+   "vol": 0.2
+  }
+ ],
+ "tags": [
+  {
+   "at": 2.43,
+   "num": "16",
+   "text": "Meal prep"
+  }
+ ]
+}
